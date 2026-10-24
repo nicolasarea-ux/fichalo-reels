@@ -1,7 +1,7 @@
 # Rutina diaria de Reels de @fichalo.app
 
 Objetivo: que haya **10 Reels programados en Instagram cada día** (franjas en `huecos.py`), sin intervención humana.
-Esta rutina se ejecuta cada mañana y deja completo **el día de hoy (franjas restantes) y el día de mañana**.
+Esta rutina se ejecuta cada mañana y deja completos **hoy (franjas restantes), mañana y pasado mañana** (colchón por si un día falla). **Siempre 10 por día, todos los días.**
 
 Datos fijos
 - Metricool blogId / brandId: `7603867` · timezone `Europe/Madrid` · red: instagram, tipo REEL.
@@ -10,7 +10,7 @@ Datos fijos
 
 ## Pasos
 
-1. Para HOY y MAÑANA (fechas de Madrid):
+1. Para HOY, MAÑANA y PASADO MAÑANA (fechas de Madrid):
    - `getScheduledPosts` (brandId 7603867, timezone Europe/Madrid, rango de ese día 00:00–23:59).
    - Guarda las horas programadas (`publicationDate.dateTime`, formato `YYYY-MM-DDTHH:MM`) en un JSON y ejecuta
      `python3 huecos.py <día> <json>` → lista de franjas libres.

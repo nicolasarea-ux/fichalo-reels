@@ -1,0 +1,22 @@
+{"reels":[
+ {"id":"27_demo_horas-extra-aviso","tema":"control de horas extra semanales por persona",
+  "escenas":[{"tipo":"titulo","texto":"Viernes.\nAlguien lleva\n46 horas\nesta semana.","acento":"46 horas","fondo":"oscuro"},
+   {"tipo":"titulo","texto":"¿Te enteras\nhoy o\na fin de mes?","acento":"a fin de mes"},
+   {"tipo":"tabla","titulo":"Con Fíchalo,\nhoy mismo","acento":"hoy mismo","cabecera":"Horas esta semana",
+    "filas":[["Ane","38 h"],["Jon","46 h"],["Marta","40 h"],["Iker","39 h"]],"pie":["Por encima de jornada","1"]},
+   {"tipo":"cierre","texto":"Las horas extra,\nbajo control","acento":"bajo control"}],
+  "copy":"Link en bio!!!","hashtags":"#fichaje #fichajedigital #fichalo #empresa"},
+ {"id":"28_sector_obra","tema":"construcción y reformas: cuadrillas en distintas obras",
+  "escenas":[{"tipo":"titulo","texto":"Reformas.\nDos cuadrillas,\ndos obras.","acento":"dos obras"},
+   {"tipo":"titulo","texto":"Y el parte\nde horas\nen una libreta\ncon polvo.","acento":"con polvo","fondo":"oscuro"},
+   {"tipo":"movil","titulo":"Fichan en la obra\ncon la tarjeta","acento":"con la tarjeta","cabecera":"Trabajando ahora",
+    "filas":[["Gorka","Entrada 07:30 · Obra Indautxu"],["Asier","Entrada 07:32 · Obra Indautxu"],["Raúl","Entrada 08:00 · Obra Getxo"]],"estado":"Todos fichados"},
+   {"tipo":"cierre","texto":"Cada obra,\nsus horas claras","acento":"sus horas claras"}],
+  "copy":"Link en bio!!!","hashtags":"#fichaje #fichajedigital #fichalo #empresa"},
+ {"id":"29_mito_desconfianza","tema":"mito: fichar es desconfiar del equipo",
+  "escenas":[{"tipo":"titulo","texto":"MITO:","acento":"MITO","fondo":"oscuro"},
+   {"tipo":"titulo","texto":"\"Si les pido\nque fichen,\npensarán que\nno me fío.\"","acento":"no me fío"},
+   {"tipo":"titulo","texto":"REALIDAD:\nel registro\nprotege también\nal trabajador.","acento":"al trabajador"},
+   {"tipo":"cierre","texto":"Cuentas claras\npara todos","acento":"para todos"}],
+  "copy":"Link en bio!!!","hashtags":"#fichaje #fichajedigital #fichalo #empresa"}
+]}

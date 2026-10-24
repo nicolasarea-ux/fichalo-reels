@@ -168,6 +168,30 @@
    "copy": "Link en bio!!!",
    "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
    "fecha": "2026-10-25T12:00"
+  },
+  {
+   "id": "27_demo_horas-extra-aviso",
+   "tema": "control de horas extra semanales por persona",
+   "estado": "programado",
+   "fecha": "2026-10-25T18:00",
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa"
+  },
+  {
+   "id": "28_sector_obra",
+   "tema": "construcción y reformas: cuadrillas en distintas obras",
+   "estado": "programado",
+   "fecha": "2026-10-25T19:30",
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa"
+  },
+  {
+   "id": "29_mito_desconfianza",
+   "tema": "mito: fichar es desconfiar del equipo",
+   "estado": "programado",
+   "fecha": "2026-10-25T22:15",
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa"
   }
  ]
 }
