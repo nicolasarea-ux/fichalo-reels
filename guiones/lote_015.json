@@ -1,0 +1,502 @@
+{
+ "reels": [
+  {
+   "id": "15_dolor_quien-abrio-hoy",
+   "tema": "saber quién está trabajando ahora mismo",
+   "escenas": [
+    {
+     "tipo": "titulo",
+     "texto": "¿Quién ha\nabierto hoy\nla tienda?",
+     "acento": "abierto hoy",
+     "fondo": "oscuro"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "Antes:\nllamar a tres\npersonas\npara saberlo.",
+     "acento": "tres"
+    },
+    {
+     "tipo": "movil",
+     "titulo": "Ahora lo ves\nen un vistazo",
+     "acento": "un vistazo",
+     "cabecera": "Trabajando ahora",
+     "filas": [
+      [
+       "Ane Etxeberria",
+       "Entrada 08:02 · Tienda centro"
+      ],
+      [
+       "Jon Martínez",
+       "Entrada 08:15 · Almacén"
+      ],
+      [
+       "Lucía Pérez",
+       "Entrada 09:00 · Tienda centro"
+      ]
+     ],
+     "estado": "3 personas trabajando"
+    },
+    {
+     "tipo": "cierre",
+     "texto": "Tu equipo,\nde un vistazo",
+     "acento": "vistazo"
+    }
+   ],
+   "copy": "¿Quién ha abierto hoy? ¿Ha llegado ya Jon? 📞\nCon Fíchalo ves quién está trabajando en cada momento, sin llamar a nadie.\n👉 Pide una demo de 15 min por WhatsApp (link en la bio)",
+   "hashtags": "#controlhorario #fichaje #comercio #pymes #gestiondeequipos #registrohorario"
+  },
+  {
+   "id": "16_tip_turnos-partidos",
+   "tema": "jornadas partidas",
+   "escenas": [
+    {
+     "tipo": "titulo",
+     "texto": "Jornada partida:\n10:00 – 14:00\n17:00 – 21:00",
+     "acento": "partida"
+    },
+    {
+     "tipo": "dato",
+     "numero": "4",
+     "texto": "fichajes al día\npor persona.",
+     "acento": "por persona"
+    },
+    {
+     "tipo": "tabla",
+     "titulo": "Fíchalo los\nsuma por ti",
+     "acento": "suma",
+     "cabecera": "Jornada de hoy",
+     "filas": [
+      [
+       "Entrada",
+       "10:00"
+      ],
+      [
+       "Pausa",
+       "14:00"
+      ],
+      [
+       "Vuelta",
+       "17:00"
+      ],
+      [
+       "Salida",
+       "21:00"
+      ]
+     ],
+     "pie": [
+      "Total trabajado",
+      "8 h"
+     ]
+    },
+    {
+     "tipo": "cierre",
+     "texto": "Cuentas claras,\nsin calculadora",
+     "acento": "sin calculadora"
+    }
+   ],
+   "copy": "Jornada partida = 4 fichajes al día por persona 🧮\nFíchalo registra cada entrada y salida y te da el total trabajado, sin hacer cuentas.\n👉 Link en la bio",
+   "hashtags": "#jornadapartida #hosteleria #comercio #controlhorario #fichaje #pymes"
+  },
+  {
+   "id": "17_ley_cuatro-anos",
+   "tema": "conservar registros 4 años",
+   "escenas": [
+    {
+     "tipo": "titulo",
+     "texto": "Los registros\nde jornada\nse guardan\n4 años.",
+     "acento": "4 años",
+     "fondo": "oscuro"
+    },
+    {
+     "tipo": "versus",
+     "a_etiqueta": "En papel",
+     "a_texto": "Cajas, armarios\ny hojas perdidas",
+     "b_etiqueta": "Con Fíchalo",
+     "b_texto": "Todo guardado\ny a un clic"
+    },
+    {
+     "tipo": "cierre",
+     "texto": "Cumple la ley\nsin ocupar espacio",
+     "acento": "sin ocupar espacio"
+    }
+   ],
+   "copy": "¿Sabías que los registros de jornada se tienen que conservar 4 años? 🗂️\nCon Fíchalo están guardados y los encuentras en un clic, sin cajas ni armarios.\n👉 Link en la bio",
+   "hashtags": "#registrodejornada #laboral #pymes #inspecciondetrabajo #fichaje #controlhorario"
+  },
+  {
+   "id": "18_sector_hosteleria-cierre",
+   "tema": "hostelería: turnos de noche y cierres tardíos",
+   "escenas": [
+    {
+     "tipo": "titulo",
+     "texto": "Cierras el bar\na la 1:30.\n¿Quién apunta\nla salida?",
+     "acento": "1:30",
+     "fondo": "oscuro"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "Nadie.\nY mañana\nnadie se acuerda.",
+     "acento": "nadie se acuerda"
+    },
+    {
+     "tipo": "movil",
+     "titulo": "Fichan al salir,\ndesde el móvil",
+     "acento": "desde el móvil",
+     "cabecera": "Salidas de hoy",
+     "filas": [
+      [
+       "Iker · Barra",
+       "Salida 01:32"
+      ],
+      [
+       "Ane · Cocina",
+       "Salida 01:10"
+      ],
+      [
+       "Mikel · Sala",
+       "Salida 01:35"
+      ]
+     ],
+     "estado": "Jornada cerrada"
+    },
+    {
+     "tipo": "cierre",
+     "texto": "Cierras tú,\nel registro también",
+     "acento": "el registro"
+    }
+   ],
+   "copy": "Cierras a la 1:30 y nadie apunta la salida… y al día siguiente nadie se acuerda 🍻\nCon Fíchalo cada uno ficha al salir desde el móvil y el registro queda cerrado.\n👉 Demo de 15 min por WhatsApp (link en la bio)",
+   "hashtags": "#hosteleria #bares #restaurantes #controlhorario #fichaje #pymes"
+  },
+  {
+   "id": "19_mito_somos-pocos",
+   "tema": "mito: si somos pocos no hace falta registrar la jornada",
+   "escenas": [
+    {
+     "tipo": "titulo",
+     "texto": "MITO:",
+     "acento": "MITO",
+     "fondo": "oscuro"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "\"Somos 3,\nesto del fichaje\nno va conmigo.\"",
+     "acento": "no va conmigo"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "REALIDAD:\nobligatorio desde\nel primer\ntrabajador.",
+     "acento": "el primer"
+    },
+    {
+     "tipo": "cierre",
+     "texto": "Cumplir no tiene\npor qué ser un lío",
+     "acento": "un lío"
+    }
+   ],
+   "copy": "\"Somos pocos, no hace falta\" ❌\nEl registro de jornada es obligatorio para cualquier empresa con trabajadores, da igual el tamaño.\nCon Fíchalo lo tienes en regla sin papeleo 👉 link en la bio",
+   "hashtags": "#registrodejornada #pymes #autonomos #laboral #fichaje #mitos"
+  },
+  {
+   "id": "20_sector_clinica",
+   "tema": "clínicas: varios profesionales con horarios distintos",
+   "escenas": [
+    {
+     "tipo": "titulo",
+     "texto": "Clínica dental.\nHigienistas,\nrecepción\ny doctores.",
+     "acento": "Clínica dental"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "Cada uno con\nsu horario.",
+     "acento": "su horario"
+    },
+    {
+     "tipo": "tabla",
+     "titulo": "Todo en\nun solo panel",
+     "acento": "un solo panel",
+     "cabecera": "Horas de esta semana",
+     "filas": [
+      [
+       "Laura · Higienista",
+       "32 h"
+      ],
+      [
+       "Íñigo · Recepción",
+       "40 h"
+      ],
+      [
+       "Dra. Ruiz",
+       "28 h"
+      ],
+      [
+       "Maite · Auxiliar",
+       "36 h"
+      ]
+     ],
+     "pie": [
+      "Equipo",
+      "136 h"
+     ]
+    },
+    {
+     "tipo": "cierre",
+     "texto": "Tú a tus pacientes,\nlas horas a Fíchalo",
+     "acento": "Fíchalo"
+    }
+   ],
+   "copy": "Higienistas, recepción, doctores… cada uno con su horario 🦷\nCon Fíchalo ves las horas de todo el equipo en un solo panel.\n👉 Te lo enseñamos en 15 min por WhatsApp (link en la bio)",
+   "hashtags": "#clinicadental #clinicas #sanidadprivada #controlhorario #fichaje #pymes"
+  },
+  {
+   "id": "21_tip_tablet-recepcion",
+   "tema": "fichar sin usar el móvil personal: código en tablet",
+   "escenas": [
+    {
+     "tipo": "titulo",
+     "texto": "\"No quiero usar\nmi móvil\npara fichar.\"",
+     "acento": "mi móvil",
+     "fondo": "oscuro"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "Normal.\nHay otra forma.",
+     "acento": "otra forma"
+    },
+    {
+     "tipo": "movil",
+     "titulo": "Una tablet\ny un código",
+     "acento": "un código",
+     "cabecera": "Introduce tu código",
+     "filas": [
+      [
+       "Lucía",
+       "Entrada 09:01"
+      ],
+      [
+       "Ander",
+       "Entrada 09:04"
+      ]
+     ],
+     "estado": "¡Hola, Lucía!"
+    },
+    {
+     "tipo": "cierre",
+     "texto": "Cada uno ficha\na su manera",
+     "acento": "a su manera"
+    }
+   ],
+   "copy": "¿Algún trabajador no quiere fichar con su móvil? 📱🚫\nCon Fíchalo puedes poner una tablet en la entrada y que cada uno fiche con su código.\n👉 Link en la bio",
+   "hashtags": "#fichaje #controlhorario #rrhh #pymes #comercio #trucos"
+  },
+  {
+   "id": "22_ley_derecho-trabajador",
+   "tema": "el trabajador tiene derecho a consultar su registro",
+   "escenas": [
+    {
+     "tipo": "titulo",
+     "texto": "Tu trabajador\nte pide\nsus horas\ndel último mes.",
+     "acento": "sus horas",
+     "fondo": "oscuro"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "Tiene derecho\na verlas.",
+     "acento": "derecho"
+    },
+    {
+     "tipo": "movil",
+     "titulo": "Y con Fíchalo\nya las tiene",
+     "acento": "ya las tiene",
+     "cabecera": "Mis fichajes · Octubre",
+     "filas": [
+      [
+       "Semana 1",
+       "38 h 40 min"
+      ],
+      [
+       "Semana 2",
+       "40 h 05 min"
+      ],
+      [
+       "Semana 3",
+       "39 h 15 min"
+      ]
+     ]
+    },
+    {
+     "tipo": "cierre",
+     "texto": "Transparencia\nsin pedir favores",
+     "acento": "sin pedir favores"
+    }
+   ],
+   "copy": "Los trabajadores tienen derecho a consultar su registro de jornada 📋\nCon Fíchalo cada uno ve sus fichajes desde la app, sin tener que pedírtelo.\n👉 Link en la bio",
+   "hashtags": "#registrodejornada #derechoslaborales #rrhh #pymes #fichaje #controlhorario"
+  },
+  {
+   "id": "23_sector_gimnasio",
+   "tema": "gimnasios: monitores con horarios de clases",
+   "escenas": [
+    {
+     "tipo": "titulo",
+     "texto": "Gimnasio.\nMonitores que\nentran y salen\ntodo el día.",
+     "acento": "todo el día"
+    },
+    {
+     "tipo": "dato",
+     "numero": "7:00",
+     "texto": "primera clase.\nÚltima, a las 22:00.",
+     "acento": "22:00"
+    },
+    {
+     "tipo": "tabla",
+     "titulo": "Cada clase,\nbien fichada",
+     "acento": "bien fichada",
+     "cabecera": "Hoy en sala",
+     "filas": [
+      [
+       "Aitor · Spinning",
+       "07:00 – 10:00"
+      ],
+      [
+       "Nerea · Pilates",
+       "10:00 – 14:00"
+      ],
+      [
+       "Unai · Cross",
+       "18:00 – 22:00"
+      ]
+     ]
+    },
+    {
+     "tipo": "cierre",
+     "texto": "Más entrenos,\nmenos papeleo",
+     "acento": "menos papeleo"
+    }
+   ],
+   "copy": "De la clase de las 7:00 a la de las 22:00 🏋️\nCon Fíchalo cada monitor ficha su turno y tú ves las horas de todos al momento.\n👉 Demo de 15 min por WhatsApp (link en la bio)",
+   "hashtags": "#gimnasio #fitness #monitores #controlhorario #fichaje #pymes"
+  },
+  {
+   "id": "24_demo_varios-centros",
+   "tema": "varios centros o locales en un mismo panel",
+   "escenas": [
+    {
+     "tipo": "titulo",
+     "texto": "¿Tienes\nmás de\nun local?",
+     "acento": "más de",
+     "fondo": "oscuro"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "Tres tiendas.\nTres libretas.\nTres líos.",
+     "acento": "Tres líos"
+    },
+    {
+     "tipo": "tabla",
+     "titulo": "Todos los centros,\nun solo panel",
+     "acento": "un solo panel",
+     "cabecera": "Trabajando ahora",
+     "filas": [
+      [
+       "Tienda Centro",
+       "4 personas"
+      ],
+      [
+       "Tienda Norte",
+       "3 personas"
+      ],
+      [
+       "Almacén",
+       "2 personas"
+      ]
+     ],
+     "pie": [
+      "Total",
+      "9"
+     ]
+    },
+    {
+     "tipo": "cierre",
+     "texto": "Controla todo\ndesde un sitio",
+     "acento": "un sitio"
+    }
+   ],
+   "copy": "Tres locales = tres libretas = tres líos 🏪🏪🏪\nCon Fíchalo ves todos tus centros en un solo panel.\n👉 Te lo enseñamos en 15 min por WhatsApp (link en la bio)",
+   "hashtags": "#comercio #franquicias #tiendas #controlhorario #fichaje #pymes"
+  },
+  {
+   "id": "25_dolor_hoja-firmada",
+   "tema": "hojas firmadas a final de mes que nadie rellena bien",
+   "escenas": [
+    {
+     "tipo": "titulo",
+     "texto": "Día 30.\n\"Firma aquí\ntodo el mes.\"",
+     "acento": "todo el mes"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "8:00 – 16:00\n8:00 – 16:00\n8:00 – 16:00\n...",
+     "acento": "...",
+     "fondo": "oscuro"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "Eso no es\nun registro.\nEs un dibujo.",
+     "acento": "un dibujo"
+    },
+    {
+     "tipo": "cierre",
+     "texto": "Horas reales,\nno inventadas",
+     "acento": "reales"
+    }
+   ],
+   "copy": "La hoja de \"firma aquí todo el mes\" con 8:00–16:00 copiado 30 veces ✍️\nEso no aguanta una revisión. Con Fíchalo se registran las horas reales, cada día.\n👉 Link en la bio",
+   "hashtags": "#registrohorario #fichaje #pymes #laboral #controlhorario #empresas"
+  },
+  {
+   "id": "26_sector_limpieza",
+   "tema": "empresas de limpieza: trabajadores en distintos clientes",
+   "escenas": [
+    {
+     "tipo": "titulo",
+     "texto": "Empresa\nde limpieza.\nCada uno en\nun edificio.",
+     "acento": "un edificio"
+    },
+    {
+     "tipo": "titulo",
+     "texto": "¿Cómo sabes\nque han\nempezado?",
+     "acento": "empezado"
+    },
+    {
+     "tipo": "movil",
+     "titulo": "Lo ves\nal momento",
+     "acento": "al momento",
+     "cabecera": "Trabajando ahora",
+     "filas": [
+      [
+       "Rosa",
+       "Entrada 06:00 · Oficinas Abando"
+      ],
+      [
+       "Amaia",
+       "Entrada 06:30 · Colegio"
+      ],
+      [
+       "Javi",
+       "Entrada 07:00 · Portales"
+      ]
+     ],
+     "estado": "Todos fichados"
+    },
+    {
+     "tipo": "cierre",
+     "texto": "Tu equipo repartido,\ntodo controlado",
+     "acento": "todo controlado"
+    }
+   ],
+   "copy": "Cada persona en un edificio distinto y tú sin saber si han empezado 🧽\nCon Fíchalo ves quién ha fichado y dónde, al momento.\n👉 Demo de 15 min por WhatsApp (link en la bio)",
+   "hashtags": "#limpieza #empresasdelimpieza #serviciosdelimpieza #controlhorario #fichaje #pymes"
+  }
+ ]
+}
