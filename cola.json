@@ -192,6 +192,166 @@
    "fecha": "2026-10-25T22:15",
    "copy": "Link en bio!!!",
    "hashtags": "#fichaje #fichajedigital #fichalo #empresa"
+  },
+  {
+   "id": "30_dolor_ha-llegado-ya",
+   "tema": "saber si alguien ha llegado sin preguntar",
+   "estado": "programado",
+   "fecha": "2026-10-24T14:45",
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa"
+  },
+  {
+   "id": "31_sector_farmacia",
+   "tema": "farmacias: turnos de mañana, tarde y guardias",
+   "estado": "programado",
+   "fecha": "2026-10-24T15:00",
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa"
+  },
+  {
+   "id": "32_sector_panaderia",
+   "tema": "panaderías: entradas de madrugada",
+   "estado": "programado",
+   "fecha": "2026-10-24T16:00",
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa"
+  },
+  {
+   "id": "33_ley_hora-inicio-fin",
+   "tema": "el registro debe incluir hora de inicio y fin",
+   "estado": "programado",
+   "fecha": "2026-10-24T17:00",
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa"
+  },
+  {
+   "id": "34_tip_gestoria",
+   "tema": "enviar las horas a la gestoría",
+   "estado": "programado",
+   "fecha": "2026-10-24T18:00",
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa"
+  },
+  {
+   "id": "35_mito_excel-compartido",
+   "tema": "mito: un Excel compartido sirve de registro",
+   "estado": "programado",
+   "fecha": "2026-10-24T19:00",
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa"
+  },
+  {
+   "id": "36_sector_residencia",
+   "tema": "residencias y cuidados: turnos 24 horas",
+   "estado": "programado",
+   "fecha": "2026-10-24T20:00",
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa"
+  },
+  {
+   "id": "37_sector_tienda-ropa",
+   "tema": "comercio: refuerzos de sábado y rebajas",
+   "estado": "programado",
+   "fecha": "2026-10-24T21:00",
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa"
+  },
+  {
+   "id": "38_dolor-reclamacion-horas",
+   "tema": "cuando un trabajador reclama horas y no hay datos",
+   "estado": "programado",
+   "fecha": "2026-10-24T22:15",
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa"
+  },
+  {
+   "id": "39_sector_academia",
+   "tema": "academias: profesores por horas",
+   "estado": "programado",
+   "fecha": "2026-10-24T23:00",
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa"
+  },
+  {
+   "id": "40_sector_restaurante-extras",
+   "tema": "hostelería: extras de fin de semana",
+   "estado": "programado",
+   "fecha": "2026-10-25T08:30",
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa"
+  },
+  {
+   "id": "41_demo_dos-segundos",
+   "tema": "fichar desde el móvil en segundos",
+   "estado": "programado",
+   "fecha": "2026-10-25T09:00",
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa"
+  },
+  {
+   "id": "42_ley_sin-registro",
+   "tema": "la Inspección puede sancionar si no hay registro",
+   "estado": "programado",
+   "fecha": "2026-10-25T10:00",
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa"
+  },
+  {
+   "id": "43_sector_almacen",
+   "tema": "logística y almacenes: turnos de noche",
+   "estado": "programado",
+   "fecha": "2026-10-25T11:15",
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa"
+  },
+  {
+   "id": "44_tip_turnos-rotativos",
+   "tema": "turnos rotativos semana a semana",
+   "estado": "programado",
+   "fecha": "2026-10-25T12:45",
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa"
+  },
+  {
+   "id": "45_dolor-encargado-vacaciones",
+   "tema": "cuando el encargado no está y nadie controla",
+   "estado": "programado",
+   "fecha": "2026-10-25T15:30",
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa"
+  },
+  {
+   "id": "46_sector_hotel",
+   "tema": "hoteles: recepción y limpieza en turnos",
+   "estado": "programado",
+   "fecha": "2026-10-25T17:15",
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa"
+  },
+  {
+   "id": "47_sector_autoescuela",
+   "tema": "autoescuelas: profesores con clases prácticas",
+   "estado": "programado",
+   "fecha": "2026-10-25T18:45",
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa"
+  },
+  {
+   "id": "48_demo_historial",
+   "tema": "consultar los fichajes de cualquier día pasado",
+   "estado": "programado",
+   "fecha": "2026-10-25T21:15",
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa"
+  },
+  {
+   "id": "49_mito_gente-mayor",
+   "tema": "mito: a los trabajadores mayores les cuesta fichar",
+   "estado": "programado",
+   "fecha": "2026-10-25T23:00",
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa"
   }
  ]
 }
