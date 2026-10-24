@@ -1,4 +1,4 @@
-"""Calcula a qué horas hay que programar Reels nuevos un día para llegar a 20.
+"""Calcula a qué horas hay que programar Reels nuevos un día para llegar a 12.
 Uso: python3 huecos.py YYYY-MM-DD programados.json
 programados.json = lista de "YYYY-MM-DDTHH:MM" (hora de Madrid) que devuelve getScheduledPosts para ese día.
 Además cuenta los reels de cola.json con esa fecha (incluye los ya publicados, que Metricool ya no devuelve).
@@ -8,7 +8,7 @@ import json, os, sys
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
-OBJETIVO = 20
+OBJETIVO = 12
 TZ = ZoneInfo("Europe/Madrid")
 # rejilla cada 15 min de 08:30 a 23:00
 REJILLA = [f"{h:02d}:{m:02d}" for h in range(8, 24) for m in (0, 15, 30, 45) if (8, 30) <= (h, m) <= (23, 0)]

@@ -1,7 +1,7 @@
 # Rutina diaria de Reels de @fichalo.app
 
-Objetivo: que haya **20 Reels publicados en Instagram cada día** (horas calculadas por `huecos.py`), sin intervención humana.
-Esta rutina se ejecuta cada mañana y deja completos **hoy (franjas restantes), mañana y pasado mañana** (colchón por si un día falla). **Siempre 20 por día, todos los días.**
+Objetivo: que haya **12 Reels publicados en Instagram cada día** (horas calculadas por `huecos.py`), sin intervención humana.
+Esta rutina se ejecuta cada mañana y deja completos **hoy (franjas restantes), mañana y pasado mañana** (colchón por si un día falla). **Siempre 12 por día, todos los días.**
 
 Datos fijos
 - Metricool blogId / brandId: `7603867` · timezone `Europe/Madrid` · red: instagram, tipo REEL.
@@ -13,7 +13,7 @@ Datos fijos
 1. Para HOY, MAÑANA y PASADO MAÑANA (fechas de Madrid):
    - `getScheduledPosts` (brandId 7603867, timezone Europe/Madrid, rango de ese día 00:00–23:59).
    - Guarda las horas programadas (`publicationDate.dateTime`, formato `YYYY-MM-DDTHH:MM`) en un JSON y ejecuta
-     `python3 huecos.py <día> <json>` → lista de horas a las que programar Reels nuevos para llegar a 20 ese día (cuenta también los de cola.json con esa fecha).
+     `python3 huecos.py <día> <json>` → lista de horas a las que programar Reels nuevos para llegar a 12 ese día (cuenta también los de cola.json con esa fecha).
 2. Junta todas las franjas libres. Necesitas un vídeo por franja.
 3. Usa primero los reels de `cola.json` con `estado: "pendiente"` (en orden). Si no llegan, **crea los que falten**:
    - Escribe un `guiones/lote_<siguiente número>.json` con el mismo formato que `guiones/lote_015.json`.
@@ -34,7 +34,7 @@ Datos fijos
 
 ## Reglas de contenido (Fíchalo, app de control horario/fichaje para pymes en España)
 - 15 s, 3–5 escenas, la última siempre `cierre`. Gancho fuerte en la primera escena (pregunta o dato).
-- Son 20 vídeos al día: varía mucho. Combina sector × problema × función (ej. "farmacia + guardias + quién está trabajando"); un tema ya usado puede volver solo con un sector o un enfoque claramente distinto.
+- Son 12 vídeos al día: varía mucho. Combina sector × problema × función (ej. "farmacia + guardias + quién está trabajando"); un tema ya usado puede volver solo con un sector o un enfoque claramente distinto.
 - Rota ángulos: dolor, demo de función, sector (hostelería, comercio, taller, clínica, peluquería, gimnasio, limpieza, obra…), ley, tip, mito/realidad.
 - Funciones que SÍ existen (solo usa estas): fichar desde el móvil, con tarjeta o con código en tablet; avisos si alguien olvida fichar;
   ver quién está trabajando; horas por persona y horas extra; informes en PDF y Excel; vacaciones (pedir y aprobar);
