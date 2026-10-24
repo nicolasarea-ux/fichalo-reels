@@ -1,0 +1,32 @@
+{
+  "nota": "Cola de Reels de @fichalo.app. estado: pendiente | programado. La tarea diaria programa los 3 primeros pendientes.",
+  "reels": [
+    {"id": "06_demo_se-le-olvido-fichar", "estado": "pendiente",
+     "copy": "¿Otra vez alguien se olvidó de fichar la salida? 🙃\nAntes te enterabas a fin de mes. Con Fíchalo, el trabajador recibe un aviso el mismo día y tú también.\n👉 Más info en fichalo.app",
+     "hashtags": "#registrohorario #fichaje #controlhorario #pymes #rrhh #gestiondeequipos"},
+    {"id": "07_dolor_52-horas", "estado": "pendiente",
+     "copy": "52 horas extra… y el jefe sin saberlo 😬\nCon Fíchalo ves las horas de cada persona al momento, no cuando ya es tarde.\n¿Sabes cuántas hizo tu equipo este mes? 👇",
+     "hashtags": "#horasextra #controlhorario #pymes #fichaje #empresas #registrodejornada"},
+    {"id": "08_sector_taller", "estado": "pendiente",
+     "copy": "En un taller nadie ficha con el móvil, y es normal 🔧\nCon Fíchalo cada mecánico ficha con su tarjeta en segundos, sin depender del móvil de nadie.\n👉 fichalo.app",
+     "hashtags": "#taller #tallermecanico #fichaje #controlhorario #pymes #registrohorario"},
+    {"id": "09_demo_vacaciones", "estado": "pendiente",
+     "copy": "¿Las vacaciones se piden por WhatsApp y se apuntan en un pósit? 📝\nCon Fíchalo el empleado las pide desde la app y tú las apruebas con un toque. Sin líos de fechas.\n👉 fichalo.app",
+     "hashtags": "#vacaciones #rrhh #gestiondepersonal #pymes #fichaje #controlhorario"},
+    {"id": "10_dolor_excel-final-v3", "estado": "pendiente",
+     "copy": "horas_octubre_FINAL_v3.xlsx y 14 pestañas 💀\nCon Fíchalo el informe se hace solo: lo descargas en PDF o Excel y listo.\nEtiqueta a quien todavía sufre con el Excel 😅",
+     "hashtags": "#excel #controlhorario #informes #pymes #gestoria #fichaje"},
+    {"id": "11_sector_peluqueria", "estado": "pendiente",
+     "copy": "Peluquería, 4 personas y 3 turnos distintos ✂️\nUna tablet en recepción y cada una ficha con su código. Así de fácil.\n👉 fichalo.app",
+     "hashtags": "#peluqueria #salondebelleza #fichaje #controlhorario #pymes #comercio"},
+    {"id": "12_ley_llega-la-inspeccion", "estado": "pendiente",
+     "copy": "Llega la Inspección de Trabajo. ¿Qué les enseñas? 🚪\nOpción A: una caja de hojas firmadas.\nOpción B: un acceso de solo lectura con todos los fichajes.\nTú eliges 👇",
+     "hashtags": "#inspecciondetrabajo #registrodejornada #pymes #laboral #fichaje #controlhorario"},
+    {"id": "13_demo_menos-que-un-menu", "estado": "pendiente",
+     "copy": "¿Cuánto cuesta controlar las horas de 10 empleados? 🤔\nMenos que un menú del día. Fichaje desde el móvil e informes en PDF y Excel, sin permanencia.\n👉 Pruébalo en fichalo.app",
+     "hashtags": "#pymes #controlhorario #fichaje #emprendedores #ahorro #registrohorario"},
+    {"id": "14_dolor_no-montaste-tu-negocio", "estado": "pendiente",
+     "copy": "No montaste tu negocio para perseguir a nadie con una hoja de horas, ni para cuadrar Excels un domingo a las 23:47 ☕\nQue fichen en un toque. Tú, a lo tuyo.\n👉 fichalo.app",
+     "hashtags": "#emprendedores #autonomos #pymes #controlhorario #fichaje #negocio"}
+  ]
+}
