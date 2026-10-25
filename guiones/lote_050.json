@@ -1,0 +1,53 @@
+{
+ "reels": [
+  {
+   "id": "50_sector_supermercado",
+   "tema": "supermercados: cajeras que olvidan fichar la salida + avisos",
+   "escenas": [
+    {"tipo": "titulo", "texto": "Supermercado.\nCierre a las 22:00.\nTodos con prisa.", "acento": "con prisa", "fondo": "oscuro"},
+    {"tipo": "titulo", "texto": "Y alguien\nse va sin\nfichar la salida.", "acento": "sin\nfichar"},
+    {"tipo": "movil", "titulo": "Fíchalo\nte avisa", "acento": "te avisa", "cabecera": "Aviso", "filas": [["Lucía · Caja 2", "Sin salida"], ["Entrada", "14:00"]], "estado": "Olvidó fichar la salida"},
+    {"tipo": "cierre", "texto": "Ningún fichaje\nse queda a medias", "acento": "a medias"}
+   ],
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa"
+  },
+  {
+   "id": "51_sector_reparto",
+   "tema": "reparto y mensajería: fichar desde el móvil en la calle",
+   "escenas": [
+    {"tipo": "titulo", "texto": "Repartidores.\nEmpiezan la ruta\nsin pasar\npor la nave.", "acento": "sin pasar", "fondo": "oscuro"},
+    {"tipo": "titulo", "texto": "¿Cómo fichan\nsi no hay\nnadie delante?", "acento": "nadie delante"},
+    {"tipo": "movil", "titulo": "Desde su móvil,\nal empezar", "acento": "su móvil", "cabecera": "Trabajando ahora", "filas": [["Óscar · Ruta norte", "Entrada 07:30"], ["Nadia · Ruta sur", "Entrada 07:42"]], "estado": "2 en ruta"},
+    {"tipo": "cierre", "texto": "Tu equipo en ruta,\ntodo registrado", "acento": "todo registrado"}
+   ],
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa"
+  },
+  {
+   "id": "52_sector_escuela-infantil",
+   "tema": "escuelas infantiles: vacaciones del equipo pedidas y aprobadas en la app",
+   "escenas": [
+    {"tipo": "titulo", "texto": "Escuela infantil.\n¿Quién coge\nvacaciones\nen agosto?", "acento": "vacaciones", "fondo": "oscuro"},
+    {"tipo": "titulo", "texto": "Papelitos,\nmensajes\ny un calendario\nen la pared.", "acento": "en la pared"},
+    {"tipo": "tabla", "titulo": "Lo piden en la app,\ntú apruebas", "acento": "tú apruebas", "cabecera": "Vacaciones", "filas": [["Aitana", "Aprobada"], ["Carmen", "Aprobada"], ["Iris", "Pendiente"]]},
+    {"tipo": "cierre", "texto": "Vacaciones claras,\nsin papelitos", "acento": "sin papelitos"}
+   ],
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa"
+  },
+  {
+   "id": "53_mito_teletrabajo",
+   "tema": "mito: en teletrabajo no hace falta fichar",
+   "escenas": [
+    {"tipo": "titulo", "texto": "MITO:", "acento": "MITO", "fondo": "oscuro"},
+    {"tipo": "titulo", "texto": "\"Si trabaja\ndesde casa,\nno ficha.\"", "acento": "no ficha"},
+    {"tipo": "titulo", "texto": "REALIDAD:\nel registro\nde jornada\ntambién aplica.", "acento": "también aplica."},
+    {"tipo": "movil", "titulo": "Ficha desde\nsu móvil", "acento": "su móvil", "cabecera": "Fichar", "filas": [["Marta · Remoto", "Lunes"]], "estado": "Entrada 09:00 registrada", "boton": "Fichar entrada"},
+    {"tipo": "cierre", "texto": "En casa o en la oficina,\nregistrado", "acento": "registrado"}
+   ],
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa"
+  }
+ ]
+}
