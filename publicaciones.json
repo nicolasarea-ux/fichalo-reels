@@ -66,7 +66,9 @@
   {
    "id": "40_sector_restaurante-extras",
    "fecha": "2026-10-26T22:45",
-   "estado": "pendiente"
+   "estado": "publicado",
+   "ig_media_id": "18114740159156636",
+   "publicado_en": "2026-10-26T22:57"
   },
   {
    "id": "50_sector_supermercado",
