@@ -1,1 +1,174 @@
-{"reels": []}
+{
+ "reels": [
+  {
+   "id": "31_sector_farmacia",
+   "fecha": "2026-10-26T11:40",
+   "estado": "pendiente"
+  },
+  {
+   "id": "32_sector_panaderia",
+   "fecha": "2026-10-26T13:15",
+   "estado": "pendiente"
+  },
+  {
+   "id": "12_ley_llega-la-inspeccion",
+   "fecha": "2026-10-26T14:30",
+   "estado": "pendiente"
+  },
+  {
+   "id": "33_ley_hora-inicio-fin",
+   "fecha": "2026-10-26T15:45",
+   "estado": "pendiente"
+  },
+  {
+   "id": "34_tip_gestoria",
+   "fecha": "2026-10-26T17:00",
+   "estado": "pendiente"
+  },
+  {
+   "id": "35_mito_excel-compartido",
+   "fecha": "2026-10-26T18:15",
+   "estado": "pendiente"
+  },
+  {
+   "id": "36_sector_residencia",
+   "fecha": "2026-10-26T19:15",
+   "estado": "pendiente"
+  },
+  {
+   "id": "13_demo_menos-que-un-menu",
+   "fecha": "2026-10-26T20:30",
+   "estado": "pendiente"
+  },
+  {
+   "id": "37_sector_tienda-ropa",
+   "fecha": "2026-10-26T21:45",
+   "estado": "pendiente"
+  },
+  {
+   "id": "40_sector_restaurante-extras",
+   "fecha": "2026-10-26T22:45",
+   "estado": "pendiente"
+  },
+  {
+   "id": "50_sector_supermercado",
+   "fecha": "2026-10-27T08:30",
+   "estado": "pendiente"
+  },
+  {
+   "id": "14_dolor_no-montaste-tu-negocio",
+   "fecha": "2026-10-27T09:30",
+   "estado": "pendiente"
+  },
+  {
+   "id": "08_sector_taller",
+   "fecha": "2026-10-27T10:45",
+   "estado": "pendiente"
+  },
+  {
+   "id": "25_dolor_hoja-firmada",
+   "fecha": "2026-10-27T12:00",
+   "estado": "pendiente"
+  },
+  {
+   "id": "26_sector_limpieza",
+   "fecha": "2026-10-27T13:15",
+   "estado": "pendiente"
+  },
+  {
+   "id": "45_dolor-encargado-vacaciones",
+   "fecha": "2026-10-27T14:30",
+   "estado": "pendiente"
+  },
+  {
+   "id": "46_sector_hotel",
+   "fecha": "2026-10-27T16:00",
+   "estado": "pendiente"
+  },
+  {
+   "id": "47_sector_autoescuela",
+   "fecha": "2026-10-27T17:30",
+   "estado": "pendiente"
+  },
+  {
+   "id": "49_mito_gente-mayor",
+   "fecha": "2026-10-27T19:00",
+   "estado": "pendiente"
+  },
+  {
+   "id": "51_sector_reparto",
+   "fecha": "2026-10-27T20:00",
+   "estado": "pendiente"
+  },
+  {
+   "id": "52_sector_escuela-infantil",
+   "fecha": "2026-10-27T21:00",
+   "estado": "pendiente"
+  },
+  {
+   "id": "53_mito_teletrabajo",
+   "fecha": "2026-10-27T23:00",
+   "estado": "pendiente"
+  },
+  {
+   "id": "54_sector_veterinaria",
+   "fecha": "2026-10-28T08:30",
+   "estado": "pendiente"
+  },
+  {
+   "id": "55_sector_estetica",
+   "fecha": "2026-10-28T09:15",
+   "estado": "pendiente"
+  },
+  {
+   "id": "56_sector_almazara",
+   "fecha": "2026-10-28T10:15",
+   "estado": "pendiente"
+  },
+  {
+   "id": "57_mito_contrato",
+   "fecha": "2026-10-28T12:00",
+   "estado": "pendiente"
+  },
+  {
+   "id": "58_ley_representantes",
+   "fecha": "2026-10-28T13:45",
+   "estado": "pendiente"
+  },
+  {
+   "id": "59_sector_floristeria",
+   "fecha": "2026-10-28T14:45",
+   "estado": "pendiente"
+  },
+  {
+   "id": "60_dolor_whatsapp-ya-estoy",
+   "fecha": "2026-10-28T15:45",
+   "estado": "pendiente"
+  },
+  {
+   "id": "61_sector_estudio-arquitectura",
+   "fecha": "2026-10-28T17:30",
+   "estado": "pendiente"
+  },
+  {
+   "id": "62_sector_catering",
+   "fecha": "2026-10-28T19:15",
+   "estado": "pendiente"
+  },
+  {
+   "id": "63_tip_puente-diciembre",
+   "fecha": "2026-10-28T21:00",
+   "estado": "pendiente"
+  },
+  {
+   "id": "64_demo_aviso-entrada-fisio",
+   "fecha": "2026-10-28T22:00",
+   "estado": "pendiente"
+  },
+  {
+   "id": "65_versus_tablet-vs-libreta",
+   "fecha": "2026-10-28T23:00",
+   "estado": "pendiente"
+  }
+ ]
+}

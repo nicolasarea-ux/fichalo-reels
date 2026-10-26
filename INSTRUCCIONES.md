@@ -4,7 +4,7 @@ Objetivo: que haya **12 Reels publicados en Instagram cada día** (horas calcula
 Esta rutina se ejecuta cada mañana y deja completos **hoy (franjas restantes), mañana y pasado mañana** (colchón por si un día falla). **Siempre 12 por día, todos los días.**
 
 Datos fijos
-- **Desde el 2026-10-26 ya NO se usa Metricool** (se alcanzó el límite del plan). Los Reels hasta el 28/10 incluido siguen en Metricool; desde el 29/10 los publica GitHub Actions (`publicar.py`, cada 15 min) con la API oficial de Instagram.
+- **Desde el 2026-10-26 ya NO se usa Metricool** (se alcanzó el límite del plan). Metricool está agotado hasta noviembre: TODOS los Reels pendientes (incluidos 26–28/10) se movieron a `publicaciones.json` el 26/10 a las 11:35. NO programes nada en Metricool. Los publica GitHub Actions (`publicar.py`, cada 15 min) con la API oficial de Instagram.
 - Repo público: `nicolasarea-ux/fichalo-reels`, rama `main`. Zona horaria: `Europe/Madrid`.
 - URL pública de un vídeo: `https://raw.githubusercontent.com/nicolasarea-ux/fichalo-reels/main/videos/<id>.mp4`
 - `publicaciones.json` = cola del publicador: `{"reels":[{"id","fecha":"YYYY-MM-DDTHH:MM","estado":"pendiente"}]}`. El publicador pone `publicado` o `error`.
