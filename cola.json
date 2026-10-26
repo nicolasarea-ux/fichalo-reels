@@ -352,6 +352,118 @@
    "fecha": "2026-10-27T19:00",
    "copy": "Link en bio!!!",
    "hashtags": "#fichaje #fichajedigital #fichalo #empresa"
+  },
+  {
+   "id": "50_sector_supermercado",
+   "tema": "supermercados: cajeras que olvidan fichar la salida + avisos",
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "pendiente"
+  },
+  {
+   "id": "51_sector_reparto",
+   "tema": "reparto y mensajería: fichar desde el móvil en la calle",
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "pendiente"
+  },
+  {
+   "id": "52_sector_escuela-infantil",
+   "tema": "escuelas infantiles: vacaciones del equipo pedidas y aprobadas en la app",
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "pendiente"
+  },
+  {
+   "id": "53_mito_teletrabajo",
+   "tema": "mito: en teletrabajo no hace falta fichar",
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "pendiente"
+  },
+  {
+   "id": "54_sector_veterinaria",
+   "tema": "clínicas veterinarias: urgencias que alargan la jornada + horas extra por persona",
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "pendiente"
+  },
+  {
+   "id": "55_sector_estetica",
+   "tema": "centros de estética: cada profesional consulta sus propias horas",
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "pendiente"
+  },
+  {
+   "id": "56_sector_almazara",
+   "tema": "almazaras en campaña de aceituna: turnos y fichar con tarjeta",
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "pendiente"
+  },
+  {
+   "id": "57_mito_contrato",
+   "tema": "mito: si el horario está en el contrato no hace falta registrar la jornada",
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "pendiente"
+  },
+  {
+   "id": "58_ley_representantes",
+   "tema": "ley: el registro está a disposición de trabajadores, representantes e Inspección",
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "pendiente"
+  },
+  {
+   "id": "59_sector_floristeria",
+   "tema": "floristerías: picos de trabajo en Todos los Santos y horas extra",
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "pendiente"
+  },
+  {
+   "id": "60_dolor_whatsapp-ya-estoy",
+   "tema": "dolor: el 'ya estoy' por WhatsApp no es un registro de jornada",
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "pendiente"
+  },
+  {
+   "id": "61_sector_estudio-arquitectura",
+   "tema": "estudios de arquitectura y diseño: horario flexible y horas por persona",
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "pendiente"
+  },
+  {
+   "id": "62_sector_catering",
+   "tema": "catering de eventos: personal distinto cada fin de semana, ver quién está trabajando",
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "pendiente"
+  },
+  {
+   "id": "63_tip_puente-diciembre",
+   "tema": "tip: pedir y aprobar los días del puente de diciembre con antelación en la app",
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "pendiente"
+  },
+  {
+   "id": "64_demo_aviso-entrada-fisio",
+   "tema": "fisioterapia: aviso cuando alguien olvida fichar la entrada",
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "pendiente"
+  },
+  {
+   "id": "65_versus_tablet-vs-libreta",
+   "tema": "tiendas de barrio: libreta en el mostrador vs código en tablet",
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "pendiente"
   }
  ]
 }

@@ -1,0 +1,89 @@
+{
+ "reels": [
+  {"id": "54_sector_veterinaria", "tema": "clínicas veterinarias: urgencias que alargan la jornada + horas extra por persona",
+   "escenas": [
+    {"tipo": "titulo", "texto": "Clínica veterinaria.\nUrgencia a\nlas 20:55.", "acento": "20:55.", "fondo": "oscuro"},
+    {"tipo": "titulo", "texto": "¿Quién se\nquedó hasta tarde\nesta semana?", "acento": "hasta tarde"},
+    {"tipo": "tabla", "titulo": "Horas extra\npor persona", "acento": "por persona", "cabecera": "Esta semana", "filas": [["Paula", "+3 h"], ["Sergio", "+1 h"], ["Elena", "0 h"]]},
+    {"tipo": "cierre", "texto": "Cada urgencia,\nbien contada", "acento": "bien contada"}
+   ], "copy": "Link en bio!!!", "hashtags": "#fichaje #fichajedigital #fichalo #empresa"},
+  {"id": "55_sector_estetica", "tema": "centros de estética: cada profesional consulta sus propias horas",
+   "escenas": [
+    {"tipo": "titulo", "texto": "¿Cuántas horas\nllevo este mes?", "acento": "este mes?", "fondo": "oscuro"},
+    {"tipo": "titulo", "texto": "En el centro\nde estética,\nnadie lo sabía.", "acento": "nadie"},
+    {"tipo": "movil", "titulo": "Cada una ve\nsus horas", "acento": "sus horas", "cabecera": "Mis horas", "filas": [["Noelia", "Octubre"], ["Semana 4", "32 h"]], "estado": "Actualizado hoy"},
+    {"tipo": "cierre", "texto": "Horas claras\npara todo el equipo", "acento": "todo el equipo"}
+   ], "copy": "Link en bio!!!", "hashtags": "#fichaje #fichajedigital #fichalo #empresa"},
+  {"id": "56_sector_almazara", "tema": "almazaras en campaña de aceituna: turnos y fichar con tarjeta",
+   "escenas": [
+    {"tipo": "titulo", "texto": "Campaña\nde la aceituna.\nLa almazara\nno para.", "acento": "no para.", "fondo": "oscuro"},
+    {"tipo": "titulo", "texto": "Turnos de día\ny de noche.\n¿Quién entra?", "acento": "¿Quién entra?"},
+    {"tipo": "movil", "titulo": "Pasan la tarjeta\ny listo", "acento": "tarjeta", "cabecera": "Turno de noche", "filas": [["Antonio", "Entrada 22:00"], ["Rocío", "Entrada 22:04"]], "estado": "2 personas trabajando"},
+    {"tipo": "cierre", "texto": "Campaña intensa,\nregistro en orden", "acento": "en orden"}
+   ], "copy": "Link en bio!!!", "hashtags": "#fichaje #fichajedigital #fichalo #empresa"},
+  {"id": "57_mito_contrato", "tema": "mito: si el horario está en el contrato no hace falta registrar la jornada",
+   "escenas": [
+    {"tipo": "titulo", "texto": "MITO:", "acento": "MITO", "fondo": "oscuro"},
+    {"tipo": "titulo", "texto": "\"El horario\nya está\nen el contrato.\"", "acento": "en el contrato."},
+    {"tipo": "titulo", "texto": "REALIDAD:\nhay que registrar\ncada día\nentrada y salida.", "acento": "cada día"},
+    {"tipo": "movil", "titulo": "Un toque\nal llegar", "acento": "Un toque", "cabecera": "Fichar", "filas": [["Hoy", "Martes"]], "estado": "Entrada 08:58 registrada", "boton": "Fichar entrada"},
+    {"tipo": "cierre", "texto": "Contrato y registro,\ncada uno lo suyo", "acento": "lo suyo"}
+   ], "copy": "Link en bio!!!", "hashtags": "#fichaje #fichajedigital #fichalo #empresa"},
+  {"id": "58_ley_representantes", "tema": "ley: el registro está a disposición de trabajadores, representantes e Inspección",
+   "escenas": [
+    {"tipo": "titulo", "texto": "¿Quién puede\npedirte el\nregistro de jornada?", "acento": "pedirte", "fondo": "oscuro"},
+    {"tipo": "titulo", "texto": "Tus trabajadores,\nsus representantes\ny la Inspección.", "acento": "la Inspección."},
+    {"tipo": "versus", "a_etiqueta": "Sin app", "a_texto": "Buscar hojas\nen el cajón", "b_etiqueta": "Con Fíchalo", "b_texto": "Informe en PDF\nen un momento"},
+    {"tipo": "cierre", "texto": "Siempre listo\npara enseñarlo", "acento": "listo"}
+   ], "copy": "Link en bio!!!", "hashtags": "#fichaje #fichajedigital #fichalo #empresa"},
+  {"id": "59_sector_floristeria", "tema": "floristerías: picos de trabajo en Todos los Santos y horas extra",
+   "escenas": [
+    {"tipo": "titulo", "texto": "Floristería.\nSemana de\nTodos los Santos.", "acento": "Todos los Santos.", "fondo": "oscuro"},
+    {"tipo": "titulo", "texto": "Abrir antes,\ncerrar después...\n¿y las horas?", "acento": "¿y las horas?"},
+    {"tipo": "tabla", "titulo": "Todo sumado\nsin calculadora", "acento": "sin calculadora", "cabecera": "Horas esta semana", "filas": [["Rosa", "47 h"], ["Daniel", "44 h"], ["Inés", "40 h"]], "pie": ["Con horas extra", "2"]},
+    {"tipo": "cierre", "texto": "Los picos de trabajo,\nregistrados", "acento": "registrados"}
+   ], "copy": "Link en bio!!!", "hashtags": "#fichaje #fichajedigital #fichalo #empresa"},
+  {"id": "60_dolor_whatsapp-ya-estoy", "tema": "dolor: el 'ya estoy' por WhatsApp no es un registro de jornada",
+   "escenas": [
+    {"tipo": "titulo", "texto": "\"Ya estoy\"\nen el grupo\nde WhatsApp.", "acento": "WhatsApp.", "fondo": "oscuro"},
+    {"tipo": "titulo", "texto": "Eso no es\nun registro\nde jornada.", "acento": "no es"},
+    {"tipo": "movil", "titulo": "Fichar desde\nel móvil, de verdad", "acento": "de verdad", "cabecera": "Fichar", "filas": [["Hugo", "Hoy"]], "estado": "Entrada 09:01 registrada", "boton": "Fichar entrada"},
+    {"tipo": "cierre", "texto": "Menos mensajes,\nmás registro", "acento": "más registro"}
+   ], "copy": "Link en bio!!!", "hashtags": "#fichaje #fichajedigital #fichalo #empresa"},
+  {"id": "61_sector_estudio-arquitectura", "tema": "estudios de arquitectura y diseño: horario flexible y horas por persona",
+   "escenas": [
+    {"tipo": "titulo", "texto": "Estudio de\narquitectura.\nHorario flexible.", "acento": "flexible.", "fondo": "oscuro"},
+    {"tipo": "titulo", "texto": "Cada uno\nentra a una hora\ndistinta.", "acento": "distinta."},
+    {"tipo": "tabla", "titulo": "Horas de cada\npersona, al día", "acento": "al día", "cabecera": "Hoy", "filas": [["Clara", "08:00 · 6 h"], ["Pablo", "10:00 · 4 h"], ["Irene", "09:30 · 4,5 h"]]},
+    {"tipo": "cierre", "texto": "Flexibilidad\ncon registro", "acento": "con registro"}
+   ], "copy": "Link en bio!!!", "hashtags": "#fichaje #fichajedigital #fichalo #empresa"},
+  {"id": "62_sector_catering", "tema": "catering de eventos: personal distinto cada fin de semana, ver quién está trabajando",
+   "escenas": [
+    {"tipo": "titulo", "texto": "Boda de sábado.\n12 camareros.\n¿Han llegado todos?", "acento": "todos?", "fondo": "oscuro"},
+    {"tipo": "titulo", "texto": "Sin pasar lista\ncon un papel.", "acento": "Sin pasar lista"},
+    {"tipo": "movil", "titulo": "Lo ves\nen el móvil", "acento": "en el móvil", "cabecera": "Trabajando ahora", "filas": [["Mario", "Entrada 17:02"], ["Sofía", "Entrada 17:05"], ["Raúl", "Entrada 17:10"]], "estado": "Evento: Finca Los Olmos"},
+    {"tipo": "cierre", "texto": "Tú al evento,\nlas horas a Fíchalo", "acento": "a Fíchalo"}
+   ], "copy": "Link en bio!!!", "hashtags": "#fichaje #fichajedigital #fichalo #empresa"},
+  {"id": "63_tip_puente-diciembre", "tema": "tip: pedir y aprobar los días del puente de diciembre con antelación en la app",
+   "escenas": [
+    {"tipo": "titulo", "texto": "TIP:\nel puente de\ndiciembre llega.", "acento": "diciembre", "fondo": "oscuro"},
+    {"tipo": "titulo", "texto": "Que lo pidan\nya, no el día\nanterior.", "acento": "ya,"},
+    {"tipo": "tabla", "titulo": "Solicitudes\nen la app", "acento": "en la app", "cabecera": "Vacaciones", "filas": [["Javier", "Aprobada"], ["Lorena", "Pendiente"], ["Álvaro", "Pendiente"]]},
+    {"tipo": "cierre", "texto": "Organiza el puente\nsin sorpresas", "acento": "sin sorpresas"}
+   ], "copy": "Link en bio!!!", "hashtags": "#fichaje #fichajedigital #fichalo #empresa"},
+  {"id": "64_demo_aviso-entrada-fisio", "tema": "fisioterapia: aviso cuando alguien olvida fichar la entrada",
+   "escenas": [
+    {"tipo": "titulo", "texto": "Primer paciente\na las 8:00.\nY Marcos...", "acento": "Marcos...", "fondo": "oscuro"},
+    {"tipo": "titulo", "texto": "llegó,\npero no fichó.", "acento": "no fichó."},
+    {"tipo": "movil", "titulo": "Fíchalo\nle avisa", "acento": "le avisa", "cabecera": "Aviso", "filas": [["Marcos · Fisio", "Sin entrada"], ["Turno", "08:00"]], "estado": "Olvidó fichar la entrada"},
+    {"tipo": "cierre", "texto": "Tu clínica,\nsin huecos en el registro", "acento": "sin huecos"}
+   ], "copy": "Link en bio!!!", "hashtags": "#fichaje #fichajedigital #fichalo #empresa"},
+  {"id": "65_versus_tablet-vs-libreta", "tema": "tiendas de barrio: libreta en el mostrador vs código en tablet",
+   "escenas": [
+    {"tipo": "titulo", "texto": "La libreta\ndel mostrador.\n¿Te suena?", "acento": "¿Te suena?", "fondo": "oscuro"},
+    {"tipo": "versus", "a_etiqueta": "Libreta", "a_texto": "Horas a boli\ny tachones", "b_etiqueta": "Tablet", "b_texto": "Código y\nfichaje hecho"},
+    {"tipo": "dato", "numero": "4 años", "texto": "hay que\nconservar\nel registro.", "acento": "conservar"},
+    {"tipo": "cierre", "texto": "Adiós libreta,\nhola Fíchalo", "acento": "hola Fíchalo"}
+   ], "copy": "Link en bio!!!", "hashtags": "#fichaje #fichajedigital #fichalo #empresa"}
+ ]
+}
