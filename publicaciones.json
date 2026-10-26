@@ -59,7 +59,9 @@
   {
    "id": "37_sector_tienda-ropa",
    "fecha": "2026-10-26T21:45",
-   "estado": "pendiente"
+   "estado": "publicado",
+   "ig_media_id": "18125783356700286",
+   "publicado_en": "2026-10-26T22:00"
   },
   {
    "id": "40_sector_restaurante-extras",
