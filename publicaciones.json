@@ -3,7 +3,9 @@
   {
    "id": "31_sector_farmacia",
    "fecha": "2026-10-26T11:40",
-   "estado": "pendiente"
+   "estado": "publicado",
+   "ig_media_id": "18639167785042689",
+   "publicado_en": "2026-10-26T12:07"
   },
   {
    "id": "32_sector_panaderia",
