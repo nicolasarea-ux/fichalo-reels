@@ -10,12 +10,16 @@
   {
    "id": "32_sector_panaderia",
    "fecha": "2026-10-26T13:15",
-   "estado": "pendiente"
+   "estado": "publicado",
+   "ig_media_id": "17978359929132041",
+   "publicado_en": "2026-10-26T15:15"
   },
   {
    "id": "12_ley_llega-la-inspeccion",
    "fecha": "2026-10-26T14:30",
-   "estado": "pendiente"
+   "estado": "publicado",
+   "ig_media_id": "17899604736397884",
+   "publicado_en": "2026-10-26T15:16"
   },
   {
    "id": "33_ley_hora-inicio-fin",
