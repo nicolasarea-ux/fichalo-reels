@@ -24,7 +24,9 @@
   {
    "id": "33_ley_hora-inicio-fin",
    "fecha": "2026-10-26T15:45",
-   "estado": "pendiente"
+   "estado": "publicado",
+   "ig_media_id": "17927940129428925",
+   "publicado_en": "2026-10-26T16:42"
   },
   {
    "id": "34_tip_gestoria",
