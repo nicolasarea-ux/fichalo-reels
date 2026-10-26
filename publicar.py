@@ -2,7 +2,7 @@
 Lo ejecuta GitHub Actions cada 15 minutos. Variables de entorno: IG_TOKEN, IG_USER_ID.
 publicaciones.json = {"reels": [{"id": "...", "fecha": "YYYY-MM-DDTHH:MM" (Madrid), "estado": "pendiente|publicado|error", ...}]}
 """
-import json, os, sys, time, urllib.parse, urllib.request
+import json, os, sys, time, urllib.error, urllib.parse, urllib.request
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
@@ -21,8 +21,11 @@ def call(method, path, **params):
         req = urllib.request.Request(f"{API}/{path}?{data.decode()}")
     else:
         req = urllib.request.Request(f"{API}/{path}", data=data, method="POST")
-    with urllib.request.urlopen(req, timeout=60) as r:
-        return json.loads(r.read())
+    try:
+        with urllib.request.urlopen(req, timeout=60) as r:
+            return json.loads(r.read())
+    except urllib.error.HTTPError as e:  # que el error de Instagram quede legible en publicaciones.json
+        raise RuntimeError(f"HTTP {e.code}: {e.read().decode(errors='replace')[:250]}") from None
 
 
 def publicar(reel):
@@ -42,6 +45,9 @@ def publicar(reel):
 
 
 def main():
+    # comprueba el token en cada pasada: si caduca, el workflow falla y GitHub avisa por email
+    yo = call("GET", "me", fields="user_id,username")
+    print("Cuenta:", yo.get("username"), yo.get("user_id"))
     path = "publicaciones.json"
     data = json.load(open(path, encoding="utf-8"))
     ahora = datetime.now(TZ)

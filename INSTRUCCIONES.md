@@ -4,33 +4,30 @@ Objetivo: que haya **12 Reels publicados en Instagram cada día** (horas calcula
 Esta rutina se ejecuta cada mañana y deja completos **hoy (franjas restantes), mañana y pasado mañana** (colchón por si un día falla). **Siempre 12 por día, todos los días.**
 
 Datos fijos
-- Metricool blogId / brandId: `7603867` · timezone `Europe/Madrid` · red: instagram, tipo REEL.
-- Repo público: `nicolasarea-ux/fichalo-reels`, rama `main`.
+- **Desde el 2026-10-26 ya NO se usa Metricool** (se alcanzó el límite del plan). Los Reels hasta el 28/10 incluido siguen en Metricool; desde el 29/10 los publica GitHub Actions (`publicar.py`, cada 15 min) con la API oficial de Instagram.
+- Repo público: `nicolasarea-ux/fichalo-reels`, rama `main`. Zona horaria: `Europe/Madrid`.
 - URL pública de un vídeo: `https://raw.githubusercontent.com/nicolasarea-ux/fichalo-reels/main/videos/<id>.mp4`
+- `publicaciones.json` = cola del publicador: `{"reels":[{"id","fecha":"YYYY-MM-DDTHH:MM","estado":"pendiente"}]}`. El publicador pone `publicado` o `error`.
 
 ## Pasos
 
-1. Para HOY, MAÑANA y PASADO MAÑANA (fechas de Madrid):
-   - `getScheduledPosts` (brandId 7603867, timezone Europe/Madrid, rango de ese día 00:00–23:59).
-   - Guarda las horas programadas (`publicationDate.dateTime`, formato `YYYY-MM-DDTHH:MM`) en un JSON y ejecuta
-     `python3 huecos.py <día> <json>` → lista de horas a las que programar Reels nuevos para llegar a 12 ese día (cuenta también los de cola.json con esa fecha).
+1. Para HOY, MAÑANA y PASADO MAÑANA (fechas de Madrid), solo días **≥ 2026-10-29**:
+   `python3 huecos.py <día>` → horas libres para llegar a 12 ese día (cuenta las fechas de cola.json).
 2. Junta todas las franjas libres. Necesitas un vídeo por franja.
 3. Usa primero los reels de `cola.json` con `estado: "pendiente"` (en orden). Si no llegan, **crea los que falten**:
    - Escribe un `guiones/lote_<siguiente número>.json` con el mismo formato que `guiones/lote_015.json`.
    - Ids correlativos: `NN_<angulo>_<slug>` (NN = siguiente número tras el mayor de `cola.json`).
    - Reglas de contenido (ver abajo). Lee el campo `tema` de TODOS los reels de `cola.json` y **no repitas temas**.
-   - `python3 generador.py guiones/lote_XXX.json videos/`
+   - `python3 generador.py guiones/lote_XXX.json videos/` (tarda ~20 s por vídeo: lánzalo en segundo plano y espera) y borra los `.wav` sueltos de `videos/`.
    - Revisa 1 fotograma de cada vídeo (ffmpeg a PNG + leerlo) para comprobar que el texto cabe y se lee.
    - Añade cada reel a `cola.json` con `id, tema, copy, hashtags, estado: "pendiente"`.
-4. `git add -A && git commit && git push`. Comprueba con `curl -sI <URL pública>` que cada vídeo da 200 (espera y reintenta si no).
-5. Por cada franja libre, `createScheduledPost`:
-   - date `<franja>:00` con su offset de Madrid, `publicationDate {dateTime, timezone:"Europe/Madrid"}`
-   - `media: [URL pública]`, `providers: [{"network":"instagram"}]`, `instagramData: {"type":"REEL","showReelOnFeed":true}`
-   - `text`: copy + "\n\n" + hashtags · `autoPublish: true`, `draft: false`
-   - **Miniatura en el segundo 1:** `videoCoverMilliseconds: 1000` (orden de Nicks, en todos los Reels)
-   - Marca el reel en `cola.json` como `estado: "programado"`, `fecha: <franja>`.
-6. Commit y push de `cola.json`. Si algo falla, no inventes: déjalo anotado en `registro.md` (fecha, qué falló).
-   Añade siempre una línea a `registro.md` con lo que se programó.
+4. Por cada franja libre:
+   - En `cola.json`: `estado: "programado"`, `fecha: <franja>`.
+   - En `publicaciones.json`: añade `{"id": <id>, "fecha": <franja>, "estado": "pendiente"}`.
+   (La descripción fija y la portada en el segundo 1 las pone `publicar.py`; no hay que tocarlas.)
+5. `git pull --rebase` (el publicador también hace commits), `git add -A && git commit && git push`. Comprueba con `curl -s -o /dev/null -w '%{http_code}' <URL pública>` que cada vídeo da 200.
+6. Revisa `publicaciones.json`: si hay reels con `estado: "error"` o con fecha pasada y aún `pendiente` (más de 1 h), anótalo en `registro.md` y avisa a Nicks (el publicador puede estar desactivado o el token caducado).
+   Añade siempre una línea a `registro.md` con lo que se dejó programado. No inventes: si algo falla, anótalo.
 
 ## Reglas de contenido (Fíchalo, app de control horario/fichaje para pymes en España)
 - 15 s, 3–5 escenas, la última siempre `cierre`. Gancho fuerte en la primera escena (pregunta o dato).
