@@ -73,7 +73,9 @@
   {
    "id": "50_sector_supermercado",
    "fecha": "2026-10-27T08:30",
-   "estado": "pendiente"
+   "estado": "publicado",
+   "ig_media_id": "18082484894356677",
+   "publicado_en": "2026-10-27T08:36"
   },
   {
    "id": "14_dolor_no-montaste-tu-negocio",
