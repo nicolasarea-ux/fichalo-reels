@@ -35,17 +35,19 @@
   },
   {
    "id": "10_dolor_excel-final-v3",
-   "estado": "pendiente",
+   "estado": "programado",
    "copy": "Link en bio!!!",
    "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
-   "tema": "Excel de horas a fin de mes"
+   "tema": "Excel de horas a fin de mes",
+   "fecha": "2026-10-29T08:30"
   },
   {
    "id": "11_sector_peluqueria",
-   "estado": "pendiente",
+   "estado": "programado",
    "copy": "Link en bio!!!",
    "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
-   "tema": "peluquería con turnos y tablet"
+   "tema": "peluquería con turnos y tablet",
+   "fecha": "2026-10-29T09:15"
   },
   {
    "id": "12_ley_llega-la-inspeccion",
@@ -170,9 +172,10 @@
   {
    "id": "27_demo_horas-extra-aviso",
    "tema": "control de horas extra semanales por persona",
-   "estado": "pendiente",
+   "estado": "programado",
    "copy": "Link en bio!!!",
-   "hashtags": "#fichaje #fichajedigital #fichalo #empresa"
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "fecha": "2026-10-29T10:15"
   },
   {
    "id": "28_sector_obra",
@@ -185,16 +188,18 @@
   {
    "id": "29_mito_desconfianza",
    "tema": "mito: fichar es desconfiar del equipo",
-   "estado": "pendiente",
+   "estado": "programado",
    "copy": "Link en bio!!!",
-   "hashtags": "#fichaje #fichajedigital #fichalo #empresa"
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "fecha": "2026-10-29T12:00"
   },
   {
    "id": "30_dolor_ha-llegado-ya",
    "tema": "saber si alguien ha llegado sin preguntar",
-   "estado": "pendiente",
+   "estado": "programado",
    "copy": "Link en bio!!!",
-   "hashtags": "#fichaje #fichajedigital #fichalo #empresa"
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "fecha": "2026-10-29T13:45"
   },
   {
    "id": "31_sector_farmacia",
@@ -335,9 +340,10 @@
   {
    "id": "48_demo_historial",
    "tema": "consultar los fichajes de cualquier día pasado",
-   "estado": "pendiente",
+   "estado": "programado",
    "copy": "Link en bio!!!",
-   "hashtags": "#fichaje #fichajedigital #fichalo #empresa"
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "fecha": "2026-10-29T14:45"
   },
   {
    "id": "49_mito_gente-mayor",
@@ -474,6 +480,54 @@
    "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
    "estado": "programado",
    "fecha": "2026-10-28T23:00"
+  },
+  {
+   "id": "66_sector_cafeteria",
+   "tema": "cafeterías que abren a las 6:30: ver quién está trabajando ya sin llamar",
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "programado",
+   "fecha": "2026-10-29T15:45"
+  },
+  {
+   "id": "67_ley_desde-2019",
+   "tema": "ley: el registro de jornada es obligatorio desde 2019",
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "programado",
+   "fecha": "2026-10-29T17:30"
+  },
+  {
+   "id": "68_sector_despacho",
+   "tema": "despachos y asesorías: informe de horas por persona en PDF y Excel",
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "programado",
+   "fecha": "2026-10-29T19:15"
+  },
+  {
+   "id": "69_mito_horas-extra-aparte",
+   "tema": "mito: las horas extra van aparte del registro de jornada",
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "programado",
+   "fecha": "2026-10-29T21:00"
+  },
+  {
+   "id": "70_sector_lavanderia",
+   "tema": "lavanderías industriales: turno de mañana y de tarde en el mismo panel",
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "programado",
+   "fecha": "2026-10-29T22:00"
+  },
+  {
+   "id": "71_dolor_primer-dia",
+   "tema": "dolor: el trabajador nuevo no sabe cómo apuntar sus horas el primer día",
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "programado",
+   "fecha": "2026-10-29T23:00"
   }
  ]
 }

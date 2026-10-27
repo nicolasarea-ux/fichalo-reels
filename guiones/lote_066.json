@@ -1,0 +1,46 @@
+{
+ "reels": [
+  {"id": "66_sector_cafeteria", "tema": "cafeterías que abren a las 6:30: ver quién está trabajando ya sin llamar",
+   "escenas": [
+    {"tipo": "titulo", "texto": "Cafetería.\nAbre a\nlas 6:30.", "acento": "las 6:30.", "fondo": "oscuro"},
+    {"tipo": "titulo", "texto": "¿Ya ha llegado\nalguien a abrir?", "acento": "a abrir?"},
+    {"tipo": "movil", "titulo": "Míralo desde\ncasa", "acento": "desde casa", "cabecera": "Trabajando ahora", "filas": [["Marta", "06:24"], ["Iker", "06:31"]], "estado": "2 personas fichadas"},
+    {"tipo": "cierre", "texto": "Tú duermes,\nla cafetería abre", "acento": "abre"}
+   ], "copy": "Link en bio!!!", "hashtags": "#fichaje #fichajedigital #fichalo #empresa"},
+  {"id": "67_ley_desde-2019", "tema": "ley: el registro de jornada es obligatorio desde 2019",
+   "escenas": [
+    {"tipo": "titulo", "texto": "¿Registrar\nla jornada es\nalgo nuevo?", "acento": "algo nuevo?", "fondo": "oscuro"},
+    {"tipo": "dato", "numero": "2019", "texto": "desde entonces\nes obligatorio.", "acento": "obligatorio."},
+    {"tipo": "versus", "a_etiqueta": "Antes", "a_texto": "Hojas sueltas\ny memoria", "b_etiqueta": "Con Fíchalo", "b_texto": "Cada entrada\ny salida guardada"},
+    {"tipo": "cierre", "texto": "Cumple la ley\nsin papeleo", "acento": "sin papeleo"}
+   ], "copy": "Link en bio!!!", "hashtags": "#fichaje #fichajedigital #fichalo #empresa"},
+  {"id": "68_sector_despacho", "tema": "despachos y asesorías: informe de horas por persona en PDF y Excel",
+   "escenas": [
+    {"tipo": "titulo", "texto": "Despacho\nprofesional.\nFin de mes.", "acento": "Fin de mes.", "fondo": "oscuro"},
+    {"tipo": "titulo", "texto": "¿Cuántas horas\nha hecho\ncada uno?", "acento": "cada uno?"},
+    {"tipo": "tabla", "titulo": "Informe listo\nen PDF o Excel", "acento": "PDF o Excel", "cabecera": "Octubre", "filas": [["Lucía", "162 h"], ["Andrés", "158 h"], ["Nuria", "120 h"]]},
+    {"tipo": "cierre", "texto": "Tus horas,\nen un clic", "acento": "en un clic"}
+   ], "copy": "Link en bio!!!", "hashtags": "#fichaje #fichajedigital #fichalo #empresa"},
+  {"id": "69_mito_horas-extra-aparte", "tema": "mito: las horas extra van aparte del registro de jornada",
+   "escenas": [
+    {"tipo": "titulo", "texto": "Mito:\n\"Las horas extra\nvan aparte\".", "acento": "van aparte\".", "fondo": "oscuro"},
+    {"tipo": "titulo", "texto": "Realidad:\nel registro marca\ninicio y fin.", "acento": "inicio y fin."},
+    {"tipo": "tabla", "titulo": "Y ahí se ven\nlas horas extra", "acento": "las horas extra", "cabecera": "Esta semana", "filas": [["Raúl", "+2 h"], ["Sonia", "+4 h"], ["Kevin", "0 h"]]},
+    {"tipo": "cierre", "texto": "Todas las horas,\nen el mismo sitio", "acento": "mismo sitio"}
+   ], "copy": "Link en bio!!!", "hashtags": "#fichaje #fichajedigital #fichalo #empresa"},
+  {"id": "70_sector_lavanderia", "tema": "lavanderías industriales: turno de mañana y de tarde en el mismo panel",
+   "escenas": [
+    {"tipo": "titulo", "texto": "Lavandería\nindustrial.\nDos turnos.", "acento": "Dos turnos.", "fondo": "oscuro"},
+    {"tipo": "titulo", "texto": "¿Quién entra\ncuando sale\nla mañana?", "acento": "la mañana?"},
+    {"tipo": "tabla", "titulo": "Los dos turnos,\nen un panel", "acento": "en un panel", "cabecera": "Hoy", "filas": [["Mañana", "6 personas"], ["Tarde", "5 personas"]]},
+    {"tipo": "cierre", "texto": "Cada turno,\nbajo control", "acento": "bajo control"}
+   ], "copy": "Link en bio!!!", "hashtags": "#fichaje #fichajedigital #fichalo #empresa"},
+  {"id": "71_dolor_primer-dia", "tema": "dolor: el trabajador nuevo no sabe cómo apuntar sus horas el primer día",
+   "escenas": [
+    {"tipo": "titulo", "texto": "Primer día\nde trabajo.\n¿Cómo ficho?", "acento": "¿Cómo ficho?", "fondo": "oscuro"},
+    {"tipo": "titulo", "texto": "Nadie le explica\nla hoja de horas.", "acento": "hoja de horas."},
+    {"tipo": "movil", "titulo": "Su código\nen la tablet", "acento": "en la tablet", "cabecera": "Fichar", "filas": [["Código", "• • • •"]], "estado": "Entrada registrada", "boton": "Fichar entrada"},
+    {"tipo": "cierre", "texto": "Fichar se aprende\nen un minuto", "acento": "en un minuto"}
+   ], "copy": "Link en bio!!!", "hashtags": "#fichaje #fichajedigital #fichalo #empresa"}
+ ]
+}
