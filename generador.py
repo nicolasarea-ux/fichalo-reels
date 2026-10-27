@@ -168,6 +168,50 @@ def rh_line(_):
     return 100
 
 
+
+EMOJI_F = ImageFont.truetype("/usr/share/fonts/truetype/noto/NotoColorEmoji.ttf", 109)
+def emoji_img(ch, size):
+    im = Image.new("RGBA", (160, 160), (0, 0, 0, 0))
+    ImageDraw.Draw(im).text((10, 10), ch, font=EMOJI_F, embedded_color=True)
+    im = im.crop(im.getbbox())
+    r = size / max(im.size)
+    return im.resize((int(im.width * r), int(im.height * r)), Image.LANCZOS)
+
+def emoji_disco(ch, oscuro=False):
+    d = 560
+    disco = Image.new("RGBA", (d, d), (0, 0, 0, 0))
+    ImageDraw.Draw(disco).ellipse((0, 0, d - 1, d - 1), fill=(255, 255, 255, 40) if oscuro else (231, 240, 247, 255))
+    e = emoji_img(ch, 380)
+    disco.alpha_composite(e, ((d - e.width) // 2, (d - e.height) // 2))
+    return disco
+
+def postit(texto):
+    w = 560
+    p = Image.new("RGBA", (w, w), (255, 224, 102, 255))
+    d = ImageDraw.Draw(p)
+    d.rectangle((0, 0, w, 60), fill=(250, 214, 80))
+    f = ImageFont.truetype(os.path.join(FD, "caveat-700.ttf"), 84)
+    y = 110
+    for line in texto.split("\n"):
+        d.text((50, y), line, font=f, fill=(60, 50, 40))
+        y += 96
+    p = p.rotate(-5, resample=Image.BICUBIC, expand=True)
+    return shadow(p, 24, 16, 60)
+
+def papel(lineas):
+    w, h = 620, 760
+    p = rounded((w, h), 12, WHITE)
+    d = ImageDraw.Draw(p)
+    d.text((44, 40), lineas[0], font=F(800, 40), fill=NAVY)
+    fh = ImageFont.truetype(os.path.join(FD, "caveat-700.ttf"), 56)
+    y = 120
+    for l in lineas[1:]:
+        d.line([(40, y + 66), (w - 40, y + 66)], fill=LINE, width=3)
+        d.text((48, y), l, font=fh, fill=(40, 60, 140))
+        y += 84
+    p = p.rotate(3, resample=Image.BICUBIC, expand=True)
+    return shadow(p, 24, 16, 50)
+
 # ---------- escenas -> elementos animados ----------
 class El:
     def __init__(self, img, x, y, t0, kind="up", dur=0.45):
@@ -264,6 +308,23 @@ def scene_elements(sc):
                 tw = pd.textlength(b, font=F(800, 44))
                 pd.text((cw - 40 - 26 - tw, 18), b, font=F(800, 44), fill=NAVY)
                 els.append(El(pie, cx + 20, cy + hh + len(filas) * rh + 20, 0.7 + 0.2 * len(filas) + 0.2, "pop", 0.35))
+    elif tipo == "objeto":
+        # gancho: pregunta directa arriba + objeto reconocible grande (emoji, pósit o papel)
+        col = WHITE if oscuro else NAVY
+        q = text_block(sc["pregunta"], sc.get("acento"), auto_font(sc["pregunta"], 800, 96), col,
+                       acc_c1=(110, 220, 170) if oscuro else TEAL, acc_c2=GREEN)
+        els.append(El(q, (W - q.width) // 2, 250, 0.0))
+        cy = max(250 + q.height + 80, 820)
+        if sc.get("postit"):
+            ob = postit(sc["postit"])
+        elif sc.get("papel"):
+            ob = papel(sc["papel"])
+        else:
+            ob = emoji_disco(sc.get("emoji", "⏰"), oscuro)
+        els.append(El(ob, (W - ob.width) // 2, cy, 0.15, "flota", 0.5))
+        if sc.get("subtitulo"):
+            st = text_block(sc["subtitulo"], None, N(44), (200, 210, 225) if oscuro else GREY)
+            els.append(El(st, (W - st.width) // 2, cy + ob.height + 40, 0.6))
     elif tipo == "versus":
         y = 420
         for et, tx, col, bg, t0 in ((sc["a_etiqueta"], sc["a_texto"], (214, 69, 65), (253, 232, 230), 0.0),
@@ -292,16 +353,19 @@ def scene_elements(sc):
         els.append(El(shadow(btn, 30, 18, 50), (W - 940) // 2 - 60, 860 + q.height + 80 - 60, 0.6, "pop", 0.45))
         sub = text_block("Link en la bio · te lo enseñamos en 15 minutos", None, N(38), GREY)
         els.append(El(sub, (W - sub.width) // 2, 860 + q.height + 270, 0.8))
-    bg = background(oscuro)
+    bg = background(sc.get("fondo", "claro"))
     return bg, els
 
 
 _BG = {}
-def background(oscuro):
-    if oscuro not in _BG:
-        _BG[oscuro] = (grad((W, H), NAVY_D, NAVY_L, horizontal=False) if oscuro
-                       else Image.new("RGB", (W, H), WHITE)).convert("RGBA")
-    return _BG[oscuro]
+FONDOS = {"claro": WHITE, "crema": (250, 245, 234), "menta": (230, 246, 238), "cielo": (232, 241, 250)}
+def background(estilo):
+    if estilo is True: estilo = "oscuro"
+    if estilo in (False, None): estilo = "claro"
+    if estilo not in _BG:
+        _BG[estilo] = (grad((W, H), NAVY_D, NAVY_L, horizontal=False) if estilo == "oscuro"
+                       else Image.new("RGB", (W, H), FONDOS.get(estilo, WHITE))).convert("RGBA")
+    return _BG[estilo]
 
 
 def render_frame(bg, els, t, t_out):
@@ -319,6 +383,13 @@ def render_frame(bg, els, t, t_out):
         dx = dy = 0
         if e.kind == "up":
             dy = int((1 - ease(p)) * 70)
+        elif e.kind == "flota":
+            s_ = 0.8 + 0.2 * ease_back(min(1, p))
+            if abs(s_ - 1) > 0.004:
+                nw, nh = max(1, int(img.width * s_)), max(1, int(img.height * s_))
+                img = img.resize((nw, nh), Image.BILINEAR)
+                dx, dy = (e.img.width - nw) // 2, (e.img.height - nh) // 2
+            dy += int(math.sin(t * 2.2) * 12)
         elif e.kind == "pop":
             s = 0.85 + 0.15 * ease_back(min(1, p))
             if abs(s - 1) > 0.004:
@@ -327,6 +398,10 @@ def render_frame(bg, els, t, t_out):
                 dx, dy = (e.img.width - nw) // 2, (e.img.height - nh) // 2
         dy -= int(out_p * 40)
         frame.alpha_composite(with_alpha(img, a), (e.x + dx, e.y + dy))
+    z = 1 + 0.025 * min(1.0, t / 4.0)  # zoom muy suave para dar movimiento
+    if z > 1.002:
+        zw, zh = int(W * z), int(H * z)
+        frame = frame.resize((zw, zh), Image.BILINEAR).crop(((zw - W) // 2, (zh - H) // 2, (zw - W) // 2 + W, (zh - H) // 2 + H))
     return frame
 
 
@@ -347,9 +422,11 @@ def musica(n_esc, seg_starts, out_wav):
 
 
 def render_reel(reel, out_path):
+    global DUR
+    DUR = float(reel.get("duracion", 11.0))
     escenas = reel["escenas"]
     # el cierre dura 3.6 s, el resto se reparte
-    cierre_d = 3.6 if escenas[-1]["tipo"] == "cierre" else 0
+    cierre_d = 3.0 if escenas[-1]["tipo"] == "cierre" else 0
     resto = len(escenas) - (1 if cierre_d else 0)
     seg = (DUR - cierre_d) / resto
     starts, t = [], 0.0

@@ -8,7 +8,8 @@ import json, os, sys
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
-OBJETIVO = 12
+OBJETIVO = 3
+FIJAS = ["09:00", "14:00", "20:30"]  # con 3 al día, horas fijas
 TZ = ZoneInfo("Europe/Madrid")
 # rejilla cada 15 min de 08:30 a 23:00
 REJILLA = [f"{h:02d}:{m:02d}" for h in range(8, 24) for m in (0, 15, 30, 45) if (8, 30) <= (h, m) <= (23, 0)]
@@ -23,7 +24,7 @@ ex = [datetime.fromisoformat(x).replace(tzinfo=TZ) for x in existentes]
 faltan = OBJETIVO - len(ex)
 ahora = datetime.now(TZ)
 cands = []
-for f in REJILLA:
+for f in (FIJAS if OBJETIVO <= len(FIJAS) else REJILLA):
     t = datetime.fromisoformat(f"{dia}T{f}").replace(tzinfo=TZ)
     if t < ahora + timedelta(minutes=20):
         continue

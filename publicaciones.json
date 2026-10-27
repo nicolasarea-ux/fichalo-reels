@@ -99,163 +99,23 @@
    "publicado_en": "2026-10-27T12:02"
   },
   {
-   "id": "26_sector_limpieza",
-   "fecha": "2026-10-27T13:15",
+   "id": "72_hosteleria_firma-todo-el-mes",
+   "fecha": "2026-10-27T20:30",
    "estado": "pendiente"
   },
   {
-   "id": "45_dolor-encargado-vacaciones",
-   "fecha": "2026-10-27T14:30",
+   "id": "74_clinica_postit-horas",
+   "fecha": "2026-10-28T09:00",
    "estado": "pendiente"
   },
   {
-   "id": "46_sector_hotel",
-   "fecha": "2026-10-27T16:00",
-   "estado": "pendiente"
-  },
-  {
-   "id": "47_sector_autoescuela",
-   "fecha": "2026-10-27T17:30",
-   "estado": "pendiente"
-  },
-  {
-   "id": "49_mito_gente-mayor",
-   "fecha": "2026-10-27T19:00",
-   "estado": "pendiente"
-  },
-  {
-   "id": "51_sector_reparto",
-   "fecha": "2026-10-27T20:00",
-   "estado": "pendiente"
-  },
-  {
-   "id": "52_sector_escuela-infantil",
-   "fecha": "2026-10-27T21:00",
-   "estado": "pendiente"
-  },
-  {
-   "id": "53_mito_teletrabajo",
-   "fecha": "2026-10-27T23:00",
-   "estado": "pendiente"
-  },
-  {
-   "id": "54_sector_veterinaria",
-   "fecha": "2026-10-28T08:30",
-   "estado": "pendiente"
-  },
-  {
-   "id": "55_sector_estetica",
-   "fecha": "2026-10-28T09:15",
-   "estado": "pendiente"
-  },
-  {
-   "id": "56_sector_almazara",
-   "fecha": "2026-10-28T10:15",
-   "estado": "pendiente"
-  },
-  {
-   "id": "57_mito_contrato",
-   "fecha": "2026-10-28T12:00",
-   "estado": "pendiente"
-  },
-  {
-   "id": "58_ley_representantes",
-   "fecha": "2026-10-28T13:45",
-   "estado": "pendiente"
-  },
-  {
-   "id": "59_sector_floristeria",
-   "fecha": "2026-10-28T14:45",
+   "id": "73_limpieza_han-empezado",
+   "fecha": "2026-10-28T14:00",
    "estado": "pendiente"
   },
   {
    "id": "60_dolor_whatsapp-ya-estoy",
-   "fecha": "2026-10-28T15:45",
-   "estado": "pendiente"
-  },
-  {
-   "id": "61_sector_estudio-arquitectura",
-   "fecha": "2026-10-28T17:30",
-   "estado": "pendiente"
-  },
-  {
-   "id": "62_sector_catering",
-   "fecha": "2026-10-28T19:15",
-   "estado": "pendiente"
-  },
-  {
-   "id": "63_tip_puente-diciembre",
-   "fecha": "2026-10-28T21:00",
-   "estado": "pendiente"
-  },
-  {
-   "id": "64_demo_aviso-entrada-fisio",
-   "fecha": "2026-10-28T22:00",
-   "estado": "pendiente"
-  },
-  {
-   "id": "65_versus_tablet-vs-libreta",
-   "fecha": "2026-10-28T23:00",
-   "estado": "pendiente"
-  },
-  {
-   "id": "10_dolor_excel-final-v3",
-   "fecha": "2026-10-29T08:30",
-   "estado": "pendiente"
-  },
-  {
-   "id": "11_sector_peluqueria",
-   "fecha": "2026-10-29T09:15",
-   "estado": "pendiente"
-  },
-  {
-   "id": "27_demo_horas-extra-aviso",
-   "fecha": "2026-10-29T10:15",
-   "estado": "pendiente"
-  },
-  {
-   "id": "29_mito_desconfianza",
-   "fecha": "2026-10-29T12:00",
-   "estado": "pendiente"
-  },
-  {
-   "id": "30_dolor_ha-llegado-ya",
-   "fecha": "2026-10-29T13:45",
-   "estado": "pendiente"
-  },
-  {
-   "id": "48_demo_historial",
-   "fecha": "2026-10-29T14:45",
-   "estado": "pendiente"
-  },
-  {
-   "id": "66_sector_cafeteria",
-   "fecha": "2026-10-29T15:45",
-   "estado": "pendiente"
-  },
-  {
-   "id": "67_ley_desde-2019",
-   "fecha": "2026-10-29T17:30",
-   "estado": "pendiente"
-  },
-  {
-   "id": "68_sector_despacho",
-   "fecha": "2026-10-29T19:15",
-   "estado": "pendiente"
-  },
-  {
-   "id": "69_mito_horas-extra-aparte",
-   "fecha": "2026-10-29T21:00",
-   "estado": "pendiente"
-  },
-  {
-   "id": "70_sector_lavanderia",
-   "fecha": "2026-10-29T22:00",
-   "estado": "pendiente"
-  },
-  {
-   "id": "71_dolor_primer-dia",
-   "fecha": "2026-10-29T23:00",
+   "fecha": "2026-10-28T20:30",
    "estado": "pendiente"
   }
  ]

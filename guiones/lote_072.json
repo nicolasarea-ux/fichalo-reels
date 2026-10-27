@@ -1,0 +1,146 @@
+{
+ "reels": [
+  {
+   "id": "72_hosteleria_firma-todo-el-mes",
+   "tema": "hostelería: hoja de firmas rellenada de golpe a fin de mes",
+   "duracion": 11,
+   "escenas": [
+    {
+     "tipo": "objeto",
+     "pregunta": "¿Tu bar todavía\nficha así?",
+     "acento": "así",
+     "fondo": "crema",
+     "papel": [
+      "Registro · Octubre",
+      "Iker   8:00 – 16:00",
+      "Iker   8:00 – 16:00",
+      "Iker   8:00 – 16:00",
+      "Iker   8:00 – 16:00",
+      "Iker   8:00 – 16:00",
+      "Iker   8:00 – 16:00",
+      "(firmado el día 30)"
+     ]
+    },
+    {
+     "tipo": "movil",
+     "titulo": "Horas reales,\nfichadas al momento",
+     "acento": "al momento",
+     "cabecera": "Barra · Hoy",
+     "filas": [
+      [
+       "Iker",
+       "Entrada 07:58"
+      ],
+      [
+       "Ane",
+       "Entrada 16:02"
+      ],
+      [
+       "Mikel",
+       "Salida 01:35"
+      ]
+     ],
+     "estado": "Todo registrado"
+    },
+    {
+     "tipo": "cierre",
+     "texto": "Deja de firmar\nel mes de golpe",
+     "acento": "de golpe"
+    }
+   ],
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa"
+  },
+  {
+   "id": "73_limpieza_han-empezado",
+   "tema": "limpieza: no saber si el equipo ha empezado en cada edificio",
+   "duracion": 11,
+   "escenas": [
+    {
+     "tipo": "objeto",
+     "pregunta": "Son las 6:10.\n¿Ha empezado ya\ntu equipo?",
+     "acento": "empezado",
+     "fondo": "oscuro",
+     "emoji": "🧹",
+     "subtitulo": "Empresa de limpieza · 4 edificios"
+    },
+    {
+     "tipo": "tabla",
+     "titulo": "Lo ves sin\nllamar a nadie",
+     "acento": "sin\nllamar",
+     "cabecera": "Trabajando ahora",
+     "filas": [
+      [
+       "Oficinas Abando",
+       "Rosa · 06:00"
+      ],
+      [
+       "Colegio Deusto",
+       "Amaia · 06:05"
+      ],
+      [
+       "Portales Getxo",
+       "Javi · 06:08"
+      ]
+     ],
+     "pie": [
+      "Edificios cubiertos",
+      "3 de 4"
+     ]
+    },
+    {
+     "tipo": "cierre",
+     "texto": "Tu equipo repartido,\ntodo controlado",
+     "acento": "controlado"
+    }
+   ],
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa"
+  },
+  {
+   "id": "74_clinica_postit-horas",
+   "tema": "clínicas: horas de las auxiliares apuntadas en un pósit",
+   "duracion": 11,
+   "escenas": [
+    {
+     "tipo": "objeto",
+     "pregunta": "¿Las horas de tu\nclínica están\nen un pósit?",
+     "acento": "en un pósit",
+     "fondo": "menta",
+     "postit": "Laura: 6h?\nMaite: salió\n¿a las 3?"
+    },
+    {
+     "tipo": "tabla",
+     "titulo": "Cada hora,\nen su sitio",
+     "acento": "en su sitio",
+     "cabecera": "Clínica · Esta semana",
+     "filas": [
+      [
+       "Laura · Higienista",
+       "32 h"
+      ],
+      [
+       "Maite · Auxiliar",
+       "36 h"
+      ],
+      [
+       "Íñigo · Recepción",
+       "40 h"
+      ]
+     ],
+     "pie": [
+      "Informe",
+      "PDF / Excel"
+     ]
+    },
+    {
+     "tipo": "cierre",
+     "texto": "Tú a tus pacientes,\nlas horas solas",
+     "acento": "solas"
+    }
+   ],
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa"
+  }
+ ]
+}
