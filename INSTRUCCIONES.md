@@ -1,7 +1,7 @@
 # Rutina diaria de Reels de @fichalo.app
 
-Objetivo: que haya **3 Reels publicados en Instagram cada día (09:00, 14:00, 20:30)** (horas calculadas por `huecos.py`), sin intervención humana.
-Esta rutina se ejecuta cada mañana y deja completos **hoy (franjas restantes), mañana y pasado mañana** (colchón por si un día falla). **Siempre 3 por día, todos los días** (Nicks bajó de 12 a 3 el 27/10 porque las views eran muy bajas: calidad > cantidad).
+Objetivo: que haya **1 Reel/día (09:40) hasta el 4/11 y 2/día (09:40 y 17:40) desde el 5/11** — los picos de audiencia son 10:00 y 18:00 (horas calculadas por `huecos.py`), sin intervención humana.
+Esta rutina se ejecuta cada mañana y deja completos **hoy (franjas restantes), mañana y pasado mañana** (colchón por si un día falla). Lo calcula `huecos.py`. (Historial: 12/día hundió el alcance y Meta bloqueó la API el 27/10; objetivo ahora = máximas views por vídeo.)
 
 Datos fijos
 - **Desde el 2026-10-26 ya NO se usa Metricool** (se alcanzó el límite del plan). Metricool está agotado hasta noviembre: TODOS los Reels pendientes (incluidos 26–28/10) se movieron a `publicaciones.json` el 26/10 a las 11:35. NO programes nada en Metricool. Los publica GitHub Actions (`publicar.py`, cada 15 min) con la API oficial de Instagram.
@@ -12,7 +12,7 @@ Datos fijos
 ## Pasos
 
 1. Para HOY, MAÑANA y PASADO MAÑANA (fechas de Madrid), solo días **≥ 2026-10-29**:
-   `python3 huecos.py <día>` → horas libres para llegar a 3 ese día (cuenta las fechas de cola.json).
+   `python3 huecos.py <día>` → horas libres para ese día (cuenta las fechas de cola.json).
 2. Junta todas las franjas libres. Necesitas un vídeo por franja.
 3. **Crea siempre vídeos nuevos con el formato nuevo** (no reutilices los de `estado: "reserva"`, son del formato viejo que no funcionó):
    - Escribe un `guiones/lote_<siguiente número>.json` con el mismo formato que `guiones/lote_015.json`.
@@ -31,7 +31,7 @@ Datos fijos
 
 ## Formato nuevo (desde 27/10) — OBLIGATORIO
 Datos de las primeras 60 publicaciones: casi todos 0–30 views; el mejor (140) fue el del pósit de vacaciones (objeto reconocible + situación que todos viven). Por eso:
-- **11 s** (`"duracion": 11`), **3 escenas**: `objeto` → `movil` o `tabla` (la solución) → `cierre`. Ver ejemplo: `guiones/lote_072.json`.
+- **8,5 s** (`"duracion": 8.5`; más corto = más gente lo ve entero y se repite), **3 escenas**: `objeto` → `movil` o `tabla` (la solución) → `cierre`. Ver ejemplo: `guiones/lote_072.json`.
 - **1ª escena siempre `objeto`**: `pregunta` directa al DUEÑO (2.ª persona, ≤3 líneas, con su sector: "¿Tu bar todavía ficha así?") + un objeto reconocible:
   `postit` (texto manuscrito con \n), `papel` (lista: título + líneas manuscritas, p. ej. hoja de firmas) o `emoji` (uno grande y claro: 🧹 🍺 ✂️ 🦷 🔧 🏪 ⏰ 📋 📞 …). Opcional `subtitulo` corto.
   Es la portada (segundo 1): tiene que entenderse sin sonido en 1 vistazo.
@@ -51,3 +51,6 @@ Datos de las primeras 60 publicaciones: casi todos 0–30 views; el mejor (140) 
   (registro de jornada obligatorio desde 2019, conservar 4 años, a disposición de trabajadores e Inspección).
 - Textos cortos (máx. ~4 líneas de 2–4 palabras por escena), español de España, tuteo.
 - **Descripción fija para TODOS los Reels (orden de Nicks, no cambiarla):** `text` = "Link en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa". En `cola.json` guarda copy="Link en bio!!!" y hashtags="#fichaje #fichajedigital #fichalo #empresa".
+
+## Reels `saltado`
+Si el publicador estuvo parado, marca `saltado` los que llevan >3 h de retraso. Reutilízalos en las siguientes franjas libres (son vídeos buenos) antes de crear nuevos, y anótalo en registro.md.

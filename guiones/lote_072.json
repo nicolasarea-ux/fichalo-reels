@@ -3,7 +3,7 @@
   {
    "id": "72_hosteleria_firma-todo-el-mes",
    "tema": "hostelería: hoja de firmas rellenada de golpe a fin de mes",
-   "duracion": 11,
+   "duracion": 8.5,
    "escenas": [
     {
      "tipo": "objeto",
@@ -40,7 +40,8 @@
        "Salida 01:35"
       ]
      ],
-     "estado": "Todo registrado"
+     "estado": "Todo registrado",
+     "fondo": "claro"
     },
     {
      "tipo": "cierre",
@@ -54,7 +55,7 @@
   {
    "id": "73_limpieza_han-empezado",
    "tema": "limpieza: no saber si el equipo ha empezado en cada edificio",
-   "duracion": 11,
+   "duracion": 8.5,
    "escenas": [
     {
      "tipo": "objeto",
@@ -86,7 +87,8 @@
      "pie": [
       "Edificios cubiertos",
       "3 de 4"
-     ]
+     ],
+     "fondo": "claro"
     },
     {
      "tipo": "cierre",
@@ -100,13 +102,13 @@
   {
    "id": "74_clinica_postit-horas",
    "tema": "clínicas: horas de las auxiliares apuntadas en un pósit",
-   "duracion": 11,
+   "duracion": 8.5,
    "escenas": [
     {
      "tipo": "objeto",
      "pregunta": "¿Las horas de tu\nclínica están\nen un pósit?",
      "acento": "en un pósit",
-     "fondo": "menta",
+     "fondo": "oscuro",
      "postit": "Laura: 6h?\nMaite: salió\n¿a las 3?"
     },
     {
@@ -131,7 +133,8 @@
      "pie": [
       "Informe",
       "PDF / Excel"
-     ]
+     ],
+     "fondo": "claro"
     },
     {
      "tipo": "cierre",

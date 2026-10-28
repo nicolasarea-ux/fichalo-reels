@@ -107,48 +107,48 @@
    "publicado_en": "2026-10-28T20:22"
   },
   {
-   "id": "74_clinica_postit-horas",
-   "fecha": "2026-10-28T09:00",
-   "estado": "pendiente"
-  },
-  {
    "id": "73_limpieza_han-empezado",
-   "fecha": "2026-10-28T14:00",
+   "fecha": "2026-10-29T09:40",
    "estado": "pendiente"
   },
   {
-   "id": "60_dolor_whatsapp-ya-estoy",
-   "fecha": "2026-10-28T20:30",
+   "id": "74_clinica_postit-horas",
+   "fecha": "2026-10-30T09:40",
    "estado": "pendiente"
   },
   {
-   "id": "75_hosteleria_cuadrante-pared",
-   "fecha": "2026-10-29T09:00",
-   "estado": "pendiente"
-  },
-  {
-   "id": "76_gestoria_horas-en-fotos",
-   "fecha": "2026-10-29T14:00",
+   "id": "72_hosteleria_firma-todo-el-mes",
+   "fecha": "2026-10-31T09:40",
    "estado": "pendiente"
   },
   {
    "id": "77_tip_horas-semana-viernes",
-   "fecha": "2026-10-29T20:30",
+   "fecha": "2026-11-01T09:40",
    "estado": "pendiente"
   },
   {
-   "id": "78_limpieza_horas-varios-edificios",
-   "fecha": "2026-10-30T09:00",
-   "estado": "pendiente"
-  },
-  {
-   "id": "79_clinica-dental_vacaciones",
-   "fecha": "2026-10-30T14:00",
+   "id": "76_gestoria_horas-en-fotos",
+   "fecha": "2026-11-02T09:40",
    "estado": "pendiente"
   },
   {
    "id": "80_comercio_tablet-cada-tienda",
-   "fecha": "2026-10-30T20:30",
+   "fecha": "2026-11-03T09:40",
+   "estado": "pendiente"
+  },
+  {
+   "id": "78_limpieza_horas-varios-edificios",
+   "fecha": "2026-11-04T09:40",
+   "estado": "pendiente"
+  },
+  {
+   "id": "79_clinica-dental_vacaciones",
+   "fecha": "2026-11-05T09:40",
+   "estado": "pendiente"
+  },
+  {
+   "id": "75_hosteleria_cuadrante-pared",
+   "fecha": "2026-11-06T09:40",
    "estado": "pendiente"
   }
  ]

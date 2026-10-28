@@ -3,13 +3,13 @@
   {
    "id": "75_hosteleria_cuadrante-pared",
    "tema": "hostelería: el cuadrante de la pared no dice quién vino de verdad",
-   "duracion": 11,
+   "duracion": 8.5,
    "escenas": [
     {
      "tipo": "objeto",
      "pregunta": "¿Tu restaurante\nse fía del cuadrante?",
      "acento": "cuadrante",
-     "fondo": "cielo",
+     "fondo": "oscuro",
      "papel": [
       "Cuadrante · Sábado",
       "Sala   Ane    13–17",
@@ -38,7 +38,8 @@
        "Sin fichar"
       ]
      ],
-     "estado": "Aviso: Jon no ha fichado"
+     "estado": "Aviso: Jon no ha fichado",
+     "fondo": "claro"
     },
     {
      "tipo": "cierre",
@@ -52,13 +53,13 @@
   {
    "id": "76_gestoria_horas-en-fotos",
    "tema": "gestorías: clientes que mandan las horas en fotos de papel a fin de mes",
-   "duracion": 11,
+   "duracion": 8.5,
    "escenas": [
     {
      "tipo": "objeto",
      "pregunta": "¿Tus clientes te\nmandan las horas\nasí?",
      "acento": "así",
-     "fondo": "claro",
+     "fondo": "oscuro",
      "postit": "Horas oct:\nver foto 1, 2\ny la 3 borrosa",
      "subtitulo": "Gestorías y asesorías laborales"
     },
@@ -84,7 +85,8 @@
      "pie": [
       "Exportar",
       "PDF / Excel"
-     ]
+     ],
+     "fondo": "claro"
     },
     {
      "tipo": "cierre",
@@ -98,7 +100,7 @@
   {
    "id": "77_tip_horas-semana-viernes",
    "tema": "tip general: el viernes saber las horas de cada uno sin hacer cuentas",
-   "duracion": 11,
+   "duracion": 8.5,
    "escenas": [
     {
      "tipo": "objeto",
@@ -130,7 +132,8 @@
      "pie": [
       "Horas extra",
       "Marcadas"
-     ]
+     ],
+     "fondo": "claro"
     },
     {
      "tipo": "cierre",
@@ -144,13 +147,13 @@
   {
    "id": "78_limpieza_horas-varios-edificios",
    "tema": "limpieza: sumar las horas de una limpiadora que pasa por varios edificios",
-   "duracion": 11,
+   "duracion": 8.5,
    "escenas": [
     {
      "tipo": "objeto",
      "pregunta": "Rosa limpia en\n3 edificios. ¿Cuántas\nhoras hizo ayer?",
      "acento": "¿Cuántas\nhoras",
-     "fondo": "crema",
+     "fondo": "oscuro",
      "papel": [
       "Parte · Rosa",
       "Portal Sol     7–9 ?",
@@ -181,7 +184,8 @@
      "pie": [
       "Total",
       "7 h"
-     ]
+     ],
+     "fondo": "claro"
     },
     {
      "tipo": "cierre",
@@ -195,13 +199,13 @@
   {
    "id": "79_clinica-dental_vacaciones",
    "tema": "clínicas dentales: vacaciones de verano que se pisan entre higienistas",
-   "duracion": 11,
+   "duracion": 8.5,
    "escenas": [
     {
      "tipo": "objeto",
      "pregunta": "¿En tu clínica dental\nse pisan las\nvacaciones?",
      "acento": "se pisan",
-     "fondo": "menta",
+     "fondo": "oscuro",
      "emoji": "🦷",
      "subtitulo": "Agosto: dos higienistas, misma quincena"
     },
@@ -224,7 +228,8 @@
        "Pendiente"
       ]
      ],
-     "estado": "Sin solapes"
+     "estado": "Sin solapes",
+     "fondo": "claro"
     },
     {
      "tipo": "cierre",
@@ -238,13 +243,13 @@
   {
    "id": "80_comercio_tablet-cada-tienda",
    "tema": "comercio con varias tiendas: cada local ficha con código en su tablet y lo ves en un panel",
-   "duracion": 11,
+   "duracion": 8.5,
    "escenas": [
     {
      "tipo": "objeto",
      "pregunta": "Tienes 3 tiendas.\n¿Cómo fichan\nen cada una?",
      "acento": "¿Cómo fichan",
-     "fondo": "cielo",
+     "fondo": "oscuro",
      "emoji": "🏪",
      "subtitulo": "Comercio con varios locales"
     },
@@ -270,7 +275,8 @@
      "pie": [
       "Fichaje",
       "Código en tablet"
-     ]
+     ],
+     "fondo": "claro"
     },
     {
      "tipo": "cierre",

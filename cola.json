@@ -418,8 +418,7 @@
    "tema": "dolor: el 'ya estoy' por WhatsApp no es un registro de jornada",
    "copy": "Link en bio!!!",
    "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
-   "estado": "programado",
-   "fecha": "2026-10-28T20:30"
+   "estado": "reserva"
   },
   {
    "id": "61_sector_estudio-arquitectura",
@@ -502,7 +501,7 @@
    "id": "72_hosteleria_firma-todo-el-mes",
    "tema": "hostelería: hoja de firmas rellenada de golpe a fin de mes",
    "estado": "programado",
-   "fecha": "2026-10-27T20:30",
+   "fecha": "2026-10-31T09:40",
    "copy": "Link en bio!!!",
    "hashtags": "#fichaje #fichajedigital #fichalo #empresa"
   },
@@ -510,7 +509,7 @@
    "id": "73_limpieza_han-empezado",
    "tema": "limpieza: no saber si el equipo ha empezado en cada edificio",
    "estado": "programado",
-   "fecha": "2026-10-28T14:00",
+   "fecha": "2026-10-29T09:40",
    "copy": "Link en bio!!!",
    "hashtags": "#fichaje #fichajedigital #fichalo #empresa"
   },
@@ -518,7 +517,7 @@
    "id": "74_clinica_postit-horas",
    "tema": "clínicas: horas de las auxiliares apuntadas en un pósit",
    "estado": "programado",
-   "fecha": "2026-10-28T09:00",
+   "fecha": "2026-10-30T09:40",
    "copy": "Link en bio!!!",
    "hashtags": "#fichaje #fichajedigital #fichalo #empresa"
   },
@@ -528,7 +527,7 @@
    "copy": "Link en bio!!!",
    "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
    "estado": "programado",
-   "fecha": "2026-10-29T09:00"
+   "fecha": "2026-11-06T09:40"
   },
   {
    "id": "76_gestoria_horas-en-fotos",
@@ -536,7 +535,7 @@
    "copy": "Link en bio!!!",
    "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
    "estado": "programado",
-   "fecha": "2026-10-29T14:00"
+   "fecha": "2026-11-02T09:40"
   },
   {
    "id": "77_tip_horas-semana-viernes",
@@ -544,7 +543,7 @@
    "copy": "Link en bio!!!",
    "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
    "estado": "programado",
-   "fecha": "2026-10-29T20:30"
+   "fecha": "2026-11-01T09:40"
   },
   {
    "id": "78_limpieza_horas-varios-edificios",
@@ -552,7 +551,7 @@
    "copy": "Link en bio!!!",
    "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
    "estado": "programado",
-   "fecha": "2026-10-30T09:00"
+   "fecha": "2026-11-04T09:40"
   },
   {
    "id": "79_clinica-dental_vacaciones",
@@ -560,7 +559,7 @@
    "copy": "Link en bio!!!",
    "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
    "estado": "programado",
-   "fecha": "2026-10-30T14:00"
+   "fecha": "2026-11-05T09:40"
   },
   {
    "id": "80_comercio_tablet-cada-tienda",
@@ -568,7 +567,7 @@
    "copy": "Link en bio!!!",
    "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
    "estado": "programado",
-   "fecha": "2026-10-30T20:30"
+   "fecha": "2026-11-03T09:40"
   }
  ]
 }

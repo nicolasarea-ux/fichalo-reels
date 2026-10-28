@@ -8,8 +8,10 @@ import json, os, sys
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
-OBJETIVO = 3
-FIJAS = ["09:00", "14:00", "20:30"]  # con 3 al día, horas fijas
+# Recuperación tras el bloqueo: 1/día hasta el 4/11; luego 2/día. Horas = picos de la audiencia (Metricool: 10:00 y 18:00);
+# se programa 20 min antes porque GitHub Actions lanza el publicador con retraso.
+OBJETIVO = 1 if sys.argv[1] <= "2026-11-04" else 2
+FIJAS = ["09:40", "17:40"][:OBJETIVO]
 TZ = ZoneInfo("Europe/Madrid")
 # rejilla cada 15 min de 08:30 a 23:00
 REJILLA = [f"{h:02d}:{m:02d}" for h in range(8, 24) for m in (0, 15, 30, 45) if (8, 30) <= (h, m) <= (23, 0)]
