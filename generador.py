@@ -458,11 +458,36 @@ def render_reel(reel, out_path):
     os.remove(wav)
 
 
+def portada(reel, out_jpg):
+    """Miniatura de marca (1080x1920): el gancho de la 1.ª escena + firma de Fíchalo.
+    Lo importante queda dentro del recorte 3:4 de la cuadrícula de Instagram (y 240–1680)."""
+    sc = dict(reel["escenas"][0])
+    bg, els = scene_elements(sc)
+    img = render_frame(bg, els, 9.0, None).convert("RGBA")
+    oscuro = sc.get("fondo") == "oscuro"
+    d = ImageDraw.Draw(img)
+    # franja de marca abajo: logo + fichalo.app
+    lg = LOGO.resize((66, 88), Image.LANCZOS)
+    f = F(700, 52)
+    txt = "fichalo.app"
+    tw = d.textlength(txt, font=f)
+    x0 = int((W - (66 + 22 + tw)) / 2)
+    y0 = 1700
+    pill = rounded((int(66 + 22 + tw + 70), 124), 62, (255, 255, 255, 235) if oscuro else (18, 52, 96, 240))
+    img.alpha_composite(pill, (x0 - 35, y0 - 18))
+    img.alpha_composite(lg, (x0, y0))
+    d.text((x0 + 66 + 22, y0 + 14), txt, font=f, fill=NAVY if oscuro else WHITE)
+    img.convert("RGB").save(out_jpg, "JPEG", quality=90)
+
+
 if __name__ == "__main__":
     src, out_dir = sys.argv[1], sys.argv[2]
+    solo_portada = "--solo-portada" in sys.argv
     os.makedirs(out_dir, exist_ok=True)
     data = json.load(open(src, encoding="utf-8"))
     for reel in data["reels"]:
         p = os.path.join(out_dir, reel["id"] + ".mp4")
-        render_reel(reel, p)
+        if not solo_portada:
+            render_reel(reel, p)
+        portada(reel, os.path.join(out_dir, reel["id"] + ".jpg"))
         print("OK", p)

@@ -50,7 +50,11 @@ Datos de las primeras 60 publicaciones: casi todos 0–30 views; el mejor (140) 
 - **No inventes precios, cifras de clientes, testimonios ni funciones nuevas.** Datos legales solo si son ciertos
   (registro de jornada obligatorio desde 2019, conservar 4 años, a disposición de trabajadores e Inspección).
 - Textos cortos (máx. ~4 líneas de 2–4 palabras por escena), español de España, tuteo.
-- **Descripción fija para TODOS los Reels (orden de Nicks, no cambiarla):** `text` = "Link en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa". En `cola.json` guarda copy="Link en bio!!!" y hashtags="#fichaje #fichajedigital #fichalo #empresa".
+- **Descripción VARIADA en cada Reel (Nicks, 28/10)** — va en `publicaciones.json` → campo `copy` de cada reel (si falta, se usa "Link en bio!!!" + hashtags). Estructura:
+  1) gancho de 1 línea distinto al texto del vídeo, con 1 emoji; 2) 1 línea de valor (qué resuelve Fíchalo);
+  3) una pregunta o llamada que provoque comentarios / guardados / etiquetas ("¿Cómo lo lleváis? 👇", "Guárdalo para el viernes 📌", "Etiqueta a tu gestor/a");
+  4) `Link en bio!!!`; 5) línea en blanco + SIEMPRE `#fichaje #fichajedigital #fichalo #empresa` + 1–2 hashtags del nicho. No repitas la misma pregunta dos días seguidos. Ejemplos en publicaciones.json (73–80).
+- **Portada de marca obligatoria**: `generador.py` crea `videos/<id>.jpg` (gancho + firma fichalo.app). Súbela junto al .mp4; `publicar.py` la usa como portada. Para rehacer solo portadas: `python3 generador.py guiones/lote_X.json videos/ --solo-portada`.
 
 ## Reels `saltado`
 Si el publicador estuvo parado, marca `saltado` los que llevan >3 h de retraso. Reutilízalos en las siguientes franjas libres (son vídeos buenos) antes de crear nuevos, y anótalo en registro.md.

@@ -29,8 +29,15 @@ def call(method, path, **params):
 
 
 def publicar(reel):
+    extra = {}
+    portada = REPO_RAW + reel["id"] + ".jpg"
+    try:  # portada de marca si existe (videos/<id>.jpg); si no, el segundo 1 del vídeo
+        urllib.request.urlopen(urllib.request.Request(portada, method="HEAD"), timeout=20)
+        extra["cover_url"] = portada
+    except Exception:
+        extra["thumb_offset"] = 1000
     c = call("POST", f"{USER}/media", media_type="REELS", video_url=REPO_RAW + reel["id"] + ".mp4",
-             caption=CAPTION, thumb_offset=1000, share_to_feed="true")
+             caption=reel.get("copy") or CAPTION, share_to_feed="true", **extra)
     cid = c["id"]
     for _ in range(40):  # hasta ~10 min procesando
         st = call("GET", cid, fields="status_code")["status_code"]
