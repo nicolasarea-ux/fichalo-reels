@@ -117,38 +117,33 @@
    "estado": "pendiente"
   },
   {
-   "id": "72_hosteleria_firma-todo-el-mes",
+   "id": "77_tip_horas-semana-viernes",
    "fecha": "2026-10-31T09:40",
    "estado": "pendiente"
   },
   {
-   "id": "77_tip_horas-semana-viernes",
+   "id": "76_gestoria_horas-en-fotos",
    "fecha": "2026-11-01T09:40",
    "estado": "pendiente"
   },
   {
-   "id": "76_gestoria_horas-en-fotos",
+   "id": "80_comercio_tablet-cada-tienda",
    "fecha": "2026-11-02T09:40",
    "estado": "pendiente"
   },
   {
-   "id": "80_comercio_tablet-cada-tienda",
+   "id": "78_limpieza_horas-varios-edificios",
    "fecha": "2026-11-03T09:40",
    "estado": "pendiente"
   },
   {
-   "id": "78_limpieza_horas-varios-edificios",
+   "id": "79_clinica-dental_vacaciones",
    "fecha": "2026-11-04T09:40",
    "estado": "pendiente"
   },
   {
-   "id": "79_clinica-dental_vacaciones",
-   "fecha": "2026-11-05T09:40",
-   "estado": "pendiente"
-  },
-  {
    "id": "75_hosteleria_cuadrante-pared",
-   "fecha": "2026-11-06T09:40",
+   "fecha": "2026-11-05T09:40",
    "estado": "pendiente"
   }
  ]
