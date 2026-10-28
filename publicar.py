@@ -46,7 +46,11 @@ def publicar(reel):
 
 def main():
     # comprueba el token en cada pasada: si caduca, el workflow falla y GitHub avisa por email
-    yo = call("GET", "me", fields="user_id,username")
+    try:
+        yo = call("GET", "me", fields="user_id,username")
+    except Exception as e:  # p. ej. "API access blocked": se avisa en el log pero sin fallar (evita un email cada pasada)
+        print("::warning::Instagram rechaza el token/app:", e)
+        return
     print("Cuenta:", yo.get("username"), yo.get("user_id"))
     path = "publicaciones.json"
     data = json.load(open(path, encoding="utf-8"))
@@ -58,6 +62,8 @@ def main():
         t = datetime.fromisoformat(r["fecha"]).replace(tzinfo=TZ)
         if t > ahora:
             continue
+        if cambios >= 1:  # como mucho 1 Reel por pasada: si hubo un parón, no salen todos de golpe
+            break
         if ahora - t > timedelta(hours=6):  # muy atrasado: se publica igualmente, pero se anota
             r["nota"] = "publicado con retraso"
         try:
