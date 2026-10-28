@@ -23,8 +23,8 @@ Datos fijos
    - Añade cada reel a `cola.json` con `id, tema, copy, hashtags, estado: "pendiente"`.
 4. Por cada franja libre:
    - En `cola.json`: `estado: "programado"`, `fecha: <franja>`.
-   - En `publicaciones.json`: añade `{"id": <id>, "fecha": <franja>, "estado": "pendiente"}`.
-   (La descripción fija y la portada en el segundo 1 las pone `publicar.py`; no hay que tocarlas.)
+   - En `publicaciones.json`: añade `{"id": <id>, "fecha": <franja>, "estado": "pendiente", "copy": <descripción variada, ver reglas>}`.
+   - Sube también `videos/<id>.jpg` (portada de marca que crea generador.py); `publicar.py` la usa como portada.
 5. `git pull --rebase` (el publicador también hace commits), `git add -A && git commit && git push`. Comprueba con `curl -s -o /dev/null -w '%{http_code}' <URL pública>` que cada vídeo da 200.
 6. Revisa `publicaciones.json`: si hay reels con `estado: "error"` o con fecha pasada y aún `pendiente` (más de 1 h), anótalo en `registro.md` y avisa a Nicks (el publicador puede estar desactivado o el token caducado).
    Añade siempre una línea a `registro.md` con lo que se dejó programado. No inventes: si algo falla, anótalo.
@@ -41,8 +41,8 @@ Datos de las primeras 60 publicaciones: casi todos 0–30 views; el mejor (140) 
 - Si un vídeo publicado supera claramente al resto en views (Nicks lo dirá o lo verás en registro), haz variantes de ese formato.
 
 ## Reglas de contenido (Fíchalo, app de control horario/fichaje para pymes en España)
-- 15 s, 3–5 escenas, la última siempre `cierre`. Gancho fuerte en la primera escena (pregunta o dato).
-- Son 3 vídeos al día: cada uno tiene que ser bueno. Varía mucho. Combina sector × problema × función (ej. "farmacia + guardias + quién está trabajando"); un tema ya usado puede volver solo con un sector o un enfoque claramente distinto.
+- Duración y escenas: ver "Formato nuevo" (8,5 s, 3 escenas, la última siempre `cierre`).
+- Son 1–2 vídeos al día: cada uno tiene que ser bueno. Varía mucho. Combina sector × problema × función (ej. "farmacia + guardias + quién está trabajando"); un tema ya usado puede volver solo con un sector o un enfoque claramente distinto.
 - Rota ángulos: dolor, demo de función, sector (hostelería, comercio, taller, clínica, peluquería, gimnasio, limpieza, obra…), ley, tip, mito/realidad.
 - Funciones que SÍ existen (solo usa estas): fichar desde el móvil, con tarjeta o con código en tablet; avisos si alguien olvida fichar;
   ver quién está trabajando; horas por persona y horas extra; informes en PDF y Excel; vacaciones (pedir y aprobar);
