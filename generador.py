@@ -434,6 +434,9 @@ def render_reel(reel, out_path):
         starts.append(t)
         t += cierre_d if (cierre_d and i == len(escenas) - 1) else seg
     built = [scene_elements(s) for s in escenas]
+    # el primer fotograma ya muestra el gancho completo (sin aparecer en fundido): nadie ve un fondo vacío al hacer scroll
+    for e in built[0][1]:
+        e.t0, e.dur = -1.0, 0.01
     wav = out_path + ".wav"
     musica(len(escenas), starts, wav)
     ff = subprocess.Popen([

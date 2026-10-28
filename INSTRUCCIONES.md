@@ -35,7 +35,8 @@ Datos de las primeras 60 publicaciones: casi todos 0–30 views; el mejor (140) 
 - **1ª escena siempre `objeto`**: `pregunta` directa al DUEÑO (2.ª persona, ≤3 líneas, con su sector: "¿Tu bar todavía ficha así?") + un objeto reconocible:
   `postit` (texto manuscrito con \n), `papel` (lista: título + líneas manuscritas, p. ej. hoja de firmas) o `emoji` (uno grande y claro: 🧹 🍺 ✂️ 🦷 🔧 🏪 ⏰ 📋 📞 …). Opcional `subtitulo` corto.
   Es la portada (segundo 1): tiene que entenderse sin sonido en 1 vistazo.
-- Alterna `fondo`: `crema`, `menta`, `cielo`, `claro`, `oscuro` (no dos seguidos iguales).
+- **Datos 28/10 (Metricool)**: tiempo medio de visualización 1–2 s y <20 % pasa de 3 s → el gancho falla en el primer segundo. Los automáticos que mejor fueron (vacaciones-pósit 140, \"No quiero usar mi móvil para fichar\" 128, bar 1:30 72, \"tu trabajador te pide sus horas\" 67) abren con **fondo oscuro + una frase/situación real entre comillas o una pregunta muy concreta**. Prioriza `fondo: "oscuro"` en la 1.ª escena (2 de cada 3) y frases en boca del dueño o del trabajador. Los de apertura blanca y genérica (\"Farmacia.\", \"MITO:\") fueron los peores.
+- Las escenas 2 y 3 pueden alternar `fondo`: `crema`, `menta`, `cielo`, `claro`.
 - **Nichos prioritarios (~2 de cada 3 vídeos)**: hostelería (bares/restaurantes con turnos), empresas de limpieza (varios edificios), clínicas (dental/fisio/veterinaria), comercio con varios locales, y gestorías/asesorías laborales (vídeos que una gestoría compartiría con sus clientes). El 3.º: ley/mito/tip general.
 - Si un vídeo publicado supera claramente al resto en views (Nicks lo dirá o lo verás en registro), haz variantes de ese formato.
 
