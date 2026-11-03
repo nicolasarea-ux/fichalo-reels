@@ -1,0 +1,29 @@
+name: Descargar voces
+on:
+  push:
+    paths: ["assets/voz/PEDIR.txt"]
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  voces:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Descargar voces Piper en español (licencia en el .json de cada voz)
+        run: |
+          B=https://huggingface.co/rhasspy/piper-voices/resolve/main/es/es_ES
+          for v in davefx/medium/es_ES-davefx-medium sharvard/medium/es_ES-sharvard-medium; do
+            n=$(basename $v)
+            curl -sSL -o assets/voz/$n.onnx "$B/$v.onnx"
+            curl -sSL -o assets/voz/$n.onnx.json "$B/$v.onnx.json"
+          done
+          curl -sSL -o assets/voz/MODEL_CARD_davefx "$B/davefx/medium/MODEL_CARD" || true
+          curl -sSL -o assets/voz/MODEL_CARD_sharvard "$B/sharvard/medium/MODEL_CARD" || true
+          ls -la assets/voz
+      - name: Guardar
+        run: |
+          git config user.name "fichalo-bot"
+          git config user.email "fichalo-bot@users.noreply.github.com"
+          git add assets/voz
+          git commit -m "Voces Piper" && git pull --rebase && git push
