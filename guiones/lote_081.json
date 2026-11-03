@@ -1,0 +1,39 @@
+{
+ "reels": [
+  {
+   "id": "81_gestoria_te-las-mando-manana",
+   "tema": "gestorías: perseguir a los clientes a fin de mes porque las horas nunca llegan",
+   "duracion": 8.5,
+   "escenas": [
+    {
+     "tipo": "objeto",
+     "pregunta": "¿Día 30 y tu cliente\naún te dice esto?",
+     "acento": "esto",
+     "fondo": "oscuro",
+     "postit": "\"Las horas\nte las mando\nmañana, ¿vale?\"",
+     "subtitulo": "Gestorías y asesorías laborales"
+    },
+    {
+     "tipo": "tabla",
+     "titulo": "Si fichan en Fíchalo,\nel informe ya está",
+     "acento": "ya está",
+     "cabecera": "Informe · Octubre",
+     "filas": [
+      ["Sonia · Cocina", "164 h"],
+      ["Iker · Sala", "171 h"],
+      ["Paula · Barra", "96 h"]
+     ],
+     "pie": ["Exportar", "PDF / Excel"],
+     "fondo": "menta"
+    },
+    {
+     "tipo": "cierre",
+     "texto": "Recomiéndaselo\na tus clientes",
+     "acento": "tus clientes"
+    }
+   ],
+   "copy": "Link en bio!!!",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa"
+  }
+ ]
+}
