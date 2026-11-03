@@ -60,7 +60,7 @@
     {
      "escena": "caos",
      "voz": "Seis y diez de la mañana. Cuatro edificios. Y tú llamando uno por uno para saber si han llegado.",
-     "postit": "Edif. 1 ✓\nEdif. 3 ¿?\nRosa no coge"
+     "postit": "Edif. 1 ok\nEdif. 3 ¿?\nRosa no coge"
     },
     {
      "escena": "llega",
@@ -113,7 +113,7 @@
      "escena": "inspeccion",
      "voz": "Con Fíchalo, sacas el informe desde el móvil en un momento.",
      "pide": "Registro de jornada,\npor favor",
-     "da": "Informe PDF ✓"
+     "da": "Informe PDF"
     },
     {
      "escena": "feliz",
@@ -932,7 +932,7 @@
     },
     {
      "voz": "¿Cuántas llamadas haces cada mañana para saber si han llegado?",
-     "postit": "6:05 Rosa ✓\n6:12 Mari ¿?\n6:20 llamar"
+     "postit": "6:05 Rosa ok\n6:12 Mari ¿?\n6:20 llamar"
     },
     {
      "voz": "Con Fíchalo cada persona ficha al llegar al edificio, desde su móvil.",
@@ -1025,7 +1025,7 @@
     },
     {
      "voz": "Entonces sabes lo que es no saber quién ha abierto cada una.",
-     "postit": "Centro ✓\nLakua ¿?\nGamarra ¿?"
+     "postit": "Centro ok\nLakua ¿?\nGamarra ¿?"
     },
     {
      "voz": "Con Fíchalo, cada dependienta ficha en su tienda, con el móvil o con la tablet.",
@@ -1194,7 +1194,7 @@
      "pregunta": "¿Sabes quién falta hoy\nsin hacer llamadas?",
      "acento": "quién falta",
      "fondo": "oscuro",
-     "postit": "Rosa ✓\nMari ¿?\nLucía no coge",
+     "postit": "Rosa ok\nMari ¿?\nLucía no coge",
      "subtitulo": "Empresas de limpieza"
     },
     {

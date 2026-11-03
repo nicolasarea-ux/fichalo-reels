@@ -217,7 +217,8 @@ def monigote(img, x, y, t, pose="pie", dirx=1, s=1.0, cara="normal", acc=(), col
         d.chord((hc[0] - hr, hc[1] - hr, hc[0] + hr, hc[1] + hr), 180, 360, fill=color)
     if "gorra" in acc:
         d.chord((hc[0] - hr, hc[1] - hr - 6 * s, hc[0] + hr, hc[1] + hr * 0.6), 180, 360, fill=(40, 60, 90))
-        d.rectangle((hc[0], hc[1] - 18 * s, hc[0] + dirx * hr * 1.4, hc[1] - 6 * s), fill=(40, 60, 90))
+        xa, xb = sorted((hc[0], hc[0] + dirx * hr * 1.4))
+        d.rectangle((xa, hc[1] - 18 * s, xb, hc[1] - 6 * s), fill=(40, 60, 90))
     ex = hc[0] + dirx * 14 * s
     for dx in (-20, 20):
         d.ellipse((ex + dx * s - 7 * s, hc[1] - 8 * s - 7 * s, ex + dx * s + 7 * s, hc[1] - 8 * s + 7 * s), fill=color)
@@ -392,7 +393,7 @@ def esc_inspeccion(o):
         monigote(img, 280, 1560, t, "pie" if t < 0.8 else "movil", 1, 0.92, "feliz", o.get("acc", ("corbata",)))
         burbuja(img, 760, 820, o.get("pide", "Registro de jornada,\npor favor"), t, 0.0, size=40)
         if t > 0.9:
-            burbuja(img, 300, 1000, o.get("da", "Informe PDF ✓"), t, 0.9, color=(225, 245, 235), txt=BTN, size=44)
+            burbuja(img, 300, 1000, o.get("da", "Informe PDF"), t, 0.9, color=(225, 245, 235), txt=BTN, size=44, check=True)
     return draw, [("tap", 0.85, 0.8), ("sello", 1.0, 0.8), ("exito", 1.6, 0.5)]
 
 def esc_feliz(o):

@@ -29,7 +29,7 @@ add("82_monigotes_bar-dia-30", "monigotes", "hosteleria", "monigotes: dueño de 
 add("83_monigotes_limpieza-610", "monigotes", "limpieza", "monigotes: encargada de limpieza llamando a 4 edificios a las 6",
     copy("6:10 de la mañana y cuatro edificios por abrir 🧹", "Con Fíchalo sabes quién ha empezado y dónde sin hacer ni una llamada.", "limpieza"),
     titular="6:10. ¿Ha empezado ya tu equipo?", acento="6:10", escenas=[
-    {"escena": "caos", "voz": "Seis y diez de la mañana. Cuatro edificios. Y tú llamando uno por uno para saber si han llegado.", "postit": "Edif. 1 ✓\nEdif. 3 ¿?\nRosa no coge"},
+    {"escena": "caos", "voz": "Seis y diez de la mañana. Cuatro edificios. Y tú llamando uno por uno para saber si han llegado.", "postit": "Edif. 1 ok\nEdif. 3 ¿?\nRosa no coge"},
     {"escena": "llega", "voz": "Con Fíchalo, cada limpiadora ficha al llegar al edificio.", "lugar": "Edificio 3", "hora": "06:02", "acc": ["escoba"]},
     {"escena": "jefe_movil", "voz": "Y tú lo ves en el móvil, sin llamar a nadie.", "cab": "Quién está trabajando",
      "filas": [["Rosa · Edif. 1", "Fichó 05:58", OK], ["Mari · Edif. 3", "Fichó 06:02", OK], ["Lucía · Edif. 4", "Fichó 06:05", OK]]}])
@@ -37,7 +37,7 @@ add("84_monigotes_clinica-inspeccion", "monigotes", "clinica", "monigotes: llega
     copy("Llega Inspección a tu clínica y pide el registro de jornada 📋", "Con Fíchalo lo tienes en PDF en un clic, sin buscar hojas.", "clinica"),
     titular="Llega Inspección a tu clínica", acento="Inspección", escenas=[
     {"escena": "caos", "voz": "Llega Inspección y te pide el registro de jornada de todo el año.", "postit": "¿Hojas de marzo?\n¿Dónde están?"},
-    {"escena": "inspeccion", "voz": "Con Fíchalo, sacas el informe desde el móvil en un momento.", "pide": "Registro de jornada,\npor favor", "da": "Informe PDF ✓"},
+    {"escena": "inspeccion", "voz": "Con Fíchalo, sacas el informe desde el móvil en un momento.", "pide": "Registro de jornada,\npor favor", "da": "Informe PDF"},
     {"escena": "feliz", "voz": "Todo guardado, como pide la ley. Cuatro años.", "texto": "Registro en regla"}])
 add("85_monigotes_tienda-olvido", "monigotes", "comercio", "monigotes: dependienta se va sin fichar la salida y le llega el aviso",
     copy("Cierra la tienda y se va sin fichar la salida 🏪", "Fíchalo le avisa en el móvil y lo arregla en un segundo.", "comercio"),
@@ -174,7 +174,7 @@ add("105_voz_limpieza-sin-llamar", "voz", "limpieza", "voz: saber quién ha empe
     copy("Empresas de limpieza: deja de llamar a las 6 de la mañana 🧹", "Con Fíchalo ves quién ha fichado en cada edificio.", "limpieza"),
     titular="Empresas de limpieza: esto es para ti", acento="limpieza", frases=[
     {"voz": "¿Tienes una empresa de limpieza con gente en varios edificios?", "emoji": "🧹"},
-    {"voz": "¿Cuántas llamadas haces cada mañana para saber si han llegado?", "postit": "6:05 Rosa ✓\n6:12 Mari ¿?\n6:20 llamar"},
+    {"voz": "¿Cuántas llamadas haces cada mañana para saber si han llegado?", "postit": "6:05 Rosa ok\n6:12 Mari ¿?\n6:20 llamar"},
     {"voz": "Con Fíchalo cada persona ficha al llegar al edificio, desde su móvil.", "movil": {"cab": "Quién está trabajando", "filas": [["Rosa · Edif. 1", "Fichó 05:58", OK], ["Mari · Edif. 3", "Fichó 06:02", OK], ["Lucía · Edif. 4", "Fichó 06:05", OK]]}},
     {"voz": "Y tú lo ves todo sin hacer ni una llamada.", "emoji": "📵"}])
 add("106_voz_gestoria-reenvia", "voz", "gestoria", "voz: gestorías, el vídeo para mandar a los clientes",
@@ -188,7 +188,7 @@ add("107_voz_comercio-varias-tiendas", "voz", "comercio", "voz: varias tiendas, 
     copy("¿Tienes más de una tienda? Esto es para ti 🏪", "Con Fíchalo ves quién está en cada tienda desde el móvil.", "comercio"),
     titular="¿Tienes más de una tienda?", acento="más de una", frases=[
     {"voz": "¿Tienes más de una tienda?", "emoji": "🏪"},
-    {"voz": "Entonces sabes lo que es no saber quién ha abierto cada una.", "postit": "Centro ✓\nLakua ¿?\nGamarra ¿?"},
+    {"voz": "Entonces sabes lo que es no saber quién ha abierto cada una.", "postit": "Centro ok\nLakua ¿?\nGamarra ¿?"},
     {"voz": "Con Fíchalo, cada dependienta ficha en su tienda, con el móvil o con la tablet.", "emoji": "📱"},
     {"voz": "Y tú ves las tres a la vez, estés donde estés.", "movil": {"cab": "Tiendas · Hoy", "filas": [["Centro · Leire", "Fichó 09:56", OK], ["Lakua · Sara", "Fichó 09:59", OK], ["Gamarra · Ane", "Fichó 09:58", OK]]}}])
 add("108_voz_taller-horas-extra", "voz", "taller", "voz: horas extra en el taller sin pizarra",
@@ -221,7 +221,7 @@ postit_reel("110_postit_bar-extras-sabado", "hosteleria", "pósit: horas extra d
     "Pruébalo en\ntu bar", "tu bar")
 postit_reel("111_postit_limpieza-quien-falta", "limpieza", "pósit: quién falta hoy en limpieza",
     copy("¿Quién falta hoy? Si lo sabes por un pósit, mal empezamos 🧹", "Con Fíchalo lo ves en el móvil antes de que llame el cliente.", "limpieza"),
-    "¿Sabes quién falta hoy\nsin hacer llamadas?", "quién falta", "Rosa ✓\nMari ¿?\nLucía no coge", "Empresas de limpieza",
+    "¿Sabes quién falta hoy\nsin hacer llamadas?", "quién falta", "Rosa ok\nMari ¿?\nLucía no coge", "Empresas de limpieza",
     {"tipo": "movil", "titulo": "Míralo en el móvil", "acento": "móvil", "cabecera": "Quién está trabajando",
      "filas": [["Rosa · Edif. 1", "Fichó 05:58"], ["Mari · Edif. 3", "Fichó 06:02"], ["Lucía · Edif. 4", "Sin fichar"]], "estado": "Aviso enviado a Lucía", "fondo": "cielo"},
     "Pruébalo con\ntu equipo", "tu equipo")
