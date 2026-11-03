@@ -487,6 +487,13 @@ if __name__ == "__main__":
     data = json.load(open(src, encoding="utf-8"))
     for reel in data["reels"]:
         p = os.path.join(out_dir, reel["id"] + ".mp4")
+        if reel.get("formato"):
+            import formatos
+            if solo_portada:
+                print("--solo-portada no disponible para formato", reel["formato"])
+            formatos.render(reel, p, os.path.join(out_dir, reel["id"] + ".jpg"))
+            print("OK", p)
+            continue
         if not solo_portada:
             render_reel(reel, p)
         portada(reel, os.path.join(out_dir, reel["id"] + ".jpg"))

@@ -1,0 +1,1319 @@
+{
+ "reels": [
+  {
+   "id": "82_monigotes_bar-dia-30",
+   "formato": "monigotes",
+   "nicho": "hosteleria",
+   "tema": "monigotes: dueño de bar sumando horas el día 30",
+   "copy": "Día 30 en el bar: sumar las horas de 6 camareros a mano 🍺\nCon Fíchalo fichan desde el móvil y las horas salen ya sumadas.\n\n¿Te suena? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #bares",
+   "titular": "Día 30 en un bar con 6 camareros",
+   "acento": "Día 30",
+   "escenas": [
+    {
+     "escena": "caos",
+     "voz": "Es día treinta. Toca sumar las horas de seis camareros. Otra vez.",
+     "postit": "Iker: 38?\nAne: ver hoja\nJon: ¿extras?"
+    },
+    {
+     "escena": "llega",
+     "voz": "Con Fíchalo, cada camarero ficha desde el móvil al llegar.",
+     "lugar": "Bar Txoko",
+     "hora": "17:58",
+     "acc": [
+      "delantal"
+     ]
+    },
+    {
+     "escena": "jefe_movil",
+     "voz": "Y tú ves las horas de todos, ya sumadas.",
+     "cab": "Horas de octubre",
+     "sub": "Calculadas solas",
+     "filas": [
+      [
+       "Iker",
+       "162 h",
+       "1"
+      ],
+      [
+       "Ane",
+       "158 h",
+       "1"
+      ],
+      [
+       "Jon",
+       "171 h · 11 extra",
+       "1"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "83_monigotes_limpieza-610",
+   "formato": "monigotes",
+   "nicho": "limpieza",
+   "tema": "monigotes: encargada de limpieza llamando a 4 edificios a las 6",
+   "copy": "6:10 de la mañana y cuatro edificios por abrir 🧹\nCon Fíchalo sabes quién ha empezado y dónde sin hacer ni una llamada.\n\nGuárdalo para fin de mes 📌\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #limpieza #empresasdelimpieza",
+   "titular": "6:10. ¿Ha empezado ya tu equipo?",
+   "acento": "6:10",
+   "escenas": [
+    {
+     "escena": "caos",
+     "voz": "Seis y diez de la mañana. Cuatro edificios. Y tú llamando uno por uno para saber si han llegado.",
+     "postit": "Edif. 1 ✓\nEdif. 3 ¿?\nRosa no coge"
+    },
+    {
+     "escena": "llega",
+     "voz": "Con Fíchalo, cada limpiadora ficha al llegar al edificio.",
+     "lugar": "Edificio 3",
+     "hora": "06:02",
+     "acc": [
+      "escoba"
+     ]
+    },
+    {
+     "escena": "jefe_movil",
+     "voz": "Y tú lo ves en el móvil, sin llamar a nadie.",
+     "cab": "Quién está trabajando",
+     "filas": [
+      [
+       "Rosa · Edif. 1",
+       "Fichó 05:58",
+       "1"
+      ],
+      [
+       "Mari · Edif. 3",
+       "Fichó 06:02",
+       "1"
+      ],
+      [
+       "Lucía · Edif. 4",
+       "Fichó 06:05",
+       "1"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "84_monigotes_clinica-inspeccion",
+   "formato": "monigotes",
+   "nicho": "clinica",
+   "tema": "monigotes: llega Inspección a una clínica y piden el registro",
+   "copy": "Llega Inspección a tu clínica y pide el registro de jornada 📋\nCon Fíchalo lo tienes en PDF en un clic, sin buscar hojas.\n\nEtiqueta a quien necesita ver esto 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #clinicadental #clinicas",
+   "titular": "Llega Inspección a tu clínica",
+   "acento": "Inspección",
+   "escenas": [
+    {
+     "escena": "caos",
+     "voz": "Llega Inspección y te pide el registro de jornada de todo el año.",
+     "postit": "¿Hojas de marzo?\n¿Dónde están?"
+    },
+    {
+     "escena": "inspeccion",
+     "voz": "Con Fíchalo, sacas el informe desde el móvil en un momento.",
+     "pide": "Registro de jornada,\npor favor",
+     "da": "Informe PDF ✓"
+    },
+    {
+     "escena": "feliz",
+     "voz": "Todo guardado, como pide la ley. Cuatro años.",
+     "texto": "Registro en regla"
+    }
+   ]
+  },
+  {
+   "id": "85_monigotes_tienda-olvido",
+   "formato": "monigotes",
+   "nicho": "comercio",
+   "tema": "monigotes: dependienta se va sin fichar la salida y le llega el aviso",
+   "copy": "Cierra la tienda y se va sin fichar la salida 🏪\nFíchalo le avisa en el móvil y lo arregla en un segundo.\n\n¿Cómo lo hacéis vosotros? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #comercio #tiendas",
+   "titular": "Cierra la tienda y se olvida de fichar",
+   "acento": "se olvida",
+   "escenas": [
+    {
+     "escena": "olvido",
+     "voz": "Diez de la noche. Ane cierra la tienda y se va sin fichar la salida.",
+     "aviso": "¿Te has olvidado de\nfichar la salida?",
+     "ok": "Salida 22:01",
+     "minimo": 3.4
+    },
+    {
+     "escena": "jefe_movil",
+     "voz": "Fíchalo le avisa, ficha, y tú tienes las horas bien al día siguiente.",
+     "cab": "Tienda Gamarra",
+     "sub": "Hoy",
+     "filas": [
+      [
+       "Ane",
+       "14:00 – 22:01",
+       "1"
+      ],
+      [
+       "Leire",
+       "10:00 – 14:00",
+       "1"
+      ]
+     ]
+    },
+    {
+     "escena": "feliz",
+     "voz": "Sin hojas, sin corregir nada a fin de mes.",
+     "texto": "Horas correctas"
+    }
+   ]
+  },
+  {
+   "id": "86_monigotes_taller-viernes",
+   "formato": "monigotes",
+   "nicho": "taller",
+   "tema": "monigotes: viernes en el taller calculando horas extra",
+   "copy": "Viernes en el taller: ¿cuántas horas extra ha hecho cada uno? 🔧\nCon Fíchalo las horas extra salen solas, persona a persona.\n\nMándaselo a tu socio/a 📲\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #taller #talleres",
+   "titular": "Viernes en el taller: ¿y las horas extra?",
+   "acento": "horas extra",
+   "escenas": [
+    {
+     "escena": "calcula",
+     "voz": "Viernes. ¿Cuántas horas extra han hecho tus mecánicos esta semana? Ni idea.",
+     "numeros": [
+      "41h?",
+      "¿38?",
+      "+3?",
+      "44?"
+     ]
+    },
+    {
+     "escena": "llega",
+     "voz": "Si fichan con el móvil al entrar y al salir...",
+     "lugar": "Taller Zabala",
+     "hora": "07:55"
+    },
+    {
+     "escena": "jefe_movil",
+     "voz": "Fíchalo te da las horas extra de cada uno, sin calculadora.",
+     "cab": "Esta semana",
+     "sub": "Horas extra",
+     "filas": [
+      [
+       "Unai",
+       "43 h · 3 extra",
+       "1"
+      ],
+      [
+       "Mikel",
+       "40 h",
+       "1"
+      ],
+      [
+       "Josu",
+       "44 h · 4 extra",
+       "1"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "87_monigotes_gestoria-papeles",
+   "formato": "monigotes",
+   "nicho": "gestoria",
+   "tema": "monigotes: gestor recibiendo horas de 20 clientes en papeles y fotos",
+   "copy": "Gestorías: final de mes y las horas de los clientes llegan así 📲\nSi tus clientes fichan con Fíchalo, te pasan un Excel limpio.\n\n¿Te ha pasado? Cuéntamelo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #gestoria #asesorialaboral",
+   "titular": "Fin de mes en una gestoría",
+   "acento": "gestoría",
+   "escenas": [
+    {
+     "escena": "caos",
+     "voz": "Fin de mes en la gestoría. Las horas de los clientes llegan en fotos, papeles y audios.",
+     "postit": "Bar Iruña: foto\nTaller: mañana\nTienda: ¿?"
+    },
+    {
+     "escena": "jefe_movil",
+     "voz": "Si tus clientes fichan con Fíchalo, te mandan un informe limpio en PDF o Excel.",
+     "cab": "Informe · Octubre",
+     "sub": "Exportar a Excel",
+     "filas": [
+      [
+       "Sonia",
+       "164 h",
+       "1"
+      ],
+      [
+       "Iker",
+       "171 h",
+       "1"
+      ],
+      [
+       "Paula",
+       "96 h",
+       "1"
+      ]
+     ]
+    },
+    {
+     "escena": "feliz",
+     "voz": "Nóminas sin perseguir a nadie.",
+     "texto": "Nóminas listas"
+    }
+   ]
+  },
+  {
+   "id": "88_monigotes_peluqueria-turnos",
+   "formato": "monigotes",
+   "nicho": "peluqueria",
+   "tema": "monigotes: peluquería con turnos partidos, quién está ahora",
+   "copy": "Peluquería con turnos partidos: ¿quién está ahora mismo? ✂️\nCon Fíchalo lo ves en el móvil, aunque no estés en el salón.\n\nComparte con tu gestor/a 📲\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #peluqueria #salondebelleza",
+   "titular": "¿Quién está ahora en tu peluquería?",
+   "acento": "ahora",
+   "escenas": [
+    {
+     "escena": "caos",
+     "voz": "Turnos partidos, dos salones, y tú sin saber quién está ahora mismo.",
+     "postit": "Nerea: tarde?\nSara: ¿partido?\nLeire: libra"
+    },
+    {
+     "escena": "llega",
+     "voz": "Cada una ficha al llegar, desde su móvil.",
+     "lugar": "Salón Centro",
+     "hora": "15:58",
+     "acc": [
+      "pelo"
+     ]
+    },
+    {
+     "escena": "jefe_movil",
+     "voz": "Y tú ves quién está trabajando en cada salón.",
+     "cab": "Quién está trabajando",
+     "filas": [
+      [
+       "Nerea · Centro",
+       "Fichó 15:58",
+       "1"
+      ],
+      [
+       "Sara · Lakua",
+       "Fichó 16:01",
+       "1"
+      ],
+      [
+       "Leire",
+       "Libre hoy",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "89_chat_peluqueria-foto-borrosa",
+   "formato": "chat",
+   "nicho": "peluqueria",
+   "tema": "chat: peluquera manda sus horas en foto borrosa",
+   "copy": "Fin de mes en una peluquería: las horas llegan en una foto borrosa 📸\nCon Fíchalo se apuntan solas cada día.\n\n¿Te suena? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #peluqueria #salondebelleza",
+   "titular": "Cada fin de mes en una peluquería:",
+   "acento": "fin de mes",
+   "contacto": "Nerea (peluquera)",
+   "mensajes": [
+    {
+     "de": "el",
+     "texto": "Hola! Te paso mis horas de octubre"
+    },
+    {
+     "de": "el",
+     "foto": [
+      "Horas · Nerea",
+      "lun 9-14 / 16-20",
+      "mar 9-14 ¿?",
+      "mié libre",
+      "jue 10-20"
+     ]
+    },
+    {
+     "de": "yo",
+     "texto": "Nerea, no se lee nada. ¿El martes saliste a las 2?"
+    },
+    {
+     "de": "el",
+     "texto": "Creo que sí... o a las 3, no me acuerdo"
+    }
+   ],
+   "giro": {
+    "texto": "O que se apunten solas",
+    "acento": "solas",
+    "cab": "Horas de octubre",
+    "filas": [
+     [
+      "Nerea",
+      "148 h",
+      "1"
+     ],
+     [
+      "Leire",
+      "151 h",
+      "1"
+     ],
+     [
+      "Sara",
+      "139 h",
+      "1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "90_chat_bar-horas-extra",
+   "formato": "chat",
+   "nicho": "hosteleria",
+   "tema": "chat: camarero reclama horas extra que nadie apuntó",
+   "copy": "Tu camarero te reclama 20 horas extra. ¿Cómo sabes si es verdad? 🍺\nCon Fíchalo cada hora queda registrada, para él y para ti.\n\nGuárdalo para fin de mes 📌\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #bares",
+   "titular": "Cuando un camarero te escribe esto:",
+   "acento": "esto",
+   "contacto": "Jon (camarero)",
+   "mensajes": [
+    {
+     "de": "el",
+     "texto": "Jefe, en octubre hice unas 20 horas extra"
+    },
+    {
+     "de": "el",
+     "texto": "¿Me las pagas este mes?"
+    },
+    {
+     "de": "yo",
+     "texto": "¿20? Yo calculo que como mucho 10..."
+    },
+    {
+     "de": "el",
+     "texto": "Pues yo me quedé casi todos los sábados"
+    },
+    {
+     "de": "yo",
+     "texto": "¿Y dónde lo tenemos apuntado?"
+    }
+   ],
+   "giro": {
+    "texto": "Con Fíchalo, no hay discusión",
+    "acento": "no hay discusión",
+    "cab": "Jon · Octubre",
+    "sub": "Horas extra",
+    "filas": [
+     [
+      "Semana 1",
+      "+3 h",
+      "1"
+     ],
+     [
+      "Semana 2",
+      "+4 h",
+      "1"
+     ],
+     [
+      "Semana 3",
+      "+2 h",
+      "1"
+     ],
+     [
+      "Total",
+      "9 h extra",
+      "1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "91_chat_limpieza-edificio-3",
+   "formato": "chat",
+   "nicho": "limpieza",
+   "tema": "chat: encargada pregunta si alguien ha llegado al edificio 3",
+   "copy": "6:30 y el cliente pregunta si ya habéis empezado en su edificio 🧹\nCon Fíchalo lo ves al momento: quién ha fichado y dónde.\n\nEtiqueta a quien necesita ver esto 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #limpieza #empresasdelimpieza",
+   "titular": "6:30 en una empresa de limpieza:",
+   "acento": "6:30",
+   "contacto": "Cliente · Edificio 3",
+   "mensajes": [
+    {
+     "de": "el",
+     "texto": "Buenos días, ¿hoy viene alguien a limpiar el portal?"
+    },
+    {
+     "de": "yo",
+     "texto": "Sí, Rosa entra a las 6. Ahora la llamo"
+    },
+    {
+     "de": "yo",
+     "texto": "No me coge... te digo algo enseguida"
+    },
+    {
+     "de": "el",
+     "texto": "Es que aquí no hay nadie todavía"
+    }
+   ],
+   "giro": {
+    "texto": "O míralo en un segundo",
+    "acento": "un segundo",
+    "cab": "Quién está trabajando",
+    "filas": [
+     [
+      "Rosa · Edif. 3",
+      "Fichó 06:04",
+      "1"
+     ],
+     [
+      "Mari · Edif. 1",
+      "Fichó 05:58",
+      "1"
+     ],
+     [
+      "Lucía · Edif. 4",
+      "Fichó 06:02",
+      "1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "92_chat_gestoria-mananate-las-paso",
+   "formato": "chat",
+   "nicho": "gestoria",
+   "tema": "chat: gestor pide horas para nóminas y el cliente las retrasa",
+   "copy": "Gestor/a: ¿cuántas veces has escrito este mensaje este mes? 📲\nSi tu cliente usa Fíchalo, las horas salen en un Excel en un clic.\n\n¿Cómo lo hacéis vosotros? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #gestoria #asesorialaboral",
+   "titular": "El chat de una gestoría el día 28:",
+   "acento": "día 28",
+   "contacto": "Bar Iruña (cliente)",
+   "mensajes": [
+    {
+     "de": "yo",
+     "texto": "Hola! ¿Me pasas las horas de octubre para las nóminas?"
+    },
+    {
+     "de": "el",
+     "texto": "Sí sí, mañana te las paso"
+    },
+    {
+     "de": "yo",
+     "texto": "Hola de nuevo, ¿y las horas? Cierro nóminas hoy"
+    },
+    {
+     "de": "el",
+     "foto": [
+      "Cuadrante oct.",
+      "Iker: igual que sept.",
+      "Ane: +2 sábados",
+      "Jon: ver audio"
+     ]
+    }
+   ],
+   "giro": {
+    "texto": "Si fichan con Fíchalo:",
+    "acento": "Fíchalo",
+    "cab": "Bar Iruña · Octubre",
+    "sub": "Exportado a Excel",
+    "filas": [
+     [
+      "Iker",
+      "160 h",
+      "1"
+     ],
+     [
+      "Ane",
+      "168 h",
+      "1"
+     ],
+     [
+      "Jon",
+      "152 h",
+      "1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "93_chat_clinica-mis-horas",
+   "formato": "chat",
+   "nicho": "clinica",
+   "tema": "chat: higienista pide sus horas del mes",
+   "copy": "Tu higienista te pide sus horas del mes. ¿Las tienes? 🦷\nEn Fíchalo cada persona puede ver sus propias horas.\n\nMándaselo a tu socio/a 📲\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #clinicadental #clinicas",
+   "titular": "Tu higienista te escribe esto:",
+   "acento": "esto",
+   "contacto": "Maite (higienista)",
+   "mensajes": [
+    {
+     "de": "el",
+     "texto": "Hola! ¿Me puedes pasar mis horas de octubre?"
+    },
+    {
+     "de": "el",
+     "texto": "Creo que me falta una tarde en la nómina"
+    },
+    {
+     "de": "yo",
+     "texto": "Uf, lo tengo en la libreta de recepción, lo miro"
+    },
+    {
+     "de": "yo",
+     "texto": "La libreta no está... ¿te acuerdas qué tarde fue?"
+    }
+   ],
+   "giro": {
+    "texto": "Con Fíchalo, ella misma lo ve",
+    "acento": "ella misma",
+    "cab": "Maite · Octubre",
+    "sub": "Sus horas, en su móvil",
+    "filas": [
+     [
+      "Semana 1",
+      "30 h",
+      "1"
+     ],
+     [
+      "Semana 2",
+      "34 h",
+      "1"
+     ],
+     [
+      "Semana 3",
+      "30 h",
+      "1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "94_chat_comercio-quien-abre",
+   "formato": "chat",
+   "nicho": "comercio",
+   "tema": "chat: dueño de 3 tiendas pregunta quién ha abierto",
+   "copy": "Tres tiendas y a las 10:05 no sabes cuál ha abierto 🏪\nCon Fíchalo ves quién ha fichado en cada tienda.\n\n¿Te ha pasado? Cuéntamelo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #comercio #tiendas",
+   "titular": "Tienes 3 tiendas y son las 10:05",
+   "acento": "10:05",
+   "contacto": "Leire (encargada)",
+   "mensajes": [
+    {
+     "de": "yo",
+     "texto": "Leire, ¿alguien ha abierto ya la tienda de Lakua?"
+    },
+    {
+     "de": "el",
+     "texto": "Ni idea, yo estoy en la del centro"
+    },
+    {
+     "de": "el",
+     "texto": "Llamo a Sara a ver"
+    },
+    {
+     "de": "el",
+     "texto": "Dice que está aparcando, que llega en 10 min"
+    }
+   ],
+   "giro": {
+    "texto": "O míralo sin llamar a nadie",
+    "acento": "sin llamar",
+    "cab": "Tiendas · Hoy",
+    "filas": [
+     [
+      "Centro · Leire",
+      "Fichó 09:56",
+      "1"
+     ],
+     [
+      "Lakua · Sara",
+      "Sin fichar",
+      ""
+     ],
+     [
+      "Gamarra · Ane",
+      "Fichó 09:58",
+      "1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "95_chat_taller-me-quede",
+   "formato": "chat",
+   "nicho": "taller",
+   "tema": "chat: mecánico dice que se quedó 2 horas más",
+   "copy": "\"El viernes me quedé dos horas más\". ¿Y tú cómo lo compruebas? 🔧\nCon Fíchalo las horas extra quedan registradas solas.\n\nComparte con tu gestor/a 📲\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #taller #talleres",
+   "titular": "Lunes por la mañana en el taller:",
+   "acento": "Lunes",
+   "contacto": "Unai (mecánico)",
+   "mensajes": [
+    {
+     "de": "el",
+     "texto": "Jefe, el viernes me quedé 2 horas más con la furgoneta"
+    },
+    {
+     "de": "el",
+     "texto": "Apúntamelo como extra porfa"
+    },
+    {
+     "de": "yo",
+     "texto": "Vale, ¿dónde lo apunto? ¿en la pizarra?"
+    },
+    {
+     "de": "el",
+     "texto": "En la pizarra ya no cabe, ponlo en la hoja de la oficina"
+    }
+   ],
+   "giro": {
+    "texto": "O que quede apuntado solo",
+    "acento": "solo",
+    "cab": "Unai · Esta semana",
+    "sub": "Horas extra",
+    "filas": [
+     [
+      "Viernes",
+      "08:00 – 19:05",
+      "1"
+     ],
+     [
+      "Extra",
+      "+2 h",
+      "1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "96_quiz_legal-o-multa-1",
+   "formato": "quiz",
+   "nicho": "taller",
+   "tema": "quiz: Somos 4 en el taller, así que no llevamo / Mis trabajadores fichan desde el móvil.",
+   "copy": "¿Legal o multa? 2 preguntas sobre el registro de jornada ⚖️\nCon Fíchalo tu registro de jornada está siempre en regla.\n\n¿Te suena? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #taller #talleres",
+   "preguntas": [
+    {
+     "situacion": "Somos 4 en el taller, así que no llevamos registro de jornada.",
+     "respuesta": "MULTA",
+     "porque": "El registro es obligatorio en todas las empresas, tengan los trabajadores que tengan.",
+     "acento_porque": "todas"
+    },
+    {
+     "situacion": "Mis trabajadores fichan desde el móvil.",
+     "respuesta": "LEGAL",
+     "porque": "La ley no obliga a un sistema concreto: vale si es fiable y refleja la jornada real.",
+     "acento_porque": "fiable"
+    }
+   ]
+  },
+  {
+   "id": "97_quiz_legal-o-multa-2",
+   "formato": "quiz",
+   "nicho": "ley",
+   "tema": "quiz: Borro los registros de jornada cada año  / Un trabajador me pide ver sus registros ",
+   "copy": "¿Cuántas aciertas? Registro de jornada, versión rápida ⚖️\nCon Fíchalo tu registro de jornada está siempre en regla.\n\nGuárdalo para fin de mes 📌\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #registrodejornada #pymes",
+   "preguntas": [
+    {
+     "situacion": "Borro los registros de jornada cada año para no acumular papeles.",
+     "respuesta": "MULTA",
+     "porque": "Hay que conservarlos 4 años.",
+     "acento_porque": "4 años"
+    },
+    {
+     "situacion": "Un trabajador me pide ver sus registros y le digo que no.",
+     "respuesta": "MULTA",
+     "porque": "Los registros tienen que estar a disposición de los trabajadores.",
+     "acento_porque": "trabajadores"
+    }
+   ]
+  },
+  {
+   "id": "98_quiz_legal-o-multa-3",
+   "formato": "quiz",
+   "nicho": "ley",
+   "tema": "quiz: Solo apuntamos la hora de entrada. / Llevamos el registro en una hoja de pape",
+   "copy": "Test express para dueños de negocio: ¿legal o multa? ⚖️\nCon Fíchalo tu registro de jornada está siempre en regla.\n\nEtiqueta a quien necesita ver esto 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #registrodejornada #pymes",
+   "preguntas": [
+    {
+     "situacion": "Solo apuntamos la hora de entrada.",
+     "respuesta": "MULTA",
+     "porque": "El registro incluye la hora de inicio y la de fin de la jornada de cada persona.",
+     "acento_porque": "inicio y la de fin"
+    },
+    {
+     "situacion": "Llevamos el registro en una hoja de papel que firman cada día.",
+     "respuesta": "LEGAL",
+     "porque": "El papel vale, si se rellena cada día con las horas reales.",
+     "acento_porque": "cada día"
+    }
+   ]
+  },
+  {
+   "id": "99_quiz_legal-o-multa-4",
+   "formato": "quiz",
+   "nicho": "hosteleria",
+   "tema": "quiz: Los que trabajan a media jornada no fich / Inspección pide el registro y se lo doy ",
+   "copy": "2 situaciones que vemos cada semana en bares. ¿Legal o multa? ⚖️\nCon Fíchalo tu registro de jornada está siempre en regla.\n\n¿Cómo lo hacéis vosotros? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #bares",
+   "preguntas": [
+    {
+     "situacion": "Los que trabajan a media jornada no fichan.",
+     "respuesta": "MULTA",
+     "porque": "También hay que registrar la jornada de quien trabaja a tiempo parcial.",
+     "acento_porque": "tiempo parcial"
+    },
+    {
+     "situacion": "Inspección pide el registro y se lo doy en un informe en PDF.",
+     "respuesta": "LEGAL",
+     "porque": "El registro tiene que estar a disposición de la Inspección de Trabajo.",
+     "acento_porque": "Inspección"
+    }
+   ]
+  },
+  {
+   "id": "100_quiz_legal-o-multa-5",
+   "formato": "quiz",
+   "nicho": "clinica",
+   "tema": "quiz: A fin de mes relleno yo las horas de tod / Mis empleados pueden consultar sus horas",
+   "copy": "Clínicas: ¿legal o multa? ⚖️\nCon Fíchalo tu registro de jornada está siempre en regla.\n\nMándaselo a tu socio/a 📲\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #clinicadental #clinicas",
+   "preguntas": [
+    {
+     "situacion": "A fin de mes relleno yo las horas de todos, de memoria.",
+     "respuesta": "MULTA",
+     "porque": "El registro es diario, con la hora real de inicio y fin.",
+     "acento_porque": "diario"
+    },
+    {
+     "situacion": "Mis empleados pueden consultar sus horas en la app.",
+     "respuesta": "LEGAL",
+     "porque": "Al contrario: tienen derecho a acceder a sus registros.",
+     "acento_porque": "derecho"
+    }
+   ]
+  },
+  {
+   "id": "101_quiz_legal-o-multa-6",
+   "formato": "quiz",
+   "nicho": "comercio",
+   "tema": "quiz: Hacen horas extra y no las apuntamos. / Guardo los registros de jornada durante ",
+   "copy": "Si tienes tienda, haz este test de 10 segundos ⚖️\nCon Fíchalo tu registro de jornada está siempre en regla.\n\n¿Te ha pasado? Cuéntamelo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #comercio #tiendas",
+   "preguntas": [
+    {
+     "situacion": "Hacen horas extra y no las apuntamos.",
+     "respuesta": "MULTA",
+     "porque": "Las horas extra también tienen que quedar registradas.",
+     "acento_porque": "también"
+    },
+    {
+     "situacion": "Guardo los registros de jornada durante 4 años.",
+     "respuesta": "LEGAL",
+     "porque": "Es justo lo que pide la ley.",
+     "acento_porque": "la ley"
+    }
+   ]
+  },
+  {
+   "id": "102_quiz_legal-o-multa-7",
+   "formato": "quiz",
+   "nicho": "limpieza",
+   "tema": "quiz: En la clínica hay turnos y cada uno fich / Tengo 3 centros y solo registro las hora",
+   "copy": "Empresas con varios centros: ¿legal o multa? ⚖️\nCon Fíchalo tu registro de jornada está siempre en regla.\n\nComparte con tu gestor/a 📲\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #limpieza #empresasdelimpieza",
+   "preguntas": [
+    {
+     "situacion": "En la clínica hay turnos y cada uno ficha en el suyo.",
+     "respuesta": "LEGAL",
+     "porque": "Cada persona registra su jornada, sea cual sea su turno.",
+     "acento_porque": "su jornada"
+    },
+    {
+     "situacion": "Tengo 3 centros y solo registro las horas en el principal.",
+     "respuesta": "MULTA",
+     "porque": "Hay que registrar la jornada de cada trabajador, esté en el centro que esté.",
+     "acento_porque": "cada trabajador"
+    }
+   ]
+  },
+  {
+   "id": "103_voz_clinica-postit",
+   "formato": "voz",
+   "nicho": "clinica",
+   "tema": "voz: clínica que apunta horas en pósits",
+   "copy": "Si tienes una clínica, esto te interesa 🦷\nFichaje desde el móvil y el informe para Inspección en un clic.\n\n¿Te suena? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #clinicadental #clinicas",
+   "titular": "Si tienes una clínica, mira esto",
+   "acento": "clínica",
+   "frases": [
+    {
+     "voz": "¿Tus higienistas apuntan las horas en un pósit?",
+     "postit": "Laura: 6h?\nMaite: salió\n¿a las 3?"
+    },
+    {
+     "voz": "Si viene Inspección, eso no te sirve.",
+     "emoji": "📋"
+    },
+    {
+     "voz": "Con Fíchalo fichan desde el móvil, y tú lo ves todo en tiempo real.",
+     "movil": {
+      "cab": "Clínica Dental Arana",
+      "filas": [
+       [
+        "Laura",
+        "Fichó 08:58",
+        "1"
+       ],
+       [
+        "Maite",
+        "Fichó 09:02",
+        "1"
+       ],
+       [
+        "Iratxe",
+        "Fichó 14:57",
+        "1"
+       ]
+      ]
+     }
+    },
+    {
+     "voz": "Y el informe para Inspección, en un clic.",
+     "emoji": "✅"
+    }
+   ]
+  },
+  {
+   "id": "104_voz_bar-3-errores",
+   "formato": "voz",
+   "nicho": "hosteleria",
+   "tema": "voz: 3 errores con el fichaje en un bar",
+   "copy": "3 errores con el fichaje que vemos en casi todos los bares 🍺\nFíchalo los resuelve desde el móvil de cada camarero.\n\nGuárdalo para fin de mes 📌\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #bares",
+   "titular": "3 errores con el fichaje en tu bar",
+   "acento": "3 errores",
+   "frases": [
+    {
+     "voz": "Tres errores con el fichaje que vemos en casi todos los bares.",
+     "numero": "3"
+    },
+    {
+     "voz": "Uno: la hoja de firmas que se rellena el día treinta.",
+     "papel": [
+      "Registro · Octubre",
+      "Iker 8:00 – 16:00",
+      "Iker 8:00 – 16:00",
+      "Iker 8:00 – 16:00",
+      "(firmado el día 30)"
+     ]
+    },
+    {
+     "voz": "Dos: las horas extra que nadie apunta.",
+     "emoji": "⏰"
+    },
+    {
+     "voz": "Tres: no saber quién está trabajando ahora mismo.",
+     "emoji": "❓"
+    },
+    {
+     "voz": "Con Fíchalo, los tres resueltos desde el móvil.",
+     "movil": {
+      "cab": "Bar Txoko",
+      "filas": [
+       [
+        "Iker",
+        "Fichó 17:58",
+        "1"
+       ],
+       [
+        "Ane",
+        "Fichó 18:02",
+        "1"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "105_voz_limpieza-sin-llamar",
+   "formato": "voz",
+   "nicho": "limpieza",
+   "tema": "voz: saber quién ha empezado en cada edificio sin llamar",
+   "copy": "Empresas de limpieza: deja de llamar a las 6 de la mañana 🧹\nCon Fíchalo ves quién ha fichado en cada edificio.\n\nEtiqueta a quien necesita ver esto 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #limpieza #empresasdelimpieza",
+   "titular": "Empresas de limpieza: esto es para ti",
+   "acento": "limpieza",
+   "frases": [
+    {
+     "voz": "¿Tienes una empresa de limpieza con gente en varios edificios?",
+     "emoji": "🧹"
+    },
+    {
+     "voz": "¿Cuántas llamadas haces cada mañana para saber si han llegado?",
+     "postit": "6:05 Rosa ✓\n6:12 Mari ¿?\n6:20 llamar"
+    },
+    {
+     "voz": "Con Fíchalo cada persona ficha al llegar al edificio, desde su móvil.",
+     "movil": {
+      "cab": "Quién está trabajando",
+      "filas": [
+       [
+        "Rosa · Edif. 1",
+        "Fichó 05:58",
+        "1"
+       ],
+       [
+        "Mari · Edif. 3",
+        "Fichó 06:02",
+        "1"
+       ],
+       [
+        "Lucía · Edif. 4",
+        "Fichó 06:05",
+        "1"
+       ]
+      ]
+     }
+    },
+    {
+     "voz": "Y tú lo ves todo sin hacer ni una llamada.",
+     "emoji": "📵"
+    }
+   ]
+  },
+  {
+   "id": "106_voz_gestoria-reenvia",
+   "formato": "voz",
+   "nicho": "gestoria",
+   "tema": "voz: gestorías, el vídeo para mandar a los clientes",
+   "copy": "Gestoría: mándale este vídeo al cliente que siempre te pasa las horas tarde 📲\nCon Fíchalo las horas salen en PDF o Excel, listas para nóminas.\n\n¿Cómo lo hacéis vosotros? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #gestoria #asesorialaboral",
+   "titular": "Gestoría: manda esto a tus clientes",
+   "acento": "Gestoría",
+   "frases": [
+    {
+     "voz": "Si eres gestor, manda este vídeo a tus clientes.",
+     "emoji": "📲"
+    },
+    {
+     "voz": "Ese cliente que te pasa las horas en fotos, audios y papeles.",
+     "postit": "Horas oct:\nver foto 1, 2\ny la 3 borrosa"
+    },
+    {
+     "voz": "Con Fíchalo, su equipo ficha desde el móvil.",
+     "emoji": "📱"
+    },
+    {
+     "voz": "Y tú recibes un Excel limpio, listo para nóminas.",
+     "movil": {
+      "cab": "Informe · Octubre",
+      "sub": "Exportar a Excel",
+      "filas": [
+       [
+        "Sonia",
+        "164 h",
+        "1"
+       ],
+       [
+        "Iker",
+        "171 h",
+        "1"
+       ],
+       [
+        "Paula",
+        "96 h",
+        "1"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "107_voz_comercio-varias-tiendas",
+   "formato": "voz",
+   "nicho": "comercio",
+   "tema": "voz: varias tiendas, quién está en cada una",
+   "copy": "¿Tienes más de una tienda? Esto es para ti 🏪\nCon Fíchalo ves quién está en cada tienda desde el móvil.\n\nMándaselo a tu socio/a 📲\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #comercio #tiendas",
+   "titular": "¿Tienes más de una tienda?",
+   "acento": "más de una",
+   "frases": [
+    {
+     "voz": "¿Tienes más de una tienda?",
+     "emoji": "🏪"
+    },
+    {
+     "voz": "Entonces sabes lo que es no saber quién ha abierto cada una.",
+     "postit": "Centro ✓\nLakua ¿?\nGamarra ¿?"
+    },
+    {
+     "voz": "Con Fíchalo, cada dependienta ficha en su tienda, con el móvil o con la tablet.",
+     "emoji": "📱"
+    },
+    {
+     "voz": "Y tú ves las tres a la vez, estés donde estés.",
+     "movil": {
+      "cab": "Tiendas · Hoy",
+      "filas": [
+       [
+        "Centro · Leire",
+        "Fichó 09:56",
+        "1"
+       ],
+       [
+        "Lakua · Sara",
+        "Fichó 09:59",
+        "1"
+       ],
+       [
+        "Gamarra · Ane",
+        "Fichó 09:58",
+        "1"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "108_voz_taller-horas-extra",
+   "formato": "voz",
+   "nicho": "taller",
+   "tema": "voz: horas extra en el taller sin pizarra",
+   "copy": "¿En tu taller las horas extra se apuntan en una pizarra? 🔧\nCon Fíchalo se calculan solas, persona a persona.\n\n¿Te ha pasado? Cuéntamelo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #taller #talleres",
+   "titular": "Las horas extra de tu taller",
+   "acento": "horas extra",
+   "frases": [
+    {
+     "voz": "¿En tu taller las horas extra se apuntan en una pizarra?",
+     "emoji": "🔧"
+    },
+    {
+     "voz": "Y a fin de mes nadie se acuerda de quién se quedó y cuánto.",
+     "postit": "Unai +2?\nJosu viernes\n¿Mikel?"
+    },
+    {
+     "voz": "Con Fíchalo, cada mecánico ficha al entrar y al salir.",
+     "emoji": "📱"
+    },
+    {
+     "voz": "Y las horas extra salen solas, persona a persona.",
+     "movil": {
+      "cab": "Horas extra · Octubre",
+      "filas": [
+       [
+        "Unai",
+        "+9 h",
+        "1"
+       ],
+       [
+        "Josu",
+        "+6 h",
+        "1"
+       ],
+       [
+        "Mikel",
+        "+2 h",
+        "1"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "109_voz_ley-3-cosas",
+   "formato": "voz",
+   "nicho": "ley",
+   "tema": "voz: 3 cosas que tiene que cumplir el registro de jornada",
+   "copy": "3 cosas que tiene que cumplir tu registro de jornada ⚖️\nFíchalo cumple las tres sin que tengas que pensar en ello.\n\nComparte con tu gestor/a 📲\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #registrodejornada #pymes",
+   "titular": "3 cosas que pide la ley de tu registro",
+   "acento": "3 cosas",
+   "frases": [
+    {
+     "voz": "Tres cosas que tiene que cumplir tu registro de jornada.",
+     "numero": "3"
+    },
+    {
+     "voz": "Uno: hora de inicio y de fin, cada día, de cada trabajador.",
+     "emoji": "⏰"
+    },
+    {
+     "voz": "Dos: guardarlo cuatro años.",
+     "numero": "4"
+    },
+    {
+     "voz": "Tres: que lo puedan ver tus trabajadores y la Inspección.",
+     "emoji": "📋"
+    },
+    {
+     "voz": "Con Fíchalo, las tres, desde el móvil.",
+     "emoji": "✅"
+    }
+   ]
+  },
+  {
+   "id": "110_postit_bar-extras-sabado",
+   "formato": "postit",
+   "nicho": "hosteleria",
+   "tema": "pósit: horas extra del sábado en un bar",
+   "copy": "Las extras del sábado, apuntadas en un pósit en la caja 🍺\nCon Fíchalo quedan registradas solas.\n\n¿Te suena? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #bares",
+   "duracion": 8.5,
+   "escenas": [
+    {
+     "tipo": "objeto",
+     "pregunta": "¿Las extras del sábado\nestán apuntadas así?",
+     "acento": "así",
+     "fondo": "oscuro",
+     "postit": "Sábado:\nJon +2 ¿o 3?\nAne hasta cierre",
+     "subtitulo": "Hostelería"
+    },
+    {
+     "tipo": "tabla",
+     "titulo": "Con Fíchalo,\nse apuntan solas",
+     "acento": "solas",
+     "cabecera": "Horas extra · Sábado",
+     "filas": [
+      [
+       "Jon · Sala",
+       "+3 h"
+      ],
+      [
+       "Ane · Barra",
+       "+2 h"
+      ],
+      [
+       "Iker · Cocina",
+       "+1 h"
+      ]
+     ],
+     "pie": [
+      "Total",
+      "6 h"
+     ],
+     "fondo": "menta"
+    },
+    {
+     "tipo": "cierre",
+     "texto": "Pruébalo en\ntu bar",
+     "acento": "tu bar"
+    }
+   ]
+  },
+  {
+   "id": "111_postit_limpieza-quien-falta",
+   "formato": "postit",
+   "nicho": "limpieza",
+   "tema": "pósit: quién falta hoy en limpieza",
+   "copy": "¿Quién falta hoy? Si lo sabes por un pósit, mal empezamos 🧹\nCon Fíchalo lo ves en el móvil antes de que llame el cliente.\n\nGuárdalo para fin de mes 📌\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #limpieza #empresasdelimpieza",
+   "duracion": 8.5,
+   "escenas": [
+    {
+     "tipo": "objeto",
+     "pregunta": "¿Sabes quién falta hoy\nsin hacer llamadas?",
+     "acento": "quién falta",
+     "fondo": "oscuro",
+     "postit": "Rosa ✓\nMari ¿?\nLucía no coge",
+     "subtitulo": "Empresas de limpieza"
+    },
+    {
+     "tipo": "movil",
+     "titulo": "Míralo en el móvil",
+     "acento": "móvil",
+     "cabecera": "Quién está trabajando",
+     "filas": [
+      [
+       "Rosa · Edif. 1",
+       "Fichó 05:58"
+      ],
+      [
+       "Mari · Edif. 3",
+       "Fichó 06:02"
+      ],
+      [
+       "Lucía · Edif. 4",
+       "Sin fichar"
+      ]
+     ],
+     "estado": "Aviso enviado a Lucía",
+     "fondo": "cielo"
+    },
+    {
+     "tipo": "cierre",
+     "texto": "Pruébalo con\ntu equipo",
+     "acento": "tu equipo"
+    }
+   ]
+  },
+  {
+   "id": "112_postit_gestoria-nominas",
+   "formato": "postit",
+   "nicho": "gestoria",
+   "tema": "pósit: gestoría con horas para nóminas en pósit",
+   "copy": "Las horas para nóminas no deberían llegar en un pósit 📲\nSi tus clientes fichan con Fíchalo, recibes un Excel limpio.\n\nEtiqueta a quien necesita ver esto 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #gestoria #asesorialaboral",
+   "duracion": 8.5,
+   "escenas": [
+    {
+     "tipo": "objeto",
+     "pregunta": "¿Las horas para nóminas\nte llegan así?",
+     "acento": "así",
+     "fondo": "oscuro",
+     "postit": "Iker: igual\nque el mes pasado\nAne: +2",
+     "subtitulo": "Gestorías y asesorías"
+    },
+    {
+     "tipo": "tabla",
+     "titulo": "O en un Excel,\nlisto para nóminas",
+     "acento": "listo",
+     "cabecera": "Informe · Octubre",
+     "filas": [
+      [
+       "Iker",
+       "160 h"
+      ],
+      [
+       "Ane",
+       "168 h"
+      ],
+      [
+       "Jon",
+       "152 h"
+      ]
+     ],
+     "pie": [
+      "Exportar",
+      "PDF / Excel"
+     ],
+     "fondo": "menta"
+    },
+    {
+     "tipo": "cierre",
+     "texto": "Recomiéndaselo\na tus clientes",
+     "acento": "tus clientes"
+    }
+   ]
+  },
+  {
+   "id": "113_postit_comercio-cambio-turno",
+   "formato": "postit",
+   "nicho": "comercio",
+   "tema": "pósit: cambio de turno apuntado en pósit en la tienda",
+   "copy": "Cambios de turno apuntados en un pósit pegado a la caja 🏪\nCon Fíchalo cada uno ficha su turno real y tú lo ves todo.\n\n¿Cómo lo hacéis vosotros? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #comercio #tiendas",
+   "duracion": 8.5,
+   "escenas": [
+    {
+     "tipo": "objeto",
+     "pregunta": "¿Los cambios de turno\nse apuntan así?",
+     "acento": "así",
+     "fondo": "oscuro",
+     "postit": "Sara cambia\ncon Leire\n¿el jueves?",
+     "subtitulo": "Comercio"
+    },
+    {
+     "tipo": "movil",
+     "titulo": "Cada una ficha\nsu turno real",
+     "acento": "turno real",
+     "cabecera": "Tienda Centro · Jueves",
+     "filas": [
+      [
+       "Leire",
+       "10:00 – 14:00"
+      ],
+      [
+       "Sara",
+       "16:00 – 20:30"
+      ]
+     ],
+     "estado": "Horas al día",
+     "fondo": "cielo"
+    },
+    {
+     "tipo": "cierre",
+     "texto": "Pruébalo en\ntu tienda",
+     "acento": "tu tienda"
+    }
+   ]
+  }
+ ]
+}

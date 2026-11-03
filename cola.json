@@ -527,7 +527,8 @@
    "copy": "El cuadrante en la pared dice una cosa. La realidad, otra 🍽️\nCon Fíchalo ves quién entró y a qué hora, de verdad.\n\n¿Tu restaurante tiene cuadrante en la pared? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #restaurantes",
    "hashtags": "",
    "estado": "programado",
-   "fecha": "2026-11-05T09:40"
+   "fecha": "2026-11-05T12:40",
+   "formato": "postit"
   },
   {
    "id": "76_gestoria_horas-en-fotos",
@@ -559,7 +560,8 @@
    "copy": "Agosto. Dos higienistas de vacaciones la misma quincena 😬\nCon Fíchalo las piden desde la app y tú ves los choques antes de aprobar.\n\n¿Os ha pasado? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #clinicadental #vacaciones",
    "hashtags": "",
    "estado": "programado",
-   "fecha": "2026-11-04T09:40"
+   "fecha": "2026-11-04T09:40",
+   "formato": "postit"
   },
   {
    "id": "80_comercio_tablet-cada-tienda",
@@ -575,7 +577,296 @@
    "copy": "A fin de mes siempre es lo mismo: \"mañana te las paso\" 📲\nSi tus clientes fichan con Fíchalo, las horas salen en PDF o Excel, sin perseguir a nadie.\n\n¿Qué cliente te viene a la cabeza? Etiquétalo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #gestoria #asesorialaboral",
    "hashtags": "",
    "estado": "programado",
+   "fecha": "2026-11-06T14:40",
+   "formato": "postit"
+  },
+  {
+   "id": "82_monigotes_bar-dia-30",
+   "tema": "monigotes: dueño de bar sumando horas el día 30",
+   "formato": "monigotes",
+   "copy": "Día 30 en el bar: sumar las horas de 6 camareros a mano 🍺\nCon Fíchalo fichan desde el móvil y las horas salen ya sumadas.\n\n¿Te suena? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #bares",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "programado",
+   "fecha": "2026-11-04T12:40"
+  },
+  {
+   "id": "89_chat_peluqueria-foto-borrosa",
+   "tema": "chat: peluquera manda sus horas en foto borrosa",
+   "formato": "chat",
+   "copy": "Fin de mes en una peluquería: las horas llegan en una foto borrosa 📸\nCon Fíchalo se apuntan solas cada día.\n\n¿Te suena? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #peluqueria #salondebelleza",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "programado",
+   "fecha": "2026-11-04T14:40"
+  },
+  {
+   "id": "96_quiz_legal-o-multa-1",
+   "tema": "quiz: Somos 4 en el taller, así que no llevamo / Mis trabajadores fichan desde el móvil.",
+   "formato": "quiz",
+   "copy": "¿Legal o multa? 2 preguntas sobre el registro de jornada ⚖️\nCon Fíchalo tu registro de jornada está siempre en regla.\n\n¿Te suena? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #taller #talleres",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "programado",
+   "fecha": "2026-11-04T17:40"
+  },
+  {
+   "id": "103_voz_clinica-postit",
+   "tema": "voz: clínica que apunta horas en pósits",
+   "formato": "voz",
+   "copy": "Si tienes una clínica, esto te interesa 🦷\nFichaje desde el móvil y el informe para Inspección en un clic.\n\n¿Te suena? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #clinicadental #clinicas",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "programado",
+   "fecha": "2026-11-04T20:40"
+  },
+  {
+   "id": "104_voz_bar-3-errores",
+   "tema": "voz: 3 errores con el fichaje en un bar",
+   "formato": "voz",
+   "copy": "3 errores con el fichaje que vemos en casi todos los bares 🍺\nFíchalo los resuelve desde el móvil de cada camarero.\n\nGuárdalo para fin de mes 📌\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #bares",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "programado",
+   "fecha": "2026-11-05T09:40"
+  },
+  {
+   "id": "83_monigotes_limpieza-610",
+   "tema": "monigotes: encargada de limpieza llamando a 4 edificios a las 6",
+   "formato": "monigotes",
+   "copy": "6:10 de la mañana y cuatro edificios por abrir 🧹\nCon Fíchalo sabes quién ha empezado y dónde sin hacer ni una llamada.\n\nGuárdalo para fin de mes 📌\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #limpieza #empresasdelimpieza",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "programado",
+   "fecha": "2026-11-05T14:40"
+  },
+  {
+   "id": "90_chat_bar-horas-extra",
+   "tema": "chat: camarero reclama horas extra que nadie apuntó",
+   "formato": "chat",
+   "copy": "Tu camarero te reclama 20 horas extra. ¿Cómo sabes si es verdad? 🍺\nCon Fíchalo cada hora queda registrada, para él y para ti.\n\nGuárdalo para fin de mes 📌\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #bares",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "programado",
    "fecha": "2026-11-05T17:40"
+  },
+  {
+   "id": "97_quiz_legal-o-multa-2",
+   "tema": "quiz: Borro los registros de jornada cada año  / Un trabajador me pide ver sus registros ",
+   "formato": "quiz",
+   "copy": "¿Cuántas aciertas? Registro de jornada, versión rápida ⚖️\nCon Fíchalo tu registro de jornada está siempre en regla.\n\nGuárdalo para fin de mes 📌\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #registrodejornada #pymes",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "programado",
+   "fecha": "2026-11-05T20:40"
+  },
+  {
+   "id": "98_quiz_legal-o-multa-3",
+   "tema": "quiz: Solo apuntamos la hora de entrada. / Llevamos el registro en una hoja de pape",
+   "formato": "quiz",
+   "copy": "Test express para dueños de negocio: ¿legal o multa? ⚖️\nCon Fíchalo tu registro de jornada está siempre en regla.\n\nEtiqueta a quien necesita ver esto 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #registrodejornada #pymes",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "programado",
+   "fecha": "2026-11-06T09:40"
+  },
+  {
+   "id": "105_voz_limpieza-sin-llamar",
+   "tema": "voz: saber quién ha empezado en cada edificio sin llamar",
+   "formato": "voz",
+   "copy": "Empresas de limpieza: deja de llamar a las 6 de la mañana 🧹\nCon Fíchalo ves quién ha fichado en cada edificio.\n\nEtiqueta a quien necesita ver esto 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #limpieza #empresasdelimpieza",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "programado",
+   "fecha": "2026-11-06T12:40"
+  },
+  {
+   "id": "84_monigotes_clinica-inspeccion",
+   "tema": "monigotes: llega Inspección a una clínica y piden el registro",
+   "formato": "monigotes",
+   "copy": "Llega Inspección a tu clínica y pide el registro de jornada 📋\nCon Fíchalo lo tienes en PDF en un clic, sin buscar hojas.\n\nEtiqueta a quien necesita ver esto 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #clinicadental #clinicas",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "programado",
+   "fecha": "2026-11-08T09:40"
+  },
+  {
+   "id": "91_chat_limpieza-edificio-3",
+   "tema": "chat: encargada pregunta si alguien ha llegado al edificio 3",
+   "formato": "chat",
+   "copy": "6:30 y el cliente pregunta si ya habéis empezado en su edificio 🧹\nCon Fíchalo lo ves al momento: quién ha fichado y dónde.\n\nEtiqueta a quien necesita ver esto 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #limpieza #empresasdelimpieza",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "programado",
+   "fecha": "2026-11-06T20:40"
+  },
+  {
+   "id": "92_chat_gestoria-mananate-las-paso",
+   "tema": "chat: gestor pide horas para nóminas y el cliente las retrasa",
+   "formato": "chat",
+   "copy": "Gestor/a: ¿cuántas veces has escrito este mensaje este mes? 📲\nSi tu cliente usa Fíchalo, las horas salen en un Excel en un clic.\n\n¿Cómo lo hacéis vosotros? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #gestoria #asesorialaboral",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "programado",
+   "fecha": "2026-11-07T09:40"
+  },
+  {
+   "id": "99_quiz_legal-o-multa-4",
+   "tema": "quiz: Los que trabajan a media jornada no fich / Inspección pide el registro y se lo doy ",
+   "formato": "quiz",
+   "copy": "2 situaciones que vemos cada semana en bares. ¿Legal o multa? ⚖️\nCon Fíchalo tu registro de jornada está siempre en regla.\n\n¿Cómo lo hacéis vosotros? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #bares",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "programado",
+   "fecha": "2026-11-07T12:40"
+  },
+  {
+   "id": "106_voz_gestoria-reenvia",
+   "tema": "voz: gestorías, el vídeo para mandar a los clientes",
+   "formato": "voz",
+   "copy": "Gestoría: mándale este vídeo al cliente que siempre te pasa las horas tarde 📲\nCon Fíchalo las horas salen en PDF o Excel, listas para nóminas.\n\n¿Cómo lo hacéis vosotros? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #gestoria #asesorialaboral",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "programado",
+   "fecha": "2026-11-07T14:40"
+  },
+  {
+   "id": "110_postit_bar-extras-sabado",
+   "tema": "pósit: horas extra del sábado en un bar",
+   "formato": "postit",
+   "copy": "Las extras del sábado, apuntadas en un pósit en la caja 🍺\nCon Fíchalo quedan registradas solas.\n\n¿Te suena? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #bares",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "programado",
+   "fecha": "2026-11-07T17:40"
+  },
+  {
+   "id": "85_monigotes_tienda-olvido",
+   "tema": "monigotes: dependienta se va sin fichar la salida y le llega el aviso",
+   "formato": "monigotes",
+   "copy": "Cierra la tienda y se va sin fichar la salida 🏪\nFíchalo le avisa en el móvil y lo arregla en un segundo.\n\n¿Cómo lo hacéis vosotros? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #comercio #tiendas",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "programado",
+   "fecha": "2026-11-07T20:40"
+  },
+  {
+   "id": "86_monigotes_taller-viernes",
+   "tema": "monigotes: viernes en el taller calculando horas extra",
+   "formato": "monigotes",
+   "copy": "Viernes en el taller: ¿cuántas horas extra ha hecho cada uno? 🔧\nCon Fíchalo las horas extra salen solas, persona a persona.\n\nMándaselo a tu socio/a 📲\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #taller #talleres",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "programado",
+   "fecha": "2026-11-06T17:40"
+  },
+  {
+   "id": "93_chat_clinica-mis-horas",
+   "tema": "chat: higienista pide sus horas del mes",
+   "formato": "chat",
+   "copy": "Tu higienista te pide sus horas del mes. ¿Las tienes? 🦷\nEn Fíchalo cada persona puede ver sus propias horas.\n\nMándaselo a tu socio/a 📲\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #clinicadental #clinicas",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "programado",
+   "fecha": "2026-11-08T12:40"
+  },
+  {
+   "id": "100_quiz_legal-o-multa-5",
+   "tema": "quiz: A fin de mes relleno yo las horas de tod / Mis empleados pueden consultar sus horas",
+   "formato": "quiz",
+   "copy": "Clínicas: ¿legal o multa? ⚖️\nCon Fíchalo tu registro de jornada está siempre en regla.\n\nMándaselo a tu socio/a 📲\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #clinicadental #clinicas",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "programado",
+   "fecha": "2026-11-08T14:40"
+  },
+  {
+   "id": "107_voz_comercio-varias-tiendas",
+   "tema": "voz: varias tiendas, quién está en cada una",
+   "formato": "voz",
+   "copy": "¿Tienes más de una tienda? Esto es para ti 🏪\nCon Fíchalo ves quién está en cada tienda desde el móvil.\n\nMándaselo a tu socio/a 📲\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #comercio #tiendas",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "programado",
+   "fecha": "2026-11-08T17:40"
+  },
+  {
+   "id": "111_postit_limpieza-quien-falta",
+   "tema": "pósit: quién falta hoy en limpieza",
+   "formato": "postit",
+   "copy": "¿Quién falta hoy? Si lo sabes por un pósit, mal empezamos 🧹\nCon Fíchalo lo ves en el móvil antes de que llame el cliente.\n\nGuárdalo para fin de mes 📌\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #limpieza #empresasdelimpieza",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "programado",
+   "fecha": "2026-11-08T20:40"
+  },
+  {
+   "id": "112_postit_gestoria-nominas",
+   "tema": "pósit: gestoría con horas para nóminas en pósit",
+   "formato": "postit",
+   "copy": "Las horas para nóminas no deberían llegar en un pósit 📲\nSi tus clientes fichan con Fíchalo, recibes un Excel limpio.\n\nEtiqueta a quien necesita ver esto 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #gestoria #asesorialaboral",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "programado",
+   "fecha": "2026-11-09T09:40"
+  },
+  {
+   "id": "87_monigotes_gestoria-papeles",
+   "tema": "monigotes: gestor recibiendo horas de 20 clientes en papeles y fotos",
+   "formato": "monigotes",
+   "copy": "Gestorías: final de mes y las horas de los clientes llegan así 📲\nSi tus clientes fichan con Fíchalo, te pasan un Excel limpio.\n\n¿Te ha pasado? Cuéntamelo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #gestoria #asesorialaboral",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "programado",
+   "fecha": "2026-11-09T12:40"
+  },
+  {
+   "id": "94_chat_comercio-quien-abre",
+   "tema": "chat: dueño de 3 tiendas pregunta quién ha abierto",
+   "formato": "chat",
+   "copy": "Tres tiendas y a las 10:05 no sabes cuál ha abierto 🏪\nCon Fíchalo ves quién ha fichado en cada tienda.\n\n¿Te ha pasado? Cuéntamelo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #comercio #tiendas",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "programado",
+   "fecha": "2026-11-09T14:40"
+  },
+  {
+   "id": "101_quiz_legal-o-multa-6",
+   "tema": "quiz: Hacen horas extra y no las apuntamos. / Guardo los registros de jornada durante ",
+   "formato": "quiz",
+   "copy": "Si tienes tienda, haz este test de 10 segundos ⚖️\nCon Fíchalo tu registro de jornada está siempre en regla.\n\n¿Te ha pasado? Cuéntamelo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #comercio #tiendas",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "programado",
+   "fecha": "2026-11-09T17:40"
+  },
+  {
+   "id": "108_voz_taller-horas-extra",
+   "tema": "voz: horas extra en el taller sin pizarra",
+   "formato": "voz",
+   "copy": "¿En tu taller las horas extra se apuntan en una pizarra? 🔧\nCon Fíchalo se calculan solas, persona a persona.\n\n¿Te ha pasado? Cuéntamelo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #taller #talleres",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "programado",
+   "fecha": "2026-11-09T20:40"
+  },
+  {
+   "id": "109_voz_ley-3-cosas",
+   "tema": "voz: 3 cosas que tiene que cumplir el registro de jornada",
+   "formato": "voz",
+   "copy": "3 cosas que tiene que cumplir tu registro de jornada ⚖️\nFíchalo cumple las tres sin que tengas que pensar en ello.\n\nComparte con tu gestor/a 📲\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #registrodejornada #pymes",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "programado",
+   "fecha": "2026-11-10T09:40"
+  },
+  {
+   "id": "113_postit_comercio-cambio-turno",
+   "tema": "pósit: cambio de turno apuntado en pósit en la tienda",
+   "formato": "postit",
+   "copy": "Cambios de turno apuntados en un pósit pegado a la caja 🏪\nCon Fíchalo cada uno ficha su turno real y tú lo ves todo.\n\n¿Cómo lo hacéis vosotros? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #comercio #tiendas",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "programado",
+   "fecha": "2026-11-10T12:40"
+  },
+  {
+   "id": "88_monigotes_peluqueria-turnos",
+   "tema": "monigotes: peluquería con turnos partidos, quién está ahora",
+   "formato": "monigotes",
+   "copy": "Peluquería con turnos partidos: ¿quién está ahora mismo? ✂️\nCon Fíchalo lo ves en el móvil, aunque no estés en el salón.\n\nComparte con tu gestor/a 📲\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #peluqueria #salondebelleza",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "programado",
+   "fecha": "2026-11-10T14:40"
+  },
+  {
+   "id": "95_chat_taller-me-quede",
+   "tema": "chat: mecánico dice que se quedó 2 horas más",
+   "formato": "chat",
+   "copy": "\"El viernes me quedé dos horas más\". ¿Y tú cómo lo compruebas? 🔧\nCon Fíchalo las horas extra quedan registradas solas.\n\nComparte con tu gestor/a 📲\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #taller #talleres",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "programado",
+   "fecha": "2026-11-10T17:40"
+  },
+  {
+   "id": "102_quiz_legal-o-multa-7",
+   "tema": "quiz: En la clínica hay turnos y cada uno fich / Tengo 3 centros y solo registro las hora",
+   "formato": "quiz",
+   "copy": "Empresas con varios centros: ¿legal o multa? ⚖️\nCon Fíchalo tu registro de jornada está siempre en regla.\n\nComparte con tu gestor/a 📲\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #limpieza #empresasdelimpieza",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "programado",
+   "fecha": "2026-11-10T20:40"
   }
  ]
 }

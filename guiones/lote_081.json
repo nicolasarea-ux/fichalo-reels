@@ -19,11 +19,23 @@
      "acento": "ya está",
      "cabecera": "Informe · Octubre",
      "filas": [
-      ["Sonia · Cocina", "164 h"],
-      ["Iker · Sala", "171 h"],
-      ["Paula · Barra", "96 h"]
+      [
+       "Sonia · Cocina",
+       "164 h"
+      ],
+      [
+       "Iker · Sala",
+       "171 h"
+      ],
+      [
+       "Paula · Barra",
+       "96 h"
+      ]
      ],
-     "pie": ["Exportar", "PDF / Excel"],
+     "pie": [
+      "Exportar",
+      "PDF / Excel"
+     ],
      "fondo": "menta"
     },
     {
@@ -33,7 +45,8 @@
     }
    ],
    "copy": "Link en bio!!!",
-   "hashtags": "#fichaje #fichajedigital #fichalo #empresa"
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "formato": "postit"
   }
  ]
 }

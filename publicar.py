@@ -48,7 +48,12 @@ def publicar(reel):
         time.sleep(15)
     else:
         raise RuntimeError("timeout procesando el vídeo")
-    return call("POST", f"{USER}/media_publish", creation_id=cid)["id"]
+    mid = call("POST", f"{USER}/media_publish", creation_id=cid)["id"]
+    try:  # enlace del Reel: sirve para cruzar las views de Metricool con el formato
+        reel["permalink"] = call("GET", mid, fields="permalink").get("permalink", "")
+    except Exception:
+        pass
+    return mid
 
 
 def main():

@@ -1,6 +1,6 @@
 # Rutina diaria de Reels de @fichalo.app
 
-Objetivo: que haya **1 Reel/día (09:40) hasta el 4/11 y 2/día (09:40 y 17:40) desde el 5/11** — los picos de audiencia son 10:00 y 18:00 (horas calculadas por `huecos.py`), sin intervención humana.
+Objetivo: **5 Reels/día desde el 4/11 (09:40, 12:40, 14:40, 17:40, 20:40), uno de cada formato** (horas calculadas por `huecos.py`), sin intervención humana. Ver la sección **PRUEBA DE FORMATOS** (manda sobre lo demás).
 Esta rutina se ejecuta cada mañana y deja completos **hoy (franjas restantes), mañana y pasado mañana** (colchón por si un día falla). Lo calcula `huecos.py`. (Historial: 12/día hundió el alcance y Meta bloqueó la API el 27/10; objetivo ahora = máximas views por vídeo.)
 
 Datos fijos
@@ -9,27 +9,43 @@ Datos fijos
 - URL pública de un vídeo: `https://raw.githubusercontent.com/nicolasarea-ux/fichalo-reels/main/videos/<id>.mp4`
 - `publicaciones.json` = cola del publicador: `{"reels":[{"id","fecha":"YYYY-MM-DDTHH:MM","estado":"pendiente"}]}`. El publicador pone `publicado` o `error`.
 
+## PRUEBA DE FORMATOS (4–10 nov 2026) — pedida por Nicks el 3/11
+Nicks quiere multiplicar las views: 5 Reels/día de 5 formatos distintos durante una semana para ver cuál funciona.
+Los 35 de la semana (4–10/11) YA están hechos y programados (`guiones/lote_082.json` + 79/75/81). Cada día, un formato en cada franja, rotando (que la hora no decida).
+Formatos (campo `formato` en el guion y en `publicaciones.json`; `generador.py` los renderiza con `formatos.py` + `audio.py`):
+- `postit`: el de siempre (objeto → móvil/tabla → cierre, 8,5 s) + música animada + efectos. Mismo esquema de escenas que antes.
+- `monigotes`: monigotes animados + voz en off + subtítulos palabra a palabra. `titular` + `escenas` [{escena: caos|llega|jefe_movil|olvido|inspeccion|feliz|calcula, voz, …}]. Ejemplos: ids 82–88.
+- `chat`: conversación de mensajería (sin emojis en los textos), `titular`, `contacto`, `mensajes` [{de: el|yo, texto | foto:[líneas]}], `giro` (móvil con la solución). Ejemplos: 89–95.
+- `quiz`: "¿Legal o multa?", 2 `preguntas` {situacion, respuesta LEGAL|MULTA, porque, acento_porque}. **Solo datos legales ciertos** (ver la lista en `guiones/crear_lote_prueba.py`). Ejemplos: 96–102.
+- `voz`: voz en off con subtítulos grandes + imagen por frase (`postit`, `papel`, `emoji`, `numero` o `movil`). Ejemplos: 103–109.
+La voz es Piper `es_ES-davefx-medium` (licencia CC0, está en `assets/voz/`; `pip install --break-system-packages piper-tts` si falta). En `voz` escribe los números y horas en letra ("seis y diez") para que se lean bien.
+Medición (cada día):
+1. `publicar.py` guarda `permalink` de cada Reel publicado. Con Metricool (IGRE06 url, IGRE23 views, IGRE24 tiempo medio, IGRE28 % que pasa de 3 s) cruza por el código del enlace y apunta en `resultados_formatos.md` una tabla por formato: nº publicados, views medias y medianas, tiempo medio, % >3 s (solo reels de la prueba, con ≥24 h desde que se publicaron).
+2. Añade 1 línea a `registro.md` con el ranking del día.
+3. **El 11/11** escribe en `registro.md` una línea que empiece por `RESULTADO PRUEBA:` con el ranking final y termina tu respuesta con ese resumen para Nicks (le llega como notificación).
+Después de la prueba (franjas libres desde el 11/11): sigue 5/día repartidos entre los 3 mejores formatos por views medias (2 + 2 + 1), hasta que Nicks diga otra cosa.
+
 ## Pasos
 
 1. Para HOY, MAÑANA y PASADO MAÑANA (fechas de Madrid), solo días **≥ 2026-10-29**:
    `python3 huecos.py <día>` → horas libres para ese día (cuenta las fechas de cola.json).
 2. Junta todas las franjas libres. Necesitas un vídeo por franja.
-3. **Crea siempre vídeos nuevos con el formato nuevo** (no reutilices los de `estado: "reserva"`, son del formato viejo que no funcionó):
-   - Escribe un `guiones/lote_<siguiente número>.json` con el mismo formato que `guiones/lote_015.json`.
+3. **Crea siempre vídeos nuevos** (no reutilices los de `estado: "reserva"`, son del formato viejo que no funcionó), en el formato que toque según la PRUEBA DE FORMATOS:
+   - Escribe un `guiones/lote_<siguiente número>.json` con los ejemplos de `guiones/lote_082.json` (cada reel con `formato` y `copy`).
    - Ids correlativos: `NN_<angulo>_<slug>` (NN = siguiente número tras el mayor de `cola.json`).
    - Reglas de contenido (ver abajo). Lee el campo `tema` de TODOS los reels de `cola.json` y **no repitas temas**.
-   - `python3 generador.py guiones/lote_XXX.json videos/` (tarda ~20 s por vídeo: lánzalo en segundo plano y espera) y borra los `.wav` sueltos de `videos/`.
+   - `python3 generador.py guiones/lote_XXX.json videos/` (20–60 s por vídeo: lánzalo en segundo plano y espera) y borra los `.wav` sueltos de `videos/`.
    - Revisa 1 fotograma de cada vídeo (ffmpeg a PNG + leerlo) para comprobar que el texto cabe y se lee.
    - Añade cada reel a `cola.json` con `id, tema, copy, hashtags, estado: "pendiente"`.
 4. Por cada franja libre:
    - En `cola.json`: `estado: "programado"`, `fecha: <franja>`.
-   - En `publicaciones.json`: añade `{"id": <id>, "fecha": <franja>, "estado": "pendiente", "copy": <descripción variada, ver reglas>}`.
+   - En `publicaciones.json`: añade `{"id": <id>, "fecha": <franja>, "estado": "pendiente", "formato": <formato>, "copy": <descripción variada, ver reglas>}`.
    - Sube también `videos/<id>.jpg` (portada de marca que crea generador.py); `publicar.py` la usa como portada.
 5. `git pull --rebase` (el publicador también hace commits), `git add -A && git commit && git push`. Comprueba con `curl -s -o /dev/null -w '%{http_code}' <URL pública>` que cada vídeo da 200.
 6. Revisa `publicaciones.json`: si hay reels con `estado: "error"` o con fecha pasada y aún `pendiente` (más de 1 h), anótalo en `registro.md` y avisa a Nicks (el publicador puede estar desactivado o el token caducado).
    Añade siempre una línea a `registro.md` con lo que se dejó programado. No inventes: si algo falla, anótalo.
 
-## Formato nuevo (desde 27/10) — OBLIGATORIO
+## Formato `postit` (desde 27/10; en la prueba de formatos es uno de los 5)
 Datos de las primeras 60 publicaciones: casi todos 0–30 views; el mejor (140) fue el del pósit de vacaciones (objeto reconocible + situación que todos viven). Por eso:
 - **8,5 s** (`"duracion": 8.5`; más corto = más gente lo ve entero y se repite), **3 escenas**: `objeto` → `movil` o `tabla` (la solución) → `cierre`. Ver ejemplo: `guiones/lote_072.json`.
 - **1ª escena siempre `objeto`**: `pregunta` directa al DUEÑO (2.ª persona, ≤3 líneas, con su sector: "¿Tu bar todavía ficha así?") + un objeto reconocible:

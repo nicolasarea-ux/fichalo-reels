@@ -10,8 +10,9 @@ from zoneinfo import ZoneInfo
 
 # Recuperación tras el bloqueo: 1/día hasta el 4/11; luego 2/día. Horas = picos de la audiencia (Metricool: 10:00 y 18:00);
 # se programa 20 min antes porque GitHub Actions lanza el publicador con retraso.
-OBJETIVO = 1 if sys.argv[1] <= "2026-11-04" else 2
-FIJAS = ["09:40", "17:40"][:OBJETIVO]
+# Desde el 4/11: 5/día (prueba de formatos, ver INSTRUCCIONES.md).
+OBJETIVO = 1 if sys.argv[1] <= "2026-11-03" else 5
+FIJAS = ["09:40", "12:40", "14:40", "17:40", "20:40"][:OBJETIVO] if OBJETIVO > 1 else ["09:40"]
 TZ = ZoneInfo("Europe/Madrid")
 # rejilla cada 15 min de 08:30 a 23:00
 REJILLA = [f"{h:02d}:{m:02d}" for h in range(8, 24) for m in (0, 15, 30, 45) if (8, 30) <= (h, m) <= (23, 0)]
