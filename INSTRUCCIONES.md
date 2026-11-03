@@ -75,7 +75,7 @@ Datos de las primeras 60 publicaciones: casi todos 0–30 views; el mejor (140) 
   1) gancho de 1 línea distinto al texto del vídeo, con 1 emoji; 2) 1 línea de valor (qué resuelve Fíchalo);
   3) una pregunta o llamada que provoque comentarios / guardados / etiquetas ("¿Cómo lo lleváis? 👇", "Guárdalo para el viernes 📌", "Etiqueta a tu gestor/a");
   4) `Link en bio!!!`; 5) línea en blanco + SIEMPRE `#fichaje #fichajedigital #fichalo #empresa` + 1–2 hashtags del nicho. No repitas la misma pregunta dos días seguidos. Ejemplos en publicaciones.json (73–80).
-- **Portada de marca obligatoria**: `generador.py` crea `videos/<id>.jpg` (gancho + firma fichalo.app). Súbela junto al .mp4; `publicar.py` la usa como portada. Para rehacer solo portadas: `python3 generador.py guiones/lote_X.json videos/ --solo-portada`.
+- **Portada de marca obligatoria** (v2 desde 3/11, la pidió Nicks): `generador.py` crea `videos/<id>.jpg` con `formatos.portada_v2`: etiqueta del sector (campo `nicho`: hosteleria, limpieza, clinica, gestoria, comercio, taller, peluqueria, ley), titular enorme y una sola imagen, todo dentro del recorte 3:4 de la cuadrícula. Pon siempre `formato` y `nicho` en cada reel; opcional `portada` (texto corto para la portada) y `acento_portada`. Súbela junto al .mp4; `publicar.py` la usa como portada. Para rehacer solo portadas: `python3 generador.py guiones/lote_X.json videos/ --solo-portada`.
 
 ## Reels `saltado`
 Si el publicador estuvo parado, marca `saltado` los que llevan >3 h de retraso. Reutilízalos en las siguientes franjas libres (son vídeos buenos) antes de crear nuevos, y anótalo en registro.md.

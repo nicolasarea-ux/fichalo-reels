@@ -490,8 +490,9 @@ if __name__ == "__main__":
         if reel.get("formato"):
             import formatos
             if solo_portada:
-                print("--solo-portada no disponible para formato", reel["formato"])
-            formatos.render(reel, p, os.path.join(out_dir, reel["id"] + ".jpg"))
+                formatos.portada_v2(reel, os.path.join(out_dir, reel["id"] + ".jpg"))
+            else:
+                formatos.render(reel, p, os.path.join(out_dir, reel["id"] + ".jpg"))
             print("OK", p)
             continue
         if not solo_portada:

@@ -523,10 +523,9 @@ def _avatar(letra, col, r=44):
 def _sin_emoji(t):
     return "".join(c for c in t if ord(c) < 0x2190).replace("  ", " ").strip()
 
-def _burbuja_chat(texto, mio, foto=None, hora="09:12"):
+def _burbuja_chat(texto, mio, foto=None, hora="09:12", fs=46, maxw=700):
     texto = _sin_emoji(texto)
-    f = N(46)
-    maxw = 700
+    f = N(fs)
     dd = ImageDraw.Draw(Image.new("L", (1, 1)))
     # partir en líneas
     lines, cur = [], ""
@@ -542,14 +541,14 @@ def _burbuja_chat(texto, mio, foto=None, hora="09:12"):
     if foto is not None:
         fh = foto.height + 16
         tw = max(tw, foto.width - 10)
-    bw, bh = int(tw + 60), int(fh + len(lines) * 56 + 70)
+    bw, bh = int(tw + 60), int(fh + len(lines) * fs * 1.22 + 70)
     b = G.rounded((bw, bh), 30, (214, 245, 226) if mio else WHITE)
     d = ImageDraw.Draw(b)
     y = 18
     if foto is not None:
         b.alpha_composite(foto, (16, 16)); y = 16 + fh
     for l in lines:
-        d.text((30, y), l, font=f, fill=(30, 40, 50)); y += 56
+        d.text((30, y), l, font=f, fill=(30, 40, 50)); y += int(fs * 1.22)
     d.text((bw - 110 - (40 if mio else 0), bh - 42), hora, font=N(26), fill=(130, 140, 150))
     if mio:
         for dx in (0, 12):
@@ -768,15 +767,129 @@ def render(reel, out_mp4, out_jpg):
     fmt = reel["formato"]
     if fmt == "postit":
         render_postit(reel, out_mp4)
-        G.portada(reel, out_jpg)
+        portada_v2(reel, out_jpg)
         return
     planos, overlay, sy = CONSTRUIR[fmt](reel)
     montar(planos, out_mp4, MUSICA[fmt], zlib.crc32(reel["id"].encode()) % 97, overlay, sy,
            0.22 if fmt in ("monigotes", "voz", "quiz") else 0.4)
     # portada: el primer plano ya avanzado (todo visible), sin subtítulos
-    p0 = planos[0]
-    img = fondo(p0.fondo, 1.0)
-    p0.draw(img, min(p0.dur - 0.1, 2.4 if fmt == "monigotes" else 1.2))
-    if overlay:
-        overlay(img, 1.0)
-    guardar_portada(img, out_jpg, p0.fondo in ("oscuro", "vivo"))
+    portada_v2(reel, out_jpg)
+
+
+# =====================================================================
+# PORTADAS v2 (3/11): texto enorme + una imagen, todo dentro del recorte 3:4 de la cuadrícula (y 240–1680)
+# =====================================================================
+NICHO_LABEL = {"hosteleria": "HOSTELERÍA", "limpieza": "LIMPIEZA", "clinica": "CLÍNICAS", "gestoria": "GESTORÍAS",
+               "comercio": "COMERCIO", "taller": "TALLERES", "peluqueria": "PELUQUERÍAS", "ley": "REGISTRO DE JORNADA"}
+ESTILO_PORTADA = {"postit": "oscuro", "monigotes": "crema", "chat": "cielo", "quiz": "oscuro", "voz": "oscuro"}
+
+def _encajar(im, mw, mh):
+    s = min(mw / im.width, mh / im.height)
+    return im.resize((max(1, int(im.width * s)), max(1, int(im.height * s))), Image.LANCZOS)
+
+def _recortar_alfa(im, pad=20):
+    bb = im.getbbox()
+    if not bb:
+        return im
+    return im.crop((max(0, bb[0] - pad), max(0, bb[1] - pad), min(im.width, bb[2] + pad), min(im.height, bb[3] + pad)))
+
+def portada_v2(reel, out_jpg):
+    fmt = reel.get("formato", "postit")
+    est = ESTILO_PORTADA.get(fmt, "oscuro")
+    oscuro = est == "oscuro"
+    img = G.background(est).copy()
+    if oscuro:  # brillo de color detrás de la imagen
+        lay = Image.new("RGBA", (W // 4, H // 4), (0, 0, 0, 0))
+        ImageDraw.Draw(lay).ellipse((W // 8 - 110, H // 4 * 0.62 - 110, W // 8 + 110, H // 4 * 0.62 + 110), fill=TEAL + (120,))
+        img.alpha_composite(lay.filter(ImageFilter.GaussianBlur(35)).resize((W, H), Image.BILINEAR))
+    d = ImageDraw.Draw(img)
+    txt_col = WHITE if oscuro else NAVY
+    # 1) etiqueta del sector
+    y = 280
+    lab = NICHO_LABEL.get(reel.get("nicho", ""), "")
+    if lab:
+        f = F(800, 40)
+        tw = d.textlength(lab, font=f)
+        pill = G.rounded((int(tw + 64), 76), 38, GREEN if oscuro else NAVY)
+        ImageDraw.Draw(pill).text((32, 14), lab, font=f, fill=WHITE)
+        img.alpha_composite(pill, ((W - pill.width) // 2, y))
+        y += 76 + 34
+    # 2) titular enorme
+    if fmt == "quiz":
+        partes = [("¿LEGAL ", (110, 220, 170)), ("o ", WHITE), ("MULTA?", (255, 120, 110))]
+        fs = 128
+        while sum(d.textlength(p, font=F(800, fs)) for p, _ in partes) > 960:
+            fs -= 4
+        f = F(800, fs)
+        x = (W - sum(d.textlength(p, font=f) for p, _ in partes)) / 2
+        for p, c in partes:
+            d.text((x, y), p, font=f, fill=c); x += d.textlength(p, font=f)
+        y += 170
+    else:
+        texto = reel.get("portada")
+        if not texto:
+            if fmt == "postit":
+                sc = reel["escenas"][0]
+                texto, acento = sc["pregunta"].replace("\n", " "), sc.get("acento")
+            else:
+                texto, acento = reel["titular"], reel.get("acento")
+        else:
+            acento = reel.get("acento_portada")
+        tb = bloque(texto, acento, 800, 100 if fmt == "monigotes" else 118, 980, 80, txt_col, 3 if fmt != "monigotes" else 2, oscuro)
+        img.alpha_composite(tb, ((W - tb.width) // 2, y))
+        y += tb.height + 30
+    # 3) imagen
+    zona_y0, zona_y1 = y + 10, 1530
+    mw, mh = 900, zona_y1 - zona_y0
+    vis = None
+    if fmt == "postit":
+        sc = reel["escenas"][0]
+        vis = G.postit(sc["postit"]) if sc.get("postit") else G.papel(sc["papel"]) if sc.get("papel") else G.emoji_disco(sc.get("emoji", "⏰"), True)
+    elif fmt == "monigotes":
+        e0 = reel["escenas"][0]
+        draw, _ = ESCENAS[e0["escena"]](e0)
+        lay = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+        draw(lay, 2.4 if e0["escena"] in ("llega", "olvido") else 1.0)
+        vis = _recortar_alfa(lay.crop((120, 680, 1060, 1585)), 10)
+    elif fmt == "chat":
+        m0 = next(m for m in reel["mensajes"] if m.get("texto"))
+        b = _burbuja_chat(m0["texto"], m0.get("de") == "yo", None, "20:14", 66, 760)
+        av = _avatar(reel["contacto"][0].upper(), TEAL, 60)
+        lay = Image.new("RGBA", (b.width + 140, max(b.height, 130)), (0, 0, 0, 0))
+        lay.alpha_composite(av, (0, lay.height - 120)); lay.alpha_composite(b, (140, 0))
+        vis = lay
+        mw = 980
+    elif fmt == "quiz":
+        q = reel["preguntas"][0]
+        card = G.rounded((940, 560), 44, WHITE)
+        tb = bloque(q["situacion"], q.get("acento"), 800, 74, 840, 54, NAVY, 5)
+        card.alpha_composite(tb, ((940 - tb.width) // 2, (560 - tb.height) // 2 - 20))
+        vis = G.shadow(card, 30, 18, 60)
+    elif fmt == "voz":
+        fr = next((x for x in reel["frases"] if not x.get("movil")), reel["frases"][0])
+        vis = _visual(fr)
+        if vis is None and fr.get("movil"):
+            lay = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+            panel_movil(lay, 540, 200, fr["movil"]["cab"], [tuple(x) for x in fr["movil"]["filas"]], 5, 0)
+            vis = _recortar_alfa(lay)
+    if vis is not None:
+        vis = _encajar(vis, mw, mh) if (vis.width > mw or vis.height > mh or fmt != "postit") else vis
+        img.alpha_composite(vis, ((W - vis.width) // 2, zona_y0 + (mh - vis.height) // 2))
+    if fmt == "quiz":  # sello con interrogación
+        st = G.rounded((300, 120), 26, (230, 70, 60))
+        sd = ImageDraw.Draw(st)
+        fl = F(800, 84)
+        sd.text(((300 - sd.textlength("¿?", font=fl)) / 2, 6), "¿?", font=fl, fill=WHITE)
+        st = st.rotate(-8, resample=Image.BICUBIC, expand=True)
+        img.alpha_composite(st, (W - st.width - 90, zona_y0 + mh - st.height + 20))
+    # 4) firma dentro del recorte
+    d = ImageDraw.Draw(img)
+    lg = G.LOGO.resize((54, 72), Image.LANCZOS)
+    f = F(700, 44)
+    tw = d.textlength("fichalo.app", font=f)
+    x0, y0 = int((W - (54 + 18 + tw)) / 2), 1560
+    pill = G.rounded((int(54 + 18 + tw + 60), 104), 52, (255, 255, 255, 235) if oscuro else (18, 52, 96, 240))
+    img.alpha_composite(pill, (x0 - 30, y0 - 16))
+    img.alpha_composite(lg, (x0, y0))
+    d.text((x0 + 54 + 18, y0 + 10), "fichalo.app", font=f, fill=NAVY if oscuro else WHITE)
+    img.convert("RGB").save(out_jpg, "JPEG", quality=92)
