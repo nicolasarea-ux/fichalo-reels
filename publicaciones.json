@@ -199,7 +199,9 @@
    "fecha": "2026-11-04T20:40",
    "estado": "pendiente",
    "formato": "voz",
-   "copy": "Si tienes una clínica, esto te interesa 🦷\nFichaje desde el móvil y el informe para Inspección en un clic.\n\n¿Te suena? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #clinicadental #clinicas"
+   "copy": "Si tienes una clínica, esto te interesa 🦷\nFichaje desde el móvil y el informe para Inspección en un clic.\n\n¿Te suena? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #clinicadental #clinicas",
+   "intentos": 1,
+   "ultimo_error": "contenedor ERROR"
   },
   {
    "id": "104_voz_bar-3-errores",
