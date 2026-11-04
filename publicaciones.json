@@ -197,11 +197,14 @@
   {
    "id": "103_voz_clinica-postit",
    "fecha": "2026-11-04T20:40",
-   "estado": "pendiente",
+   "estado": "publicado",
    "formato": "voz",
    "copy": "Si tienes una clínica, esto te interesa 🦷\nFichaje desde el móvil y el informe para Inspección en un clic.\n\n¿Te suena? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #clinicadental #clinicas",
    "intentos": 1,
-   "ultimo_error": "contenedor ERROR"
+   "ultimo_error": "contenedor ERROR",
+   "permalink": "https://www.instagram.com/reel/DfVWEO8lP3o/",
+   "ig_media_id": "18122578579962179",
+   "publicado_en": "2026-11-04T21:45"
   },
   {
    "id": "104_voz_bar-3-errores",
