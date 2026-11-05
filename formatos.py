@@ -453,7 +453,8 @@ def montar(planos, out_path, estilo_musica="lofi", seed=0, overlay=None, subs_y=
     ff = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgba", "-s", f"{W}x{H}",
                            "-r", str(FPS), "-i", "-", "-i", wav, "-map", "0:v", "-map", "1:a", "-t", f"{dur:.2f}",
                            "-c:v", "libx264", "-preset", "medium", "-crf", "21", "-pix_fmt", "yuv420p",
-                           "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", out_path], stdin=subprocess.PIPE)
+                           "-af", "loudnorm=I=-14:TP=-1.5:LRA=11,alimiter=limit=0.85:level=false", "-ar", "48000", "-c:a", "aac", "-b:a", "192k",
+                           "-movflags", "+faststart", out_path], stdin=subprocess.PIPE)
     for fi in range(int(dur * FPS)):
         tt = fi / FPS
         i = max(k for k in range(len(starts)) if starts[k] <= tt)

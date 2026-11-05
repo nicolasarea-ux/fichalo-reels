@@ -36,7 +36,7 @@ class Mezcla:
         fo = int(0.6 * SR)
         x[-fo:] *= np.linspace(1, 0, fo)
         pk = np.max(np.abs(x)) or 1
-        x = np.tanh(x / pk * 1.3) * 0.89
+        x = x / pk * 0.95  # normalización limpia; el volumen final lo fija loudnorm al montar
         with wave.open(path, "wb") as w:
             w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR)
             w.writeframes((x * 32767).astype(np.int16).tobytes())
@@ -52,17 +52,37 @@ def voz(texto, velocidad=0.92):
     chunks = []
     for ch in _voice.synthesize(texto, syn_config=SynthesisConfig(length_scale=velocidad)):
         chunks.append(ch.audio_float_array)
-    x = np.concatenate(chunks).astype(np.float32)
+    x = np.concatenate(chunks).astype(np.float64)
     sr = _voice.config.sample_rate
-    t_new = np.arange(0, len(x) / sr, 1 / SR)
-    x = np.interp(t_new, np.arange(len(x)) / sr, x).astype(np.float32)
+    from scipy import signal
+    from math import gcd
+    g = gcd(SR, sr)
+    x = signal.resample_poly(x, SR // g, sr // g)  # remuestreo limpio (antes: interpolación lineal → sonido sucio)
+    x = _eq_voz(x)
     # recorta silencios del principio/final
     nz = np.where(np.abs(x) > 0.01)[0]
     if len(nz):
         x = x[max(0, nz[0] - 800): nz[-1] + 2000]
-    # un poco de "presencia": compresión suave
-    x = np.tanh(x * 1.6) / np.tanh(1.6)
-    return x, len(x) / SR
+    x = x / (np.max(np.abs(x)) or 1) * 0.9   # sin saturación (antes tanh → distorsión)
+    return x.astype(np.float32), len(x) / SR
+
+
+def _peaking(f0, gain_db, q):
+    A_ = 10 ** (gain_db / 40); w = 2 * np.pi * f0 / SR; al = np.sin(w) / (2 * q)
+    b = [1 + al * A_, -2 * np.cos(w), 1 - al * A_]; a = [1 + al / A_, -2 * np.cos(w), 1 - al / A_]
+    return np.array(b) / a[0], np.array(a) / a[0]
+
+def _eq_voz(x):
+    """Voz más nítida: quita graves que embarran, realza presencia e inteligibilidad."""
+    from scipy import signal
+    b, a = signal.butter(2, 85 / (SR / 2), "highpass"); x = signal.lfilter(b, a, x)
+    for f0, g, q in ((250, -2.5, 1.0), (3200, 4.0, 1.0), (6500, 2.5, 1.2)):
+        b, a = _peaking(f0, g, q); x = signal.lfilter(b, a, x)
+    # compresión suave por envolvente (iguala volumen sin distorsionar)
+    env = np.sqrt(np.convolve(x * x, np.ones(441) / 441, mode="same")) + 1e-6
+    ref = np.percentile(env, 90)
+    gain = np.minimum(1.0, (env / ref) ** -0.35)
+    return x * gain
 
 
 # ---------- efectos ----------
@@ -197,7 +217,7 @@ def musica(dur, estilo="lofi", seed=0):
             golpe(hh, tt, 0.08)
         b += 1
     if estilo == "lofi":  # "vinilo"
-        out += np.random.default_rng(9).standard_normal(n).astype(np.float32) * 0.004
+        pass  # sin ruido de vinilo: el audio queda más limpio
     # filtro paso bajo sencillo para que suene más suave
     k = 4 if estilo == "lofi" else 2
     out = np.convolve(out, np.ones(k) / k, mode="same")

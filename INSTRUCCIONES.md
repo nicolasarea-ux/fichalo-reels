@@ -23,6 +23,7 @@ Medición (cada día):
 1. `publicar.py` guarda `permalink` de cada Reel publicado. Con Metricool (IGRE06 url, IGRE23 views, IGRE24 tiempo medio, IGRE28 % que pasa de 3 s) cruza por el código del enlace y apunta en `resultados_formatos.md` una tabla por formato: nº publicados, views medias y medianas, tiempo medio, % >3 s (solo reels de la prueba, con ≥24 h desde que se publicaron).
 2. Añade 1 línea a `registro.md` con el ranking del día.
 3. **El 11/11** escribe en `registro.md` una línea que empiece por `RESULTADO PRUEBA:` con el ranking final y termina tu respuesta con ese resumen para Nicks (le llega como notificación).
+Dato de Nicks (5/11): el primer reel de **monigotes** (82, bar día 30, publicado 4/11) ya va por **~200 views** → el mejor automático hasta ahora. A Nicks le gusta mucho la voz (davefx): mantenla. Desde el 5/11 el audio va más limpio (sin saturación, remuestreo bueno, EQ de presencia, loudnorm -14 LUFS).
 Después de la prueba (franjas libres desde el 11/11): sigue 5/día repartidos entre los 3 mejores formatos por views medias (2 + 2 + 1), hasta que Nicks diga otra cosa.
 
 ## Pasos

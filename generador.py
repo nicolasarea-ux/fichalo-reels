@@ -444,7 +444,7 @@ def render_reel(reel, out_path):
         "-f", "rawvideo", "-pix_fmt", "rgba", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
         "-i", wav, "-map", "0:v", "-map", "1:a", "-t", str(DUR),
         "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-pix_fmt", "yuv420p",
-        "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart", out_path], stdin=subprocess.PIPE)
+        "-af", "loudnorm=I=-14:TP=-1.5:LRA=11,alimiter=limit=0.85:level=false", "-ar", "48000", "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", out_path], stdin=subprocess.PIPE)
     total = int(DUR * FPS)
     for fi in range(total):
         tt = fi / FPS
