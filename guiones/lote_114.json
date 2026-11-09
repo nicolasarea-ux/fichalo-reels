@@ -1,0 +1,48 @@
+{"reels": [
+{"id": "114_monigotes_restaurante-turnos-partidos", "formato": "monigotes", "nicho": "hosteleria",
+ "tema": "monigotes: restaurante con turnos partidos sumando horas para nóminas (variante de 82)",
+ "copy": "Turnos partidos en el restaurante y toca sumar las horas para nóminas 🍽️\nCon Fíchalo cada uno ficha desde el móvil y las horas salen ya sumadas.\n\n¿Quién suma las horas en tu restaurante? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #restaurantes",
+ "titular": "Turnos partidos: ¿cuántas horas ha hecho cada uno?", "acento": "Turnos partidos",
+ "escenas": [
+  {"escena": "calcula", "voz": "Restaurante. Turnos partidos. Toca sumar las horas de ocho camareros para las nóminas.", "numeros": ["4+4?", "¿5,5?", "+2?", "¿39?"]},
+  {"escena": "llega", "voz": "Con Fíchalo, cada camarero ficha desde el móvil al entrar y al salir. También en el turno de la noche.", "lugar": "Restaurante Arrano", "hora": "19:57", "acc": ["delantal"]},
+  {"escena": "jefe_movil", "voz": "Y tú ves las horas de cada uno, ya sumadas.", "cab": "Horas de la semana", "sub": "Calculadas solas", "filas": [["Maialen", "38 h", "1"], ["Oier", "41 h · 1 extra", "1"], ["Nora", "24 h", "1"]]}
+ ]},
+{"id": "115_monigotes_fisio-olvido", "formato": "monigotes", "nicho": "clinica",
+ "tema": "monigotes: fisioterapeuta se va sin fichar la salida y le llega el aviso",
+ "copy": "Último paciente del día y tu fisio se va sin fichar la salida 💆\nFíchalo le avisa en el móvil y las horas quedan bien.\n\nEtiqueta a tu compañero/a de clínica 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #fisioterapia #clinicas",
+ "titular": "Tu fisio se va sin fichar la salida", "acento": "sin fichar",
+ "escenas": [
+  {"escena": "olvido", "voz": "Ocho y media. Marta termina con su último paciente y se va sin fichar la salida.", "aviso": "¿Te has olvidado de\nfichar la salida?", "ok": "Salida 20:32", "minimo": 3.4, "acc": ["bata"]},
+  {"escena": "jefe_movil", "voz": "Fíchalo le avisa, ficha desde el móvil, y tú tienes sus horas bien.", "cab": "Clínica Fisio Lur", "sub": "Hoy", "filas": [["Marta", "12:30 – 20:32", "1"], ["Jon", "08:00 – 15:00", "1"]], "acc": ["bata"]},
+  {"escena": "feliz", "voz": "Sin hojas que corregir a fin de mes.", "texto": "Horas correctas", "acc": ["bata"]}
+ ]},
+{"id": "116_voz_limpieza-3-errores", "formato": "voz", "nicho": "limpieza",
+ "tema": "voz: 3 errores con el fichaje en una empresa de limpieza (variante de 104)",
+ "copy": "3 errores con el fichaje que vemos en empresas de limpieza 🧹\nFíchalo los resuelve desde el móvil de cada persona, edificio a edificio.\n\nGuárdalo para cuando hagas las nóminas 📌\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #limpieza #empresasdelimpieza",
+ "titular": "3 errores con el fichaje en tu empresa de limpieza", "acento": "3 errores",
+ "frases": [
+  {"voz": "Tres errores con el fichaje que vemos en casi todas las empresas de limpieza.", "numero": "3"},
+  {"voz": "Uno: las horas de cada edificio apuntadas en una libreta.", "papel": ["Horas · Noviembre", "Rosa: Edif. 1 y 3", "Mari: ¿2 h o 3 h?", "Lucía: ver foto"]},
+  {"voz": "Dos: llamar a las seis de la mañana para saber si ha llegado alguien.", "emoji": "📞"},
+  {"voz": "Tres: sumar a mano las horas de quien pasa por varios edificios.", "emoji": "🧮"},
+  {"voz": "Con Fíchalo, los tres resueltos desde el móvil.", "movil": {"cab": "Quién está trabajando", "filas": [["Rosa · Edif. 1", "Fichó 05:58", "1"], ["Mari · Edif. 3", "Fichó 06:02", "1"]]}}
+ ]},
+{"id": "117_voz_bar-quien-cerro", "formato": "voz", "nicho": "hosteleria",
+ "tema": "voz: bar, a qué hora cerró anoche cada camarero",
+ "copy": "¿A qué hora cerró anoche tu bar? Y no vale decir \"tarde\" 🍺\nCon Fíchalo ves quién ha fichado la salida y a qué hora.\n\nMándaselo a tu socio/a 📲\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #bares",
+ "titular": "¿A qué hora cerró anoche tu bar?", "acento": "anoche",
+ "frases": [
+  {"voz": "¿A qué hora cerró anoche tu bar?", "emoji": "🍺"},
+  {"voz": "Si la respuesta es: tarde, creo... tienes un problema con las horas.", "postit": "Cierre: ¿1:30?\nJon: ¿extra?\nAne: se fue antes"},
+  {"voz": "Con Fíchalo, cada camarero ficha la salida desde su móvil.", "emoji": "📱"},
+  {"voz": "Y tú ves a qué hora se fue cada uno, y sus horas extra.", "movil": {"cab": "Bar Txoko · Anoche", "filas": [["Jon", "18:00 – 01:42", "1"], ["Ane", "18:00 – 00:05", "1"], ["Iker", "20:00 – 01:40", "1"]]}}
+ ]},
+{"id": "118_quiz_legal-o-multa-8", "formato": "quiz", "nicho": "comercio",
+ "tema": "quiz: Somos 3 en la tienda, no registro la jornada / Guardo los registros de 2023",
+ "copy": "Si tienes una tienda pequeña, haz este test ⚖️\nCon Fíchalo tu registro de jornada está siempre en regla.\n\n¿Cuántas has acertado? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #comercio #pymes",
+ "preguntas": [
+  {"situacion": "Somos 3 en la tienda, así que no registro la jornada.", "respuesta": "MULTA", "porque": "Es obligatorio desde 2019, tenga la empresa los trabajadores que tenga.", "acento_porque": "desde 2019"},
+  {"situacion": "Guardo los registros de jornada de 2023 por si acaso.", "respuesta": "LEGAL", "porque": "Hay que conservarlos 4 años: los de 2023 todavía tocan.", "acento_porque": "4 años"}
+ ]}
+]}
