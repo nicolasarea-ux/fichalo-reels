@@ -31,3 +31,13 @@ Solo reels de la prueba con ≥24 h publicados. Datos de Metricool (views, tiemp
 | quiz | 4 | 94,8 | 108,5 | 4,4 | 34,4 | 99 (141), 98 (135), 97 (82), 96 (21) |
 | chat | 4 | 66,0 | 59,5 | 3,5 | 22,0 | 90 bar (112), 91 limpieza (80), 92 gestoría (39), 89 peluquería (33) |
 | postit | 4 | 45,5 | 39 | 1,7 | 16,3 | 110 bar sábado (89), 75 hostelería (58), 79 clínica (20), 81 gestoría (15) |
+
+## Corte 2026-11-10 07:30 (reels del 4–8/11; n=5 por formato)
+
+| Formato | Publicados medidos | Views media | Views mediana | Tiempo medio (s) | % >3 s | Reels (views) |
+|---|---|---:|---:|---:|---:|---|
+| monigotes | 5 | 143,8 | 140 | 4,1 | 38,7 | 82 bar (218), 86 taller (162), 85 tienda olvido (140), 84 clínica inspección (131), 83 limpieza (68) |
+| voz | 5 | 108,2 | 125 | 3,9 | 35,3 | 104 bar (158), 107 comercio varias tiendas (150), 105 limpieza (125), 106 gestoría (96), 103 clínica (12) |
+| quiz | 5 | 97,0 | 106 | 3,9 | 29,8 | 99 (141), 98 (135), 100 (106), 97 (82), 96 (21) |
+| chat | 5 | 86,4 | 80 | 3,5 | 22,7 | 93 clínica mis horas (168), 90 bar (112), 91 limpieza (80), 92 gestoría (39), 89 peluquería (33) |
+| postit | 5 | 44,0 | 24 | 1,7 | 15,0 | 110 bar sábado (103), 75 hostelería (58), 111 limpieza (24), 79 clínica (20), 81 gestoría (15) |

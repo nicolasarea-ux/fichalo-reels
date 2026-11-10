@@ -912,6 +912,51 @@
    "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
    "estado": "programado",
    "fecha": "2026-11-11T20:40"
+  },
+  {
+   "id": "119_voz_bar-camarera-pide-horas",
+   "tema": "voz: camarera pide sus horas del mes y el dueño no sabe qué enseñarle (variante de 93 y 104)",
+   "formato": "voz",
+   "copy": "Tu camarera te pide sus horas del mes. ¿Qué le enseñas? 🍺\nCon Fíchalo cada uno ve sus horas en el móvil y tú sacas el informe en PDF.\n\n¿Qué le dirías tú? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #bares",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "programado",
+   "fecha": "2026-11-12T09:40"
+  },
+  {
+   "id": "120_monigotes_clinica-dia-30",
+   "tema": "monigotes: dueña de clínica dental sumando horas de las higienistas el día 30 (variante de 82)",
+   "formato": "monigotes",
+   "copy": "Día 30 en la clínica y las horas de las higienistas sin sumar 🦷\nCon Fíchalo fichan desde el móvil y tienes las horas de cada una ya calculadas.\n\nEtiqueta a quien hace las nóminas en tu clínica 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #clinicadental #clinicas",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "programado",
+   "fecha": "2026-11-12T12:40"
+  },
+  {
+   "id": "121_quiz_legal-o-multa-9",
+   "tema": "quiz: Los temporales de verano no fichan / En el bar fichan con código en una tablet",
+   "formato": "quiz",
+   "copy": "2 situaciones que vemos en bares y restaurantes. ¿Legal o multa? ⚖️\nCon Fíchalo tu registro de jornada está siempre en regla.\n\nGuárdalo y pásaselo a tu encargado/a 📌\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #restaurantes",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "programado",
+   "fecha": "2026-11-12T14:40"
+  },
+  {
+   "id": "122_voz_tienda-vacaciones-navidad",
+   "tema": "voz: comercio, vacaciones de Navidad que se pisan entre dependientas",
+   "formato": "voz",
+   "copy": "Navidad en la tienda y tres personas quieren la misma semana libre 🎄\nCon Fíchalo piden las vacaciones desde el móvil y tú las apruebas viendo quién queda.\n\n¿Cómo lo repartís en tu tienda? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #comercio #tiendas",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "programado",
+   "fecha": "2026-11-12T17:40"
+  },
+  {
+   "id": "123_monigotes_limpieza-fin-de-mes",
+   "tema": "monigotes: fin de mes en una empresa de limpieza sumando horas de quien pasa por 3 edificios (variante de 82)",
+   "formato": "monigotes",
+   "copy": "Fin de mes: Rosa ha limpiado en tres edificios. ¿Cuántas horas suma? 🧹\nCon Fíchalo ficha en cada edificio y las horas salen ya sumadas.\n\nMándaselo a quien hace las nóminas 📲\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #limpieza #empresasdelimpieza",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa",
+   "estado": "programado",
+   "fecha": "2026-11-12T20:40"
   }
  ]
 }
