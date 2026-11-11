@@ -25,6 +25,7 @@ Medición (cada día):
 3. **El 11/11** escribe en `registro.md` una línea que empiece por `RESULTADO PRUEBA:` con el ranking final y termina tu respuesta con ese resumen para Nicks (le llega como notificación).
 Dato de Nicks (5/11): el primer reel de **monigotes** (82, bar día 30, publicado 4/11) ya va por **~200 views** → el mejor automático hasta ahora. A Nicks le gusta mucho la voz (davefx): mantenla. Desde el 5/11 el audio va más limpio (sin saturación, remuestreo bueno, EQ de presencia, loudnorm -14 LUFS).
 Después de la prueba (franjas libres desde el 11/11): sigue 5/día repartidos entre los 3 mejores formatos por views medias (2 + 2 + 1), hasta que Nicks diga otra cosa.
+**Resultado final (11/11, n=6):** monigotes 143 > voz 113 > chat 103 > quiz 84 > postit 41 → reparto 2 monigotes + 2 voz + 1 chat (revísalo si el ranking de views medias cambia).
 
 ## Pasos
 

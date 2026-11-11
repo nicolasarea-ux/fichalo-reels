@@ -1,0 +1,57 @@
+{"reels": [
+{"id": "124_monigotes_bar-viernes-horas", "formato": "monigotes", "nicho": "hosteleria",
+ "tema": "monigotes: viernes en un bar, cuántas horas lleva cada camarero esta semana (variante de 82 y 86, los mejores)",
+ "copy": "Viernes por la noche en el bar y nadie sabe cuántas horas lleva cada uno 🍺\nCon Fíchalo los camareros fichan desde el móvil y las horas de la semana salen solas.\n\nMándaselo a tu encargado/a antes del finde 📲\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #bares",
+ "titular": "Viernes en el bar: ¿cuántas horas lleva cada uno?", "acento": "Viernes",
+ "escenas": [
+  {"escena": "calcula", "voz": "Viernes en el bar. ¿Cuántas horas lleva cada camarero esta semana? Ni idea.", "numeros": ["38h?", "¿42?", "+2?", "¿36?"]},
+  {"escena": "llega", "voz": "Con Fíchalo, cada camarero ficha desde el móvil al entrar y al salir.", "lugar": "Bar Txoko", "hora": "18:58", "acc": ["delantal"]},
+  {"escena": "jefe_movil", "voz": "Y tú ves las horas de la semana de cada uno, ya sumadas.", "cab": "Esta semana", "sub": "Horas por persona", "filas": [["Iker", "41 h · 1 extra", "1"], ["Ane", "38 h", "1"], ["Jon", "42 h · 2 extra", "1"]]}
+ ]},
+{"id": "125_voz_peluqueria-3-errores", "formato": "voz", "nicho": "peluqueria",
+ "tema": "voz: 3 errores con el fichaje en una peluquería (variante de 104, el mejor de voz)",
+ "copy": "3 errores con el fichaje que vemos en muchas peluquerías ✂️\nCon Fíchalo cada una ficha desde su móvil y tú ves las horas sin hacer cuentas.\n\n¿Cuál te pasa a ti? Dímelo con un número 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #peluqueria #salondebelleza",
+ "titular": "3 errores con el fichaje en tu peluquería", "acento": "3 errores",
+ "frases": [
+  {"voz": "Tres errores con el fichaje que vemos en muchas peluquerías.", "numero": "3"},
+  {"voz": "Uno: las horas apuntadas en la agenda de las citas.", "papel": ["Agenda · Viernes", "Nerea 9:30 – ¿?", "Sara ¿partido?", "(se quedó hasta tarde)"]},
+  {"voz": "Dos: la que se queda con la última clienta y nadie lo apunta.", "emoji": "⏰"},
+  {"voz": "Tres: no saber quién está en el salón ahora mismo.", "emoji": "❓"},
+  {"voz": "Con Fíchalo, los tres resueltos desde el móvil.", "movil": {"cab": "Salón Centro", "filas": [["Nerea", "Fichó 09:28", "1"], ["Sara", "Fichó 15:57", "1"]]}}
+ ]},
+{"id": "126_chat_restaurante-quien-abre", "formato": "chat", "nicho": "hosteleria",
+ "tema": "chat: dueño de restaurante pregunta al encargado si alguien ha abierto la cocina (variante de 94, el mejor chat)",
+ "copy": "Son las 12:05 y no sabes si alguien ha abierto la cocina 🍳\nCon Fíchalo ves quién ha fichado sin llamar a nadie.\n\n¿A quién le has escrito tú este mensaje? Etiquétalo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #restaurantes",
+ "titular": "Tu restaurante abre a las 12:00. Son las 12:05", "acento": "12:05",
+ "contacto": "Mikel (encargado)",
+ "mensajes": [
+  {"de": "yo", "texto": "Mikel, ¿ha llegado alguien a la cocina?"},
+  {"de": "el", "texto": "Yo estoy en sala, no sé"},
+  {"de": "el", "texto": "Voy a mirar"},
+  {"de": "el", "texto": "Está Unai solo, Josu dice que llega en 15 min"}
+ ],
+ "giro": {"texto": "O míralo sin preguntar a nadie", "acento": "sin preguntar",
+  "cab": "Quién está trabajando",
+  "filas": [["Mikel · Sala", "Fichó 11:52", "1"], ["Unai · Cocina", "Fichó 11:58", "1"], ["Josu · Cocina", "Sin fichar", ""]]}
+},
+{"id": "127_monigotes_veterinaria-inspeccion", "formato": "monigotes", "nicho": "clinica",
+ "tema": "monigotes: llega Inspección a una clínica veterinaria y piden el registro (variante de 84)",
+ "copy": "Inspección entra en tu clínica veterinaria y pide el registro de jornada 🐾\nCon Fíchalo lo tienes en PDF en un momento, sin buscar carpetas.\n\nEtiqueta a quien lleva tu clínica 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #veterinaria #clinicas",
+ "titular": "Llega Inspección a tu clínica veterinaria", "acento": "Inspección",
+ "escenas": [
+  {"escena": "caos", "voz": "Llega Inspección a tu clínica veterinaria y te pide el registro de jornada.", "postit": "¿Hojas de marzo?\n¿Y guardias?", "acc": ["bata"]},
+  {"escena": "inspeccion", "voz": "Con Fíchalo, sacas el informe desde el móvil en un momento.", "pide": "Registro de jornada,\npor favor", "da": "Informe PDF", "acc": ["bata"]},
+  {"escena": "feliz", "voz": "Todo guardado, como pide la ley. Cuatro años.", "texto": "Registro en regla", "acc": ["bata"]}
+ ]},
+{"id": "128_voz_gestoria-3-excusas", "formato": "voz", "nicho": "gestoria",
+ "tema": "voz: gestorías, 3 excusas de los clientes para no mandar las horas a fin de mes",
+ "copy": "Las 3 excusas que oye cualquier gestoría cuando pide las horas 📂\nCon Fíchalo tus clientes sacan el informe de horas en PDF o Excel y te lo mandan.\n\nEtiqueta a tu gestor/a (o mándaselo a tus clientes) 📲\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #gestoria #asesorialaboral",
+ "titular": "3 excusas para no mandar las horas a la gestoría", "acento": "3 excusas",
+ "frases": [
+  {"voz": "Tres excusas que oye cualquier gestoría cuando pide las horas.", "numero": "3"},
+  {"voz": "Uno: te las mando mañana.", "postit": "Horas nov.:\n¿mañana?\n¿lunes?"},
+  {"voz": "Dos: te mando una foto de la hoja.", "papel": ["Hoja de horas", "Ane 8 – ¿?", "Iker (borroso)", "ver foto 2 y 3"]},
+  {"voz": "Tres: las tiene el encargado.", "emoji": "🤷"},
+  {"voz": "Con Fíchalo, tu cliente saca el informe en PDF o Excel y te lo manda.", "movil": {"cab": "Informe · Noviembre", "filas": [["Ane", "152 h", "1"], ["Iker", "160 h · 4 extra", "1"]]}}
+ ]}
+]}
