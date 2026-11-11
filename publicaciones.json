@@ -521,7 +521,9 @@
    "fecha": "2026-11-11T12:40",
    "estado": "pendiente",
    "formato": "monigotes",
-   "copy": "Turnos partidos en el restaurante y toca sumar las horas para nóminas 🍽️\nCon Fíchalo cada uno ficha desde el móvil y las horas salen ya sumadas.\n\n¿Quién suma las horas en tu restaurante? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #restaurantes"
+   "copy": "Turnos partidos en el restaurante y toca sumar las horas para nóminas 🍽️\nCon Fíchalo cada uno ficha desde el móvil y las horas salen ya sumadas.\n\n¿Quién suma las horas en tu restaurante? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #restaurantes",
+   "intentos": 1,
+   "ultimo_error": "HTTP 500: {\"error\":{\"message\":\"An unexpected error has occurred. Please retry your request later.\",\"type\":\"OAuthException\",\"is_transient\":true,\"code\":2,\"fbtrace_id\":\"AvSgiLBfcNHm00B-kB2yNfL\"}}"
   },
   {
    "id": "118_quiz_legal-o-multa-8",
