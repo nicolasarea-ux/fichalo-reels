@@ -1,0 +1,269 @@
+{
+ "reels": [
+  {
+   "id": "129_monigotes_cafeteria-sabado-olvido",
+   "formato": "monigotes",
+   "nicho": "hosteleria",
+   "tema": "monigotes: sábado de terraza llena, el camarero se va sin fichar la salida y le llega el aviso (variante de 82 bar y 115)",
+   "copy": "Sábado de terraza llena y tu camarero se va a casa sin fichar la salida ☕\nFíchalo le avisa en el móvil y sus horas quedan bien apuntadas.\n\n¿A quién de tu equipo le pasa siempre? Etiquétalo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #cafeterias",
+   "titular": "Sábado: tu camarero se va sin fichar la salida",
+   "acento": "sin fichar",
+   "escenas": [
+    {
+     "escena": "olvido",
+     "voz": "Sábado, terraza llena. Unai acaba su turno y se va sin fichar la salida.",
+     "aviso": "¿Te has olvidado de\nfichar la salida?",
+     "ok": "Salida 16:04",
+     "minimo": 3.4,
+     "acc": [
+      "delantal"
+     ]
+    },
+    {
+     "escena": "jefe_movil",
+     "voz": "Fíchalo le avisa, ficha desde el móvil, y tú tienes sus horas bien.",
+     "cab": "Cafetería Plaza",
+     "sub": "Sábado",
+     "filas": [
+      [
+       "Unai",
+       "08:00 – 16:04",
+       "1"
+      ],
+      [
+       "Maite",
+       "10:00 – 18:00",
+       "1"
+      ]
+     ]
+    },
+    {
+     "escena": "feliz",
+     "voz": "Y el lunes no hay nada que corregir.",
+     "texto": "Horas correctas",
+     "acc": [
+      "delantal"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "130_monigotes_tienda-black-friday",
+   "formato": "monigotes",
+   "nicho": "comercio",
+   "tema": "monigotes: semana de Black Friday en una tienda, todos se quedan más y nadie sabe cuántas horas extra lleva cada una (variante de 86 taller viernes)",
+   "copy": "Llega el Black Friday y en tu tienda todo el mundo se queda más horas 🛍️\nCon Fíchalo cada dependienta ficha desde el móvil y ves las horas extra de cada una, ya sumadas.\n\nGuárdalo para la semana del Black Friday 📌\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #comercio #blackfriday",
+   "titular": "Black Friday: ¿cuántas horas extra lleva cada una?",
+   "acento": "Black Friday",
+   "escenas": [
+    {
+     "escena": "calcula",
+     "voz": "Semana de Black Friday en tu tienda. Todas se quedan más. ¿Cuántas horas extra lleva cada una?",
+     "numeros": [
+      "+3?",
+      "¿+5?",
+      "+2h?",
+      "¿?"
+     ]
+    },
+    {
+     "escena": "llega",
+     "voz": "Con Fíchalo, cada dependienta ficha desde el móvil al entrar y al salir.",
+     "lugar": "Tienda Centro",
+     "hora": "09:57"
+    },
+    {
+     "escena": "jefe_movil",
+     "voz": "Y tú ves las horas y las extra de cada una, sin hacer cuentas.",
+     "cab": "Esta semana",
+     "sub": "Horas por persona",
+     "filas": [
+      [
+       "Nerea",
+       "44 h · 4 extra",
+       "1"
+      ],
+      [
+       "Lucía",
+       "42 h · 2 extra",
+       "1"
+      ],
+      [
+       "Ainhoa",
+       "40 h",
+       "1"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "131_voz_restaurante-turno-partido-sabado",
+   "formato": "voz",
+   "nicho": "hosteleria",
+   "tema": "voz: sábado en un restaurante, calcular a mano las horas de un turno partido que acaba de madrugada",
+   "copy": "Turno partido de sábado: haz la cuenta de cabeza, a ver si te sale 🍽️\nCon Fíchalo cada uno ficha desde el móvil y las horas de todo el equipo se suman solas.\n\n¿Te ha salido nueve y media a la primera? Dímelo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #restaurantes",
+   "titular": "Turno partido de sábado: ¿cuántas horas son?",
+   "acento": "¿cuántas horas",
+   "frases": [
+    {
+     "voz": "Sábado en tu restaurante. ¿Cuántas horas ha hecho Lucía?",
+     "postit": "Lucía sáb.:\n12 a 4\n8 a ¿1?"
+    },
+    {
+     "voz": "De doce a cuatro, y de ocho a la una y media, recogiendo.",
+     "papel": [
+      "Turnos · Sábado",
+      "Lucía 12–16 / 20–¿1?",
+      "Asier 13–17 / 20–00:30",
+      "(recogió hasta tarde)"
+     ]
+    },
+    {
+     "voz": "Nueve horas y media. Y lo has calculado tú, a mano.",
+     "numero": "9,5"
+    },
+    {
+     "voz": "Ahora hazlo con toda la plantilla y todo el mes.",
+     "emoji": "🤯"
+    },
+    {
+     "voz": "Con Fíchalo, cada uno ficha desde el móvil y las horas se suman solas.",
+     "movil": {
+      "cab": "Sábado · Horas",
+      "filas": [
+       [
+        "Lucía",
+        "9 h 30 min",
+        "1"
+       ],
+       [
+        "Asier",
+        "8 h 30 min",
+        "1"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "132_voz_veterinaria-guardia-sabado",
+   "formato": "voz",
+   "nicho": "clinica",
+   "tema": "voz: clínica veterinaria, quién hizo la guardia del sábado y hasta qué hora",
+   "copy": "La guardia del sábado en tu clínica veterinaria: ¿quién la hizo y hasta qué hora? 🐾\nCon Fíchalo quien está de guardia ficha desde el móvil y a fin de mes ves las horas de cada uno.\n\nMándaselo a quien hace las guardias contigo 📲\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #veterinaria #clinicas",
+   "titular": "¿Quién hizo la guardia del sábado?",
+   "acento": "guardia",
+   "frases": [
+    {
+     "voz": "Guardia del sábado en tu clínica veterinaria.",
+     "emoji": "🐾"
+    },
+    {
+     "voz": "¿Quién la hizo? ¿Y hasta qué hora se quedó?",
+     "postit": "Guardia sáb.:\n¿Leire?\n¿hasta las 22?"
+    },
+    {
+     "voz": "Si va en un papel, el lunes nadie se acuerda.",
+     "papel": [
+      "Guardias · Noviembre",
+      "Sáb 7: Leire ¿?",
+      "Sáb 14: ¿Iñaki?",
+      "(cambiaron turno)"
+     ]
+    },
+    {
+     "voz": "Con Fíchalo, quien está de guardia ficha desde el móvil al entrar y al salir.",
+     "movil": {
+      "cab": "Guardia · Sábado",
+      "filas": [
+       [
+        "Leire",
+        "Fichó 14:02",
+        "1"
+       ],
+       [
+        "Salida",
+        "22:15",
+        "1"
+       ]
+      ]
+     }
+    },
+    {
+     "voz": "Y a fin de mes tienes las horas y las extra de cada uno.",
+     "movil": {
+      "cab": "Noviembre",
+      "filas": [
+       [
+        "Leire",
+        "148 h · 6 extra",
+        "1"
+       ],
+       [
+        "Iñaki",
+        "140 h",
+        "1"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "133_chat_dental-quien-abre",
+   "formato": "chat",
+   "nicho": "clinica",
+   "tema": "chat: dueña de clínica dental pregunta a recepción si ha llegado la higienista con pacientes esperando (variante de 94, el mejor de la semana)",
+   "copy": "9:05, el primer paciente ya está en la sala de espera y no sabes si ha llegado la higienista 🦷\nCon Fíchalo ves quién ha fichado en tu clínica sin llamar a nadie.\n\n¿Te ha pasado esta semana? Cuéntamelo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #clinicadental #clinicas",
+   "titular": "Tu clínica abre a las 9:00. Son las 9:05",
+   "acento": "9:05",
+   "contacto": "Irene (recepción)",
+   "mensajes": [
+    {
+     "de": "yo",
+     "texto": "Irene, ¿ha llegado ya Sara?",
+     "hora": "09:05"
+    },
+    {
+     "de": "el",
+     "texto": "No la he visto",
+     "hora": "09:05"
+    },
+    {
+     "de": "el",
+     "texto": "El de las 9:00 ya está esperando",
+     "hora": "09:06"
+    },
+    {
+     "de": "el",
+     "texto": "La llamo y te digo",
+     "hora": "09:06"
+    }
+   ],
+   "giro": {
+    "texto": "O míralo sin preguntar a nadie",
+    "acento": "sin preguntar",
+    "cab": "Quién está trabajando",
+    "filas": [
+     [
+      "Irene · Recepción",
+      "Fichó 08:51",
+      "1"
+     ],
+     [
+      "Dra. Ortiz",
+      "Fichó 08:56",
+      "1"
+     ],
+     [
+      "Sara · Higienista",
+      "Sin fichar",
+      ""
+     ]
+    ]
+   }
+  }
+ ]
+}

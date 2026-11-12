@@ -1002,6 +1002,51 @@
    "estado": "programado",
    "fecha": "2026-11-13T17:40",
    "formato": "voz"
+  },
+  {
+   "id": "131_voz_restaurante-turno-partido-sabado",
+   "tema": "voz: sábado en un restaurante, calcular a mano las horas de un turno partido que acaba de madrugada",
+   "copy": "Turno partido de sábado: haz la cuenta de cabeza, a ver si te sale 🍽️\nCon Fíchalo cada uno ficha desde el móvil y las horas de todo el equipo se suman solas.\n\n¿Te ha salido nueve y media a la primera? Dímelo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #restaurantes",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa #hosteleria #restaurantes",
+   "estado": "programado",
+   "fecha": "2026-11-14T09:40",
+   "formato": "voz"
+  },
+  {
+   "id": "129_monigotes_cafeteria-sabado-olvido",
+   "tema": "monigotes: sábado de terraza llena, el camarero se va sin fichar la salida y le llega el aviso (variante de 82 bar y 115)",
+   "copy": "Sábado de terraza llena y tu camarero se va a casa sin fichar la salida ☕\nFíchalo le avisa en el móvil y sus horas quedan bien apuntadas.\n\n¿A quién de tu equipo le pasa siempre? Etiquétalo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #cafeterias",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa #hosteleria #cafeterias",
+   "estado": "programado",
+   "fecha": "2026-11-14T12:40",
+   "formato": "monigotes"
+  },
+  {
+   "id": "133_chat_dental-quien-abre",
+   "tema": "chat: dueña de clínica dental pregunta a recepción si ha llegado la higienista con pacientes esperando (variante de 94, el mejor de la semana)",
+   "copy": "9:05, el primer paciente ya está en la sala de espera y no sabes si ha llegado la higienista 🦷\nCon Fíchalo ves quién ha fichado en tu clínica sin llamar a nadie.\n\n¿Te ha pasado esta semana? Cuéntamelo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #clinicadental #clinicas",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa #clinicadental #clinicas",
+   "estado": "programado",
+   "fecha": "2026-11-14T14:40",
+   "formato": "chat"
+  },
+  {
+   "id": "132_voz_veterinaria-guardia-sabado",
+   "tema": "voz: clínica veterinaria, quién hizo la guardia del sábado y hasta qué hora",
+   "copy": "La guardia del sábado en tu clínica veterinaria: ¿quién la hizo y hasta qué hora? 🐾\nCon Fíchalo quien está de guardia ficha desde el móvil y a fin de mes ves las horas de cada uno.\n\nMándaselo a quien hace las guardias contigo 📲\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #veterinaria #clinicas",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa #veterinaria #clinicas",
+   "estado": "programado",
+   "fecha": "2026-11-14T17:40",
+   "formato": "voz"
+  },
+  {
+   "id": "130_monigotes_tienda-black-friday",
+   "tema": "monigotes: semana de Black Friday en una tienda, todos se quedan más y nadie sabe cuántas horas extra lleva cada una (variante de 86 taller viernes)",
+   "copy": "Llega el Black Friday y en tu tienda todo el mundo se queda más horas 🛍️\nCon Fíchalo cada dependienta ficha desde el móvil y ves las horas extra de cada una, ya sumadas.\n\nGuárdalo para la semana del Black Friday 📌\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #comercio #blackfriday",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa #comercio #blackfriday",
+   "estado": "programado",
+   "fecha": "2026-11-14T20:40",
+   "formato": "monigotes"
   }
  ]
 }
