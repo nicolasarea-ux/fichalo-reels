@@ -413,7 +413,7 @@ def esc_calcula(o):
         monigote(img, 540, 1560, t, "brazos", 1, 1.0, "triste", o.get("acc", ("corbata",)))
         d = ImageDraw.Draw(img)
         for i, n in enumerate(nums):
-            a = i * 1.6 + t * 0.8
+            a = i * 1.6 + 0.8 + t * 0.8  # +0.8: en el fotograma 0 ningún número tapa la cabeza
             x, y = 540 + math.cos(a) * 330, 860 + math.sin(a) * 160
             d.text((x - 60, y), n, font=F(800, 64), fill=RED if i % 2 else NAVY, stroke_width=6, stroke_fill=WHITE)
     return draw, [("teclear", 0.2, 0.7), ("teclear", 1.4, 0.5)]

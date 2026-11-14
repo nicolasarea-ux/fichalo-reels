@@ -1,0 +1,251 @@
+{
+ "reels": [
+  {
+   "id": "139_voz_tiendas-lunes-quien-abre",
+   "formato": "voz",
+   "nicho": "comercio",
+   "tema": "voz: lunes 10:02, dueña de 3 tiendas de ropa sin saber si han abierto todas (variante de 94 chat quién abre, el mejor de la semana)",
+   "copy": "Lunes, 10:02. Tres tiendas que abren a las 10 y tú sin saber si están todas abiertas 🛍️\nCon Fíchalo ves en el móvil quién ha fichado en cada tienda.\n\nMándaselo a quien lleva las otras tiendas 📲\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #comercio #tiendas",
+   "titular": "Lunes, 10:02. ¿Han abierto tus 3 tiendas?",
+   "acento": "10:02",
+   "frases": [
+    {
+     "voz": "Lunes, las diez y dos. Tienes tres tiendas que abren a las diez. ¿Han abierto todas?",
+     "postit": "¿Centro? ok\n¿Gros? ¿?\n¿Amara? ¿?"
+    },
+    {
+     "voz": "Llamas a una. No lo coge. Escribes a otra. Visto.",
+     "emoji": "📞"
+    },
+    {
+     "voz": "Con Fíchalo, cada dependienta ficha desde el móvil al llegar a su tienda.",
+     "emoji": "📱"
+    },
+    {
+     "voz": "Y tú ves quién está en cada tienda, sin llamar a nadie.",
+     "movil": {
+      "cab": "Quién está trabajando",
+      "filas": [
+       [
+        "Centro · Ane",
+        "Fichó 09:54",
+        "1"
+       ],
+       [
+        "Gros · Maite",
+        "Fichó 09:58",
+        "1"
+       ],
+       [
+        "Amara · Lucía",
+        "Sin fichar",
+        ""
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "140_monigotes_peluqueria-vacaciones-navidad",
+   "formato": "monigotes",
+   "nicho": "peluqueria",
+   "tema": "monigotes: peluquería, dos peluqueras piden la misma semana de Navidad y las peticiones están en un pósit",
+   "copy": "Dos peluqueras, la misma semana de Navidad y las peticiones en un pósit ✂️\nCon Fíchalo piden las vacaciones desde el móvil y tú las apruebas viendo quién queda en el salón.\n\nGuárdalo antes de hacer el cuadrante de diciembre 📌\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #peluqueria #salondebelleza",
+   "titular": "Dos peluqueras quieren la misma semana de Navidad",
+   "acento": "Navidad",
+   "escenas": [
+    {
+     "escena": "caos",
+     "voz": "Diciembre en la peluquería. Dos peluqueras quieren la misma semana de Navidad. Y lo apuntaron en un pósit.",
+     "postit": "Nerea: 22-28\nSara: ¿22-28?\n¿quién queda?"
+    },
+    {
+     "escena": "jefe_movil",
+     "voz": "Con Fíchalo, piden las vacaciones desde el móvil y tú ves quién queda en el salón.",
+     "cab": "Vacaciones · Diciembre",
+     "sub": "Pendientes de aprobar",
+     "filas": [
+      [
+       "Nerea",
+       "22 – 28 dic",
+       "1"
+      ],
+      [
+       "Sara",
+       "29 dic – 4 ene",
+       "1"
+      ]
+     ]
+    },
+    {
+     "escena": "feliz",
+     "voz": "Apruebas en un clic. Sin pósits.",
+     "texto": "Vacaciones claras",
+     "acc": [
+      "delantal"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "141_chat_gestoria-foto-horas-lunes",
+   "formato": "chat",
+   "nicho": "gestoria",
+   "tema": "chat: lunes, cliente (bar) manda a su gestora la foto borrosa de la hoja de horas de la semana (para que las gestorías lo reenvíen)",
+   "copy": "Lunes por la mañana en la gestoría: llega la foto de las horas. Borrosa 📸\nCon Fíchalo el cliente saca el informe de horas en PDF o Excel y te lo manda tal cual.\n\nEtiqueta a tu gestor/a (o a tu cliente) 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #gestoria #asesorialaboral",
+   "titular": "Lunes en la gestoría. Llega esto:",
+   "acento": "Llega esto",
+   "contacto": "Bar Txoko (cliente)",
+   "mensajes": [
+    {
+     "de": "el",
+     "texto": "Buenos días! Te mando las horas de la semana",
+     "hora": "09:12"
+    },
+    {
+     "de": "el",
+     "foto": [
+      "Horas · semana",
+      "Iker 38 ¿+2?",
+      "Ane ver hoja",
+      "Jon (borroso)"
+     ],
+     "hora": "09:12"
+    },
+    {
+     "de": "yo",
+     "texto": "No se lee lo de Jon",
+     "hora": "09:20"
+    },
+    {
+     "de": "el",
+     "texto": "Uf, la hoja la tiene él. Te la mando el jueves",
+     "hora": "09:41"
+    }
+   ],
+   "giro": {
+    "texto": "O que te mande el informe de Fíchalo",
+    "acento": "informe",
+    "cab": "Bar Txoko · Semana",
+    "sub": "Informe PDF / Excel",
+    "filas": [
+     [
+      "Iker",
+      "40 h · 2 extra",
+      "1"
+     ],
+     [
+      "Ane",
+      "38 h",
+      "1"
+     ],
+     [
+      "Jon",
+      "36 h",
+      "1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "142_voz_fisio-dos-centros-quien-esta",
+   "formato": "voz",
+   "nicho": "clinica",
+   "tema": "voz: fisioterapia con 2 centros, lunes por la tarde, qué fisio está en cada centro con la sala de espera llena",
+   "copy": "Dos centros de fisio, lunes por la tarde y la sala de espera llena: ¿quién está en cada uno? 🩺\nCon Fíchalo cada fisio ficha desde el móvil en su centro y tú lo ves al momento.\n\n¿Cómo lo sabes tú ahora? Cuéntamelo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #fisioterapia #clinicas",
+   "titular": "¿Qué fisio está ahora en cada centro?",
+   "acento": "cada centro",
+   "frases": [
+    {
+     "voz": "Lunes por la tarde. Tienes dos centros de fisio y la sala de espera llena. ¿Quién está en cada uno?",
+     "postit": "C1: ¿Jon?\nC2: ¿Amaia?\n¿o Leire?"
+    },
+    {
+     "voz": "El cuadrante dice una cosa. Los cambios de turno, por WhatsApp, otra.",
+     "papel": [
+      "Cuadrante · Lunes",
+      "C1 tarde: Jon",
+      "C2 tarde: Amaia",
+      "(cambió con Leire?)"
+     ]
+    },
+    {
+     "voz": "Con Fíchalo, cada fisio ficha desde el móvil en su centro.",
+     "emoji": "📱"
+    },
+    {
+     "voz": "Y tú ves quién está trabajando en cada centro, ahora mismo.",
+     "movil": {
+      "cab": "Quién está trabajando",
+      "filas": [
+       [
+        "Centro 1 · Jon",
+        "Fichó 15:56",
+        "1"
+       ],
+       [
+        "Centro 2 · Leire",
+        "Fichó 15:59",
+        "1"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "143_monigotes_bar-camarero-horas-extra",
+   "formato": "monigotes",
+   "nicho": "hosteleria",
+   "tema": "monigotes: el camarero pregunta cuántas horas extra lleva este mes y el dueño echa cuentas a mano (variante de 82 bar día 30, el mejor monigotes)",
+   "copy": "\"¿Cuántas horas extra llevo este mes?\" Y tú, echando cuentas en una servilleta 🍺\nCon Fíchalo las horas y las extra de cada camarero salen solas.\n\n¿Te lo han preguntado alguna vez? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #bares",
+   "titular": "\"¿Cuántas horas extra llevo este mes?\"",
+   "acento": "horas extra",
+   "escenas": [
+    {
+     "escena": "calcula",
+     "voz": "Tu camarero te pregunta cuántas horas extra lleva este mes. Y tú, echando cuentas.",
+     "numeros": [
+      "+2?",
+      "¿+3?",
+      "+1?",
+      "¿7?"
+     ]
+    },
+    {
+     "escena": "llega",
+     "voz": "Con Fíchalo, cada camarero ficha desde el móvil al entrar y al salir.",
+     "lugar": "Bar Txoko",
+     "hora": "18:57",
+     "acc": [
+      "delantal"
+     ]
+    },
+    {
+     "escena": "jefe_movil",
+     "voz": "Y tú ves sus horas y sus extra, ya sumadas.",
+     "cab": "Iker · Noviembre",
+     "sub": "Horas por persona",
+     "filas": [
+      [
+       "Horas",
+       "86 h",
+       "1"
+      ],
+      [
+       "Extra",
+       "6 h 30 min",
+       "1"
+      ],
+      [
+       "Días",
+       "11",
+       "1"
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

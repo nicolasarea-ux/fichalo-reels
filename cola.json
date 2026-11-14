@@ -1097,6 +1097,56 @@
    "fecha": "2026-11-15T20:40",
    "formato": "monigotes",
    "nicho": "hosteleria"
+  },
+  {
+   "id": "139_voz_tiendas-lunes-quien-abre",
+   "tema": "voz: lunes 10:02, dueña de 3 tiendas de ropa sin saber si han abierto todas (variante de 94 chat quién abre, el mejor de la semana)",
+   "copy": "Lunes, 10:02. Tres tiendas que abren a las 10 y tú sin saber si están todas abiertas 🛍️\nCon Fíchalo ves en el móvil quién ha fichado en cada tienda.\n\nMándaselo a quien lleva las otras tiendas 📲\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #comercio #tiendas",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa #hosteleria #hoteles",
+   "estado": "programado",
+   "fecha": "2026-11-16T09:40",
+   "formato": "voz",
+   "nicho": "comercio"
+  },
+  {
+   "id": "140_monigotes_peluqueria-vacaciones-navidad",
+   "tema": "monigotes: peluquería, dos peluqueras piden la misma semana de Navidad y las peticiones están en un pósit",
+   "copy": "Dos peluqueras, la misma semana de Navidad y las peticiones en un pósit ✂️\nCon Fíchalo piden las vacaciones desde el móvil y tú las apruebas viendo quién queda en el salón.\n\nGuárdalo antes de hacer el cuadrante de diciembre 📌\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #peluqueria #salondebelleza",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa #hosteleria #hoteles",
+   "estado": "programado",
+   "fecha": "2026-11-16T12:40",
+   "formato": "monigotes",
+   "nicho": "peluqueria"
+  },
+  {
+   "id": "141_chat_gestoria-foto-horas-lunes",
+   "tema": "chat: lunes, cliente (bar) manda a su gestora la foto borrosa de la hoja de horas de la semana (para que las gestorías lo reenvíen)",
+   "copy": "Lunes por la mañana en la gestoría: llega la foto de las horas. Borrosa 📸\nCon Fíchalo el cliente saca el informe de horas en PDF o Excel y te lo manda tal cual.\n\nEtiqueta a tu gestor/a (o a tu cliente) 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #gestoria #asesorialaboral",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa #hosteleria #hoteles",
+   "estado": "programado",
+   "fecha": "2026-11-16T14:40",
+   "formato": "chat",
+   "nicho": "gestoria"
+  },
+  {
+   "id": "142_voz_fisio-dos-centros-quien-esta",
+   "tema": "voz: fisioterapia con 2 centros, lunes por la tarde, qué fisio está en cada centro con la sala de espera llena",
+   "copy": "Dos centros de fisio, lunes por la tarde y la sala de espera llena: ¿quién está en cada uno? 🩺\nCon Fíchalo cada fisio ficha desde el móvil en su centro y tú lo ves al momento.\n\n¿Cómo lo sabes tú ahora? Cuéntamelo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #fisioterapia #clinicas",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa #hosteleria #hoteles",
+   "estado": "programado",
+   "fecha": "2026-11-16T17:40",
+   "formato": "voz",
+   "nicho": "clinica"
+  },
+  {
+   "id": "143_monigotes_bar-camarero-horas-extra",
+   "tema": "monigotes: el camarero pregunta cuántas horas extra lleva este mes y el dueño echa cuentas a mano (variante de 82 bar día 30, el mejor monigotes)",
+   "copy": "\"¿Cuántas horas extra llevo este mes?\" Y tú, echando cuentas en una servilleta 🍺\nCon Fíchalo las horas y las extra de cada camarero salen solas.\n\n¿Te lo han preguntado alguna vez? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #bares",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa #hosteleria #hoteles",
+   "estado": "programado",
+   "fecha": "2026-11-16T20:40",
+   "formato": "monigotes",
+   "nicho": "hosteleria"
   }
  ]
 }
