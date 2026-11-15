@@ -1,0 +1,253 @@
+{
+ "reels": [
+  {
+   "id": "144_chat_taller-quien-abre",
+   "formato": "chat",
+   "nicho": "taller",
+   "tema": "chat: taller mecánico, martes 8:04, el cliente espera en la puerta y el dueño pregunta al jefe de taller si alguien ha abierto (variante de 94 chat quién abre, el mejor)",
+   "copy": "Martes, 8:04. Un cliente esperando en la puerta del taller y tú sin saber si alguien ha abierto 🔧\nCon Fíchalo ves en el móvil quién ha fichado en el taller, sin llamar a nadie.\n\n¿Quién abre en tu taller? Etiquétalo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #talleres #talleresmecanicos",
+   "titular": "Tu taller abre a las 8:00. Son las 8:04",
+   "acento": "8:04",
+   "contacto": "Jon (jefe de taller)",
+   "mensajes": [
+    {
+     "de": "yo",
+     "texto": "Jon, me escribe un cliente que el taller está cerrado",
+     "hora": "08:04"
+    },
+    {
+     "de": "el",
+     "texto": "Yo hoy entro a las 9",
+     "hora": "08:06"
+    },
+    {
+     "de": "el",
+     "texto": "Abría Asier, no sé si ha llegado",
+     "hora": "08:06"
+    },
+    {
+     "de": "yo",
+     "texto": "Le llamo y no lo coge",
+     "hora": "08:09"
+    }
+   ],
+   "giro": {
+    "texto": "O míralo sin llamar a nadie",
+    "acento": "sin llamar",
+    "cab": "Quién está trabajando",
+    "sub": "Taller · Ahora mismo",
+    "filas": [
+     [
+      "Asier",
+      "Sin fichar",
+      ""
+     ],
+     [
+      "Unai",
+      "Fichó 08:07",
+      "1"
+     ],
+     [
+      "Jon",
+      "Entra 09:00",
+      ""
+     ]
+    ]
+   }
+  },
+  {
+   "id": "145_voz_dental-quien-se-fue-ultima",
+   "formato": "voz",
+   "nicho": "clinica",
+   "tema": "voz: clínica dental, la alarma se puso a las 21:40 y no sabes quién se quedó la última ni hasta qué hora (variante de 117 voz bar quién cerró)",
+   "copy": "La alarma de la clínica se puso a las 21:40. ¿Quién se quedó y desde cuándo? 🦷\nCon Fíchalo ves a qué hora fichó la salida cada persona, también la última.\n\n¿En tu clínica quién cierra? Cuéntamelo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #clinicadental #clinicas",
+   "titular": "La alarma se puso a las 21:40. ¿Quién se quedó?",
+   "acento": "21:40",
+   "frases": [
+    {
+     "voz": "La alarma de tu clínica dental se puso anoche a las nueve y cuarenta. ¿Quién se quedó la última?",
+     "postit": "Alarma 21:40\n¿Marta?\n¿o Irene?"
+    },
+    {
+     "voz": "La hoja de firmas dice que todas salieron a las ocho.",
+     "papel": [
+      "Salidas · Lunes",
+      "Marta 20:00",
+      "Irene 20:00",
+      "Ane 20:00"
+     ]
+    },
+    {
+     "voz": "Con Fíchalo, cada una ficha la salida desde el móvil.",
+     "emoji": "📱"
+    },
+    {
+     "voz": "Y tú ves a qué hora se fue cada una, y quién hizo horas extra.",
+     "movil": {
+      "cab": "Lunes · Salidas",
+      "filas": [
+       [
+        "Ane",
+        "Salió 20:02",
+        "1"
+       ],
+       [
+        "Marta",
+        "Salió 20:05",
+        "1"
+       ],
+       [
+        "Irene",
+        "Salió 21:36 · extra",
+        "1"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "146_monigotes_gestoria-horas-de-clientes",
+   "formato": "monigotes",
+   "nicho": "gestoria",
+   "tema": "monigotes: gestoría a mitad de mes persiguiendo las horas de sus clientes (foto, mañana, lunes) y la solución: el cliente le manda el informe de Fíchalo (para que las gestorías lo reenvíen)",
+   "copy": "Cada cliente te manda las horas a su manera: foto, papel o \"mañana\" 📂\nSi tus clientes fichan con Fíchalo, te pasan el informe de horas en PDF o Excel y listo.\n\nEtiqueta a tu gestor/a (o mándaselo a tus clientes) 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #gestoria #asesorialaboral",
+   "titular": "Gestoría: las horas de tus clientes llegan así",
+   "acento": "así",
+   "escenas": [
+    {
+     "escena": "caos",
+     "voz": "Eres gestora. Cada cliente te manda las horas a su manera. Una foto. Un papel. O, mañana.",
+     "postit": "Bar: foto\nTienda: ¿lunes?\nTaller: mañana",
+     "acc": [
+      "corbata"
+     ]
+    },
+    {
+     "escena": "llega",
+     "voz": "Con Fíchalo, los trabajadores de tus clientes fichan desde el móvil.",
+     "lugar": "Bar Txoko",
+     "hora": "08:57",
+     "acc": [
+      "delantal"
+     ]
+    },
+    {
+     "escena": "jefe_movil",
+     "voz": "Y el cliente te manda el informe de horas, en PDF o en Excel.",
+     "cab": "Bar Txoko · Noviembre",
+     "sub": "Informe PDF / Excel",
+     "filas": [
+      [
+       "Iker",
+       "82 h · 4 extra",
+       "1"
+      ],
+      [
+       "Ane",
+       "76 h",
+       "1"
+      ],
+      [
+       "Jon",
+       "80 h · 2 extra",
+       "1"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "147_monigotes_tienda-cierre-olvido",
+   "formato": "monigotes",
+   "nicho": "comercio",
+   "tema": "monigotes: dependienta cierra la tienda a las 21:00 y se va sin fichar la salida, le llega el aviso (variante de 115 fisio olvido)",
+   "copy": "Nueve de la noche: baja la persiana de la tienda y se va a casa sin fichar la salida 🛍️\nFíchalo le avisa en el móvil y sus horas quedan bien apuntadas.\n\nMándaselo a quien cierra tu tienda 📲\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #comercio #tiendas",
+   "titular": "Cierra la tienda y se va sin fichar",
+   "acento": "sin fichar",
+   "escenas": [
+    {
+     "escena": "olvido",
+     "voz": "Nueve de la noche. Lucía baja la persiana de la tienda y se va a casa sin fichar la salida.",
+     "aviso": "¿Te has olvidado de\nfichar la salida?",
+     "ok": "Salida 21:04",
+     "minimo": 3.4
+    },
+    {
+     "escena": "jefe_movil",
+     "voz": "Fíchalo le avisa, ficha desde el móvil, y tú tienes sus horas bien.",
+     "cab": "Tienda Centro",
+     "sub": "Hoy",
+     "filas": [
+      [
+       "Lucía",
+       "12:00 – 21:04",
+       "1"
+      ],
+      [
+       "Maite",
+       "09:58 – 14:02",
+       "1"
+      ]
+     ]
+    },
+    {
+     "escena": "feliz",
+     "voz": "Sin salidas apuntadas de memoria.",
+     "texto": "Horas correctas"
+    }
+   ]
+  },
+  {
+   "id": "148_voz_restaurante-cocinero-pide-registro",
+   "formato": "voz",
+   "nicho": "hosteleria",
+   "tema": "voz: el cocinero pide ver su registro de horas del mes y el dueño solo tiene una libreta (variante de 93 chat mis horas y 119)",
+   "copy": "\"Quiero ver mi registro de horas del mes\". Y tú con la libreta de la cocina 🍳\nCon Fíchalo cada cocinero ve sus horas en el móvil, y tú lo tienes en PDF.\n\nGuárdalo para cuando te lo pidan 📌\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #restaurantes",
+   "titular": "\"Quiero ver mi registro de horas\"",
+   "acento": "mi registro",
+   "frases": [
+    {
+     "voz": "Tu cocinero te dice: quiero ver mi registro de horas del mes. Y tiene derecho a verlo.",
+     "postit": "\"¿Me enseñas\nmis horas?\""
+    },
+    {
+     "voz": "Tú solo tienes la libreta de la cocina. Con tachones.",
+     "papel": [
+      "Cocina · Noviembre",
+      "Josu 10-16 / 20-?",
+      "Josu ¿partido?",
+      "(tachado)"
+     ]
+    },
+    {
+     "voz": "Con Fíchalo, ficha desde el móvil al entrar y al salir.",
+     "emoji": "📱"
+    },
+    {
+     "voz": "Y él ve sus horas, y tú sacas el informe en PDF.",
+     "movil": {
+      "cab": "Josu · Noviembre",
+      "filas": [
+       [
+        "Horas",
+        "88 h",
+        "1"
+       ],
+       [
+        "Extra",
+        "5 h",
+        "1"
+       ],
+       [
+        "Informe",
+        "PDF",
+        "1"
+       ]
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

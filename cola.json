@@ -1147,6 +1147,46 @@
    "fecha": "2026-11-16T20:40",
    "formato": "monigotes",
    "nicho": "hosteleria"
+  },
+  {
+   "id": "145_voz_dental-quien-se-fue-ultima",
+   "tema": "voz: clínica dental, la alarma se puso a las 21:40 y no sabes quién se quedó la última ni hasta qué hora (variante de 117 voz bar quién cerró)",
+   "copy": "La alarma de la clínica se puso a las 21:40. ¿Quién se quedó y desde cuándo? 🦷\nCon Fíchalo ves a qué hora fichó la salida cada persona, también la última.\n\n¿En tu clínica quién cierra? Cuéntamelo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #clinicadental #clinicas",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa #clinicadental #clinicas",
+   "estado": "programado",
+   "fecha": "2026-11-17T09:40"
+  },
+  {
+   "id": "147_monigotes_tienda-cierre-olvido",
+   "tema": "monigotes: dependienta cierra la tienda a las 21:00 y se va sin fichar la salida, le llega el aviso (variante de 115 fisio olvido)",
+   "copy": "Nueve de la noche: baja la persiana de la tienda y se va a casa sin fichar la salida 🛍️\nFíchalo le avisa en el móvil y sus horas quedan bien apuntadas.\n\nMándaselo a quien cierra tu tienda 📲\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #comercio #tiendas",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa #comercio #tiendas",
+   "estado": "programado",
+   "fecha": "2026-11-17T12:40"
+  },
+  {
+   "id": "144_chat_taller-quien-abre",
+   "tema": "chat: taller mecánico, martes 8:04, el cliente espera en la puerta y el dueño pregunta al jefe de taller si alguien ha abierto (variante de 94 chat quién abre, el mejor)",
+   "copy": "Martes, 8:04. Un cliente esperando en la puerta del taller y tú sin saber si alguien ha abierto 🔧\nCon Fíchalo ves en el móvil quién ha fichado en el taller, sin llamar a nadie.\n\n¿Quién abre en tu taller? Etiquétalo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #talleres #talleresmecanicos",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa #talleres #talleresmecanicos",
+   "estado": "programado",
+   "fecha": "2026-11-17T14:40"
+  },
+  {
+   "id": "148_voz_restaurante-cocinero-pide-registro",
+   "tema": "voz: el cocinero pide ver su registro de horas del mes y el dueño solo tiene una libreta (variante de 93 chat mis horas y 119)",
+   "copy": "\"Quiero ver mi registro de horas del mes\". Y tú con la libreta de la cocina 🍳\nCon Fíchalo cada cocinero ve sus horas en el móvil, y tú lo tienes en PDF.\n\nGuárdalo para cuando te lo pidan 📌\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #restaurantes",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa #hosteleria #restaurantes",
+   "estado": "programado",
+   "fecha": "2026-11-17T17:40"
+  },
+  {
+   "id": "146_monigotes_gestoria-horas-de-clientes",
+   "tema": "monigotes: gestoría a mitad de mes persiguiendo las horas de sus clientes (foto, mañana, lunes) y la solución: el cliente le manda el informe de Fíchalo (para que las gestorías lo reenvíen)",
+   "copy": "Cada cliente te manda las horas a su manera: foto, papel o \"mañana\" 📂\nSi tus clientes fichan con Fíchalo, te pasan el informe de horas en PDF o Excel y listo.\n\nEtiqueta a tu gestor/a (o mándaselo a tus clientes) 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #gestoria #asesorialaboral",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa #gestoria #asesorialaboral",
+   "estado": "programado",
+   "fecha": "2026-11-17T20:40"
   }
  ]
 }

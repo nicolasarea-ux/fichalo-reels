@@ -854,7 +854,7 @@ def portada_v2(reel, out_jpg):
         vis = _recortar_alfa(lay.crop((120, 680, 1060, 1585)), 10)
     elif fmt == "chat":
         m0 = next(m for m in reel["mensajes"] if m.get("texto"))
-        b = _burbuja_chat(m0["texto"], m0.get("de") == "yo", None, "20:14", 66, 760)
+        b = _burbuja_chat(m0["texto"], m0.get("de") == "yo", None, m0.get("hora", "20:14"), 66, 760)
         av = _avatar(reel["contacto"][0].upper(), TEAL, 60)
         lay = Image.new("RGBA", (b.width + 140, max(b.height, 130)), (0, 0, 0, 0))
         lay.alpha_composite(av, (0, lay.height - 120)); lay.alpha_composite(b, (140, 0))
