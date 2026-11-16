@@ -1187,6 +1187,51 @@
    "hashtags": "#fichaje #fichajedigital #fichalo #empresa #gestoria #asesorialaboral",
    "estado": "programado",
    "fecha": "2026-11-17T20:40"
+  },
+  {
+   "id": "149_voz_limpieza-portal-nadie-vino",
+   "tema": "voz: empresa de limpieza, el presidente de la comunidad dice que ayer nadie limpió el portal y no sabes si fue la limpiadora ni a qué hora (variante de 117 voz bar quién cerró y 94)",
+   "copy": "\"Ayer no vino nadie a limpiar el portal\". ¿Seguro? 🧹\nCon Fíchalo cada limpiadora ficha en cada edificio y ves a qué hora entró y salió.\n\nMándaselo a quien lleva las comunidades 📲\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #limpieza #empresasdelimpieza",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa #limpieza #empresasdelimpieza",
+   "estado": "programado",
+   "fecha": "2026-11-18T09:40",
+   "formato": "voz"
+  },
+  {
+   "id": "150_monigotes_dependienta-dos-tiendas",
+   "tema": "monigotes: una dependienta cubre dos tiendas y a fin de mes no sabes cuántas horas hizo en cada una (variante de 123 limpieza 3 edificios y 82)",
+   "copy": "Maite cubre dos tiendas. ¿Cuántas horas ha hecho en cada una este mes? 🛍️\nCon Fíchalo ficha en cada tienda y ves sus horas por centro, ya sumadas.\n\n¿Te pasa con alguien de tu equipo? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #comercio #tiendas",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa #comercio #tiendas",
+   "estado": "programado",
+   "fecha": "2026-11-18T12:40",
+   "formato": "monigotes"
+  },
+  {
+   "id": "151_chat_peluqueria-quien-abre",
+   "tema": "chat: dueña de peluquería, 9:32, la clienta de las 9:30 espera en la puerta y no sabe si ha llegado la peluquera que abre (variante de 94 chat quién abre, el mejor)",
+   "copy": "9:32. La clienta de las 9:30 en la puerta de la pelu y tú sin saber quién ha abierto ✂️\nCon Fíchalo ves en el móvil quién ha fichado en tu peluquería.\n\n¿Quién abre en tu pelu? Etiquétala 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #peluqueria #peluquerias",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa #peluqueria #peluquerias",
+   "estado": "programado",
+   "fecha": "2026-11-18T14:40",
+   "formato": "chat"
+  },
+  {
+   "id": "152_voz_bar-salio-a-la-1-30",
+   "tema": "voz: el camarero dice que el sábado salió a la 1:30 y tú crees que a las 12; sin registro es su palabra contra la tuya (variante de 117 voz bar quién cerró, el mejor de voz)",
+   "copy": "\"El sábado salí a la una y media\". Tú dirías que a las doce 🍺\nCon Fíchalo cada salida queda fichada con su hora, sin discusiones.\n\n¿Te ha pasado? Cuéntamelo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #bares",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa #hosteleria #bares",
+   "estado": "programado",
+   "fecha": "2026-11-18T17:40",
+   "formato": "voz"
+  },
+  {
+   "id": "153_monigotes_pizzeria-repartidores-finde",
+   "tema": "monigotes: pizzería, lunes, horas de los repartidores del fin de semana apuntadas en pósits (variante de 82 bar día 30 y 124 bar viernes)",
+   "copy": "Lunes: toca saber cuántas horas hicieron los repartidores el finde. Y solo tienes pósits 🍕\nCon Fíchalo cada uno ficha desde el móvil y ves las horas de cada persona.\n\nGuárdalo para el próximo lunes 📌\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #pizzeria",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa #hosteleria #pizzeria",
+   "estado": "programado",
+   "fecha": "2026-11-18T20:40",
+   "formato": "monigotes"
   }
  ]
 }

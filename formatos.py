@@ -850,7 +850,7 @@ def portada_v2(reel, out_jpg):
         e0 = reel["escenas"][0]
         draw, _ = ESCENAS[e0["escena"]](e0)
         lay = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-        draw(lay, 2.4 if e0["escena"] in ("llega", "olvido") else 1.0)
+        draw(lay, 2.4 if e0["escena"] in ("llega", "olvido") else 0.0 if e0["escena"] == "calcula" else 1.0)  # calcula: t=0 para que ningún número tape la cabeza
         vis = _recortar_alfa(lay.crop((120, 680, 1060, 1585)), 10)
     elif fmt == "chat":
         m0 = next(m for m in reel["mensajes"] if m.get("texto"))

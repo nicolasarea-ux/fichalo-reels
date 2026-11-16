@@ -1,0 +1,265 @@
+{
+ "reels": [
+  {
+   "id": "149_voz_limpieza-portal-nadie-vino",
+   "formato": "voz",
+   "nicho": "limpieza",
+   "tema": "voz: empresa de limpieza, el presidente de la comunidad dice que ayer nadie limpió el portal y no sabes si fue la limpiadora ni a qué hora (variante de 117 voz bar quién cerró y 94)",
+   "copy": "\"Ayer no vino nadie a limpiar el portal\". ¿Seguro? 🧹\nCon Fíchalo cada limpiadora ficha en cada edificio y ves a qué hora entró y salió.\n\nMándaselo a quien lleva las comunidades 📲\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #limpieza #empresasdelimpieza",
+   "titular": "\"Ayer no vino nadie a limpiar el portal\"",
+   "acento": "nadie",
+   "frases": [
+    {
+     "voz": "Te llama el presidente de la comunidad: ayer no vino nadie a limpiar el portal.",
+     "postit": "\"Ayer no vino\nnadie\"\n¿Rosa?"
+    },
+    {
+     "voz": "Tú solo tienes la hoja que firma Rosa una vez a la semana.",
+     "papel": [
+      "Portal 12 · Semana",
+      "Lunes ✓",
+      "Martes ✓ (¿?)",
+      "Miércoles ..."
+     ]
+    },
+    {
+     "voz": "Con Fíchalo, Rosa ficha desde el móvil al entrar y al salir de cada edificio.",
+     "emoji": "📱"
+    },
+    {
+     "voz": "Y tú ves a qué hora estuvo en cada portal.",
+     "movil": {
+      "cab": "Rosa · Ayer",
+      "filas": [
+       [
+        "Portal 12",
+        "10:02 – 11:31",
+        "1"
+       ],
+       [
+        "Portal 14",
+        "11:40 – 13:05",
+        "1"
+       ],
+       [
+        "Oficina Sur",
+        "16:00 – 18:02",
+        "1"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "150_monigotes_dependienta-dos-tiendas",
+   "formato": "monigotes",
+   "nicho": "comercio",
+   "tema": "monigotes: una dependienta cubre dos tiendas y a fin de mes no sabes cuántas horas hizo en cada una (variante de 123 limpieza 3 edificios y 82)",
+   "copy": "Maite cubre dos tiendas. ¿Cuántas horas ha hecho en cada una este mes? 🛍️\nCon Fíchalo ficha en cada tienda y ves sus horas por centro, ya sumadas.\n\n¿Te pasa con alguien de tu equipo? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #comercio #tiendas",
+   "titular": "Dos tiendas. ¿Cuántas horas en cada una?",
+   "acento": "Dos tiendas",
+   "escenas": [
+    {
+     "escena": "calcula",
+     "voz": "Maite cubre dos tiendas. ¿Cuántas horas ha hecho en cada una este mes? Ni idea.",
+     "numeros": [
+      "¿60?",
+      "+4?",
+      "¿35?",
+      "¿98?"
+     ]
+    },
+    {
+     "escena": "llega",
+     "voz": "Con Fíchalo, ficha desde el móvil en la tienda donde le toca ese día.",
+     "lugar": "Tienda Gros",
+     "hora": "09:56",
+     "acc": [
+      "pelo"
+     ]
+    },
+    {
+     "escena": "jefe_movil",
+     "voz": "Y tú ves sus horas en cada tienda, ya sumadas.",
+     "cab": "Maite · Noviembre",
+     "sub": "Horas por centro",
+     "filas": [
+      [
+       "Tienda Centro",
+       "62 h",
+       "1"
+      ],
+      [
+       "Tienda Gros",
+       "38 h",
+       "1"
+      ],
+      [
+       "Total",
+       "100 h · 4 extra",
+       "1"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "151_chat_peluqueria-quien-abre",
+   "formato": "chat",
+   "nicho": "peluqueria",
+   "tema": "chat: dueña de peluquería, 9:32, la clienta de las 9:30 espera en la puerta y no sabe si ha llegado la peluquera que abre (variante de 94 chat quién abre, el mejor)",
+   "copy": "9:32. La clienta de las 9:30 en la puerta de la pelu y tú sin saber quién ha abierto ✂️\nCon Fíchalo ves en el móvil quién ha fichado en tu peluquería.\n\n¿Quién abre en tu pelu? Etiquétala 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #peluqueria #peluquerias",
+   "titular": "Tu pelu abre a las 9:30. Son las 9:32",
+   "acento": "9:32",
+   "contacto": "Clienta Marisa",
+   "mensajes": [
+    {
+     "de": "el",
+     "texto": "Hola, estoy en la puerta de la pelu",
+     "hora": "09:32"
+    },
+    {
+     "de": "el",
+     "texto": "Tenía cita a las 9:30 y está cerrado",
+     "hora": "09:32"
+    },
+    {
+     "de": "yo",
+     "texto": "Perdona Marisa, abre Nerea, ahora la llamo",
+     "hora": "09:33"
+    },
+    {
+     "de": "el",
+     "texto": "Vale, espero un poco",
+     "hora": "09:34"
+    }
+   ],
+   "giro": {
+    "texto": "O míralo antes de que te escriban",
+    "acento": "antes",
+    "cab": "Quién está trabajando",
+    "sub": "Peluquería · Ahora mismo",
+    "filas": [
+     [
+      "Nerea",
+      "Sin fichar",
+      ""
+     ],
+     [
+      "Leire",
+      "Entra 10:00",
+      ""
+     ],
+     [
+      "Tú",
+      "Fichó 09:35",
+      "1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "152_voz_bar-salio-a-la-1-30",
+   "formato": "voz",
+   "nicho": "hosteleria",
+   "tema": "voz: el camarero dice que el sábado salió a la 1:30 y tú crees que a las 12; sin registro es su palabra contra la tuya (variante de 117 voz bar quién cerró, el mejor de voz)",
+   "copy": "\"El sábado salí a la una y media\". Tú dirías que a las doce 🍺\nCon Fíchalo cada salida queda fichada con su hora, sin discusiones.\n\n¿Te ha pasado? Cuéntamelo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #bares",
+   "titular": "\"El sábado salí a la 1:30\"",
+   "acento": "1:30",
+   "frases": [
+    {
+     "voz": "Tu camarero te dice: el sábado salí a la una y media. Tú dirías que a las doce.",
+     "postit": "Sábado:\nJon ¿1:30?\n¿o 00:00?"
+    },
+    {
+     "voz": "Y en la libreta del bar, el sábado está en blanco.",
+     "papel": [
+      "Salidas · Sábado",
+      "Ane 00:10",
+      "Iker 23:45",
+      "Jon ..."
+     ]
+    },
+    {
+     "voz": "Con Fíchalo, cada camarero ficha la salida desde su móvil.",
+     "emoji": "📱"
+    },
+    {
+     "voz": "Y la hora queda apuntada. Sin discusiones.",
+     "movil": {
+      "cab": "Bar Txoko · Sábado",
+      "filas": [
+       [
+        "Jon",
+        "19:00 – 01:12",
+        "1"
+       ],
+       [
+        "Ane",
+        "19:00 – 00:10",
+        "1"
+       ],
+       [
+        "Iker",
+        "18:00 – 23:45",
+        "1"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "153_monigotes_pizzeria-repartidores-finde",
+   "formato": "monigotes",
+   "nicho": "hosteleria",
+   "tema": "monigotes: pizzería, lunes, horas de los repartidores del fin de semana apuntadas en pósits (variante de 82 bar día 30 y 124 bar viernes)",
+   "copy": "Lunes: toca saber cuántas horas hicieron los repartidores el finde. Y solo tienes pósits 🍕\nCon Fíchalo cada uno ficha desde el móvil y ves las horas de cada persona.\n\nGuárdalo para el próximo lunes 📌\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #pizzeria",
+   "titular": "Pizzería: las horas del finde, en pósits",
+   "acento": "en pósits",
+   "escenas": [
+    {
+     "escena": "caos",
+     "voz": "Lunes en la pizzería. ¿Cuántas horas hicieron los repartidores el fin de semana? Solo tienes pósits.",
+     "postit": "Dani sáb ¿6h?\nÁlex: ¿hasta\nel cierre?",
+     "acc": [
+      "delantal"
+     ]
+    },
+    {
+     "escena": "llega",
+     "voz": "Con Fíchalo, cada repartidor ficha desde el móvil al empezar su turno.",
+     "lugar": "Pizzería Napoli",
+     "hora": "19:58",
+     "acc": [
+      "gorra"
+     ]
+    },
+    {
+     "escena": "jefe_movil",
+     "voz": "Y tú ves las horas de cada uno, ya sumadas.",
+     "cab": "Repartidores · Finde",
+     "sub": "Horas por persona",
+     "filas": [
+      [
+       "Dani",
+       "13 h 20 min",
+       "1"
+      ],
+      [
+       "Álex",
+       "11 h 45 min",
+       "1"
+      ],
+      [
+       "Sara",
+       "9 h 10 min",
+       "1"
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}
