@@ -1,0 +1,260 @@
+{
+ "reels": [
+  {
+   "id": "154_voz_taller-quien-cerro",
+   "formato": "voz",
+   "nicho": "taller",
+   "tema": "voz: taller mecánico, por la mañana la persiana está a medio bajar y no sabes quién cerró anoche ni a qué hora (variante de 117 voz bar quién cerró, el mejor de la semana)",
+   "copy": "La persiana del taller, a medio bajar. ¿Quién cerró anoche? 🔧\nCon Fíchalo cada mecánico ficha la salida y ves a qué hora se fue cada uno.\n\n¿Quién cierra en tu taller? Etiquétalo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #talleres #tallermecanico",
+   "titular": "\"¿Quién cerró anoche el taller?\"",
+   "acento": "anoche",
+   "frases": [
+    {
+     "voz": "Llegas al taller y la persiana está a medio bajar. ¿Quién cerró anoche?",
+     "postit": "¿Quién cerró?\n¿Iñaki?\n¿Rubén?"
+    },
+    {
+     "voz": "En la hoja de salidas, ayer solo firmó uno.",
+     "papel": [
+      "Salidas · Miércoles",
+      "Iñaki 19:02",
+      "Rubén ...",
+      "Asier ..."
+     ]
+    },
+    {
+     "voz": "Con Fíchalo, cada mecánico ficha la salida desde su móvil.",
+     "emoji": "📱"
+    },
+    {
+     "voz": "Y tú ves quién se fue el último y a qué hora.",
+     "movil": {
+      "cab": "Taller Gorka · Ayer",
+      "filas": [
+       [
+        "Iñaki",
+        "08:00 – 19:02",
+        "1"
+       ],
+       [
+        "Asier",
+        "08:00 – 19:10",
+        "1"
+       ],
+       [
+        "Rubén",
+        "09:00 – 20:14",
+        "1"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "155_monigotes_catering-camareros-extra",
+   "formato": "monigotes",
+   "nicho": "hosteleria",
+   "tema": "monigotes: catering, después de una boda hay que pagar las horas de los camareros extra y solo hay apuntes en una servilleta (variante de 123 limpieza fin de mes y 82 bar día 30)",
+   "copy": "Boda del sábado: 6 camareros extra. ¿Cuántas horas pagas a cada uno? 🥂\nCon Fíchalo cada camarero ficha desde el móvil y ves sus horas ya sumadas.\n\nGuárdalo para el próximo evento 📌\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #catering",
+   "titular": "Catering: ¿cuántas horas hizo cada camarero?",
+   "acento": "cada camarero",
+   "escenas": [
+    {
+     "escena": "calcula",
+     "voz": "Después de la boda del sábado toca pagar a los camareros extra. ¿Cuántas horas hizo cada uno?",
+     "numeros": [
+      "¿9h?",
+      "+2?",
+      "¿11?",
+      "¿8,5?"
+     ]
+    },
+    {
+     "escena": "llega",
+     "voz": "Con Fíchalo, cada camarero ficha desde el móvil al llegar al evento.",
+     "lugar": "Finca Arteaga",
+     "hora": "16:58",
+     "acc": [
+      "corbata"
+     ]
+    },
+    {
+     "escena": "jefe_movil",
+     "voz": "Y tú ves las horas de cada uno, ya sumadas.",
+     "cab": "Boda · Sábado",
+     "sub": "Horas por persona",
+     "filas": [
+      [
+       "Mikel",
+       "10 h 15 min",
+       "1"
+      ],
+      [
+       "Paula",
+       "9 h 40 min",
+       "1"
+      ],
+      [
+       "Unai",
+       "8 h 30 min",
+       "1"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "156_chat_fisio-cuantas-extra",
+   "formato": "chat",
+   "nicho": "clinica",
+   "tema": "chat: fisioterapeuta escribe a la dueña de la clínica preguntando cuántas horas extra lleva este mes y ella no lo sabe (variante de 93 chat clínica mis horas)",
+   "copy": "\"¿Cuántas horas extra llevo este mes?\" Y tú sin saber qué contestar 🩺\nCon Fíchalo ves las horas y las horas extra de cada persona, ya calculadas.\n\n¿Te lo han preguntado alguna vez? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #fisioterapia #clinicas",
+   "titular": "Tu fisio te escribe esto:",
+   "acento": "esto",
+   "contacto": "Irati (fisio)",
+   "mensajes": [
+    {
+     "de": "el",
+     "texto": "¿Cuántas horas extra llevo este mes?",
+     "hora": "20:41"
+    },
+    {
+     "de": "el",
+     "texto": "Es para cuadrarlo con la nómina",
+     "hora": "20:41"
+    },
+    {
+     "de": "yo",
+     "texto": "Uf, tengo que mirar la agenda",
+     "hora": "20:45"
+    },
+    {
+     "de": "yo",
+     "texto": "Mañana lo sumo y te digo",
+     "hora": "20:46"
+    }
+   ],
+   "giro": {
+    "texto": "Con Fíchalo, contestas en un segundo",
+    "acento": "un segundo",
+    "cab": "Irati · Noviembre",
+    "sub": "Horas y horas extra",
+    "filas": [
+     [
+      "Horas",
+      "118 h",
+      "1"
+     ],
+     [
+      "Horas extra",
+      "6 h",
+      "1"
+     ],
+     [
+      "Informe",
+      "PDF y Excel",
+      "1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "157_voz_gestoria-horas-en-audio",
+   "formato": "voz",
+   "nicho": "gestoria",
+   "tema": "voz: gestorías, el cliente manda las horas de su equipo en un audio de WhatsApp de cuatro minutos y la gestora las apunta a mano (para que las gestorías lo reenvíen)",
+   "copy": "Las horas de 8 empleados, en un audio de 4 minutos 🎧\nCon Fíchalo tu cliente te manda el informe de horas en PDF o Excel, ya sumado.\n\nEtiqueta a tu gestor/a (o mándaselo a ese cliente) 📲\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #gestorias #asesorialaboral",
+   "titular": "Las horas del mes, en un audio de 4 minutos",
+   "acento": "audio",
+   "frases": [
+    {
+     "voz": "Eres gestora. Tu cliente te manda las horas de su equipo en un audio de cuatro minutos.",
+     "postit": "Audio 4:12\n\"Laura, creo\nque seis...\""
+    },
+    {
+     "voz": "Y tú lo escuchas tres veces para apuntarlo a mano.",
+     "papel": [
+      "Bar Kalea · Horas",
+      "Laura ¿6h? ¿7?",
+      "Jon \"lo de siempre\"",
+      "Maite ..."
+     ]
+    },
+    {
+     "voz": "Con Fíchalo, su equipo ficha desde el móvil.",
+     "emoji": "📱"
+    },
+    {
+     "voz": "Y tu cliente te manda el informe de horas en PDF o Excel. Ya sumado.",
+     "movil": {
+      "cab": "Bar Kalea · Noviembre",
+      "filas": [
+       [
+        "Laura",
+        "142 h",
+        "1"
+       ],
+       [
+        "Jon",
+        "160 h",
+        "1"
+       ],
+       [
+        "Maite",
+        "98 h",
+        "1"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "158_monigotes_farmacia-guardia-quien-esta",
+   "formato": "monigotes",
+   "nicho": "comercio",
+   "tema": "monigotes: farmacia de guardia, noche, el dueño no sabe si ha llegado quien hace la guardia (variante de 136 panadería quién abre y 94 chat quién abre)",
+   "copy": "Noche de guardia en tu farmacia. ¿Ha llegado quien la hace? 💊\nCon Fíchalo ves en el móvil quién ha fichado y a qué hora, sin llamar a nadie.\n\n¿Quién hace las guardias en tu farmacia? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #farmacia #farmacias",
+   "titular": "Farmacia de guardia. ¿Ha llegado alguien?",
+   "acento": "guardia",
+   "escenas": [
+    {
+     "escena": "caos",
+     "voz": "Diez menos cinco de la noche. Tu farmacia está de guardia y no sabes si ha llegado quien la hace.",
+     "postit": "Guardia hoy:\n¿Marta?\n¿o Íñigo?",
+     "acc": [
+      "corbata"
+     ]
+    },
+    {
+     "escena": "llega",
+     "voz": "Con Fíchalo, Marta ficha desde el móvil al llegar.",
+     "lugar": "Farmacia Zubia",
+     "hora": "21:52",
+     "acc": [
+      "pelo"
+     ]
+    },
+    {
+     "escena": "jefe_movil",
+     "voz": "Y tú lo ves desde el sofá, sin llamar a nadie.",
+     "cab": "Quién está trabajando",
+     "sub": "Ahora mismo",
+     "filas": [
+      [
+       "Marta",
+       "Fichó 21:52",
+       "1"
+      ],
+      [
+       "Íñigo",
+       "Salió 21:54",
+       "1"
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

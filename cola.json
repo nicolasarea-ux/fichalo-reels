@@ -1232,6 +1232,51 @@
    "estado": "programado",
    "fecha": "2026-11-18T20:40",
    "formato": "monigotes"
+  },
+  {
+   "id": "154_voz_taller-quien-cerro",
+   "tema": "voz: taller mecánico, por la mañana la persiana está a medio bajar y no sabes quién cerró anoche ni a qué hora (variante de 117 voz bar quién cerró, el mejor de la semana)",
+   "copy": "La persiana del taller, a medio bajar. ¿Quién cerró anoche? 🔧\nCon Fíchalo cada mecánico ficha la salida y ves a qué hora se fue cada uno.\n\n¿Quién cierra en tu taller? Etiquétalo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #talleres #tallermecanico",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa #talleres #tallermecanico",
+   "estado": "programado",
+   "fecha": "2026-11-19T09:40",
+   "formato": "voz"
+  },
+  {
+   "id": "155_monigotes_catering-camareros-extra",
+   "tema": "monigotes: catering, después de una boda hay que pagar las horas de los camareros extra y solo hay apuntes en una servilleta (variante de 123 limpieza fin de mes y 82 bar día 30)",
+   "copy": "Boda del sábado: 6 camareros extra. ¿Cuántas horas pagas a cada uno? 🥂\nCon Fíchalo cada camarero ficha desde el móvil y ves sus horas ya sumadas.\n\nGuárdalo para el próximo evento 📌\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #catering",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa #hosteleria #catering",
+   "estado": "programado",
+   "fecha": "2026-11-19T12:40",
+   "formato": "monigotes"
+  },
+  {
+   "id": "156_chat_fisio-cuantas-extra",
+   "tema": "chat: fisioterapeuta escribe a la dueña de la clínica preguntando cuántas horas extra lleva este mes y ella no lo sabe (variante de 93 chat clínica mis horas)",
+   "copy": "\"¿Cuántas horas extra llevo este mes?\" Y tú sin saber qué contestar 🩺\nCon Fíchalo ves las horas y las horas extra de cada persona, ya calculadas.\n\n¿Te lo han preguntado alguna vez? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #fisioterapia #clinicas",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa #fisioterapia #clinicas",
+   "estado": "programado",
+   "fecha": "2026-11-19T14:40",
+   "formato": "chat"
+  },
+  {
+   "id": "157_voz_gestoria-horas-en-audio",
+   "tema": "voz: gestorías, el cliente manda las horas de su equipo en un audio de WhatsApp de cuatro minutos y la gestora las apunta a mano (para que las gestorías lo reenvíen)",
+   "copy": "Las horas de 8 empleados, en un audio de 4 minutos 🎧\nCon Fíchalo tu cliente te manda el informe de horas en PDF o Excel, ya sumado.\n\nEtiqueta a tu gestor/a (o mándaselo a ese cliente) 📲\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #gestorias #asesorialaboral",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa #gestorias #asesorialaboral",
+   "estado": "programado",
+   "fecha": "2026-11-19T17:40",
+   "formato": "voz"
+  },
+  {
+   "id": "158_monigotes_farmacia-guardia-quien-esta",
+   "tema": "monigotes: farmacia de guardia, noche, el dueño no sabe si ha llegado quien hace la guardia (variante de 136 panadería quién abre y 94 chat quién abre)",
+   "copy": "Noche de guardia en tu farmacia. ¿Ha llegado quien la hace? 💊\nCon Fíchalo ves en el móvil quién ha fichado y a qué hora, sin llamar a nadie.\n\n¿Quién hace las guardias en tu farmacia? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #farmacia #farmacias",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa #farmacia #farmacias",
+   "estado": "programado",
+   "fecha": "2026-11-19T20:40",
+   "formato": "monigotes"
   }
  ]
 }
