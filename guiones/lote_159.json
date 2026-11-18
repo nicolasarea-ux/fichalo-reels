@@ -1,0 +1,182 @@
+{
+ "reels": [
+  {
+   "id": "159_voz_restaurante-camara-quien-cerro",
+   "formato": "voz",
+   "nicho": "hosteleria",
+   "tema": "voz: restaurante, por la mañana la puerta de la cámara frigorífica está abierta y no sabes quién cerró anoche la cocina ni a qué hora (variante de 117 voz bar quién cerró, el mejor de los últimos 7 días)",
+   "copy": "La cámara abierta toda la noche. ¿Quién cerró la cocina? 🍽️\nCon Fíchalo cada persona ficha la salida y ves quién se fue la última y a qué hora.\n\n¿En tu restaurante quién cierra? Etiquétalo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #restaurantes",
+   "titular": "\"¿Quién cerró anoche la cocina?\"",
+   "acento": "anoche",
+   "frases": [
+    {
+     "voz": "Llegas al restaurante y la cámara frigorífica lleva toda la noche abierta. ¿Quién cerró la cocina?",
+     "postit": "¿Quién cerró?\n¿Edu?\n¿Nahia?"
+    },
+    {
+     "voz": "En la libreta de salidas, anoche no firmó nadie.",
+     "papel": [
+      "Salidas · Jueves",
+      "Edu ...",
+      "Nahia ...",
+      "Koldo ..."
+     ]
+    },
+    {
+     "voz": "Con Fíchalo, cada uno ficha la salida desde su móvil.",
+     "emoji": "📱"
+    },
+    {
+     "voz": "Y tú ves quién se fue el último y a qué hora.",
+     "movil": {
+      "cab": "Cocina · Anoche",
+      "filas": [
+       ["Koldo", "Salió 23:12", "1"],
+       ["Edu", "Salió 23:40", "1"],
+       ["Nahia", "Salió 00:26", "1"]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "160_monigotes_peluqueria-horas-extra-viernes",
+   "formato": "monigotes",
+   "nicho": "peluqueria",
+   "tema": "monigotes: viernes en una peluquería, la peluquera pregunta cuántas horas extra lleva este mes y la dueña echa cuentas a mano (variante de 143 bar horas extra, el de mejor retención)",
+   "copy": "\"¿Cuántas horas extra llevo este mes?\" Y tú, contando con los dedos ✂️\nCon Fíchalo las horas y las horas extra de cada peluquera salen ya sumadas.\n\nGuárdalo para cuando te lo pregunten 📌\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #peluqueria #peluquerias",
+   "titular": "\"¿Cuántas horas extra llevo?\"",
+   "acento": "horas extra",
+   "escenas": [
+    {
+     "escena": "calcula",
+     "voz": "Es viernes y tu peluquera te pregunta cuántas horas extra lleva este mes. Y tú, echando cuentas.",
+     "numeros": ["+3?", "¿+1?", "+2?", "¿6?"],
+     "acc": ["pelo"]
+    },
+    {
+     "escena": "llega",
+     "voz": "Con Fíchalo, cada peluquera ficha desde el móvil al entrar y al salir.",
+     "lugar": "Pelu Ainhoa",
+     "hora": "09:27",
+     "acc": ["pelo"]
+    },
+    {
+     "escena": "jefe_movil",
+     "voz": "Y tú ves sus horas y sus extra, ya sumadas.",
+     "cab": "Nerea · Noviembre",
+     "sub": "Horas por persona",
+     "filas": [
+      ["Horas", "104 h", "1"],
+      ["Extra", "5 h 30 min", "1"],
+      ["Días", "14", "1"]
+     ],
+     "acc": ["pelo"]
+    }
+   ]
+  },
+  {
+   "id": "161_chat_tienda-puente-diciembre",
+   "formato": "chat",
+   "nicho": "comercio",
+   "tema": "chat: dependienta pide librar el lunes 7 de diciembre (puente) y la dueña no sabe si ya se lo había pedido otra porque las peticiones están en un pósit (vacaciones: pedir y aprobar)",
+   "copy": "Llega el puente y todas quieren el mismo día libre 📅\nCon Fíchalo las vacaciones se piden y se aprueban en la app, y ves quién lo pidió primero.\n\n¿Ya os han pedido el puente? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #comercio #tiendas",
+   "titular": "Tu dependienta te escribe esto:",
+   "acento": "esto",
+   "contacto": "Maite (tienda)",
+   "mensajes": [
+    {"de": "el", "texto": "¿Me puedo coger libre el lunes 7 de diciembre?", "hora": "19:48"},
+    {"de": "el", "texto": "Para hacer puente", "hora": "19:48"},
+    {"de": "yo", "texto": "Creo que ya me lo pidió Ane...", "hora": "19:55"},
+    {"de": "yo", "texto": "Lo tengo en un pósit, mañana te digo", "hora": "19:56"}
+   ],
+   "giro": {
+    "texto": "Con Fíchalo, lo ves en la app",
+    "acento": "en la app",
+    "cab": "Vacaciones · Diciembre",
+    "sub": "Pedidas y aprobadas",
+    "filas": [
+     ["Ane", "Lun 7 · Aprobada", "1"],
+     ["Maite", "Lun 7 · Pedida", ""],
+     ["Leire", "Jue 24 · Pedida", ""]
+    ]
+   }
+  },
+  {
+   "id": "162_voz_hotel-relevo-recepcion",
+   "formato": "voz",
+   "nicho": "hosteleria",
+   "tema": "voz: hotel, relevo de recepción: el de tarde dice que se fue a las once y el de noche que llegó a las once; un huésped dice que no había nadie (variante de 117 quién cerró y 94 quién abre)",
+   "copy": "Un huésped dice que a las 23:00 no había nadie en recepción 🛎️\nCon Fíchalo ves a qué hora salió uno y a qué hora entró el otro.\n\n¿Cómo hacéis los relevos en tu hotel? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #hoteles",
+   "titular": "\"A las 23:00 no había nadie en recepción\"",
+   "acento": "nadie",
+   "frases": [
+    {
+     "voz": "Un huésped se queja: anoche a las once no había nadie en recepción.",
+     "postit": "23:00\n¿Recepción\nvacía?"
+    },
+    {
+     "voz": "El de tarde dice que se fue a las once. El de noche, que llegó a las once.",
+     "papel": [
+      "Relevo · Jueves",
+      "Unai: \"a las 11\"",
+      "Josu: \"a las 11\"",
+      "¿?"
+     ]
+    },
+    {
+     "voz": "Con Fíchalo, cada recepcionista ficha desde el móvil.",
+     "emoji": "📱"
+    },
+    {
+     "voz": "Y tú ves a qué hora salió uno, y a qué hora entró el otro.",
+     "movil": {
+      "cab": "Recepción · Anoche",
+      "filas": [
+       ["Unai", "Salió 22:41", "1"],
+       ["Josu", "Entró 23:18", "1"],
+       ["Sin nadie", "37 min", ""]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "163_monigotes_limpieza-viernes-olvido",
+   "formato": "monigotes",
+   "nicho": "limpieza",
+   "tema": "monigotes: viernes noche, la limpiadora acaba en unas oficinas y se va sin fichar la salida, le llega el aviso (variante de 115 fisio olvido, de los mejores)",
+   "copy": "Viernes, 22:00. Acaba de limpiar las oficinas y se va sin fichar 🧹\nCon Fíchalo le llega un aviso si se olvida de fichar, y tú no tienes que perseguir a nadie.\n\nEtiqueta a quien siempre se olvida 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #limpieza #empresadelimpieza",
+   "titular": "Viernes, 22:00. Se va sin fichar",
+   "acento": "sin fichar",
+   "escenas": [
+    {
+     "escena": "olvido",
+     "voz": "Viernes, diez de la noche. Rosa acaba de limpiar las oficinas y se va a casa sin fichar la salida.",
+     "aviso": "¿Te has olvidado de\nfichar la salida?",
+     "ok": "Salida 22:03",
+     "minimo": 3.4,
+     "acc": ["escoba"]
+    },
+    {
+     "escena": "llega",
+     "voz": "Con Fíchalo, le llega el aviso al móvil y ficha en un segundo.",
+     "lugar": "Oficinas Ibaia",
+     "hora": "22:03",
+     "acc": ["escoba"]
+    },
+    {
+     "escena": "jefe_movil",
+     "voz": "Y el lunes tú ves las horas de cada limpiadora, sin huecos.",
+     "cab": "Viernes · Salidas",
+     "sub": "Limpieza oficinas",
+     "filas": [
+      ["Rosa", "Salió 22:03", "1"],
+      ["Gloria", "Salió 21:48", "1"],
+      ["Yolanda", "Salió 22:10", "1"]
+     ]
+    }
+   ]
+  }
+ ]
+}

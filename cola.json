@@ -1277,6 +1277,51 @@
    "estado": "programado",
    "fecha": "2026-11-19T20:40",
    "formato": "monigotes"
+  },
+  {
+   "id": "159_voz_restaurante-camara-quien-cerro",
+   "tema": "voz: restaurante, por la mañana la puerta de la cámara frigorífica está abierta y no sabes quién cerró anoche la cocina ni a qué hora (variante de 117 voz bar quién cerró, el mejor de los últimos 7 días)",
+   "copy": "La cámara abierta toda la noche. ¿Quién cerró la cocina? 🍽️\nCon Fíchalo cada persona ficha la salida y ves quién se fue la última y a qué hora.\n\n¿En tu restaurante quién cierra? Etiquétalo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #restaurantes",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa #hosteleria #restaurantes",
+   "estado": "programado",
+   "fecha": "2026-11-20T09:40",
+   "formato": "voz"
+  },
+  {
+   "id": "160_monigotes_peluqueria-horas-extra-viernes",
+   "tema": "monigotes: viernes en una peluquería, la peluquera pregunta cuántas horas extra lleva este mes y la dueña echa cuentas a mano (variante de 143 bar horas extra, el de mejor retención)",
+   "copy": "\"¿Cuántas horas extra llevo este mes?\" Y tú, contando con los dedos ✂️\nCon Fíchalo las horas y las horas extra de cada peluquera salen ya sumadas.\n\nGuárdalo para cuando te lo pregunten 📌\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #peluqueria #peluquerias",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa #peluqueria #peluquerias",
+   "estado": "programado",
+   "fecha": "2026-11-20T12:40",
+   "formato": "monigotes"
+  },
+  {
+   "id": "161_chat_tienda-puente-diciembre",
+   "tema": "chat: dependienta pide librar el lunes 7 de diciembre (puente) y la dueña no sabe si ya se lo había pedido otra porque las peticiones están en un pósit (vacaciones: pedir y aprobar)",
+   "copy": "Llega el puente y todas quieren el mismo día libre 📅\nCon Fíchalo las vacaciones se piden y se aprueban en la app, y ves quién lo pidió primero.\n\n¿Ya os han pedido el puente? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #comercio #tiendas",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa #comercio #tiendas",
+   "estado": "programado",
+   "fecha": "2026-11-20T14:40",
+   "formato": "chat"
+  },
+  {
+   "id": "162_voz_hotel-relevo-recepcion",
+   "tema": "voz: hotel, relevo de recepción: el de tarde dice que se fue a las once y el de noche que llegó a las once; un huésped dice que no había nadie (variante de 117 quién cerró y 94 quién abre)",
+   "copy": "Un huésped dice que a las 23:00 no había nadie en recepción 🛎️\nCon Fíchalo ves a qué hora salió uno y a qué hora entró el otro.\n\n¿Cómo hacéis los relevos en tu hotel? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #hoteles",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa #hosteleria #hoteles",
+   "estado": "programado",
+   "fecha": "2026-11-20T17:40",
+   "formato": "voz"
+  },
+  {
+   "id": "163_monigotes_limpieza-viernes-olvido",
+   "tema": "monigotes: viernes noche, la limpiadora acaba en unas oficinas y se va sin fichar la salida, le llega el aviso (variante de 115 fisio olvido, de los mejores)",
+   "copy": "Viernes, 22:00. Acaba de limpiar las oficinas y se va sin fichar 🧹\nCon Fíchalo le llega un aviso si se olvida de fichar, y tú no tienes que perseguir a nadie.\n\nEtiqueta a quien siempre se olvida 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #limpieza #empresadelimpieza",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa #limpieza #empresadelimpieza",
+   "estado": "programado",
+   "fecha": "2026-11-20T20:40",
+   "formato": "monigotes"
   }
  ]
 }
