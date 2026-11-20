@@ -971,9 +971,10 @@
   {
    "id": "160_monigotes_peluqueria-horas-extra-viernes",
    "fecha": "2026-11-20T12:40",
-   "estado": "pendiente",
+   "estado": "saltado",
    "formato": "monigotes",
-   "copy": "\"¿Cuántas horas extra llevo este mes?\" Y tú, contando con los dedos ✂️\nCon Fíchalo las horas y las horas extra de cada peluquera salen ya sumadas.\n\nGuárdalo para cuando te lo pregunten 📌\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #peluqueria #peluquerias"
+   "copy": "\"¿Cuántas horas extra llevo este mes?\" Y tú, contando con los dedos ✂️\nCon Fíchalo las horas y las horas extra de cada peluquera salen ya sumadas.\n\nGuárdalo para cuando te lo pregunten 📌\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #peluqueria #peluquerias",
+   "nota": "más de 3 h de retraso; la rutina lo reprograma"
   },
   {
    "id": "161_chat_tienda-puente-diciembre",
