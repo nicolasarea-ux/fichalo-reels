@@ -979,9 +979,10 @@
   {
    "id": "161_chat_tienda-puente-diciembre",
    "fecha": "2026-11-20T14:40",
-   "estado": "pendiente",
+   "estado": "saltado",
    "formato": "chat",
-   "copy": "Llega el puente y todas quieren el mismo día libre 📅\nCon Fíchalo las vacaciones se piden y se aprueban en la app, y ves quién lo pidió primero.\n\n¿Ya os han pedido el puente? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #comercio #tiendas"
+   "copy": "Llega el puente y todas quieren el mismo día libre 📅\nCon Fíchalo las vacaciones se piden y se aprueban en la app, y ves quién lo pidió primero.\n\n¿Ya os han pedido el puente? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #comercio #tiendas",
+   "nota": "más de 3 h de retraso; la rutina lo reprograma"
   },
   {
    "id": "162_voz_hotel-relevo-recepcion",
