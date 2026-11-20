@@ -1,0 +1,270 @@
+{
+ "reels": [
+  {
+   "id": "169_voz_panaderia-horno-encendido",
+   "formato": "voz",
+   "nicho": "comercio",
+   "tema": "voz: panadería con obrador, por la mañana el horno lleva toda la noche encendido y no sabes quién cerró el obrador ni a qué hora (variante de 145 voz dental quién se fue la última, el mejor de los últimos 7 días)",
+   "copy": "El horno, encendido toda la noche. ¿Quién cerró el obrador? 🥖\nCon Fíchalo cada panadero ficha la salida y ves quién se fue el último y a qué hora.\n\n¿En tu panadería quién cierra? Cuéntalo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #panaderia #obrador",
+   "titular": "\"¿Quién cerró anoche el obrador?\"",
+   "acento": "el obrador",
+   "frases": [
+    {
+     "voz": "Llegas a la panadería y el horno lleva toda la noche encendido. ¿Quién cerró el obrador?",
+     "postit": "¿Quién cerró?\n¿Edu?\n¿Maite?"
+    },
+    {
+     "voz": "En la hoja de salidas, anoche no firmó nadie.",
+     "papel": [
+      "Salidas · Sábado",
+      "Edu ...",
+      "Maite ...",
+      "Iñigo ..."
+     ]
+    },
+    {
+     "voz": "Con Fíchalo, cada panadero ficha la salida desde su móvil.",
+     "emoji": "📱"
+    },
+    {
+     "voz": "Y tú ves quién se fue el último y a qué hora.",
+     "movil": {
+      "cab": "Obrador · Anoche",
+      "filas": [
+       [
+        "Iñigo",
+        "Salió 19:40",
+        "1"
+       ],
+       [
+        "Edu",
+        "Salió 20:15",
+        "1"
+       ],
+       [
+        "Maite",
+        "Salió 21:52",
+        "1"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "170_monigotes_super-domingo-sumando-horas",
+   "formato": "monigotes",
+   "nicho": "comercio",
+   "tema": "monigotes: domingo por la tarde, el dueño de un supermercado de barrio suma con la calculadora las horas de la semana de sus cajeras y reponedores (variante de 143 bar horas extra, la mejor retención, y 150 dependienta dos tiendas)",
+   "copy": "Domingo por la tarde y tú, sumando horas con la calculadora 🧮\nCon Fíchalo las horas de cada persona de tu súper salen ya sumadas, también las extra.\n\n¿Cuándo haces tú las cuentas? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #supermercado #comercio",
+   "titular": "Domingo. Y tú sumando horas",
+   "acento": "sumando horas",
+   "escenas": [
+    {
+     "escena": "calcula",
+     "voz": "Domingo por la tarde. Y tú, sumando con la calculadora las horas de la semana de todo el súper.",
+     "numeros": [
+      "¿38h?",
+      "+3?",
+      "¿41?",
+      "36,5?"
+     ],
+     "acc": [
+      "delantal"
+     ]
+    },
+    {
+     "escena": "llega",
+     "voz": "Con Fíchalo, cada cajera y cada reponedor ficha desde el móvil al entrar y al salir.",
+     "lugar": "Súper Arana",
+     "hora": "08:57",
+     "acc": [
+      "delantal"
+     ]
+    },
+    {
+     "escena": "jefe_movil",
+     "voz": "Y tú ves las horas de cada uno, ya sumadas. Sin calculadora.",
+     "cab": "Esta semana",
+     "sub": "Horas por persona",
+     "filas": [
+      [
+       "Lorea",
+       "38 h 10 min",
+       "1"
+      ],
+      [
+       "Unai",
+       "40 h 30 min",
+       "1"
+      ],
+      [
+       "Sara",
+       "24 h",
+       "1"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "171_chat_churreria-domingo-quien-abre",
+   "formato": "chat",
+   "nicho": "hosteleria",
+   "tema": "chat: domingo 8:05, la churrería abre a las 8 y hay clientes en la puerta; la dueña escribe al encargado si ha llegado alguien (variante de 144 chat taller quién abre y 94, los mejores chats)",
+   "copy": "Domingo, 8:05. Gente en la puerta y la persiana bajada ☕\nCon Fíchalo ves desde el móvil quién ha fichado y quién está trabajando ahora mismo.\n\nEtiqueta a quien abre los domingos 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #cafeterias",
+   "titular": "Domingo, 8:05. Te escriben esto:",
+   "acento": "esto",
+   "contacto": "Rubén (encargado)",
+   "mensajes": [
+    {
+     "de": "el",
+     "texto": "Hay gente esperando en la puerta",
+     "hora": "08:05"
+    },
+    {
+     "de": "el",
+     "texto": "¿Quién abría hoy?",
+     "hora": "08:05"
+    },
+    {
+     "de": "yo",
+     "texto": "¿No ha llegado Lucía?",
+     "hora": "08:06"
+    },
+    {
+     "de": "el",
+     "texto": "Ni idea, yo estoy en la otra",
+     "hora": "08:07"
+    }
+   ],
+   "giro": {
+    "texto": "Con Fíchalo, lo ves en el móvil",
+    "acento": "lo ves",
+    "cab": "Quién está trabajando",
+    "sub": "Ahora mismo",
+    "filas": [
+     [
+      "Lucía",
+      "Fichó 07:52",
+      "1"
+     ],
+     [
+      "Hugo",
+      "Fichó 07:58",
+      "1"
+     ],
+     [
+      "Rubén",
+      "Fichó 07:45",
+      "1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "172_voz_limpieza-nominas-faltan-horas",
+   "formato": "voz",
+   "nicho": "limpieza",
+   "tema": "voz: empresa de limpieza, la semana que viene cierras nóminas y aún te faltan las horas de dos edificios; una encargada te las manda en una foto y la otra ni contesta (variante de 123 monigotes limpieza fin de mes, de los mejores)",
+   "copy": "Nóminas la semana que viene y aún te faltan las horas de dos edificios 🧽\nCon Fíchalo cada limpiadora ficha en su edificio y tienes las horas por persona y por centro.\n\nGuárdalo para el cierre de mes 📌\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #limpieza #empresadelimpieza",
+   "titular": "Nóminas. Te faltan las horas de 2 edificios",
+   "acento": "2 edificios",
+   "frases": [
+    {
+     "voz": "Cierras nóminas la semana que viene. Y aún te faltan las horas de dos edificios.",
+     "postit": "Horas nov.\nEdif. Sur ¿?\nNorte ¿?"
+    },
+    {
+     "voz": "Una encargada te las manda en una foto. La otra ni contesta.",
+     "papel": [
+      "Edificio Sur",
+      "Rosa 6h? 4h?",
+      "Gloria (ver foto)",
+      "Yoli ¿?"
+     ]
+    },
+    {
+     "voz": "Con Fíchalo, cada limpiadora ficha en su edificio desde el móvil.",
+     "emoji": "🧹"
+    },
+    {
+     "voz": "Y tú tienes las horas de cada una, por centro, listas para las nóminas.",
+     "movil": {
+      "cab": "Noviembre · Por centro",
+      "filas": [
+       [
+        "Edificio Sur",
+        "3 personas",
+        "1"
+       ],
+       [
+        "Oficinas Norte",
+        "2 personas",
+        "1"
+       ],
+       [
+        "Exportar",
+        "PDF y Excel",
+        "1"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "173_monigotes_estetica-cierra-olvido",
+   "formato": "monigotes",
+   "nicho": "peluqueria",
+   "tema": "monigotes: centro de estética, la esteticista cierra a las 20:00 y se va sin fichar la salida, le llega el aviso (variante de 115 fisio olvido y 163 limpieza olvido)",
+   "copy": "Cierra el centro y se va sin fichar la salida 💅\nCon Fíchalo le llega un aviso si se olvida, y tú tienes sus horas completas.\n\nEtiqueta a quien siempre se olvida 👀\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #estetica #centrodeestetica",
+   "titular": "Cierra el centro y se va sin fichar",
+   "acento": "sin fichar",
+   "escenas": [
+    {
+     "escena": "olvido",
+     "voz": "Las ocho de la tarde. Noelia cierra el centro de estética y se va a casa sin fichar la salida.",
+     "aviso": "¿Te has olvidado de\nfichar la salida?",
+     "ok": "Salida 20:04",
+     "minimo": 3.4,
+     "acc": [
+      "pelo"
+     ]
+    },
+    {
+     "escena": "llega",
+     "voz": "Con Fíchalo, le llega el aviso al móvil y ficha en un segundo.",
+     "lugar": "Estética Ilargi",
+     "hora": "20:04",
+     "acc": [
+      "pelo"
+     ]
+    },
+    {
+     "escena": "jefe_movil",
+     "voz": "Y tú ves las horas de cada una, sin huecos.",
+     "cab": "Hoy · Salidas",
+     "sub": "Centro de estética",
+     "filas": [
+      [
+       "Noelia",
+       "Salió 20:04",
+       "1"
+      ],
+      [
+       "Ane",
+       "Salió 15:02",
+       "1"
+      ],
+      [
+       "Marta",
+       "Salió 19:31",
+       "1"
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

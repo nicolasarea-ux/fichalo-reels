@@ -1027,6 +1027,41 @@
    "estado": "pendiente",
    "formato": "monigotes",
    "copy": "Sábado, 21:00, el comedor lleno. ¿Ha venido el refuerzo? 🍽️\nCon Fíchalo ves en el móvil quién ha fichado y quién está trabajando ahora mismo.\n\n¿Cuántos sois los sábados por la noche? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #restaurantes"
+  },
+  {
+   "id": "169_voz_panaderia-horno-encendido",
+   "fecha": "2026-11-22T09:40",
+   "estado": "pendiente",
+   "formato": "voz",
+   "copy": "El horno, encendido toda la noche. ¿Quién cerró el obrador? 🥖\nCon Fíchalo cada panadero ficha la salida y ves quién se fue el último y a qué hora.\n\n¿En tu panadería quién cierra? Cuéntalo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #panaderia #obrador"
+  },
+  {
+   "id": "170_monigotes_super-domingo-sumando-horas",
+   "fecha": "2026-11-22T12:40",
+   "estado": "pendiente",
+   "formato": "monigotes",
+   "copy": "Domingo por la tarde y tú, sumando horas con la calculadora 🧮\nCon Fíchalo las horas de cada persona de tu súper salen ya sumadas, también las extra.\n\n¿Cuándo haces tú las cuentas? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #supermercado #comercio"
+  },
+  {
+   "id": "171_chat_churreria-domingo-quien-abre",
+   "fecha": "2026-11-22T14:40",
+   "estado": "pendiente",
+   "formato": "chat",
+   "copy": "Domingo, 8:05. Gente en la puerta y la persiana bajada ☕\nCon Fíchalo ves desde el móvil quién ha fichado y quién está trabajando ahora mismo.\n\nEtiqueta a quien abre los domingos 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #cafeterias"
+  },
+  {
+   "id": "172_voz_limpieza-nominas-faltan-horas",
+   "fecha": "2026-11-22T17:40",
+   "estado": "pendiente",
+   "formato": "voz",
+   "copy": "Nóminas la semana que viene y aún te faltan las horas de dos edificios 🧽\nCon Fíchalo cada limpiadora ficha en su edificio y tienes las horas por persona y por centro.\n\nGuárdalo para el cierre de mes 📌\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #limpieza #empresadelimpieza"
+  },
+  {
+   "id": "173_monigotes_estetica-cierra-olvido",
+   "fecha": "2026-11-22T20:40",
+   "estado": "pendiente",
+   "formato": "monigotes",
+   "copy": "Cierra el centro y se va sin fichar la salida 💅\nCon Fíchalo le llega un aviso si se olvida, y tú tienes sus horas completas.\n\nEtiqueta a quien siempre se olvida 👀\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #estetica #centrodeestetica"
   }
  ]
 }

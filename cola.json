@@ -1367,6 +1367,56 @@
    "estado": "programado",
    "fecha": "2026-11-21T20:40",
    "formato": "monigotes"
+  },
+  {
+   "id": "169_voz_panaderia-horno-encendido",
+   "tema": "voz: panadería con obrador, por la mañana el horno lleva toda la noche encendido y no sabes quién cerró el obrador ni a qué hora (variante de 145 voz dental quién se fue la última, el mejor de los últimos 7 días)",
+   "copy": "El horno, encendido toda la noche. ¿Quién cerró el obrador? 🥖\nCon Fíchalo cada panadero ficha la salida y ves quién se fue el último y a qué hora.\n\n¿En tu panadería quién cierra? Cuéntalo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #panaderia #obrador",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa #panaderia #obrador",
+   "estado": "programado",
+   "fecha": "2026-11-22T09:40",
+   "formato": "voz",
+   "nicho": "comercio"
+  },
+  {
+   "id": "170_monigotes_super-domingo-sumando-horas",
+   "tema": "monigotes: domingo por la tarde, el dueño de un supermercado de barrio suma con la calculadora las horas de la semana de sus cajeras y reponedores (variante de 143 bar horas extra, la mejor retención, y 150 dependienta dos tiendas)",
+   "copy": "Domingo por la tarde y tú, sumando horas con la calculadora 🧮\nCon Fíchalo las horas de cada persona de tu súper salen ya sumadas, también las extra.\n\n¿Cuándo haces tú las cuentas? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #supermercado #comercio",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa #supermercado #comercio",
+   "estado": "programado",
+   "fecha": "2026-11-22T12:40",
+   "formato": "monigotes",
+   "nicho": "comercio"
+  },
+  {
+   "id": "171_chat_churreria-domingo-quien-abre",
+   "tema": "chat: domingo 8:05, la churrería abre a las 8 y hay clientes en la puerta; la dueña escribe al encargado si ha llegado alguien (variante de 144 chat taller quién abre y 94, los mejores chats)",
+   "copy": "Domingo, 8:05. Gente en la puerta y la persiana bajada ☕\nCon Fíchalo ves desde el móvil quién ha fichado y quién está trabajando ahora mismo.\n\nEtiqueta a quien abre los domingos 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #cafeterias",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa #hosteleria #cafeterias",
+   "estado": "programado",
+   "fecha": "2026-11-22T14:40",
+   "formato": "chat",
+   "nicho": "hosteleria"
+  },
+  {
+   "id": "172_voz_limpieza-nominas-faltan-horas",
+   "tema": "voz: empresa de limpieza, la semana que viene cierras nóminas y aún te faltan las horas de dos edificios; una encargada te las manda en una foto y la otra ni contesta (variante de 123 monigotes limpieza fin de mes, de los mejores)",
+   "copy": "Nóminas la semana que viene y aún te faltan las horas de dos edificios 🧽\nCon Fíchalo cada limpiadora ficha en su edificio y tienes las horas por persona y por centro.\n\nGuárdalo para el cierre de mes 📌\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #limpieza #empresadelimpieza",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa #limpieza #empresadelimpieza",
+   "estado": "programado",
+   "fecha": "2026-11-22T17:40",
+   "formato": "voz",
+   "nicho": "limpieza"
+  },
+  {
+   "id": "173_monigotes_estetica-cierra-olvido",
+   "tema": "monigotes: centro de estética, la esteticista cierra a las 20:00 y se va sin fichar la salida, le llega el aviso (variante de 115 fisio olvido y 163 limpieza olvido)",
+   "copy": "Cierra el centro y se va sin fichar la salida 💅\nCon Fíchalo le llega un aviso si se olvida, y tú tienes sus horas completas.\n\nEtiqueta a quien siempre se olvida 👀\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #estetica #centrodeestetica",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa #estetica #centrodeestetica",
+   "estado": "programado",
+   "fecha": "2026-11-22T20:40",
+   "formato": "monigotes",
+   "nicho": "peluqueria"
   }
  ]
 }
