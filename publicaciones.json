@@ -987,9 +987,10 @@
   {
    "id": "162_voz_hotel-relevo-recepcion",
    "fecha": "2026-11-20T17:40",
-   "estado": "pendiente",
+   "estado": "saltado",
    "formato": "voz",
-   "copy": "Un huésped dice que a las 23:00 no había nadie en recepción 🛎️\nCon Fíchalo ves a qué hora salió uno y a qué hora entró el otro.\n\n¿Cómo hacéis los relevos en tu hotel? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #hoteles"
+   "copy": "Un huésped dice que a las 23:00 no había nadie en recepción 🛎️\nCon Fíchalo ves a qué hora salió uno y a qué hora entró el otro.\n\n¿Cómo hacéis los relevos en tu hotel? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #hoteles",
+   "nota": "más de 3 h de retraso; la rutina lo reprograma"
   },
   {
    "id": "163_monigotes_limpieza-viernes-olvido",
