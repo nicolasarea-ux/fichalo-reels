@@ -1011,9 +1011,10 @@
   {
    "id": "165_monigotes_taller-mecanico-horas-extra",
    "fecha": "2026-11-21T12:40",
-   "estado": "pendiente",
+   "estado": "saltado",
    "formato": "monigotes",
-   "copy": "\"Jefe, ¿cuántas horas extra llevo este mes?\" Y tú, con la calculadora 🔧\nCon Fíchalo las horas y las horas extra de cada mecánico salen ya sumadas.\n\nGuárdalo para el día que te lo pregunten 📌\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #talleres #tallermecanico"
+   "copy": "\"Jefe, ¿cuántas horas extra llevo este mes?\" Y tú, con la calculadora 🔧\nCon Fíchalo las horas y las horas extra de cada mecánico salen ya sumadas.\n\nGuárdalo para el día que te lo pregunten 📌\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #talleres #tallermecanico",
+   "nota": "más de 3 h de retraso; la rutina lo reprograma"
   },
   {
    "id": "166_chat_bar-apuntame-la-extra",
