@@ -1003,9 +1003,10 @@
   {
    "id": "164_voz_fisio-luces-toda-la-noche",
    "fecha": "2026-11-21T09:40",
-   "estado": "pendiente",
+   "estado": "saltado",
    "formato": "voz",
-   "copy": "Luces y calefacción encendidas toda la noche. ¿Quién cerró? 💡\nCon Fíchalo cada fisio ficha la salida y ves quién se fue el último y a qué hora.\n\n¿En tu clínica quién apaga las luces? Etiquétalo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #fisioterapia #clinicas"
+   "copy": "Luces y calefacción encendidas toda la noche. ¿Quién cerró? 💡\nCon Fíchalo cada fisio ficha la salida y ves quién se fue el último y a qué hora.\n\n¿En tu clínica quién apaga las luces? Etiquétalo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #fisioterapia #clinicas",
+   "nota": "más de 3 h de retraso; la rutina lo reprograma"
   },
   {
    "id": "165_monigotes_taller-mecanico-horas-extra",
