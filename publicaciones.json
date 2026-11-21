@@ -970,34 +970,35 @@
   },
   {
    "id": "160_monigotes_peluqueria-horas-extra-viernes",
-   "fecha": "2026-11-20T12:40",
-   "estado": "saltado",
+   "fecha": "2026-11-23T12:40",
+   "estado": "pendiente",
    "formato": "monigotes",
    "copy": "\"¿Cuántas horas extra llevo este mes?\" Y tú, contando con los dedos ✂️\nCon Fíchalo las horas y las horas extra de cada peluquera salen ya sumadas.\n\nGuárdalo para cuando te lo pregunten 📌\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #peluqueria #peluquerias",
-   "nota": "más de 3 h de retraso; la rutina lo reprograma"
+   "reprogramado_de": "2026-11-20 (saltado)"
   },
   {
    "id": "161_chat_tienda-puente-diciembre",
-   "fecha": "2026-11-20T14:40",
-   "estado": "saltado",
+   "fecha": "2026-11-23T14:40",
+   "estado": "pendiente",
    "formato": "chat",
    "copy": "Llega el puente y todas quieren el mismo día libre 📅\nCon Fíchalo las vacaciones se piden y se aprueban en la app, y ves quién lo pidió primero.\n\n¿Ya os han pedido el puente? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #comercio #tiendas",
-   "nota": "más de 3 h de retraso; la rutina lo reprograma"
+   "reprogramado_de": "2026-11-20 (saltado)"
   },
   {
    "id": "162_voz_hotel-relevo-recepcion",
-   "fecha": "2026-11-20T17:40",
-   "estado": "saltado",
+   "fecha": "2026-11-23T17:40",
+   "estado": "pendiente",
    "formato": "voz",
    "copy": "Un huésped dice que a las 23:00 no había nadie en recepción 🛎️\nCon Fíchalo ves a qué hora salió uno y a qué hora entró el otro.\n\n¿Cómo hacéis los relevos en tu hotel? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #hoteles",
-   "nota": "más de 3 h de retraso; la rutina lo reprograma"
+   "reprogramado_de": "2026-11-20 (saltado)"
   },
   {
    "id": "163_monigotes_limpieza-viernes-olvido",
-   "fecha": "2026-11-20T20:40",
+   "fecha": "2026-11-23T20:40",
    "estado": "pendiente",
    "formato": "monigotes",
-   "copy": "Viernes, 22:00. Acaba de limpiar las oficinas y se va sin fichar 🧹\nCon Fíchalo le llega un aviso si se olvida de fichar, y tú no tienes que perseguir a nadie.\n\nEtiqueta a quien siempre se olvida 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #limpieza #empresadelimpieza"
+   "copy": "Lunes, 22:00. Acaba de limpiar las oficinas y se va sin fichar 🧹\nCon Fíchalo le llega un aviso si se olvida de fichar, y tú no tienes que perseguir a nadie.\n\nEtiqueta a quien siempre se olvida 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #limpieza #empresadelimpieza",
+   "reprogramado_de": "2026-11-20 (saltado)"
   },
   {
    "id": "164_voz_fisio-luces-toda-la-noche",
@@ -1068,6 +1069,13 @@
    "estado": "pendiente",
    "formato": "monigotes",
    "copy": "Cierra el centro y se va sin fichar la salida 💅\nCon Fíchalo le llega un aviso si se olvida, y tú tienes sus horas completas.\n\nEtiqueta a quien siempre se olvida 👀\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #estetica #centrodeestetica"
+  },
+  {
+   "id": "174_voz_gimnasio-lunes-quien-abre",
+   "fecha": "2026-11-23T09:40",
+   "estado": "pendiente",
+   "formato": "voz",
+   "copy": "Lunes, 7:05. Socios en la puerta del gimnasio y la persiana bajada 🏋️\nCon Fíchalo ves en el móvil quién ha fichado y quién está trabajando, sin llamar a nadie.\n\n¿Quién abre tu gimnasio los lunes? Etiquétalo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #gimnasios #centrodeportivo"
   }
  ]
 }

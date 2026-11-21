@@ -1,0 +1,220 @@
+{
+ "reels": [
+  {
+   "id": "174_voz_gimnasio-lunes-quien-abre",
+   "formato": "voz",
+   "nicho": "gimnasio",
+   "tema": "voz: gimnasio, lunes 7:05, socios esperando en la puerta y no sabes quién abría hoy ni si ha llegado; con Fíchalo ves quién ha fichado (variante de 144 chat taller quién abre y 145 voz dental, los mejores de los últimos 7 días)",
+   "copy": "Lunes, 7:05. Socios en la puerta del gimnasio y la persiana bajada 🏋️\nCon Fíchalo ves en el móvil quién ha fichado y quién está trabajando, sin llamar a nadie.\n\n¿Quién abre tu gimnasio los lunes? Etiquétalo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #gimnasios #centrodeportivo",
+   "titular": "\"Son las 7:05 y el gimnasio sigue cerrado\"",
+   "acento": "sigue cerrado",
+   "portada": "Lunes, 7:05. ¿Quién abría hoy?",
+   "acento_portada": "7:05",
+   "frases": [
+    {
+     "voz": "Lunes, siete y cinco. Tres socios esperando en la puerta del gimnasio. Y la persiana, bajada.",
+     "postit": "¿Quién abría?\n¿Iker?\n¿Maialen?"
+    },
+    {
+     "voz": "Miras el cuadrante: hoy abría Iker. Le llamas y no lo coge.",
+     "papel": [
+      "Cuadrante · Lunes",
+      "Apertura: Iker",
+      "Sala: Maialen",
+      "Tarde: Xabi"
+     ]
+    },
+    {
+     "voz": "Con Fíchalo, cada monitor ficha desde el móvil al llegar.",
+     "emoji": "📱"
+    },
+    {
+     "voz": "Y tú ves quién ha fichado y quién está trabajando, sin llamar a nadie.",
+     "movil": {
+      "cab": "Gimnasio · Ahora mismo",
+      "filas": [
+       [
+        "Iker",
+        "Sin fichar",
+        ""
+       ],
+       [
+        "Maialen",
+        "Fichó 07:06",
+        "1"
+       ],
+       [
+        "Xabi",
+        "Entra 15:00",
+        ""
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "160_monigotes_peluqueria-horas-extra-viernes",
+   "formato": "monigotes",
+   "nicho": "peluqueria",
+   "tema": "monigotes: peluquería, la peluquera pregunta cuántas horas extra lleva este mes y la dueña echa cuentas a mano (variante de 143 bar horas extra, el de mejor retención) [saltado el 20/11, reprogramado el 23/11 sin la palabra viernes]",
+   "copy": "\"¿Cuántas horas extra llevo este mes?\" Y tú, contando con los dedos ✂️\nCon Fíchalo las horas y las horas extra de cada peluquera salen ya sumadas.\n\nGuárdalo para cuando te lo pregunten 📌\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #peluqueria #peluquerias",
+   "titular": "\"¿Cuántas horas extra llevo?\"",
+   "acento": "horas extra",
+   "escenas": [
+    {
+     "escena": "calcula",
+     "voz": "Tu peluquera te pregunta cuántas horas extra lleva este mes. Y tú, echando cuentas.",
+     "numeros": [
+      "+3?",
+      "¿+1?",
+      "+2?",
+      "¿6?"
+     ],
+     "acc": [
+      "pelo"
+     ]
+    },
+    {
+     "escena": "llega",
+     "voz": "Con Fíchalo, cada peluquera ficha desde el móvil al entrar y al salir.",
+     "lugar": "Pelu Ainhoa",
+     "hora": "09:27",
+     "acc": [
+      "pelo"
+     ]
+    },
+    {
+     "escena": "jefe_movil",
+     "voz": "Y tú ves sus horas y sus extra, ya sumadas.",
+     "cab": "Nerea · Noviembre",
+     "sub": "Horas por persona",
+     "filas": [
+      [
+       "Horas",
+       "104 h",
+       "1"
+      ],
+      [
+       "Extra",
+       "5 h 30 min",
+       "1"
+      ],
+      [
+       "Días",
+       "14",
+       "1"
+      ]
+     ],
+     "acc": [
+      "pelo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "162_voz_hotel-relevo-recepcion",
+   "formato": "voz",
+   "nicho": "hosteleria",
+   "tema": "voz: hotel, relevo de recepción: el de tarde dice que se fue a las once y el de noche que llegó a las once; un huésped dice que no había nadie (variante de 117 quién cerró y 94 quién abre) [saltado el 20/11, reprogramado el 23/11]",
+   "copy": "Un huésped dice que a las 23:00 no había nadie en recepción 🛎️\nCon Fíchalo ves a qué hora salió uno y a qué hora entró el otro.\n\n¿Cómo hacéis los relevos en tu hotel? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #hoteles",
+   "titular": "\"A las 23:00 no había nadie en recepción\"",
+   "acento": "nadie",
+   "frases": [
+    {
+     "voz": "Un huésped se queja: anoche a las once no había nadie en recepción.",
+     "postit": "23:00\n¿Recepción\nvacía?"
+    },
+    {
+     "voz": "El de tarde dice que se fue a las once. El de noche, que llegó a las once.",
+     "papel": [
+      "Relevo · Domingo",
+      "Unai: \"a las 11\"",
+      "Josu: \"a las 11\"",
+      "¿?"
+     ]
+    },
+    {
+     "voz": "Con Fíchalo, cada recepcionista ficha desde el móvil.",
+     "emoji": "📱"
+    },
+    {
+     "voz": "Y tú ves a qué hora salió uno, y a qué hora entró el otro.",
+     "movil": {
+      "cab": "Recepción · Anoche",
+      "filas": [
+       [
+        "Unai",
+        "Salió 22:41",
+        "1"
+       ],
+       [
+        "Josu",
+        "Entró 23:18",
+        "1"
+       ],
+       [
+        "Sin nadie",
+        "37 min",
+        ""
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "163_monigotes_limpieza-viernes-olvido",
+   "formato": "monigotes",
+   "nicho": "limpieza",
+   "tema": "monigotes: lunes noche, la limpiadora acaba en unas oficinas y se va sin fichar la salida, le llega el aviso (variante de 115 fisio olvido, de los mejores) [saltado el 20/11, reprogramado el 23/11 como lunes]",
+   "copy": "Lunes, 22:00. Acaba de limpiar las oficinas y se va sin fichar 🧹\nCon Fíchalo le llega un aviso si se olvida de fichar, y tú no tienes que perseguir a nadie.\n\nEtiqueta a quien siempre se olvida 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #limpieza #empresadelimpieza",
+   "titular": "Lunes, 22:00. Se va sin fichar",
+   "acento": "sin fichar",
+   "escenas": [
+    {
+     "escena": "olvido",
+     "voz": "Lunes, diez de la noche. Rosa acaba de limpiar las oficinas y se va a casa sin fichar la salida.",
+     "aviso": "¿Te has olvidado de\nfichar la salida?",
+     "ok": "Salida 22:03",
+     "minimo": 3.4,
+     "acc": [
+      "escoba"
+     ]
+    },
+    {
+     "escena": "llega",
+     "voz": "Con Fíchalo, le llega el aviso al móvil y ficha en un segundo.",
+     "lugar": "Oficinas Ibaia",
+     "hora": "22:03",
+     "acc": [
+      "escoba"
+     ]
+    },
+    {
+     "escena": "jefe_movil",
+     "voz": "Y por la mañana tú ves las horas de cada limpiadora, sin huecos.",
+     "cab": "Lunes · Salidas",
+     "sub": "Limpieza oficinas",
+     "filas": [
+      [
+       "Rosa",
+       "Salió 22:03",
+       "1"
+      ],
+      [
+       "Gloria",
+       "Salió 21:48",
+       "1"
+      ],
+      [
+       "Yolanda",
+       "Salió 22:10",
+       "1"
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

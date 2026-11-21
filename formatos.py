@@ -781,7 +781,8 @@ def render(reel, out_mp4, out_jpg):
 # PORTADAS v2 (3/11): texto enorme + una imagen, todo dentro del recorte 3:4 de la cuadrícula (y 240–1680)
 # =====================================================================
 NICHO_LABEL = {"hosteleria": "HOSTELERÍA", "limpieza": "LIMPIEZA", "clinica": "CLÍNICAS", "gestoria": "GESTORÍAS",
-               "comercio": "COMERCIO", "taller": "TALLERES", "peluqueria": "PELUQUERÍAS", "ley": "REGISTRO DE JORNADA"}
+               "comercio": "COMERCIO", "taller": "TALLERES", "peluqueria": "PELUQUERÍAS", "ley": "REGISTRO DE JORNADA",
+               "gimnasio": "GIMNASIOS"}
 ESTILO_PORTADA = {"postit": "oscuro", "monigotes": "crema", "chat": "cielo", "quiz": "oscuro", "voz": "oscuro"}
 
 def _encajar(im, mw, mh):
