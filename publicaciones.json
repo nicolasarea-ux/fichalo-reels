@@ -1061,16 +1061,20 @@
   {
    "id": "171_chat_churreria-domingo-quien-abre",
    "fecha": "2026-11-22T14:40",
-   "estado": "pendiente",
+   "estado": "saltado",
    "formato": "chat",
-   "copy": "Domingo, 8:05. Gente en la puerta y la persiana bajada ☕\nCon Fíchalo ves desde el móvil quién ha fichado y quién está trabajando ahora mismo.\n\nEtiqueta a quien abre los domingos 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #cafeterias"
+   "copy": "Domingo, 8:05. Gente en la puerta y la persiana bajada ☕\nCon Fíchalo ves desde el móvil quién ha fichado y quién está trabajando ahora mismo.\n\nEtiqueta a quien abre los domingos 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #cafeterias",
+   "nota": "más de 3 h de retraso; la rutina lo reprograma"
   },
   {
    "id": "172_voz_limpieza-nominas-faltan-horas",
    "fecha": "2026-11-22T17:40",
-   "estado": "pendiente",
+   "estado": "publicado",
    "formato": "voz",
-   "copy": "Nóminas la semana que viene y aún te faltan las horas de dos edificios 🧽\nCon Fíchalo cada limpiadora ficha en su edificio y tienes las horas por persona y por centro.\n\nGuárdalo para el cierre de mes 📌\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #limpieza #empresadelimpieza"
+   "copy": "Nóminas la semana que viene y aún te faltan las horas de dos edificios 🧽\nCon Fíchalo cada limpiadora ficha en su edificio y tienes las horas por persona y por centro.\n\nGuárdalo para el cierre de mes 📌\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #limpieza #empresadelimpieza",
+   "permalink": "https://www.instagram.com/reel/DgDj-MWEXwk/",
+   "ig_media_id": "18120066704103117",
+   "publicado_en": "2026-11-22T20:32"
   },
   {
    "id": "173_monigotes_estetica-cierra-olvido",
