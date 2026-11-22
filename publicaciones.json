@@ -1027,9 +1027,10 @@
   {
    "id": "167_voz_ley-registro-del-ano-pasado",
    "fecha": "2026-11-21T17:40",
-   "estado": "pendiente",
+   "estado": "saltado",
    "formato": "voz",
-   "copy": "¿Encontrarías ahora el registro de horas de marzo del año pasado? 📂\nCon Fíchalo los fichajes quedan en la app y sacas el informe en PDF o Excel cuando te lo pidan.\n\nGuárdalo y compártelo con tu socio/a 📌\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #registrodejornada #pymes"
+   "copy": "¿Encontrarías ahora el registro de horas de marzo del año pasado? 📂\nCon Fíchalo los fichajes quedan en la app y sacas el informe en PDF o Excel cuando te lo pidan.\n\nGuárdalo y compártelo con tu socio/a 📌\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #registrodejornada #pymes",
+   "nota": "más de 3 h de retraso; la rutina lo reprograma"
   },
   {
    "id": "168_monigotes_restaurante-sabado-refuerzo",
