@@ -68,19 +68,20 @@ def main():
     data = json.load(open(path, encoding="utf-8"))
     ahora = datetime.now(TZ)
     cambios = 0
+    saltados = 0
     for r in sorted(data["reels"], key=lambda x: x["fecha"]):
         if r.get("estado") != "pendiente":
             continue
         t = datetime.fromisoformat(r["fecha"]).replace(tzinfo=TZ)
         if t > ahora:
             continue
-        if any(x.get("publicado_en", "").startswith(ahora.strftime("%Y-%m-%dT%H")) for x in data["reels"]) or cambios >= 1:  # como mucho 1 Reel por pasada: si hubo un parón, no salen todos de golpe
-            break
         if ahora - t > timedelta(hours=3):  # muy atrasado (p. ej. tras un bloqueo): no se publica a deshora
             r["estado"] = "saltado"
             r["nota"] = "más de 3 h de retraso; la rutina lo reprograma"
-            cambios += 1
+            saltados += 1  # marcar saltado no gasta el cupo de 1 publicación por pasada
             continue
+        if any(x.get("publicado_en", "").startswith(ahora.strftime("%Y-%m-%dT%H")) for x in data["reels"]) or cambios >= 1:  # como mucho 1 Reel por pasada: si hubo un parón, no salen todos de golpe
+            break
         try:
             r["ig_media_id"] = publicar(r)
             r["estado"] = "publicado"
@@ -93,7 +94,7 @@ def main():
                 r["estado"] = "error"
             print("ERROR", r["id"], e, file=sys.stderr)
         cambios += 1
-    if cambios:
+    if cambios or saltados:
         json.dump(data, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
 
