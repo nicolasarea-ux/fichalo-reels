@@ -1043,16 +1043,20 @@
   {
    "id": "169_voz_panaderia-horno-encendido",
    "fecha": "2026-11-22T09:40",
-   "estado": "pendiente",
+   "estado": "saltado",
    "formato": "voz",
-   "copy": "El horno, encendido toda la noche. ¿Quién cerró el obrador? 🥖\nCon Fíchalo cada panadero ficha la salida y ves quién se fue el último y a qué hora.\n\n¿En tu panadería quién cierra? Cuéntalo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #panaderia #obrador"
+   "copy": "El horno, encendido toda la noche. ¿Quién cerró el obrador? 🥖\nCon Fíchalo cada panadero ficha la salida y ves quién se fue el último y a qué hora.\n\n¿En tu panadería quién cierra? Cuéntalo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #panaderia #obrador",
+   "nota": "más de 3 h de retraso; la rutina lo reprograma"
   },
   {
    "id": "170_monigotes_super-domingo-sumando-horas",
    "fecha": "2026-11-22T12:40",
-   "estado": "pendiente",
+   "estado": "publicado",
    "formato": "monigotes",
-   "copy": "Domingo por la tarde y tú, sumando horas con la calculadora 🧮\nCon Fíchalo las horas de cada persona de tu súper salen ya sumadas, también las extra.\n\n¿Cuándo haces tú las cuentas? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #supermercado #comercio"
+   "copy": "Domingo por la tarde y tú, sumando horas con la calculadora 🧮\nCon Fíchalo las horas de cada persona de tu súper salen ya sumadas, también las extra.\n\n¿Cuándo haces tú las cuentas? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #supermercado #comercio",
+   "permalink": "https://www.instagram.com/reel/DgCxIarj2o3/",
+   "ig_media_id": "17888868114504363",
+   "publicado_en": "2026-11-22T13:07"
   },
   {
    "id": "171_chat_churreria-domingo-quien-abre",
