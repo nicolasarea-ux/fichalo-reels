@@ -1374,7 +1374,7 @@
    "copy": "El horno, encendido toda la noche. ¿Quién cerró el obrador? 🥖\nCon Fíchalo cada panadero ficha la salida y ves quién se fue el último y a qué hora.\n\n¿En tu panadería quién cierra? Cuéntalo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #panaderia #obrador",
    "hashtags": "#fichaje #fichajedigital #fichalo #empresa #panaderia #obrador",
    "estado": "programado",
-   "fecha": "2026-11-22T09:40",
+   "fecha": "2026-11-25T09:40",
    "formato": "voz",
    "nicho": "comercio"
   },
@@ -1390,11 +1390,11 @@
   },
   {
    "id": "171_chat_churreria-domingo-quien-abre",
-   "tema": "chat: domingo 8:05, la churrería abre a las 8 y hay clientes en la puerta; la dueña escribe al encargado si ha llegado alguien (variante de 144 chat taller quién abre y 94, los mejores chats)",
-   "copy": "Domingo, 8:05. Gente en la puerta y la persiana bajada ☕\nCon Fíchalo ves desde el móvil quién ha fichado y quién está trabajando ahora mismo.\n\nEtiqueta a quien abre los domingos 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #cafeterias",
+   "tema": "chat: miércoles 8:05 (antes domingo), la churrería abre a las 8 y hay clientes en la puerta; la dueña escribe al encargado si ha llegado alguien (variante de 144 chat taller quién abre y 94, los mejores chats)",
+   "copy": "Miércoles, 8:05. Gente en la puerta y la persiana bajada ☕\nCon Fíchalo ves desde el móvil quién ha fichado y quién está trabajando ahora mismo.\n\nEtiqueta a quien abre por las mañanas 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #cafeterias",
    "hashtags": "#fichaje #fichajedigital #fichalo #empresa #hosteleria #cafeterias",
    "estado": "programado",
-   "fecha": "2026-11-22T14:40",
+   "fecha": "2026-11-25T14:40",
    "formato": "chat",
    "nicho": "hosteleria"
   },
@@ -1414,7 +1414,7 @@
    "copy": "Cierra el centro y se va sin fichar la salida 💅\nCon Fíchalo le llega un aviso si se olvida, y tú tienes sus horas completas.\n\nEtiqueta a quien siempre se olvida 👀\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #estetica #centrodeestetica",
    "hashtags": "#fichaje #fichajedigital #fichalo #empresa #estetica #centrodeestetica",
    "estado": "programado",
-   "fecha": "2026-11-22T20:40",
+   "fecha": "2026-11-25T20:40",
    "formato": "monigotes",
    "nicho": "peluqueria"
   },
@@ -1427,6 +1427,26 @@
    "fecha": "2026-11-23T09:40",
    "formato": "voz",
    "nicho": "gimnasio"
+  },
+  {
+   "id": "175_monigotes_bar-llevo-12-extra",
+   "tema": "monigotes: el camarero dice que este mes lleva 12 horas extra y el dueño tiene apuntadas 6 en un pósit; con Fíchalo las horas extra salen de los fichajes (variante de 143 bar horas extra, la mejor retención, y 152 voz bar palabra contra palabra)",
+   "copy": "Él dice 12 horas extra. Tú apuntaste 6. ¿Quién tiene razón? 🍻\nCon Fíchalo cada camarero ficha entrada y salida y las horas extra salen solas, sin discusiones.\n\n¿Te ha pasado este mes? Cuéntalo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #bares",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa #hosteleria #bares",
+   "estado": "programado",
+   "fecha": "2026-11-25T12:40",
+   "formato": "monigotes",
+   "nicho": "hosteleria"
+  },
+  {
+   "id": "176_voz_veterinaria-alarma-quien-se-quedo",
+   "tema": "voz: clínica veterinaria, la alarma se puso a las 22:30 pero la que cerraba dice que se fue a las 21:00; no sabes quién se quedó ni hasta qué hora (variante de 145 voz dental quién se fue la última, el mejor de los últimos 7 días)",
+   "copy": "La alarma se puso a las 22:30. Y la que cerraba dice que se fue a las 21:00 🐾\nCon Fíchalo cada persona ficha la salida y ves quién se quedó y hasta qué hora.\n\nEtiqueta a quien cierra tu clínica 👀\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #veterinaria #clinicaveterinaria",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa #veterinaria #clinicaveterinaria",
+   "estado": "programado",
+   "fecha": "2026-11-25T17:40",
+   "formato": "voz",
+   "nicho": "clinica"
   }
  ]
 }

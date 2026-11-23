@@ -1,0 +1,215 @@
+{
+ "reels": [
+  {
+   "id": "169_voz_panaderia-horno-encendido",
+   "formato": "voz",
+   "nicho": "comercio",
+   "tema": "voz: panadería con obrador, por la mañana el horno lleva toda la noche encendido y no sabes quién cerró el obrador ni a qué hora (variante de 145 voz dental quién se fue la última, el mejor de los últimos 7 días)",
+   "copy": "El horno, encendido toda la noche. ¿Quién cerró el obrador? 🥖\nCon Fíchalo cada panadero ficha la salida y ves quién se fue el último y a qué hora.\n\n¿En tu panadería quién cierra? Cuéntalo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #panaderia #obrador",
+   "titular": "\"¿Quién cerró anoche el obrador?\"",
+   "acento": "el obrador",
+   "frases": [
+    {
+     "voz": "Llegas a la panadería y el horno lleva toda la noche encendido. ¿Quién cerró el obrador?",
+     "postit": "¿Quién cerró?\n¿Edu?\n¿Maite?"
+    },
+    {
+     "voz": "En la hoja de salidas, anoche no firmó nadie.",
+     "papel": [
+      "Salidas · Martes",
+      "Edu ...",
+      "Maite ...",
+      "Iñigo ..."
+     ]
+    },
+    {
+     "voz": "Con Fíchalo, cada panadero ficha la salida desde su móvil.",
+     "emoji": "📱"
+    },
+    {
+     "voz": "Y tú ves quién se fue el último y a qué hora.",
+     "movil": {
+      "cab": "Obrador · Anoche",
+      "filas": [
+       [
+        "Iñigo",
+        "Salió 19:40",
+        "1"
+       ],
+       [
+        "Edu",
+        "Salió 20:15",
+        "1"
+       ],
+       [
+        "Maite",
+        "Salió 21:52",
+        "1"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "175_monigotes_bar-llevo-12-extra",
+   "formato": "monigotes",
+   "nicho": "hosteleria",
+   "tema": "monigotes: el camarero dice que este mes lleva 12 horas extra y el dueño tiene apuntadas 6 en un pósit; con Fíchalo las horas extra salen de los fichajes (variante de 143 bar horas extra, la mejor retención, y 152 voz bar palabra contra palabra)",
+   "copy": "Él dice 12 horas extra. Tú apuntaste 6. ¿Quién tiene razón? 🍻\nCon Fíchalo cada camarero ficha entrada y salida y las horas extra salen solas, sin discusiones.\n\n¿Te ha pasado este mes? Cuéntalo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #bares",
+   "titular": "\"Jefe, este mes llevo 12 horas extra\"",
+   "acento": "12 horas extra",
+   "escenas": [
+    {
+     "escena": "caos",
+     "voz": "Jefe, este mes llevo doce horas extra. Y tú, en el pósit, tienes apuntadas seis.",
+     "postit": "Jon extras:\n¿6h?\n¿12h?",
+     "acc": [
+      "delantal"
+     ]
+    },
+    {
+     "escena": "llega",
+     "voz": "Con Fíchalo, cada camarero ficha desde el móvil al entrar y al salir.",
+     "lugar": "Bar Txoko",
+     "hora": "18:58",
+     "acc": [
+      "delantal"
+     ]
+    },
+    {
+     "escena": "jefe_movil",
+     "voz": "Y las horas extra de cada uno salen solas. Sin discutir.",
+     "cab": "Noviembre",
+     "sub": "Horas extra",
+     "filas": [
+      [
+       "Jon",
+       "9 h 20 min",
+       "1"
+      ],
+      [
+       "Ainhoa",
+       "4 h",
+       "1"
+      ],
+      [
+       "Mikel",
+       "6 h 45 min",
+       "1"
+      ]
+     ],
+     "acc": [
+      "delantal"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "171_chat_churreria-domingo-quien-abre",
+   "formato": "chat",
+   "nicho": "hosteleria",
+   "tema": "chat: miércoles 8:05 (antes domingo), la churrería abre a las 8 y hay clientes en la puerta; la dueña escribe al encargado si ha llegado alguien (variante de 144 chat taller quién abre y 94, los mejores chats)",
+   "copy": "Miércoles, 8:05. Gente en la puerta y la persiana bajada ☕\nCon Fíchalo ves desde el móvil quién ha fichado y quién está trabajando ahora mismo.\n\nEtiqueta a quien abre por las mañanas 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #cafeterias",
+   "titular": "Miércoles, 8:05. Te escriben esto:",
+   "acento": "esto",
+   "contacto": "Rubén (encargado)",
+   "mensajes": [
+    {
+     "de": "el",
+     "texto": "Hay gente esperando en la puerta",
+     "hora": "08:05"
+    },
+    {
+     "de": "el",
+     "texto": "¿Quién abría hoy?",
+     "hora": "08:05"
+    },
+    {
+     "de": "yo",
+     "texto": "¿No ha llegado Lucía?",
+     "hora": "08:06"
+    },
+    {
+     "de": "el",
+     "texto": "Ni idea, yo estoy en la otra",
+     "hora": "08:07"
+    }
+   ],
+   "giro": {
+    "texto": "Con Fíchalo, lo ves en el móvil",
+    "acento": "lo ves",
+    "cab": "Quién está trabajando",
+    "sub": "Ahora mismo",
+    "filas": [
+     [
+      "Lucía",
+      "Fichó 07:52",
+      "1"
+     ],
+     [
+      "Hugo",
+      "Fichó 07:58",
+      "1"
+     ],
+     [
+      "Rubén",
+      "Fichó 07:45",
+      "1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "176_voz_veterinaria-alarma-quien-se-quedo",
+   "formato": "voz",
+   "nicho": "clinica",
+   "tema": "voz: clínica veterinaria, la alarma se puso a las 22:30 pero la que cerraba dice que se fue a las 21:00; no sabes quién se quedó ni hasta qué hora (variante de 145 voz dental quién se fue la última, el mejor de los últimos 7 días)",
+   "copy": "La alarma se puso a las 22:30. Y la que cerraba dice que se fue a las 21:00 🐾\nCon Fíchalo cada persona ficha la salida y ves quién se quedó y hasta qué hora.\n\nEtiqueta a quien cierra tu clínica 👀\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #veterinaria #clinicaveterinaria",
+   "titular": "\"¿Quién se quedó hasta las 22:30?\"",
+   "acento": "22:30",
+   "frases": [
+    {
+     "voz": "La alarma de la clínica se puso a las diez y media de la noche. ¿Quién se quedó?",
+     "postit": "Alarma 22:30\n¿Quién se\nquedó?"
+    },
+    {
+     "voz": "La que cerraba dice que se fue a las nueve. Y nadie apuntó nada.",
+     "papel": [
+      "Salidas · Ayer",
+      "Irati 21:00?",
+      "Asier ...",
+      "Leire ..."
+     ]
+    },
+    {
+     "voz": "Con Fíchalo, cada persona ficha la salida desde su móvil.",
+     "emoji": "📱"
+    },
+    {
+     "voz": "Y tú ves quién se fue la última y a qué hora.",
+     "movil": {
+      "cab": "Clínica · Anoche",
+      "filas": [
+       [
+        "Irati",
+        "Salió 21:02",
+        "1"
+       ],
+       [
+        "Leire",
+        "Salió 20:30",
+        "1"
+       ],
+       [
+        "Asier",
+        "Salió 22:24",
+        "1"
+       ]
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}
