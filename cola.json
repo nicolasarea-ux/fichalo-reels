@@ -1293,7 +1293,7 @@
    "copy": "\"¿Cuántas horas extra llevo este mes?\" Y tú, contando con los dedos ✂️\nCon Fíchalo las horas y las horas extra de cada peluquera salen ya sumadas.\n\nGuárdalo para cuando te lo pregunten 📌\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #peluqueria #peluquerias",
    "hashtags": "#fichaje #fichajedigital #fichalo #empresa #peluqueria #peluquerias",
    "estado": "programado",
-   "fecha": "2026-11-23T12:40",
+   "fecha": "2026-11-26T20:40",
    "formato": "monigotes"
   },
   {
@@ -1302,16 +1302,16 @@
    "copy": "Llega el puente y todas quieren el mismo día libre 📅\nCon Fíchalo las vacaciones se piden y se aprueban en la app, y ves quién lo pidió primero.\n\n¿Ya os han pedido el puente? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #comercio #tiendas",
    "hashtags": "#fichaje #fichajedigital #fichalo #empresa #comercio #tiendas",
    "estado": "programado",
-   "fecha": "2026-11-23T14:40",
+   "fecha": "2026-11-26T14:40",
    "formato": "chat"
   },
   {
    "id": "162_voz_hotel-relevo-recepcion",
-   "tema": "voz: hotel, relevo de recepción: el de tarde dice que se fue a las once y el de noche que llegó a las once; un huésped dice que no había nadie (variante de 117 quién cerró y 94 quién abre) [saltado el 20/11, reprogramado el 23/11]",
+   "tema": "voz: hotel, relevo de recepción: el de tarde dice que se fue a las once y el de noche que llegó a las once; un huésped dice que no había nadie (variante de 117 quién cerró y 94 quién abre) [saltado el 20/11, reprogramado el 23/11; saltado otra vez el 23/11, reprogramado el 26/11 con \"Relevo · Miércoles\"]",
    "copy": "Un huésped dice que a las 23:00 no había nadie en recepción 🛎️\nCon Fíchalo ves a qué hora salió uno y a qué hora entró el otro.\n\n¿Cómo hacéis los relevos en tu hotel? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #hoteles",
    "hashtags": "#fichaje #fichajedigital #fichalo #empresa #hosteleria #hoteles",
    "estado": "programado",
-   "fecha": "2026-11-23T17:40",
+   "fecha": "2026-11-26T17:40",
    "formato": "voz"
   },
   {
@@ -1420,11 +1420,11 @@
   },
   {
    "id": "174_voz_gimnasio-lunes-quien-abre",
-   "tema": "voz: gimnasio, lunes 7:05, socios esperando en la puerta y no sabes quién abría hoy ni si ha llegado; con Fíchalo ves quién ha fichado (variante de 144 chat taller quién abre y 145 voz dental, los mejores de los últimos 7 días)",
-   "copy": "Lunes, 7:05. Socios en la puerta del gimnasio y la persiana bajada 🏋️\nCon Fíchalo ves en el móvil quién ha fichado y quién está trabajando, sin llamar a nadie.\n\n¿Quién abre tu gimnasio los lunes? Etiquétalo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #gimnasios #centrodeportivo",
+   "tema": "voz: gimnasio, 7:05 (jueves), socios esperando en la puerta y no sabes quién abría hoy ni si ha llegado; con Fíchalo ves quién ha fichado (variante de 144 chat taller quién abre y 145 voz dental, los mejores de los últimos 7 días) [saltado el 23/11, reprogramado el 26/11 pasado de lunes a jueves]",
+   "copy": "Jueves, 7:05. Socios en la puerta del gimnasio y la persiana bajada 🏋️\nCon Fíchalo ves en el móvil quién ha fichado y quién está trabajando, sin llamar a nadie.\n\n¿Quién abre tu gimnasio por la mañana? Etiquétalo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #gimnasios #centrodeportivo",
    "hashtags": "#fichaje #fichajedigital #fichalo #empresa #gimnasios #centrodeportivo",
    "estado": "programado",
-   "fecha": "2026-11-23T09:40",
+   "fecha": "2026-11-26T09:40",
    "formato": "voz",
    "nicho": "gimnasio"
   },
@@ -1446,6 +1446,16 @@
    "estado": "programado",
    "fecha": "2026-11-25T17:40",
    "formato": "voz",
+   "nicho": "clinica"
+  },
+  {
+   "id": "177_monigotes_clinica-dental-fin-de-mes-sumando",
+   "tema": "monigotes: clínica dental, final de mes, la dueña suma a mano las horas del mes de higienistas y auxiliares para pasarlas a nóminas (variante de 170 súper sumando horas, la mejor retención de los últimos 7 días, 6,9 s / 66 %)",
+   "copy": "Se acaba el mes y te toca sumar las horas de toda la clínica a mano 🦷\nCon Fíchalo las horas de cada higienista y auxiliar salen ya sumadas, también las extra, y las sacas en PDF o Excel.\n\n¿Quién hace las cuentas en tu clínica? Etiquétalo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #clinicadental #dentistas",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa #clinicadental #dentistas",
+   "estado": "programado",
+   "fecha": "2026-11-26T12:40",
+   "formato": "monigotes",
    "nicho": "clinica"
   }
  ]
