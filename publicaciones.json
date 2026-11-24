@@ -1009,26 +1009,31 @@
   {
    "id": "164_voz_fisio-luces-toda-la-noche",
    "fecha": "2026-11-24T09:40",
-   "estado": "pendiente",
+   "estado": "saltado",
    "formato": "voz",
    "copy": "Luces y calefacción encendidas toda la noche. ¿Quién cerró? 💡\nCon Fíchalo cada fisio ficha la salida y ves quién se fue el último y a qué hora.\n\n¿En tu clínica quién apaga las luces? Etiquétalo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #fisioterapia #clinicas",
-   "saltado_original": "2026-11-21T09:40"
+   "saltado_original": "2026-11-21T09:40",
+   "nota": "más de 3 h de retraso; la rutina lo reprograma"
   },
   {
    "id": "165_monigotes_taller-mecanico-horas-extra",
    "fecha": "2026-11-24T12:40",
-   "estado": "pendiente",
+   "estado": "saltado",
    "formato": "monigotes",
    "copy": "\"Jefe, ¿cuántas horas extra llevo este mes?\" Y tú, con la calculadora 🔧\nCon Fíchalo las horas y las horas extra de cada mecánico salen ya sumadas.\n\nGuárdalo para el día que te lo pregunten 📌\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #talleres #tallermecanico",
-   "saltado_original": "2026-11-21T12:40"
+   "saltado_original": "2026-11-21T12:40",
+   "nota": "más de 3 h de retraso; la rutina lo reprograma"
   },
   {
    "id": "166_chat_bar-apuntame-la-extra",
    "fecha": "2026-11-24T14:40",
-   "estado": "pendiente",
+   "estado": "publicado",
    "formato": "chat",
    "copy": "\"Ayer me quedé hasta la 1:15, apúntamelo\" 🍻 ¿Y dónde lo apuntas?\nCon Fíchalo cada camarero ficha la salida y las horas extra quedan registradas solas.\n\n¿A ti también te lo apuntan en una libreta? Cuéntalo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #bares",
-   "saltado_original": "2026-11-21T14:40"
+   "saltado_original": "2026-11-21T14:40",
+   "permalink": "https://www.instagram.com/reel/DgIPfE1DCFH/",
+   "ig_media_id": "17949130176364256",
+   "publicado_en": "2026-11-24T16:09"
   },
   {
    "id": "167_voz_ley-registro-del-ano-pasado",
