@@ -1038,18 +1038,20 @@
   {
    "id": "167_voz_ley-registro-del-ano-pasado",
    "fecha": "2026-11-24T17:40",
-   "estado": "pendiente",
+   "estado": "saltado",
    "formato": "voz",
    "copy": "¿Encontrarías ahora el registro de horas de marzo del año pasado? 📂\nCon Fíchalo los fichajes quedan en la app y sacas el informe en PDF o Excel cuando te lo pidan.\n\nGuárdalo y compártelo con tu socio/a 📌\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #registrodejornada #pymes",
-   "saltado_original": "2026-11-21T17:40"
+   "saltado_original": "2026-11-21T17:40",
+   "nota": "más de 3 h de retraso; la rutina lo reprograma"
   },
   {
    "id": "168_monigotes_restaurante-sabado-refuerzo",
    "fecha": "2026-11-24T20:40",
-   "estado": "pendiente",
+   "estado": "saltado",
    "formato": "monigotes",
    "copy": "Cena de empresa, 21:00, el comedor lleno. ¿Ha venido el refuerzo? 🍽️\nCon Fíchalo ves en el móvil quién ha fichado y quién está trabajando ahora mismo.\n\n¿Ya tenéis cenas de Navidad reservadas? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #restaurantes",
-   "saltado_original": "2026-11-21T20:40"
+   "saltado_original": "2026-11-21T20:40",
+   "nota": "más de 3 h de retraso; la rutina lo reprograma"
   },
   {
    "id": "169_voz_panaderia-horno-encendido",
