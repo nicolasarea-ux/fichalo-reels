@@ -1,0 +1,277 @@
+{
+ "reels": [
+  {
+   "id": "164_voz_fisio-luces-toda-la-noche",
+   "formato": "voz",
+   "nicho": "clinica",
+   "tema": "voz: clínica de fisioterapia, por la mañana las luces y la calefacción llevan toda la noche encendidas y no sabes quién se fue el último ni a qué hora (variante de 145 voz dental quién se fue la última, el mejor de los últimos 7 días) [saltado el 24/11, reutilizado el 25/11 para vie 27/11: hoja de salidas del jueves]",
+   "copy": "Luces y calefacción encendidas toda la noche. ¿Quién cerró? 💡\nCon Fíchalo cada fisio ficha la salida y ves quién se fue el último y a qué hora.\n\n¿En tu clínica quién apaga las luces? Etiquétalo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #fisioterapia #clinicas",
+   "titular": "\"¿Quién se fue el último anoche?\"",
+   "acento": "el último",
+   "frases": [
+    {
+     "voz": "Abres la clínica y las luces y la calefacción llevan toda la noche encendidas. ¿Quién se fue el último?",
+     "postit": "¿Quién cerró?\n¿Jon?\n¿Leire?"
+    },
+    {
+     "voz": "En la hoja de salidas, anoche no firmó nadie.",
+     "papel": [
+      "Salidas · Jueves",
+      "Jon ...",
+      "Leire ...",
+      "Amaia ..."
+     ]
+    },
+    {
+     "voz": "Con Fíchalo, cada fisio ficha la salida desde su móvil.",
+     "emoji": "📱"
+    },
+    {
+     "voz": "Y tú ves quién se fue el último y a qué hora.",
+     "movil": {
+      "cab": "Clínica · Anoche",
+      "filas": [
+       [
+        "Amaia",
+        "Salió 20:05",
+        "1"
+       ],
+       [
+        "Jon",
+        "Salió 20:32",
+        "1"
+       ],
+       [
+        "Leire",
+        "Salió 21:47",
+        "1"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "165_monigotes_taller-mecanico-horas-extra",
+   "formato": "monigotes",
+   "nicho": "taller",
+   "tema": "monigotes: taller mecánico, el mecánico pregunta cuántas horas extra lleva este mes y el dueño echa cuentas a mano (variante de 143 bar horas extra, el de mejor retención, y 160)",
+   "copy": "\"Jefe, ¿cuántas horas extra llevo este mes?\" Y tú, con la calculadora 🔧\nCon Fíchalo las horas y las horas extra de cada mecánico salen ya sumadas.\n\nGuárdalo para el día que te lo pregunten 📌\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #talleres #tallermecanico",
+   "titular": "\"Jefe, ¿cuántas horas extra llevo?\"",
+   "acento": "horas extra",
+   "escenas": [
+    {
+     "escena": "calcula",
+     "voz": "Tu mecánico te pregunta cuántas horas extra lleva este mes. Y tú, con la calculadora.",
+     "numeros": [
+      "¿+4?",
+      "+2?",
+      "¿7h?",
+      "+1,5?"
+     ],
+     "acc": [
+      "gorra"
+     ]
+    },
+    {
+     "escena": "llega",
+     "voz": "Con Fíchalo, cada mecánico ficha desde el móvil al entrar y al salir.",
+     "lugar": "Talleres Goiko",
+     "hora": "07:56",
+     "acc": [
+      "gorra"
+     ]
+    },
+    {
+     "escena": "jefe_movil",
+     "voz": "Y tú ves sus horas y sus extra, ya sumadas.",
+     "cab": "Asier · Noviembre",
+     "sub": "Horas por persona",
+     "filas": [
+      [
+       "Horas",
+       "112 h",
+       "1"
+      ],
+      [
+       "Extra",
+       "7 h 15 min",
+       "1"
+      ],
+      [
+       "Días",
+       "14",
+       "1"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "178_chat_fruteria-viernes-cuantas-horas-llevo",
+   "formato": "chat",
+   "nicho": "comercio",
+   "tema": "chat: viernes por la tarde, la dependienta de una frutería pregunta al dueño cuántas horas lleva esta semana y él solo tiene un pósit con huecos; con Fíchalo las horas de la semana salen ya sumadas (variante de 170 monigotes súper sumando horas, el mejor de los últimos 7 días, 6,9 s / 66 %, y de 156 chat fisio horas extra)",
+   "copy": "Viernes, 19:58: \"¿Cuántas horas llevo esta semana?\" Y tú con un pósit a medias 🍊\nCon Fíchalo cada persona ficha entrada y salida y las horas de la semana salen ya sumadas, extras incluidas.\n\n¿Cuántas veces te lo preguntan al mes? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #comerciolocal #fruteria",
+   "titular": "Es viernes. Tu dependienta te escribe:",
+   "acento": "viernes",
+   "contacto": "Nerea (frutería)",
+   "mensajes": [
+    {
+     "de": "el",
+     "texto": "Jefe, ¿cuántas horas llevo esta semana?",
+     "hora": "19:58"
+    },
+    {
+     "de": "el",
+     "texto": "Creo que el martes me quedé de más",
+     "hora": "19:58"
+    },
+    {
+     "de": "yo",
+     "texto": "Espera, que lo tengo apuntado",
+     "hora": "20:06"
+    },
+    {
+     "de": "yo",
+     "foto": [
+      "Nerea · semana",
+      "Lun 8h",
+      "Mar ¿9?",
+      "Mié ...",
+      "Jue 8h ¿?"
+     ],
+     "hora": "20:07"
+    }
+   ],
+   "giro": {
+    "texto": "Con Fíchalo, ya están sumadas",
+    "acento": "sumadas",
+    "cab": "Nerea · Esta semana",
+    "sub": "Horas por persona",
+    "filas": [
+     [
+      "Horas",
+      "40 h 30 min",
+      "1"
+     ],
+     [
+      "Extra",
+      "1 h 30 min",
+      "1"
+     ],
+     [
+      "Días",
+      "5",
+      "1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "167_voz_ley-registro-del-ano-pasado",
+   "formato": "voz",
+   "nicho": "ley",
+   "tema": "voz: ley, Inspección te pide el registro de horas de marzo del año pasado (hay que guardarlo 4 años) y el tuyo está en una carpeta con una mancha de café; con Fíchalo sacas el informe en PDF o Excel",
+   "copy": "¿Encontrarías ahora el registro de horas de marzo del año pasado? 📂\nCon Fíchalo los fichajes quedan en la app y sacas el informe en PDF o Excel cuando te lo pidan.\n\nGuárdalo y compártelo con tu socio/a 📌\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #registrodejornada #pymes",
+   "titular": "\"Enséñame el registro de marzo del año pasado\"",
+   "acento": "del año pasado",
+   "frases": [
+    {
+     "voz": "Inspección te pide el registro de horas de marzo del año pasado.",
+     "postit": "Marzo 2025\n¿Dónde\nestá?"
+    },
+    {
+     "voz": "Y el registro de jornada hay que guardarlo cuatro años.",
+     "numero": "4 años"
+    },
+    {
+     "voz": "El tuyo está en una carpeta del almacén. Con una mancha de café.",
+     "papel": [
+      "Registro · Marzo",
+      "Semana 1 ok",
+      "Semana 2 ¿?",
+      "(café)"
+     ]
+    },
+    {
+     "voz": "Con Fíchalo, cada fichaje queda en la app y sacas el informe en PDF o Excel.",
+     "movil": {
+      "cab": "Informe · Marzo 2025",
+      "filas": [
+       [
+        "Equipo",
+        "8 personas",
+        "1"
+       ],
+       [
+        "Horas",
+        "Por persona",
+        "1"
+       ],
+       [
+        "Exportar",
+        "PDF y Excel",
+        "1"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "168_monigotes_restaurante-sabado-refuerzo",
+   "formato": "monigotes",
+   "nicho": "hosteleria",
+   "tema": "monigotes: sábado 21:00, restaurante lleno y el dueño no sabe si ha llegado el camarero de refuerzo; con Fíchalo ve quién está trabajando (variante de 158 farmacia de guardia y 136 panadería quién abre) [reutilizado 22/11 para mar 24/11: sábado → cena de empresa de Navidad]",
+   "copy": "Cena de empresa, 21:00, el comedor lleno. ¿Ha venido el refuerzo? 🍽️\nCon Fíchalo ves en el móvil quién ha fichado y quién está trabajando ahora mismo.\n\n¿Ya tenéis cenas de Navidad reservadas? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #restaurantes",
+   "titular": "Cena de empresa, 21:00. ¿Ha venido el refuerzo?",
+   "acento": "refuerzo",
+   "escenas": [
+    {
+     "escena": "caos",
+     "voz": "Cena de empresa, nueve de la noche. El comedor lleno y no sabes si ha llegado el camarero de refuerzo.",
+     "postit": "Refuerzo hoy:\n¿Aitor?\n¿o Nerea?",
+     "acc": [
+      "delantal"
+     ]
+    },
+    {
+     "escena": "llega",
+     "voz": "Con Fíchalo, Aitor ficha desde el móvil al llegar.",
+     "lugar": "Restaurante Ola",
+     "hora": "20:54",
+     "acc": [
+      "delantal"
+     ]
+    },
+    {
+     "escena": "jefe_movil",
+     "voz": "Y tú ves quién está trabajando, sin salir de la cocina.",
+     "cab": "Quién está trabajando",
+     "sub": "Ahora mismo",
+     "filas": [
+      [
+       "Aitor",
+       "Fichó 20:54",
+       "1"
+      ],
+      [
+       "Nerea",
+       "Fichó 19:58",
+       "1"
+      ],
+      [
+       "Iban",
+       "Fichó 19:30",
+       "1"
+      ]
+     ],
+     "acc": [
+      "delantal"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1325,11 +1325,11 @@
   },
   {
    "id": "164_voz_fisio-luces-toda-la-noche",
-   "tema": "voz: clínica de fisioterapia, por la mañana las luces y la calefacción llevan toda la noche encendidas y no sabes quién se fue el último ni a qué hora (variante de 145 voz dental quién se fue la última, el mejor de los últimos 7 días) [reutilizado 22/11 para mar 24/11: hoja de salidas del lunes]",
+   "tema": "voz: clínica de fisioterapia, por la mañana las luces y la calefacción llevan toda la noche encendidas y no sabes quién se fue el último ni a qué hora (variante de 145 voz dental quién se fue la última, el mejor de los últimos 7 días) [saltado el 24/11, reutilizado el 25/11 para vie 27/11: hoja de salidas del jueves]",
    "copy": "Luces y calefacción encendidas toda la noche. ¿Quién cerró? 💡\nCon Fíchalo cada fisio ficha la salida y ves quién se fue el último y a qué hora.\n\n¿En tu clínica quién apaga las luces? Etiquétalo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #fisioterapia #clinicas",
    "hashtags": "#fichaje #fichajedigital #fichalo #empresa #fisioterapia #clinicas",
    "estado": "programado",
-   "fecha": "2026-11-24T09:40",
+   "fecha": "2026-11-27T09:40",
    "formato": "voz"
   },
   {
@@ -1338,7 +1338,7 @@
    "copy": "\"Jefe, ¿cuántas horas extra llevo este mes?\" Y tú, con la calculadora 🔧\nCon Fíchalo las horas y las horas extra de cada mecánico salen ya sumadas.\n\nGuárdalo para el día que te lo pregunten 📌\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #talleres #tallermecanico",
    "hashtags": "#fichaje #fichajedigital #fichalo #empresa #talleres #tallermecanico",
    "estado": "programado",
-   "fecha": "2026-11-24T12:40",
+   "fecha": "2026-11-27T12:40",
    "formato": "monigotes"
   },
   {
@@ -1356,7 +1356,7 @@
    "copy": "¿Encontrarías ahora el registro de horas de marzo del año pasado? 📂\nCon Fíchalo los fichajes quedan en la app y sacas el informe en PDF o Excel cuando te lo pidan.\n\nGuárdalo y compártelo con tu socio/a 📌\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #registrodejornada #pymes",
    "hashtags": "#fichaje #fichajedigital #fichalo #empresa #registrodejornada #pymes",
    "estado": "programado",
-   "fecha": "2026-11-24T17:40",
+   "fecha": "2026-11-27T17:40",
    "formato": "voz"
   },
   {
@@ -1365,7 +1365,7 @@
    "copy": "Cena de empresa, 21:00, el comedor lleno. ¿Ha venido el refuerzo? 🍽️\nCon Fíchalo ves en el móvil quién ha fichado y quién está trabajando ahora mismo.\n\n¿Ya tenéis cenas de Navidad reservadas? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #restaurantes",
    "hashtags": "#fichaje #fichajedigital #fichalo #empresa #hosteleria #restaurantes",
    "estado": "programado",
-   "fecha": "2026-11-24T20:40",
+   "fecha": "2026-11-27T20:40",
    "formato": "monigotes"
   },
   {
@@ -1457,6 +1457,16 @@
    "fecha": "2026-11-26T12:40",
    "formato": "monigotes",
    "nicho": "clinica"
+  },
+  {
+   "id": "178_chat_fruteria-viernes-cuantas-horas-llevo",
+   "tema": "chat: viernes por la tarde, la dependienta de una frutería pregunta al dueño cuántas horas lleva esta semana y él solo tiene un pósit con huecos; con Fíchalo las horas de la semana salen ya sumadas (variante de 170 monigotes súper sumando horas, el mejor de los últimos 7 días, 6,9 s / 66 %, y de 156 chat fisio horas extra)",
+   "copy": "Viernes, 19:58: \"¿Cuántas horas llevo esta semana?\" Y tú con un pósit a medias 🍊\nCon Fíchalo cada persona ficha entrada y salida y las horas de la semana salen ya sumadas, extras incluidas.\n\n¿Cuántas veces te lo preguntan al mes? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #comerciolocal #fruteria",
+   "hashtags": "#fichaje #fichajedigital #fichalo #empresa #comerciolocal #fruteria",
+   "estado": "programado",
+   "fecha": "2026-11-27T14:40",
+   "formato": "chat",
+   "nicho": "comercio"
   }
  ]
 }
