@@ -1052,10 +1052,11 @@
   {
    "id": "169_voz_panaderia-horno-encendido",
    "fecha": "2026-11-25T09:40",
-   "estado": "pendiente",
+   "estado": "saltado",
    "formato": "voz",
    "copy": "El horno, encendido toda la noche. ¿Quién cerró el obrador? 🥖\nCon Fíchalo cada panadero ficha la salida y ves quién se fue el último y a qué hora.\n\n¿En tu panadería quién cierra? Cuéntalo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #panaderia #obrador",
-   "saltado_original": "2026-11-22T09:40"
+   "saltado_original": "2026-11-22T09:40",
+   "nota": "más de 3 h de retraso; la rutina lo reprograma"
   },
   {
    "id": "170_monigotes_super-domingo-sumando-horas",
@@ -1070,10 +1071,13 @@
   {
    "id": "171_chat_churreria-domingo-quien-abre",
    "fecha": "2026-11-25T14:40",
-   "estado": "pendiente",
+   "estado": "publicado",
    "formato": "chat",
    "copy": "Miércoles, 8:05. Gente en la puerta y la persiana bajada ☕\nCon Fíchalo ves desde el móvil quién ha fichado y quién está trabajando ahora mismo.\n\nEtiqueta a quien abre por las mañanas 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #cafeterias",
-   "saltado_original": "2026-11-22T14:40"
+   "saltado_original": "2026-11-22T14:40",
+   "permalink": "https://www.instagram.com/reel/DgK-BuviyBN/",
+   "ig_media_id": "17986698833899076",
+   "publicado_en": "2026-11-25T17:34"
   },
   {
    "id": "172_voz_limpieza-nominas-faltan-horas",
@@ -1105,9 +1109,10 @@
   {
    "id": "175_monigotes_bar-llevo-12-extra",
    "fecha": "2026-11-25T12:40",
-   "estado": "pendiente",
+   "estado": "saltado",
    "formato": "monigotes",
-   "copy": "Él dice 12 horas extra. Tú apuntaste 6. ¿Quién tiene razón? 🍻\nCon Fíchalo cada camarero ficha entrada y salida y las horas extra salen solas, sin discusiones.\n\n¿Te ha pasado este mes? Cuéntalo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #bares"
+   "copy": "Él dice 12 horas extra. Tú apuntaste 6. ¿Quién tiene razón? 🍻\nCon Fíchalo cada camarero ficha entrada y salida y las horas extra salen solas, sin discusiones.\n\n¿Te ha pasado este mes? Cuéntalo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #bares",
+   "nota": "más de 3 h de retraso; la rutina lo reprograma"
   },
   {
    "id": "176_voz_veterinaria-alarma-quien-se-quedo",
