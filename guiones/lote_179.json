@@ -1,0 +1,115 @@
+{
+ "reels": [
+  {
+   "id": "169_voz_panaderia-horno-encendido",
+   "formato": "voz",
+   "nicho": "comercio",
+   "tema": "voz: panadería con obrador, por la mañana el horno lleva toda la noche encendido y no sabes quién cerró el obrador ni a qué hora (variante de 145 voz dental quién se fue la última, el mejor de los últimos 7 días) [saltado el 22/11 y el 25/11, reutilizado el 26/11 para sáb 28/11: hoja de salidas del viernes]",
+   "copy": "El horno, encendido toda la noche. ¿Quién cerró el obrador? 🥖\nCon Fíchalo cada panadero ficha la salida y ves quién se fue el último y a qué hora.\n\n¿En tu panadería quién cierra? Cuéntalo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #panaderia #obrador",
+   "titular": "\"¿Quién cerró anoche el obrador?\"",
+   "acento": "el obrador",
+   "frases": [
+    {
+     "voz": "Llegas a la panadería y el horno lleva toda la noche encendido. ¿Quién cerró el obrador?",
+     "postit": "¿Quién cerró?\n¿Edu?\n¿Maite?"
+    },
+    {
+     "voz": "En la hoja de salidas, anoche no firmó nadie.",
+     "papel": [
+      "Salidas · Viernes",
+      "Edu ...",
+      "Maite ...",
+      "Iñigo ..."
+     ]
+    },
+    {
+     "voz": "Con Fíchalo, cada panadero ficha la salida desde su móvil.",
+     "emoji": "📱"
+    },
+    {
+     "voz": "Y tú ves quién se fue el último y a qué hora.",
+     "movil": {
+      "cab": "Obrador · Anoche",
+      "filas": [
+       [
+        "Iñigo",
+        "Salió 19:40",
+        "1"
+       ],
+       [
+        "Edu",
+        "Salió 20:15",
+        "1"
+       ],
+       [
+        "Maite",
+        "Salió 21:52",
+        "1"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "179_chat_tienda-black-friday-apuntame-extra",
+   "formato": "chat",
+   "nicho": "comercio",
+   "tema": "chat: sábado después del Black Friday, la dependienta de una tienda de ropa escribe al dueño que ayer cerró a las 22:15 y le pide que le apunte las extra; él solo tiene un pósit con la salida de otra; con Fíchalo la salida queda fichada y las extra salen solas (variante de 166 chat bar apúntame la extra, 144 views, y 170 monigotes súper sumando horas, el mejor de los últimos 7 días)",
+   "copy": "\"Ayer cerré a las 22:15, apúntamelo\". ¿Y tú cómo lo compruebas? 🛍️\nCon Fíchalo cada dependienta ficha la salida desde el móvil y las horas extra salen ya sumadas.\n\n¿Cómo fue vuestro Black Friday? Cuéntalo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #comerciolocal #blackfriday",
+   "titular": "Día después del Black Friday. Tu dependienta te escribe:",
+   "acento": "Black Friday",
+   "contacto": "Laura (tienda)",
+   "mensajes": [
+    {
+     "de": "el",
+     "texto": "Jefe, ayer cerré yo a las 22:15",
+     "hora": "10:12"
+    },
+    {
+     "de": "el",
+     "texto": "Apúntame las horas extra, porfa",
+     "hora": "10:12"
+    },
+    {
+     "de": "yo",
+     "texto": "¿A las 22:15? Lo tenía apuntado aquí",
+     "hora": "10:20"
+    },
+    {
+     "de": "yo",
+     "foto": [
+      "Viernes · cierre",
+      "Laura 21:00?",
+      "Sara ...",
+      "¿Quién cerró?"
+     ],
+     "hora": "10:21"
+    }
+   ],
+   "giro": {
+    "texto": "Con Fíchalo, la salida queda fichada",
+    "acento": "fichada",
+    "cab": "Laura · Viernes",
+    "sub": "Horas por persona",
+    "filas": [
+     [
+      "Entrada",
+      "13:58",
+      "1"
+     ],
+     [
+      "Salida",
+      "22:15",
+      "1"
+     ],
+     [
+      "Extra",
+      "1 h 15 min",
+      "1"
+     ]
+    ]
+   }
+  }
+ ]
+}

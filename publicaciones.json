@@ -1051,12 +1051,12 @@
   },
   {
    "id": "169_voz_panaderia-horno-encendido",
-   "fecha": "2026-11-25T09:40",
-   "estado": "saltado",
+   "fecha": "2026-11-28T09:40",
+   "estado": "pendiente",
    "formato": "voz",
    "copy": "El horno, encendido toda la noche. ¿Quién cerró el obrador? 🥖\nCon Fíchalo cada panadero ficha la salida y ves quién se fue el último y a qué hora.\n\n¿En tu panadería quién cierra? Cuéntalo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #panaderia #obrador",
-   "saltado_original": "2026-11-22T09:40",
-   "nota": "más de 3 h de retraso; la rutina lo reprograma"
+   "nota": "más de 3 h de retraso; la rutina lo reprograma",
+   "reprogramado_de": "2026-11-25T09:40"
   },
   {
    "id": "170_monigotes_super-domingo-sumando-horas",
@@ -1091,12 +1091,12 @@
   },
   {
    "id": "173_monigotes_estetica-cierra-olvido",
-   "fecha": "2026-11-25T20:40",
-   "estado": "saltado",
+   "fecha": "2026-11-28T20:40",
+   "estado": "pendiente",
    "formato": "monigotes",
    "copy": "Cierra el centro y se va sin fichar la salida 💅\nCon Fíchalo le llega un aviso si se olvida, y tú tienes sus horas completas.\n\nEtiqueta a quien siempre se olvida 👀\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #estetica #centrodeestetica",
-   "saltado_original": "2026-11-22T20:40",
-   "nota": "más de 3 h de retraso; la rutina lo reprograma"
+   "nota": "más de 3 h de retraso; la rutina lo reprograma",
+   "reprogramado_de": "2026-11-25T20:40"
   },
   {
    "id": "174_voz_gimnasio-lunes-quien-abre",
@@ -1109,19 +1109,21 @@
   },
   {
    "id": "175_monigotes_bar-llevo-12-extra",
-   "fecha": "2026-11-25T12:40",
-   "estado": "saltado",
+   "fecha": "2026-11-28T12:40",
+   "estado": "pendiente",
    "formato": "monigotes",
    "copy": "Él dice 12 horas extra. Tú apuntaste 6. ¿Quién tiene razón? 🍻\nCon Fíchalo cada camarero ficha entrada y salida y las horas extra salen solas, sin discusiones.\n\n¿Te ha pasado este mes? Cuéntalo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #bares",
-   "nota": "más de 3 h de retraso; la rutina lo reprograma"
+   "nota": "más de 3 h de retraso; la rutina lo reprograma",
+   "reprogramado_de": "2026-11-25T12:40"
   },
   {
    "id": "176_voz_veterinaria-alarma-quien-se-quedo",
-   "fecha": "2026-11-25T17:40",
-   "estado": "saltado",
+   "fecha": "2026-11-28T17:40",
+   "estado": "pendiente",
    "formato": "voz",
    "copy": "La alarma se puso a las 22:30. Y la que cerraba dice que se fue a las 21:00 🐾\nCon Fíchalo cada persona ficha la salida y ves quién se quedó y hasta qué hora.\n\nEtiqueta a quien cierra tu clínica 👀\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #veterinaria #clinicaveterinaria",
-   "nota": "más de 3 h de retraso; la rutina lo reprograma"
+   "nota": "más de 3 h de retraso; la rutina lo reprograma",
+   "reprogramado_de": "2026-11-25T17:40"
   },
   {
    "id": "177_monigotes_clinica-dental-fin-de-mes-sumando",
@@ -1136,6 +1138,13 @@
    "estado": "pendiente",
    "formato": "chat",
    "copy": "Viernes, 19:58: \"¿Cuántas horas llevo esta semana?\" Y tú con un pósit a medias 🍊\nCon Fíchalo cada persona ficha entrada y salida y las horas de la semana salen ya sumadas, extras incluidas.\n\n¿Cuántas veces te lo preguntan al mes? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #comerciolocal #fruteria"
+  },
+  {
+   "id": "179_chat_tienda-black-friday-apuntame-extra",
+   "fecha": "2026-11-28T14:40",
+   "estado": "pendiente",
+   "formato": "chat",
+   "copy": "\"Ayer cerré a las 22:15, apúntamelo\". ¿Y tú cómo lo compruebas? 🛍️\nCon Fíchalo cada dependienta ficha la salida desde el móvil y las horas extra salen ya sumadas.\n\n¿Cómo fue vuestro Black Friday? Cuéntalo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #comerciolocal #blackfriday"
   }
  ]
 }
