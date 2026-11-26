@@ -1092,10 +1092,11 @@
   {
    "id": "173_monigotes_estetica-cierra-olvido",
    "fecha": "2026-11-25T20:40",
-   "estado": "pendiente",
+   "estado": "saltado",
    "formato": "monigotes",
    "copy": "Cierra el centro y se va sin fichar la salida 💅\nCon Fíchalo le llega un aviso si se olvida, y tú tienes sus horas completas.\n\nEtiqueta a quien siempre se olvida 👀\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #estetica #centrodeestetica",
-   "saltado_original": "2026-11-22T20:40"
+   "saltado_original": "2026-11-22T20:40",
+   "nota": "más de 3 h de retraso; la rutina lo reprograma"
   },
   {
    "id": "174_voz_gimnasio-lunes-quien-abre",
@@ -1117,9 +1118,10 @@
   {
    "id": "176_voz_veterinaria-alarma-quien-se-quedo",
    "fecha": "2026-11-25T17:40",
-   "estado": "pendiente",
+   "estado": "saltado",
    "formato": "voz",
-   "copy": "La alarma se puso a las 22:30. Y la que cerraba dice que se fue a las 21:00 🐾\nCon Fíchalo cada persona ficha la salida y ves quién se quedó y hasta qué hora.\n\nEtiqueta a quien cierra tu clínica 👀\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #veterinaria #clinicaveterinaria"
+   "copy": "La alarma se puso a las 22:30. Y la que cerraba dice que se fue a las 21:00 🐾\nCon Fíchalo cada persona ficha la salida y ves quién se quedó y hasta qué hora.\n\nEtiqueta a quien cierra tu clínica 👀\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #veterinaria #clinicaveterinaria",
+   "nota": "más de 3 h de retraso; la rutina lo reprograma"
   },
   {
    "id": "177_monigotes_clinica-dental-fin-de-mes-sumando",
