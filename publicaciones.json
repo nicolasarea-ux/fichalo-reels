@@ -980,7 +980,7 @@
   {
    "id": "161_chat_tienda-puente-diciembre",
    "fecha": "2026-11-26T14:40",
-   "estado": "pendiente",
+   "estado": "saltado",
    "formato": "chat",
    "copy": "Llega el puente y todas quieren el mismo día libre 📅\nCon Fíchalo las vacaciones se piden y se aprueban en la app, y ves quién lo pidió primero.\n\n¿Ya os han pedido el puente? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #comercio #tiendas",
    "reprogramado_de": "2026-11-23T14:40",
@@ -989,11 +989,14 @@
   {
    "id": "162_voz_hotel-relevo-recepcion",
    "fecha": "2026-11-26T17:40",
-   "estado": "pendiente",
+   "estado": "publicado",
    "formato": "voz",
    "copy": "Un huésped dice que a las 23:00 no había nadie en recepción 🛎️\nCon Fíchalo ves a qué hora salió uno y a qué hora entró el otro.\n\n¿Cómo hacéis los relevos en tu hotel? 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #hosteleria #hoteles",
    "reprogramado_de": "2026-11-23T17:40",
-   "nota": "más de 3 h de retraso; la rutina lo reprograma"
+   "nota": "más de 3 h de retraso; la rutina lo reprograma",
+   "permalink": "https://www.instagram.com/reel/DgNxob3B-Sq/",
+   "ig_media_id": "17946792462366117",
+   "publicado_en": "2026-11-26T19:43"
   },
   {
    "id": "163_monigotes_limpieza-viernes-olvido",
@@ -1131,9 +1134,10 @@
   {
    "id": "177_monigotes_clinica-dental-fin-de-mes-sumando",
    "fecha": "2026-11-26T12:40",
-   "estado": "pendiente",
+   "estado": "saltado",
    "formato": "monigotes",
-   "copy": "Se acaba el mes y te toca sumar las horas de toda la clínica a mano 🦷\nCon Fíchalo las horas de cada higienista y auxiliar salen ya sumadas, también las extra, y las sacas en PDF o Excel.\n\n¿Quién hace las cuentas en tu clínica? Etiquétalo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #clinicadental #dentistas"
+   "copy": "Se acaba el mes y te toca sumar las horas de toda la clínica a mano 🦷\nCon Fíchalo las horas de cada higienista y auxiliar salen ya sumadas, también las extra, y las sacas en PDF o Excel.\n\n¿Quién hace las cuentas en tu clínica? Etiquétalo 👇\nLink en bio!!!\n\n#fichaje #fichajedigital #fichalo #empresa #clinicadental #dentistas",
+   "nota": "más de 3 h de retraso; la rutina lo reprograma"
   },
   {
    "id": "178_chat_fruteria-viernes-cuantas-horas-llevo",
